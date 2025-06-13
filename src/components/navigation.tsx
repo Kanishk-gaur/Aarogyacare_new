@@ -19,9 +19,10 @@ const navItems = [
 const languages = [
   { code: "en", name: "English", flag: "🇬🇧" },
   { code: "ru", name: "Русский", flag: "🇷🇺" },
-  { code: "de", name: "Deutsch", flag: "🇩🇪" },
-  { code: "kk", name: "Қазақша", flag: "🇰🇿" },
-  { code: "ar", name: "العربية", flag: "🇦🇪" },
+  { code: "fr", name: "Français", flag: "🇫🇷" },
+  { code: "indo", name: "Bahasa Indonesia", flag: "🇮🇩" },
+  { code: "my", name: "မြန်မာ", flag: "🇲🇲" },
+
 ]
 
 export default function Navigation() {
