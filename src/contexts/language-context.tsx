@@ -35,8 +35,7 @@ const translations: Record<string, Translations> = {
     "home.hero.title3": "TO PROVIDE",
     "home.hero.title4": "EVERYTHING",
     "home.hero.subtitle":
-      "Experience world-class medical treatment in India with comprehensive support for patients from Kazakhstan and Russia. Your health journey starts here with our exceptional care and unwavering commitment.",
-    "home.hero.startJourney": "Start Your Journey",
+    "Experience world-class medical treatment in India with comprehensive support for patients from Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, South Africa, Russia, and beyond. Your health journey starts here with our exceptional care and unwavering commitment.",    "home.hero.startJourney": "Start Your Journey",
     "home.hero.exploreServices": "Explore Services",
     "home.stats.treatments": "Successful Treatments",
     "home.stats.patients": "Happy Patients",
@@ -49,7 +48,7 @@ const translations: Record<string, Translations> = {
     "home.popup.title": "Hello everyone,",
     "home.popup.subtitle": "YES, WE CARE AND WE DARE TO PROVIDE EVERYTHING.",
     "home.popup.description":
-      "We provide comprehensive support for patients from Kazakhstan and Russia seeking world-class treatment in India. From visa assistance to post-treatment care, we're with you every step of the way.",
+   "We provide comprehensive support for patients from Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, South Africa, Russia, and more, seeking world-class treatment in India. From visa assistance to post-treatment care, we're with you every step of the way.",
     "home.popup.contactUs": "Contact Us Now",
     "home.popup.visitServices": "Explore Our Services",
 

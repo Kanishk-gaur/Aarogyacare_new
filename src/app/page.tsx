@@ -1,96 +1,121 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import { motion, AnimatePresence } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { X, Heart, Users, Award, Globe, Sparkles, ArrowRight, CheckCircle } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
-import Navigation from "@/components/navigation"
-import Footer from "@/components/footer"
-import { useLanguage } from "@/contexts/language-context"
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  X,
+  Heart,
+  Users,
+  Award,
+  Globe,
+  Sparkles,
+  ArrowRight,
+  CheckCircle,
+} from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import Navigation from "@/components/navigation";
+import Footer from "@/components/footer";
+import { useLanguage } from "@/contexts/language-context";
 
 const hospitals = [
   {
     id: 1,
-    name: "Apollo Hospitals",
-    description:
-      "Leading multi-specialty hospital with world-class facilities and experienced doctors specializing in complex procedures.",
-    image: "/placeholder.svg?height=400&width=600",
-    rating: 4.9,
-    specialties: ["Cardiology", "Oncology", "Neurosurgery"],
-    gradient: "from-blue-500 to-cyan-600",
-  },
-  {
-    id: 2,
-    name: "Fortis Healthcare",
-    description:
-      "Advanced medical care with cutting-edge technology and personalized treatment protocols for international patients.",
-    image: "/placeholder.svg?height=400&width=600",
-    rating: 4.8,
-    specialties: ["Transplants", "Orthopedics", "Gastroenterology"],
-    gradient: "from-green-500 to-emerald-600",
-  },
-  {
-    id: 3,
     name: "Max Healthcare",
+    weblink: "https://www.maxhealthcare.in",
     description:
       "Comprehensive healthcare services with international standards and expert care across multiple specialties.",
     image: "/placeholder.svg?height=400&width=600",
-    rating: 4.9,
+    rating: 4.95,
     specialties: ["IVF", "Cosmetic Surgery", "Spine Care"],
     gradient: "from-purple-500 to-violet-600",
   },
   {
-    id: 4,
-    name: "Medanta Hospital",
-    description:
-      "State-of-the-art medical facility specializing in complex surgeries and treatments with robotic assistance.",
-    image: "/placeholder.svg?height=400&width=600",
-    rating: 4.7,
-    specialties: ["Robotic Surgery", "Cancer Care", "Pediatrics"],
-    gradient: "from-red-500 to-pink-600",
-  },
-  {
-    id: 5,
-    name: "BLK Super Speciality Hospital",
-    description:
-      "Premier healthcare destination with advanced medical technology and expert specialists from around the world.",
-    image: "/placeholder.svg?height=400&width=600",
-    rating: 4.8,
-    specialties: ["Liver Transplant", "Kidney Care", "Neurology"],
-    gradient: "from-orange-500 to-yellow-600",
-  },
-  {
-    id: 6,
+    id: 2,
     name: "Artemis Hospital",
+    weblink: "https://www.artemishospitals.com",
     description:
       "World-class healthcare with personalized care and comprehensive international patient services and support.",
     image: "/placeholder.svg?height=400&width=600",
-    rating: 4.9,
+    rating: 4.65,
     specialties: ["Bariatric Surgery", "Joint Replacement", "Eye Care"],
     gradient: "from-indigo-500 to-blue-600",
   },
-]
+  {
+    id: 3,
+    name: "Apollo Hospitals",
+    weblink: "https://www.apollohospitals.com",
+    description:
+      "Leading multi-specialty hospital with world-class facilities and experienced doctors specializing in complex procedures.",
+    image: "/placeholder.svg?height=400&width=600",
+    rating: 4.75,
+    specialties: ["Cardiology", "Oncology", "Neurosurgery"],
+    gradient: "from-blue-500 to-cyan-600",
+  },
+  {
+    id: 4,
+    name: "Fortis Healthcare",
+    weblink: "https://www.fortishospitals.com",
+    description:
+      "Advanced medical care with cutting-edge technology and personalized treatment protocols for international patients.",
+    image: "/placeholder.svg?height=400&width=600",
+    rating: 4.7,
+    specialties: ["Transplants", "Orthopedics", "Gastroenterology"],
+    gradient: "from-green-500 to-emerald-600",
+  },
+
+  {
+    id: 5,
+    name: "Medanta Hospital",
+    weblink: "https://www.medanta.org",
+    description:
+      "State-of-the-art medical facility specializing in complex surgeries and treatments with robotic assistance.",
+    image: "/placeholder.svg?height=400&width=600",
+    rating: 4.75,
+    specialties: ["Robotic Surgery", "Cancer Care", "Pediatrics"],
+    gradient: "from-red-500 to-pink-600",
+  },
+];
 
 export default function HomePage() {
   const [showPopup, setShowPopup] = useState(() => {
     // Check if we're in the browser and if the popup was previously dismissed
     if (typeof window !== "undefined") {
-      return localStorage.getItem("popupDismissed") !== "true"
+      return localStorage.getItem("popupDismissed") !== "true";
     }
-    return false
-  })
-  const [scrollY, setScrollY] = useState(0)
-  const { t } = useLanguage()
+    return false;
+  });
+  const [scrollY, setScrollY] = useState(0);
+  const { t } = useLanguage();
 
   const stats = [
-    { icon: Heart, number: "15,000+", label: t("home.stats.treatments"), color: "text-red-500" },
-    { icon: Users, number: "8,500+", label: t("home.stats.patients"), color: "text-blue-500" },
-    { icon: Award, number: "75+", label: t("home.stats.hospitals"), color: "text-green-500" },
-    { icon: Globe, number: "18+", label: t("home.stats.experience"), color: "text-purple-500" },
-  ]
+    {
+      icon: Heart,
+      number: "10,000+",
+      label: t("home.stats.treatments"),
+      color: "text-red-500",
+    },
+    {
+      icon: Users,
+      number: "8,500+",
+      label: t("home.stats.patients"),
+      color: "text-blue-500",
+    },
+    {
+      icon: Award,
+      number: "75+",
+      label: t("home.stats.hospitals"),
+      color: "text-green-500",
+    },
+    {
+      icon: Globe,
+      number: "18+",
+      label: t("home.stats.experience"),
+      color: "text-purple-500",
+    },
+  ];
 
   const features = [
     t("features.support"),
@@ -99,33 +124,40 @@ export default function HomePage() {
     t("features.transfers"),
     t("features.accommodation"),
     t("features.postCare"),
-  ]
+  ];
 
   const handleDismissPopup = () => {
     setShowPopup(false);
     localStorage.setItem("popupDismissed", "true");
-  
+
     // Show popup again after 3 seconds
     setTimeout(() => {
       setShowPopup(true);
       localStorage.removeItem("popupDismissed");
     }, 50000);
   };
-  
+
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollY = window.scrollY
-      setScrollY(currentScrollY)
+      const currentScrollY = window.scrollY;
+      setScrollY(currentScrollY);
 
-      const scrollPercentage = (currentScrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100
-      if (scrollPercentage > 30 && !showPopup && localStorage.getItem("popupDismissed") !== "true") {
-        setShowPopup(true)
+      const scrollPercentage =
+        (currentScrollY /
+          (document.documentElement.scrollHeight - window.innerHeight)) *
+        100;
+      if (
+        scrollPercentage > 30 &&
+        !showPopup &&
+        localStorage.getItem("popupDismissed") !== "true"
+      ) {
+        setShowPopup(true);
       }
-    }
+    };
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [showPopup])
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [showPopup]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
@@ -145,17 +177,29 @@ export default function HomePage() {
         {/* Floating Elements */}
         <motion.div
           animate={{ y: [0, -30, 0], rotate: [0, 10, 0] }}
-          transition={{ duration: 8, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+          transition={{
+            duration: 8,
+            repeat: Number.POSITIVE_INFINITY,
+            ease: "easeInOut",
+          }}
           className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full opacity-20 blur-2xl"
         />
         <motion.div
           animate={{ y: [0, 25, 0], rotate: [0, -8, 0] }}
-          transition={{ duration: 10, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+          transition={{
+            duration: 10,
+            repeat: Number.POSITIVE_INFINITY,
+            ease: "easeInOut",
+          }}
           className="absolute top-40 right-20 w-40 h-40 bg-gradient-to-br from-green-400 to-blue-500 rounded-full opacity-15 blur-2xl"
         />
         <motion.div
           animate={{ y: [0, -20, 0], rotate: [0, 5, 0] }}
-          transition={{ duration: 7, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
+          transition={{
+            duration: 7,
+            repeat: Number.POSITIVE_INFINITY,
+            ease: "easeInOut",
+          }}
           className="absolute bottom-20 left-1/4 w-28 h-28 bg-gradient-to-br from-pink-400 to-red-500 rounded-full opacity-20 blur-2xl"
         />
 
@@ -214,7 +258,11 @@ export default function HomePage() {
               transition={{ duration: 3, delay: 0.7 }}
               className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12"
             >
-              <Link href="/contact">
+              <a
+                href="https://wa.me/7017327308"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-10 py-4 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 group"
@@ -222,7 +270,8 @@ export default function HomePage() {
                   {t("home.hero.startJourney")}
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                 </Button>
-              </Link>
+              </a>
+
               <Link href="/services">
                 <Button
                   variant="outline"
@@ -250,7 +299,9 @@ export default function HomePage() {
                   className="flex items-center justify-center p-3 bg-white/80 backdrop-blur-sm rounded-xl shadow-lg border border-white/20 hover:shadow-xl hover:scale-105 transition-all duration-300"
                 >
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
-                  <span className="text-sm font-medium text-gray-700 text-center">{feature}</span>
+                  <span className="text-sm font-medium text-gray-700 text-center">
+                    {feature}
+                  </span>
                 </motion.div>
               ))}
             </motion.div>
@@ -328,7 +379,9 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 bg-clip-text text-transparent mb-8">
               {t("home.hospitals.title")}
             </h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">{t("home.hospitals.subtitle")}</p>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              {t("home.hospitals.subtitle")}
+            </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -345,7 +398,9 @@ export default function HomePage() {
               >
                 <Card className="overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 border-0 bg-white/90 backdrop-blur-sm h-full">
                   <div className="relative overflow-hidden h-64">
-                    <div className={`absolute inset-0 bg-gradient-to-br ${hospital.gradient} opacity-20`}></div>
+                    <div
+                      className={`absolute inset-0 bg-gradient-to-br ${hospital.gradient} opacity-20`}
+                    ></div>
                     <Image
                       src={hospital.image || "/placeholder.svg"}
                       alt={hospital.name}
@@ -358,7 +413,9 @@ export default function HomePage() {
                     {/* Rating Badge */}
                     <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 flex items-center space-x-1 shadow-lg">
                       <span className="text-yellow-500">★</span>
-                      <span className="text-sm font-bold text-gray-800">{hospital.rating}</span>
+                      <span className="text-sm font-bold text-gray-800">
+                        {hospital.rating}
+                      </span>
                     </div>
 
                     {/* Specialties */}
@@ -382,15 +439,27 @@ export default function HomePage() {
                     ></div>
 
                     <div className="relative z-10">
-                      <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-purple-600 group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300">
-                        {hospital.name}
+                      <h3 className="text-xl font-bold text-gray-900 mb-3 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-purple-600 group-hover:bg-clip-text group-hover:text-transparent">
+                        <a
+                          href={hospital.weblink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:underline"
+                        >
+                          {hospital.name}
+                        </a>
                       </h3>
-                      <p className="text-gray-600 leading-relaxed mb-4">{hospital.description}</p>
+
+                      <p className="text-gray-600 leading-relaxed mb-4">
+                        {hospital.description}
+                      </p>
 
                       {/* Progress Indicator */}
                       <div className="flex items-center justify-between text-sm text-gray-500 mb-2">
                         <span>Excellence Rating</span>
-                        <span className="font-semibold">{Math.round(hospital.rating * 20)}%</span>
+                        <span className="font-semibold">
+                          {Math.round(hospital.rating * 20)}%
+                        </span>
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
                         <motion.div
@@ -457,31 +526,38 @@ export default function HomePage() {
                   transition={{ delay: 0.4 }}
                   className="space-y-6 mb-8"
                 >
-                  <h3 className="text-2xl font-bold text-gray-900">{t("home.popup.title")}</h3>
+                  <h3 className="text-2xl font-bold text-gray-900">
+                    {t("home.popup.title")}
+                  </h3>
 
                   <div className="space-y-4">
                     <p className="text-xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-green-600 bg-clip-text text-transparent">
                       {t("home.popup.subtitle")}
                     </p>
-                    <p className="text-gray-600 leading-relaxed">{t("home.popup.description")}</p>
+                    <p className="text-gray-600 leading-relaxed">
+                      {t("home.popup.description")}
+                    </p>
                   </div>
 
                   {/* Features List */}
                   <div className="grid grid-cols-2 gap-3">
-                    {[t("features.support"), t("features.visa"), t("features.interpreters"), "Best Hospitals"].map(
-                      (feature, idx) => (
-                        <motion.div
-                          key={idx}
-                          initial={{ opacity: 0, x: -20 }}
-                          animate={{ opacity: 1, x: 0 }}
-                          transition={{ delay: 0.6 + idx * 0.1 }}
-                          className="flex items-center space-x-2"
-                        >
-                          <CheckCircle className="w-4 h-4 text-green-500" />
-                          <span className="text-sm text-gray-600">{feature}</span>
-                        </motion.div>
-                      ),
-                    )}
+                    {[
+                      t("features.support"),
+                      t("features.visa"),
+                      t("features.interpreters"),
+                      "Best Hospitals",
+                    ].map((feature, idx) => (
+                      <motion.div
+                        key={idx}
+                        initial={{ opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.6 + idx * 0.1 }}
+                        className="flex items-center space-x-2"
+                      >
+                        <CheckCircle className="w-4 h-4 text-green-500" />
+                        <span className="text-sm text-gray-600">{feature}</span>
+                      </motion.div>
+                    ))}
                   </div>
                 </motion.div>
 
@@ -491,7 +567,12 @@ export default function HomePage() {
                   transition={{ delay: 0.8 }}
                   className="space-y-4"
                 >
-                  <Link href="/contact" className="block">
+                  <a
+                    href="https://wa.me/7017327308"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
                     <Button
                       className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-4 rounded-2xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                       onClick={() => setShowPopup(false)}
@@ -499,7 +580,8 @@ export default function HomePage() {
                       {t("home.popup.contactUs")}
                       <ArrowRight className="w-5 h-5 ml-2" />
                     </Button>
-                  </Link>
+                  </a>
+
                   <Link href="/services" className="block">
                     <Button
                       variant="outline"
@@ -516,7 +598,24 @@ export default function HomePage() {
         )}
       </AnimatePresence>
 
+      <div className="flex justify-center my-4">
+        <Link href="/services">
+          <Button
+            size="lg"
+            className="relative bg-gradient-to-r from-blue-600 to-blue-900
+                 hover:from-blue-700 hover:to-blue-950
+                 text-white px-12 py-5 text-xl rounded-full font-bold
+                 shadow-2xl hover:shadow-blue-800/70
+                 transition-all duration-500 transform hover:scale-110
+                 before:absolute before:inset-0 before:rounded-full
+                 before:bg-blue-500 before:opacity-0 hover:before:opacity-10"
+          >
+            {t("home.popup.visitServices")}
+          </Button>
+        </Link>
+      </div>
+
       <Footer />
     </div>
-  )
+  );
 }
