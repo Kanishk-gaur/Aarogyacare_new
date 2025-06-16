@@ -59,42 +59,56 @@ export default function ContactPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-
+  
     if (!validateForm()) {
       return
     }
-
+  
     setIsSubmitting(true)
-
+  
     try {
-      // Simulate form submission - replace with your actual API call
-      await new Promise((resolve) => setTimeout(resolve, 2000))
-
-      // Here you would typically send the data to your backend
-      console.log("Feedback submitted:", formData)
-
-      setIsSubmitting(false)
-      setSubmitted(true)
-      
-      // Reset form data
-      setFormData({ 
-        name: "", 
-        address: "", 
-        telephone: "", 
-        email: "", 
-        complaint: "" 
+      const response = await fetch('/api/send-contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       })
-      setErrors({})
-
-      // Reset success message after 5 seconds
-      setTimeout(() => setSubmitted(false), 5000)
-
+  
+      if (!response.ok) {
+        throw new Error('Failed to send email')
+      }
+  
+      const data = await response.json()
+  
+      if (data.success) {
+        console.log('Feedback submitted:', formData)
+  
+        setSubmitted(true)
+        setFormData({
+          name: "",
+          address: "",
+          telephone: "",
+          email: "",
+          complaint: ""
+        })
+        setErrors({})
+  
+        // Hide success message after 5 seconds
+        setTimeout(() => setSubmitted(false), 5000)
+      } else {
+        console.error('Server returned error:', data.error)
+        // You can set an error state here to show to the user
+      }
+  
     } catch (error) {
-      console.error("Error submitting feedback:", error)
+      console.error('Error submitting feedback:', error)
+      // Optional: set error message state to inform the user
+    } finally {
       setIsSubmitting(false)
-      // You might want to show an error message to the user here
     }
   }
+  
 
   const handleFormChange = (field: string, value: string) => {
     setFormData((prev) => ({

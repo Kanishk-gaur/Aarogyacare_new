@@ -294,18 +294,25 @@ export function ContactFormSection({
               viewport={{ once: true }}
               className="bg-red-50 border border-red-200 rounded-lg p-6"
             >
-              <div className="flex items-center space-x-3 mb-3">
-                <HeadphonesIcon className="w-6 h-6 text-red-600" />
-                <h3 className="text-lg font-bold text-red-800">
-                  {t("contact.emergency.title")}
-                </h3>
-              </div>
-              <p className="text-red-700 mb-2">
-                {t("contact.emergency.subtitle")}
-              </p>
-              <p className="text-red-800 font-bold text-lg">
-                +91 98765 43210 (24/7)
-              </p>
+              <a
+                href="https://wa.me/919876543210"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block hover:bg-red-100 transition-colors rounded-lg -m-2 p-2"
+              >
+                <div className="flex items-center space-x-3 mb-3">
+                  <HeadphonesIcon className="w-6 h-6 text-red-600" />
+                  <h3 className="text-lg font-bold text-red-800">
+                    {t("contact.emergency.title")}
+                  </h3>
+                </div>
+                <p className="text-red-700 mb-2">
+                  {t("contact.emergency.subtitle")}
+                </p>
+                <p className="text-red-800 font-bold text-lg">
+                  +91 98765 43210 (24/7)
+                </p>
+              </a>
             </motion.div>
           </motion.div>
         </div>

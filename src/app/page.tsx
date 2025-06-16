@@ -102,10 +102,16 @@ export default function HomePage() {
   ]
 
   const handleDismissPopup = () => {
-    setShowPopup(false)
-    localStorage.setItem("popupDismissed", "true")
-  }
-
+    setShowPopup(false);
+    localStorage.setItem("popupDismissed", "true");
+  
+    // Show popup again after 3 seconds
+    setTimeout(() => {
+      setShowPopup(true);
+      localStorage.removeItem("popupDismissed");
+    }, 50000);
+  };
+  
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY
