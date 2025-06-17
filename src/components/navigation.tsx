@@ -72,7 +72,7 @@ export default function Navigation() {
             </motion.div>
             <div className="flex flex-col">
               <span className="text-xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 bg-clip-text text-transparent group-hover:from-blue-600 group-hover:to-purple-600 transition-all duration-300">
-                MedCare India
+                Aarogyacare
               </span>
               <span className="text-xs text-gray-500 font-medium">Healthcare Excellence</span>
             </div>

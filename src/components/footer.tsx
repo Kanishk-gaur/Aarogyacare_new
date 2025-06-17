@@ -41,7 +41,7 @@ export default function Footer() {
               <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
                 <Heart className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">MedCare India</span>
+              <span className="text-xl font-bold">Aarogyacare</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
               Bridging healthcare excellence between India and the CIS region. Your trusted partner for world-class
@@ -142,7 +142,7 @@ export default function Footer() {
               viewport={{ once: true }}
               className="text-gray-400 text-sm"
             >
-              © {new Date().getFullYear()} MedCare India. All rights reserved.
+              © {new Date().getFullYear()} Aarogyacare. All rights reserved.
             </motion.p>
 
             <motion.div

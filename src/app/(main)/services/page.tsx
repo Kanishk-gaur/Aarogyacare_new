@@ -34,7 +34,7 @@ const services = [
     description:
       "Advanced cancer treatment with precision medicine, immunotherapy, and personalized care protocols for optimal outcomes.",
     icon: Target,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/oncology.jpeg",
     gradient: "from-red-500 to-pink-600",
     bgColor: "bg-red-50",
     iconColor: "text-red-600",
@@ -46,7 +46,7 @@ const services = [
     description:
       "World-class liver transplant procedures with 95% success rate, performed by internationally trained surgeons.",
     icon: Heart,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/liver.jpg",
     gradient: "from-orange-500 to-red-500",
     bgColor: "bg-orange-50",
     iconColor: "text-orange-600",
@@ -58,7 +58,7 @@ const services = [
     description:
       "Comprehensive kidney transplantation program with advanced immunosuppression protocols and long-term care.",
     icon: Shield,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/kidney.jpg",
     gradient: "from-blue-500 to-cyan-600",
     bgColor: "bg-blue-50",
     iconColor: "text-blue-600",
@@ -70,7 +70,7 @@ const services = [
     description:
       "Complete cardiac care including minimally invasive procedures, robotic surgery, and cardiac rehabilitation programs.",
     icon: Heart,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/cardiology.jpeg",
     gradient: "from-red-500 to-rose-600",
     bgColor: "bg-red-50",
     iconColor: "text-red-600",
@@ -82,7 +82,7 @@ const services = [
     description:
       "Cutting-edge brain and spine surgeries using advanced imaging, microsurgery, and neuro-navigation technology.",
     icon: Brain,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/neuro.jpeg",
     gradient: "from-purple-500 to-indigo-600",
     bgColor: "bg-purple-50",
     iconColor: "text-purple-600",
@@ -94,7 +94,7 @@ const services = [
     description:
       "Revolutionary FUE and DHI hair restoration techniques for natural-looking results with minimal downtime.",
     icon: Scissors,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/hair.jpeg",
     gradient: "from-green-500 to-emerald-600",
     bgColor: "bg-green-50",
     iconColor: "text-green-600",
@@ -106,7 +106,7 @@ const services = [
     description:
       "State-of-the-art dental implantology with 3D planning, immediate loading, and ceramic implant options.",
     icon: Stethoscope,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/dental.jpeg",
     gradient: "from-teal-500 to-cyan-600",
     bgColor: "bg-teal-50",
     iconColor: "text-teal-600",
@@ -118,7 +118,7 @@ const services = [
     description:
       "Aesthetic and reconstructive procedures with natural results using advanced techniques and premium materials.",
     icon: Scissors,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/cosmetic.jpeg",
     gradient: "from-pink-500 to-rose-600",
     bgColor: "bg-pink-50",
     iconColor: "text-pink-600",
@@ -130,7 +130,7 @@ const services = [
     description:
       "Advanced joint replacement surgery with robotic assistance, custom implants, and rapid recovery protocols.",
     icon: Bone,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/knee.jpg",
     gradient: "from-indigo-500 to-purple-600",
     bgColor: "bg-indigo-50",
     iconColor: "text-indigo-600",
@@ -142,7 +142,7 @@ const services = [
     description:
       "Precision vision correction with femtosecond laser technology, custom wavefront analysis, and lifetime warranties.",
     icon: Eye,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/eye.jpg",
     gradient: "from-yellow-500 to-orange-600",
     bgColor: "bg-yellow-50",
     iconColor: "text-yellow-600",
@@ -154,7 +154,7 @@ const services = [
     description:
       "Advanced breast enhancement procedures with premium implants, 3D imaging, and personalized surgical planning.",
     icon: Heart,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/breast.jpg",
     gradient: "from-rose-500 to-pink-600",
     bgColor: "bg-rose-50",
     iconColor: "text-rose-600",
@@ -166,7 +166,7 @@ const services = [
     description:
       "Minimally invasive spinal procedures with navigation technology, artificial disc replacement, and pain management.",
     icon: Activity,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/spine.jpeg",
     gradient: "from-gray-500 to-slate-600",
     bgColor: "bg-gray-50",
     iconColor: "text-gray-600",
@@ -178,7 +178,7 @@ const services = [
     description:
       "Comprehensive fertility solutions with advanced reproductive technologies, genetic screening, and high success rates.",
     icon: Baby,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/ivf.jpeg",
     gradient: "from-cyan-500 to-blue-600",
     bgColor: "bg-cyan-50",
     iconColor: "text-cyan-600",
@@ -190,7 +190,7 @@ const services = [
     description:
       "Life-saving hematopoietic stem cell transplantation with advanced conditioning regimens and supportive care.",
     icon: Dna,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/bone.png",
     gradient: "from-amber-500 to-yellow-600",
     bgColor: "bg-amber-50",
     iconColor: "text-amber-600",
@@ -202,7 +202,7 @@ const services = [
     description:
       "Complete women's healthcare with minimally invasive procedures, robotic surgery, and comprehensive wellness programs.",
     icon: Users,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/gyne.jpeg",
     gradient: "from-violet-500 to-purple-600",
     bgColor: "bg-violet-50",
     iconColor: "text-violet-600",
@@ -214,7 +214,7 @@ const services = [
     description:
       "Advanced weight loss procedures with metabolic surgery options, nutritional counseling, and long-term support.",
     icon: Activity,
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/bariatric.jpeg",
     gradient: "from-emerald-500 to-green-600",
     bgColor: "bg-emerald-50",
     iconColor: "text-emerald-600",
@@ -394,7 +394,7 @@ export default function ServicesPage() {
                   {/* Image Section */}
                   <div className="relative h-48 overflow-hidden">
                     <div
-                      className={`absolute inset-0 bg-gradient-to-br ${service.gradient} opacity-90`}
+                      className={`absolute inset-0 bg-gradient-to-br  opacity-90`}
                     ></div>
                     <Image
                       src={service.image || "/placeholder.svg"}

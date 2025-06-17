@@ -26,8 +26,8 @@ const hospitals = [
     name: "Max Healthcare",
     weblink: "https://www.maxhealthcare.in",
     description:
-      "Comprehensive healthcare services with international standards and expert care across multiple specialties.",
-    image: "/placeholder.svg?height=400&width=600",
+"Comprehensive healthcare services with international standards and expert medical care across multiple specialties.",
+    image: "/images/max-hospital.jpg",
     rating: 4.95,
     specialties: ["IVF", "Cosmetic Surgery", "Spine Care"],
     gradient: "from-purple-500 to-violet-600",
@@ -38,7 +38,7 @@ const hospitals = [
     weblink: "https://www.artemishospitals.com",
     description:
       "World-class healthcare with personalized care and comprehensive international patient services and support.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/artemis.jpg",
     rating: 4.65,
     specialties: ["Bariatric Surgery", "Joint Replacement", "Eye Care"],
     gradient: "from-indigo-500 to-blue-600",
@@ -49,7 +49,7 @@ const hospitals = [
     weblink: "https://www.apollohospitals.com",
     description:
       "Leading multi-specialty hospital with world-class facilities and experienced doctors specializing in complex procedures.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/Apoolo.jpg",
     rating: 4.75,
     specialties: ["Cardiology", "Oncology", "Neurosurgery"],
     gradient: "from-blue-500 to-cyan-600",
@@ -60,7 +60,7 @@ const hospitals = [
     weblink: "https://www.fortishospitals.com",
     description:
       "Advanced medical care with cutting-edge technology and personalized treatment protocols for international patients.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/Forties2.jpg",
     rating: 4.7,
     specialties: ["Transplants", "Orthopedics", "Gastroenterology"],
     gradient: "from-green-500 to-emerald-600",
@@ -71,8 +71,8 @@ const hospitals = [
     name: "Medanta Hospital",
     weblink: "https://www.medanta.org",
     description:
-      "State-of-the-art medical facility specializing in complex surgeries and treatments with robotic assistance.",
-    image: "/placeholder.svg?height=400&width=600",
+     "State-of-the-art medical facility specializing in complex surgeries and advanced treatments with robotic assistance.",
+    image: "/images/Medanta2.jpg",
     rating: 4.75,
     specialties: ["Robotic Surgery", "Cancer Care", "Pediatrics"],
     gradient: "from-red-500 to-pink-600",
@@ -170,7 +170,9 @@ export default function HomePage() {
         <div
           className="absolute inset-0 opacity-40"
           style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fillRule='evenodd'%3E%3Cg fill='%239C92AC' fillOpacity='.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+            backgroundImage: 'url("/images/hero.jpg")',
+            backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         ></div>
 
@@ -399,7 +401,7 @@ export default function HomePage() {
                 <Card className="overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 border-0 bg-white/90 backdrop-blur-sm h-full">
                   <div className="relative overflow-hidden h-64">
                     <div
-                      className={`absolute inset-0 bg-gradient-to-br ${hospital.gradient} opacity-20`}
+                      className={`absolute inset-0 bg-gradient-to-br  opacity-20`}
                     ></div>
                     <Image
                       src={hospital.image || "/placeholder.svg"}
@@ -435,7 +437,7 @@ export default function HomePage() {
 
                   <CardContent className="p-6 relative">
                     <div
-                      className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${hospital.gradient} opacity-5 rounded-full blur-2xl`}
+                      className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br  opacity-5 rounded-full blur-2xl`}
                     ></div>
 
                     <div className="relative z-10">

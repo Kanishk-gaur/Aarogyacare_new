@@ -7,7 +7,7 @@ import { LanguageProvider } from "@/contexts/language-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "MedCare India - Medical Tourism for Kazakhstan & Russia",
+  title: "Aarogyacare- Medical Tourism for Kazakhstan & Russia",
   description:
     "World-class medical treatment in India for patients from Kazakhstan and Russia. Comprehensive healthcare services with full support and care.",
   keywords:
