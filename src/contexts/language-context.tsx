@@ -35,7 +35,8 @@ const translations: Record<string, Translations> = {
     "home.hero.title3": "TO PROVIDE",
     "home.hero.title4": "EVERYTHING",
     "home.hero.subtitle":
-    "Experience world-class medical treatment in India with comprehensive support for patients from Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, South Africa, Russia, and beyond. Your health journey starts here with our exceptional care and unwavering commitment.",    "home.hero.startJourney": "Start Your Journey",
+      "Experience world-class medical treatment in India with comprehensive support for patients from Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, South Africa, Russia, and beyond. Your health journey starts here with our exceptional care and unwavering commitment.",
+    "home.hero.startJourney": "Start Your Journey",
     "home.hero.exploreServices": "Explore Services",
     "home.stats.treatments": "Successful Treatments",
     "home.stats.patients": "Happy Patients",
@@ -48,9 +49,27 @@ const translations: Record<string, Translations> = {
     "home.popup.title": "Hello everyone,",
     "home.popup.subtitle": "YES, WE CARE AND WE DARE TO PROVIDE EVERYTHING.",
     "home.popup.description":
-   "We provide comprehensive support for patients from Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, South Africa, Russia, and more, seeking world-class treatment in India. From visa assistance to post-treatment care, we're with you every step of the way.",
+      "We provide comprehensive support for patients from Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, South Africa, Russia, and more, seeking world-class treatment in India. From visa assistance to post-treatment care, we're with you every step of the way.",
     "home.popup.contactUs": "Contact Us Now",
     "home.popup.visitServices": "Explore Our Services",
+    "home.hospitals.excellenceRating": "Excellence Rating",
+    "home.hospitals.max.name": "Max Healthcare",
+    "home.hospitals.max.description":
+      "Comprehensive healthcare services with international standards and expert medical care across multiple specialties.",
+    "home.hospitals.artemis.name": "Artemis Hospital",
+    "home.hospitals.artemis.description":
+      "World-class healthcare with personalized care and comprehensive international patient services and support.",
+    "home.hospitals.apollo.name": "Apollo Hospitals",
+    "home.hospitals.apollo.description":
+      "Leading multi-specialty hospital with world-class facilities and experienced doctors specializing in complex procedures.",
+    "home.hospitals.fortis.name": "Fortis Healthcare",
+    "home.hospitals.fortis.description":
+      "Advanced medical care with cutting-edge technology and personalized treatment protocols for international patients.",
+    "home.hospitals.medanta.name": "Medanta Hospital",
+    "home.hospitals.medanta.description":
+      "State-of-the-art medical facility specializing in complex surgeries and advanced treatments with robotic assistance.",
+    "home.popup.featureBestHospitals": "Best Hospitals",
+    "home.buttons.contactUs": "Contact Us",
 
     // Services Page
     "services.hero.badge": "World-Class Medical Services",
@@ -68,6 +87,72 @@ const translations: Record<string, Translations> = {
     "services.treatmentSuccess": "Treatment Success",
     "services.excellenceRating": "Excellence Rating",
 
+    "services.features.hospitals": "50+ Partner Hospitals",
+    "services.features.standards": "International Standards",
+    "services.features.technology": "Advanced Technology",
+
+    "services.cancer.breast.name": "Breast Cancer Treatment",
+    "services.cancer.cervical.name": "Cervical Cancer Treatment",
+    "services.cancer.stomach.name": "Stomach Cancer Treatment",
+    "services.cancer.lung.name": "Lung Cancer Treatment",
+    "services.cancer.ovarian.name": "Ovarian Cancer Treatment",
+    "services.cancer.pancreatic.name": "Pancreatic Cancer Treatment",
+    "services.cancer.rectal.name": "Rectal Cancer Treatment",
+    "services.cancer.prostate.name": "Prostate Cancer Treatment",
+    "services.cancer.leukemia.name": "Leukemia Treatment",
+    "services.oncology.name": "Oncology",
+    "services.oncology.description":
+      "Advanced cancer treatment with precision medicine, immunotherapy, and personalized care protocols for optimal outcomes.",
+    "services.liver.name": "Liver Transplantation",
+    "services.liver.description":
+      "World-class liver transplant procedures with 95% success rate, performed by internationally trained surgeons.",
+    "services.kidney.name": "Kidney Transplant",
+    "services.kidney.description":
+      "Comprehensive kidney transplantation program with advanced immunosuppression protocols and long-term care.",
+    "services.cardiology.name": "Cardiology",
+    "services.cardiology.description":
+      "Complete cardiac care including minimally invasive procedures, robotic surgery, and cardiac rehabilitation programs.",
+    "services.neurosurgery.name": "Neurosurgery",
+    "services.neurosurgery.description":
+      "Cutting-edge brain and spine surgeries using advanced imaging, microsurgery, and neuro-navigation technology.",
+    "services.hair.name": "Hair Transplantation",
+    "services.hair.description":
+      "Revolutionary FUE and DHI hair restoration techniques for natural-looking results with minimal downtime.",
+    "services.dental.name": "Dental Implants",
+    "services.dental.description":
+      "State-of-the-art dental implantology with 3D planning, immediate loading, and ceramic implant options.",
+    "services.cosmetic.name": "Cosmetic Surgery",
+    "services.cosmetic.description":
+      "Aesthetic and reconstructive procedures with natural results using advanced techniques and premium materials.",
+    "services.knee.name": "Knee Replacement",
+    "services.knee.description":
+      "Advanced joint replacement surgery with robotic assistance, custom implants, and rapid recovery protocols.",
+    "services.eye.name": "Eye Surgery (LASIK)",
+    "services.eye.description":
+      "Precision vision correction with femtosecond laser technology, custom wavefront analysis, and lifetime warranties.",
+    "services.breast.name": "Breast Augmentation",
+    "services.breast.description":
+      "Advanced breast enhancement procedures with premium implants, 3D imaging, and personalized surgical planning.",
+    "services.spine.name": "Spine Surgery",
+    "services.spine.description":
+      "Minimally invasive spinal procedures with navigation technology, artificial disc replacement, and pain management.",
+    "services.ivf.name": "IVF Treatment",
+    "services.ivf.description":
+      "Comprehensive fertility solutions with advanced reproductive technologies, genetic screening, and high success rates.",
+    "services.bone_marrow.name": "Bone Marrow Transplant",
+    "services.bone_marrow.description":
+      "Life-saving hematopoietic stem cell transplantation with advanced conditioning regimens and supportive care.",
+    "services.gynecology.name": "Gynecology",
+    "services.gynecology.description":
+      "Complete women's healthcare with minimally invasive procedures, robotic surgery, and comprehensive wellness programs.",
+    "services.bariatric.name": "Bariatric Surgery",
+    "services.bariatric.description":
+      "Advanced weight loss procedures with metabolic surgery options, nutritional counseling, and long-term support.",
+
+    "services.testimonials.title": "Patient Testimonials",
+    "services.testimonials.subtitle":
+      "Hear from our patients about their experiences and successful treatments",
+
     // About Page
     "about.hero.title": "Our Story & Mission",
     "about.hero.subtitle":
@@ -82,6 +167,59 @@ const translations: Record<string, Translations> = {
     "about.journey.title": "Our Journey",
     "about.journey.subtitle":
       "Key milestones that have shaped our growth and commitment to excellence.",
+    "about.story.paragraph1":
+      "Founded in 2008, our company emerged from a simple yet powerful vision: to make world-class healthcare accessible to patients from Kazakhstan and Russia. What started as a small initiative has grown into a trusted bridge between patients seeking quality medical care and India's renowned healthcare system.",
+    "about.story.paragraph2":
+      "Our founders, having experienced the challenges of navigating foreign healthcare systems firsthand, understood the need for a comprehensive support system. We recognized that medical treatment abroad involves more than just clinical care – it requires cultural understanding, language support, and emotional guidance.",
+    "about.story.paragraph3":
+      "Today, we proudly serve as the trusted partner for thousands of patients, offering not just medical coordination but a complete care ecosystem that addresses every aspect of the medical tourism journey.",
+    "about.story.image_alt": "Our medical team discussing patient care",
+    "about.values.compassionate.title": "Compassionate Care",
+    "about.values.compassionate.description":
+      "We treat every patient with empathy, understanding their unique needs and concerns.",
+    "about.values.trust.title": "Trust & Transparency",
+    "about.values.trust.description":
+      "Complete transparency in treatment costs, procedures, and expected outcomes.",
+    "about.values.global.title": "Global Standards",
+    "about.values.global.description":
+      "International quality healthcare with world-class facilities and expert doctors.",
+    "about.values.support.title": "Personal Support",
+    "about.values.support.description":
+      "Dedicated support team to assist you throughout your medical journey in India.",
+    "about.team.dr_meenu.name": "Dr. Meenu Walia",
+    "about.team.dr_meenu.role": "Oncologist",
+    "about.team.dr_meenu.description":
+      "Top medical oncologist at Max Delhi, specializing in cancer care.",
+    "about.team.dr_subhash.name": "Dr. Subhash Gupta",
+    "about.team.dr_subhash.role": "Liver Transplant Surgeon",
+    "about.team.dr_subhash.description":
+      "Top liver transplant surgeon at Max Delhi (4,000+ transplants).",
+    "about.team.dr_sanjeev.name": "Dr. Sanjeev Dua",
+    "about.team.dr_sanjeev.role": "Neurosurgeon",
+    "about.team.dr_sanjeev.description":
+      "Expert in brain & spine surgeries with 20+ years experience",
+    "about.milestones.2008.year": "2008",
+    "about.milestones.2008.event": "Company Founded",
+    "about.milestones.2008.description":
+      "Started with a vision to bridge healthcare gaps",
+    "about.milestones.2012.year": "2012",
+    "about.milestones.2012.event": "1000+ Patients",
+    "about.milestones.2012.description": "Reached our first major milestone",
+    "about.milestones.2016.year": "2016",
+    "about.milestones.2016.event": "50+ Partner Hospitals",
+    "about.milestones.2016.description": "Expanded our network across India",
+    "about.milestones.2020.year": "2020",
+    "about.milestones.2020.event": "Digital Transformation",
+    "about.milestones.2020.description":
+      "Launched online consultation services",
+    "about.milestones.2023.year": "2023",
+    "about.milestones.2023.event": "10,000+ Success Stories",
+    "about.milestones.2023.description":
+      "Celebrating over a decade of excellence",
+    "about.buttons.callback": "Request Callback",
+    "about.buttons.whatsapp": "WhatsApp Now",
+    "about.buttons.whatsapp_message":
+      "Hi, I need more details about Aarogyacare services.",
 
     // Contact Page
     "contact.hero.title": "Get In Touch",
@@ -160,29 +298,48 @@ const translations: Record<string, Translations> = {
     "nav.getStarted": "Начать",
 
     // Home Page
-    "home.hero.badge": "Нам доверяют 8,500+ международных пациентов",
+    "home.hero.badge": "Нам доверяют более 8 500 международных пациентов",
     "home.hero.title1": "ДА, МЫ ЗАБОТИМСЯ",
-    "home.hero.title2": "И МЫ СМЕЕМ",
-    "home.hero.title3": "ПРЕДОСТАВИТЬ",
+    "home.hero.title2": "И МЫ СМЕЛЫ",
+    "home.hero.title3": "ЧТОБЫ ПРЕДОСТАВИТЬ",
     "home.hero.title4": "ВСЁ",
     "home.hero.subtitle":
-      "Получите медицинское лечение мирового класса в Индии с комплексной поддержкой для пациентов из Казахстана и России. Ваш путь к здоровью начинается здесь с нашей исключительной забото�� и непоколебимой приверженностью.",
-    "home.hero.startJourney": "Начать путешествие",
+      "Пройдите лечение мирового уровня в Индии с комплексной поддержкой для пациентов из Казахстана, Кыргызстана, Таджикистана, Туркменистана, Азербайджана, Фиджи, Мьянмы, Индонезии, Южной Африки, России и других стран. Ваш путь к здоровью начинается здесь с нашим исключительным уходом и неизменной приверженностью.",
+    "home.hero.startJourney": "Начать путь",
     "home.hero.exploreServices": "Изучить услуги",
-    "home.stats.treatments": "Успешных лечений",
-    "home.stats.patients": "Довольных пациентов",
-    "home.stats.hospitals": "Больниц-партнёров",
+    "home.stats.treatments": "Успешные лечения",
+    "home.stats.patients": "Довольные пациенты",
+    "home.stats.hospitals": "Партнёрские больницы",
     "home.stats.experience": "Лет опыта",
     "home.hospitals.badge": "Премиальные медицинские партнёры",
-    "home.hospitals.title": "Наши больницы-партнёры",
+    "home.hospitals.title": "Наши партнёрские больницы",
     "home.hospitals.subtitle":
-      "Мы сотрудничаем с самыми престижными больницами Индии, чтобы обеспечить вам медицинскую помощь мирового класса с высочайшими стандартами лечения и международными услугами для пациентов.",
-    "home.popup.title": "Привет всем,",
-    "home.popup.subtitle": "ДА, МЫ ЗАБОТИМСЯ И МЫ СМЕЕМ ПРЕДОСТАВИТЬ ВСЁ.",
+      "Мы сотрудничаем с самыми престижными больницами Индии, чтобы вы получили медицинскую помощь мирового уровня с высочайшими стандартами лечения и обслуживания международных пациентов.",
+    "home.popup.title": "Здравствуйте всем,",
+    "home.popup.subtitle":
+      "ДА, МЫ ЗАБОТИМСЯ И МЫ СМЕЛЫ, ЧТОБЫ ПРЕДОСТАВИТЬ ВСЁ.",
     "home.popup.description":
-      "Мы предоставляем комплексную поддержку пациентам из Казахстана и России, ищущим лечение мирового класса в Индии. От помощи с визой до послеоперационного ухода - мы с вами на каждом этапе.",
-    "home.popup.contactUs": "Связаться с нами",
+      "Мы предоставляем комплексную поддержку пациентам из Казахстана, Кыргызстана, Таджикистана, Туркменистана, Азербайджана, Фиджи, Мьянмы, Индонезии, Южной Африки, России и других стран, которые ищут лечение мирового уровня в Индии. От помощи с визой до ухода после лечения — мы с вами на каждом этапе.",
+    "home.popup.contactUs": "Связаться с нами сейчас",
     "home.popup.visitServices": "Изучить наши услуги",
+    "home.hospitals.excellenceRating": "Рейтинг качества",
+    "home.hospitals.max.name": "Max Healthcare",
+    "home.hospitals.max.description":
+      "Комплексные медицинские услуги международного уровня и экспертная помощь в различных медицинских специализациях.",
+    "home.hospitals.artemis.name": "Artemis Hospital",
+    "home.hospitals.artemis.description":
+      "Медицинская помощь мирового уровня с индивидуальным подходом и полным сопровождением международных пациентов.",
+    "home.hospitals.apollo.name": "Apollo Hospitals",
+    "home.hospitals.apollo.description":
+      "Ведущая многопрофильная больница с передовыми технологиями и опытными врачами, специализирующимися на сложных процедурах.",
+    "home.hospitals.fortis.name": "Fortis Healthcare",
+    "home.hospitals.fortis.description":
+      "Современная медицинская помощь с передовыми технологиями и индивидуальными протоколами лечения для международных пациентов.",
+    "home.hospitals.medanta.name": "Medanta Hospital",
+    "home.hospitals.medanta.description":
+      "Ультрасовременное медицинское учреждение, специализирующееся на сложных операциях и передовых методах лечения с использованием робототехники.",
+    "home.popup.featureBestHospitals": "Лучшие больницы",
+    "home.buttons.contactUs": "Связаться с нами",
 
     // Services Page
     "services.hero.badge": "Медицинские услуги мирового класса",
@@ -203,17 +360,69 @@ const translations: Record<string, Translations> = {
     // About Page
     "about.hero.title": "Наша история и миссия",
     "about.hero.subtitle":
-      "Соединяем медицинское превосходство между Индией и регионом СНГ уже более 15 лет. Мы стремимся сделать медицинское лечение мирового класса доступным и недорогим.",
+      "Мы объединяем передовую медицину Индии и стран СНГ уже более 15 лет. Наша цель — сделать мировую медицинскую помощь доступной и финансово приемлемой.",
     "about.story.title": "Соединяя сердца, исцеляя жизни",
-    "about.values.title": "Наши основные ценности",
+    "about.values.title": "Наши ключевые ценности",
     "about.values.subtitle":
-      "Эти принципы направляют всё, что мы делаем, и формируют нашу приверженность совершенству в содействии здравоохранению.",
-    "about.team.title": "Познакомьтесь с нашей командой",
+      "Эти принципы определяют нашу работу и формируют приверженность к качеству медицинских услуг.",
+    "about.team.title": "Наша команда",
     "about.team.subtitle":
-      "Наши преданные профессионалы сочетают медицинский опыт с культурным пониманием для обеспечения исключительной координации ухода.",
+      "Наша команда сочетает медицинскую экспертизу с культурным пониманием для организации исключительного ухода.",
     "about.journey.title": "Наш путь",
     "about.journey.subtitle":
-      "Ключевые вехи, которые сформировали наш рост и приверженность совершенству.",
+      "Основные этапы, которые сформировали наш рост и стремление к совершенству.",
+    "about.story.paragraph1":
+      "Основанная в 2008 году, наша компания возникла из простой, но мощной идеи: сделать высококачественное медицинское обслуживание доступным для пациентов из Казахстана и России. То, что началось как небольшая инициатива, превратилось в надежный мост между пациентами и ведущими медицинскими учреждениями Индии.",
+    "about.story.paragraph2":
+      "Наши основатели, лично столкнувшиеся с трудностями при получении медицинской помощи за рубежом, поняли необходимость комплексной поддержки. Мы осознали, что лечение за границей — это не только медицинская помощь, но и культурное понимание, языковая поддержка и эмоциональное сопровождение.",
+    "about.story.paragraph3":
+      "Сегодня мы гордимся тем, что являемся надежным партнером для тысяч пациентов, предлагая не только медицинскую координацию, но и полный спектр услуг для поддержки на каждом этапе медицинского туризма.",
+    "about.story.image_alt":
+      "Наша медицинская команда обсуждает уход за пациентом",
+    "about.values.compassionate.title": "Сострадательный уход",
+    "about.values.compassionate.description":
+      "Мы относимся к каждому пациенту с сочувствием и учитываем его индивидуальные потребности.",
+    "about.values.trust.title": "Доверие и прозрачность",
+    "about.values.trust.description":
+      "Полная прозрачность в стоимости лечения, процедурах и ожидаемых результатах.",
+    "about.values.global.title": "Мировые стандарты",
+    "about.values.global.description":
+      "Международное качество медицинской помощи с современными клиниками и опытными врачами.",
+    "about.values.support.title": "Личная поддержка",
+    "about.values.support.description":
+      "Посвященная команда поддержки сопровождает вас на всем пути лечения в Индии.",
+    "about.team.dr_meenu.name": "Др. Мину Валия",
+    "about.team.dr_meenu.role": "Онколог",
+    "about.team.dr_meenu.description":
+      "Ведущий медицинский онколог в Max Delhi, специализирующийся на лечении рака.",
+    "about.team.dr_subhash.name": "Др. Субхаш Гупта",
+    "about.team.dr_subhash.role": "Хирург по трансплантации печени",
+    "about.team.dr_subhash.description":
+      "Ведущий хирург по трансплантации печени в Max Delhi (4000+ трансплантаций).",
+    "about.team.dr_sanjeev.name": "Др. Санджив Дуа",
+    "about.team.dr_sanjeev.role": "Нейрохирург",
+    "about.team.dr_sanjeev.description":
+      "Эксперт по операциям на головном и спинном мозге с более чем 20-летним опытом.",
+    "about.milestones.2008.year": "2008",
+    "about.milestones.2008.event": "Основание компании",
+    "about.milestones.2008.description":
+      "Начали с целью устранить разрыв в доступе к медицинской помощи",
+    "about.milestones.2012.year": "2012",
+    "about.milestones.2012.event": "1000+ пациентов",
+    "about.milestones.2012.description": "Достигли первой значительной вехи",
+    "about.milestones.2016.year": "2016",
+    "about.milestones.2016.event": "50+ партнерских больниц",
+    "about.milestones.2016.description": "Расширили нашу сеть по всей Индии",
+    "about.milestones.2020.year": "2020",
+    "about.milestones.2020.event": "Цифровая трансформация",
+    "about.milestones.2020.description": "Запустили онлайн-консультации",
+    "about.milestones.2023.year": "2023",
+    "about.milestones.2023.event": "10 000+ успешных историй",
+    "about.milestones.2023.description": "Отмечаем более десятилетия успеха",
+    "about.buttons.callback": "Заказать звонок",
+    "about.buttons.whatsapp": "Написать в WhatsApp",
+    "about.buttons.whatsapp_message":
+      "Здравствуйте, мне нужны подробности об услугах Aarogyacare.",
 
     // Contact Page
     "contact.hero.title": "Свяжитесь с нами",
@@ -237,7 +446,6 @@ const translations: Record<string, Translations> = {
     "contact.emergency.title": "Экстренная поддержка",
     "contact.emergency.subtitle":
       "Для срочной медицинской помощи или чрезвычайных ситуаций:",
-      
 
     // Features
     "features.support": "Медицинская поддержка 24/7",
@@ -289,20 +497,83 @@ const translations: Record<string, Translations> = {
     "home.popup.visitServices": "Découvrir nos services",
 
     // Services Page
-    "services.hero.badge": "Services médicaux de classe mondiale",
-    "services.hero.title": "Solutions de santé complètes",
+    "services.hero.badge": "Медицинские услуги мирового класса",
+    "services.hero.title": "Комплексные решения здравоохранения",
     "services.hero.subtitle":
-      "Découvrez notre large gamme de traitements et de procédures médicaux, dispensés par des spécialistes de renommée mondiale utilisant des technologies de pointe et des protocoles de soins personnalisés.",
-    "services.specialties.title": "Nos spécialités médicales",
+      "Откройте для себя наш обширный спектр медицинских процедур и лечения, предоставляемых всемирно известными специалистами с использованием передовых технологий и персонализированных протоколов ухода.",
+    "services.specialties.title": "Наши медицинские специальности",
     "services.specialties.subtitle":
-      "Chaque service est assuré par des spécialistes formés à l'international et des technologies médicales de pointe",
-    "services.cancer.badge": "Soins spécialisés en oncologie",
-    "services.cancer.title": "Traitements avancés du cancer",
+      "Каждая услуга поддерживается международно обученными специалистами и современными медицинскими технологиями",
+    "services.cancer.badge": "Специализированная онкологическая помощь",
+    "services.cancer.title": "Передовые методы лечения рака",
     "services.cancer.subtitle":
-      "Notre programme complet d'oncologie combine traitements de pointe, médecine de précision et soins compatissants pour offrir les meilleurs résultats possibles aux patients atteints de cancer.",
-    "services.successRate": "Taux de réussite",
-    "services.treatmentSuccess": "Succès du traitement",
-    "services.excellenceRating": "Note d'excellence",
+      "Наша комплексная онкологическая программа сочетает передовые методы лечения, прецизионную медицину и сострадательную помощь для достижения наилучших результатов для онкологических пациентов.",
+    "services.successRate": "Процент успеха",
+    "services.treatmentSuccess": "Успех лечения",
+    "services.excellenceRating": "Рейтинг превосходства",
+    "services.features.hospitals": "50+ Партнерских больниц",
+    "services.features.standards": "Международные стандарты",
+    "services.features.technology": "Передовые технологии",
+    "services.cancer.breast.name": "Лечение рака молочной железы",
+    "services.cancer.cervical.name": "Лечение рака шейки матки",
+    "services.cancer.stomach.name": "Лечение рака желудка",
+    "services.cancer.lung.name": "Лечение рака легких",
+    "services.cancer.ovarian.name": "Лечение рака яичников",
+    "services.cancer.pancreatic.name": "Лечение рака поджелудочной железы",
+    "services.cancer.rectal.name": "Лечение рака прямой кишки",
+    "services.cancer.prostate.name": "Лечение рака простаты",
+    "services.cancer.leukemia.name": "Лечение лейкемии",
+    "services.oncology.name": "Онкология",
+    "services.oncology.description":
+      "Передовое лечение рака с использованием прецизионной медицины, иммунотерапии и персонализированных протоколов ухода для достижения оптимальных результатов.",
+    "services.liver.name": "Трансплантация печени",
+    "services.liver.description":
+      "Процедуры трансплантации печени мирового уровня с 95% успехом, выполняемые международными специалистами.",
+    "services.kidney.name": "Трансплантация почки",
+    "services.kidney.description":
+      "Комплексная программа трансплантации почек с современными протоколами иммуносупрессии и долгосрочным уходом.",
+    "services.cardiology.name": "Кардиология",
+    "services.cardiology.description":
+      "Полный спектр кардиологической помощи, включая малоинвазивные процедуры, роботизированную хирургию и программы кардиореабилитации.",
+    "services.neurosurgery.name": "Нейрохирургия",
+    "services.neurosurgery.description":
+      "Передовые операции на головном и спинном мозге с использованием современных методов визуализации, микрохирургии и нейронавигации.",
+    "services.hair.name": "Пересадка волос",
+    "services.hair.description":
+      "Революционные методы восстановления волос FUE и DHI для естественного результата с минимальным временем восстановления.",
+    "services.dental.name": "Дентальные импланты",
+    "services.dental.description":
+      "Современная имплантология с 3D-планированием, немедленной нагрузкой и керамическими имплантами.",
+    "services.cosmetic.name": "Косметическая хирургия",
+    "services.cosmetic.description":
+      "Эстетические и реконструктивные операции с естественным результатом, выполненные с использованием передовых техник и премиальных материалов.",
+    "services.knee.name": "Эндопротезирование коленного сустава",
+    "services.knee.description":
+      "Современная замена суставов с использованием роботизированной технологии, индивидуальных имплантов и ускоренных протоколов восстановления.",
+    "services.eye.name": "Лазерная коррекция зрения (LASIK)",
+    "services.eye.description":
+      "Точная коррекция зрения с использованием технологии фемтосекундного лазера, индивидуального анализа и пожизненной гарантии.",
+    "services.breast.name": "Увеличение груди",
+    "services.breast.description":
+      "Современные процедуры увеличения груди с использованием премиальных имплантов, 3D-визуализации и персонализированного хирургического планирования.",
+    "services.spine.name": "Операции на позвоночнике",
+    "services.spine.description":
+      "Малоинвазивные операции на позвоночнике с навигационной технологией, заменой межпозвоночного диска и управлением болью.",
+    "services.ivf.name": "Лечение бесплодия (ЭКО)",
+    "services.ivf.description":
+      "Комплексные решения для лечения бесплодия с использованием современных репродуктивных технологий, генетического скрининга и высоким уровнем успеха.",
+    "services.bone_marrow.name": "Трансплантация костного мозга",
+    "services.bone_marrow.description":
+      "Жизненно важная трансплантация стволовых клеток с современными подготовительными режимами и поддерживающим уходом.",
+    "services.gynecology.name": "Гинекология",
+    "services.gynecology.description":
+      "Полное женское здоровье с малоинвазивными процедурами, роботизированной хирургией и комплексными программами оздоровления.",
+    "services.bariatric.name": "Бариатрическая хирургия",
+    "services.bariatric.description":
+      "Современные процедуры по снижению веса с метаболической хирургией, диетологическим консультированием и долгосрочной поддержкой.",
+    "services.testimonials.title": "Отзывы пациентов",
+    "services.testimonials.subtitle":
+      "Узнайте от наших пациентов об их опыте и успешном лечении",
 
     // About Page
     "about.hero.title": "Notre histoire et notre mission",

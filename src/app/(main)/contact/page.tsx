@@ -3,7 +3,6 @@
 import { useState } from "react"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
-import { ContactHero } from "@/components/contact/ContactHero"
 import { ContactFormSection } from "@/components/contact/ContactFormSection"
 import { ContactFAQs } from "@/components/contact/ContactFAQs"
 

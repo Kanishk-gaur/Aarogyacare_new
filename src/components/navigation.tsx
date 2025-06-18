@@ -22,8 +22,9 @@ const languages = [
   { code: "fr", name: "Français", flag: "🇫🇷" },
   { code: "indo", name: "Bahasa Indonesia", flag: "🇮🇩" },
   { code: "my", name: "မြန်မာ", flag: "🇲🇲" },
+] as const
 
-]
+
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -42,7 +43,8 @@ export default function Navigation() {
   }, [])
 
   const handleLanguageChange = (langCode: string) => {
-    setLanguage(langCode as any)
+    // Type assertion to match the expected type from language context
+    setLanguage(langCode as Parameters<typeof setLanguage>[0])
   }
 
   return (

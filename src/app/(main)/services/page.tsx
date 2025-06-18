@@ -30,10 +30,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const services = [
   {
     id: 1,
-    name: "Oncology",
+    nameKey: "services.oncology.name",
     rate: "99%",
-    description:
-      "Advanced cancer treatment with precision medicine, immunotherapy, and personalized care protocols for optimal outcomes.",
+    descriptionKey: "services.oncology.description",
     icon: Target,
     image: "/images/oncology.jpeg",
     gradient: "from-red-500 to-pink-600",
@@ -42,10 +41,9 @@ const services = [
   },
   {
     id: 2,
-    name: "Liver Transplantation",
+    nameKey: "services.liver.name",
     rate: "97%",
-    description:
-      "World-class liver transplant procedures with 95% success rate, performed by internationally trained surgeons.",
+    descriptionKey: "services.liver.description",
     icon: Heart,
     image: "/images/liver.jpg",
     gradient: "from-orange-500 to-red-500",
@@ -54,10 +52,9 @@ const services = [
   },
   {
     id: 3,
-    name: "Kidney Transplant",
+    nameKey: "services.kidney.name",
     rate: "97%",
-    description:
-      "Comprehensive kidney transplantation program with advanced immunosuppression protocols and long-term care.",
+    descriptionKey: "services.kidney.description",
     icon: Shield,
     image: "/images/kidney.jpg",
     gradient: "from-blue-500 to-cyan-600",
@@ -66,10 +63,9 @@ const services = [
   },
   {
     id: 4,
-    name: "Cardiology",
+    nameKey: "services.cardiology.name",
     rate: "98%",
-    description:
-      "Complete cardiac care including minimally invasive procedures, robotic surgery, and cardiac rehabilitation programs.",
+    descriptionKey: "services.cardiology.description",
     icon: Heart,
     image: "/images/cardiology.jpeg",
     gradient: "from-red-500 to-rose-600",
@@ -78,10 +74,9 @@ const services = [
   },
   {
     id: 5,
-    name: "Neurosurgery",
+    nameKey: "services.neurosurgery.name",
     rate: "95%",
-    description:
-      "Cutting-edge brain and spine surgeries using advanced imaging, microsurgery, and neuro-navigation technology.",
+    descriptionKey: "services.neurosurgery.description",
     icon: Brain,
     image: "/images/neuro.jpeg",
     gradient: "from-purple-500 to-indigo-600",
@@ -90,10 +85,9 @@ const services = [
   },
   {
     id: 6,
-    name: "Hair Transplantation",
+    nameKey: "services.hair.name",
     rate: "99%",
-    description:
-      "Revolutionary FUE and DHI hair restoration techniques for natural-looking results with minimal downtime.",
+    descriptionKey: "services.hair.description",
     icon: Scissors,
     image: "/images/hair.jpeg",
     gradient: "from-green-500 to-emerald-600",
@@ -102,10 +96,9 @@ const services = [
   },
   {
     id: 7,
-    name: "Dental Implants",
+    nameKey: "services.dental.name",
     rate: "100%",
-    description:
-      "State-of-the-art dental implantology with 3D planning, immediate loading, and ceramic implant options.",
+    descriptionKey: "services.dental.description",
     icon: Stethoscope,
     image: "/images/dental.jpeg",
     gradient: "from-teal-500 to-cyan-600",
@@ -114,10 +107,9 @@ const services = [
   },
   {
     id: 8,
-    name: "Cosmetic Surgery",
+    nameKey: "services.cosmetic.name",
     rate: "94%",
-    description:
-      "Aesthetic and reconstructive procedures with natural results using advanced techniques and premium materials.",
+    descriptionKey: "services.cosmetic.description",
     icon: Scissors,
     image: "/images/cosmetic.jpeg",
     gradient: "from-pink-500 to-rose-600",
@@ -126,10 +118,9 @@ const services = [
   },
   {
     id: 9,
-    name: "Knee Replacement",
+    nameKey: "services.knee.name",
     rate: "92%",
-    description:
-      "Advanced joint replacement surgery with robotic assistance, custom implants, and rapid recovery protocols.",
+    descriptionKey: "services.knee.description",
     icon: Bone,
     image: "/images/knee.jpg",
     gradient: "from-indigo-500 to-purple-600",
@@ -138,10 +129,9 @@ const services = [
   },
   {
     id: 10,
-    name: "Eye Surgery (LASIK)",
+    nameKey: "services.eye.name",
     rate: "97%",
-    description:
-      "Precision vision correction with femtosecond laser technology, custom wavefront analysis, and lifetime warranties.",
+    descriptionKey: "services.eye.description",
     icon: Eye,
     image: "/images/eye.jpg",
     gradient: "from-yellow-500 to-orange-600",
@@ -150,10 +140,9 @@ const services = [
   },
   {
     id: 11,
-    name: "Breast Augmentation",
+    nameKey: "services.breast.name",
     rate: "92%",
-    description:
-      "Advanced breast enhancement procedures with premium implants, 3D imaging, and personalized surgical planning.",
+    descriptionKey: "services.breast.description",
     icon: Heart,
     image: "/images/breast.jpg",
     gradient: "from-rose-500 to-pink-600",
@@ -162,10 +151,9 @@ const services = [
   },
   {
     id: 12,
-    name: "Spine Surgery",
+    nameKey: "services.spine.name",
     rate: "94%",
-    description:
-      "Minimally invasive spinal procedures with navigation technology, artificial disc replacement, and pain management.",
+    descriptionKey: "services.spine.description",
     icon: Activity,
     image: "/images/spine.jpeg",
     gradient: "from-gray-500 to-slate-600",
@@ -174,10 +162,9 @@ const services = [
   },
   {
     id: 13,
-    name: "IVF Treatment",
+    nameKey: "services.ivf.name",
     rate: "95%",
-    description:
-      "Comprehensive fertility solutions with advanced reproductive technologies, genetic screening, and high success rates.",
+    descriptionKey: "services.ivf.description",
     icon: Baby,
     image: "/images/ivf.jpeg",
     gradient: "from-cyan-500 to-blue-600",
@@ -186,10 +173,9 @@ const services = [
   },
   {
     id: 14,
-    name: "Bone Marrow Transplant",
+    nameKey: "services.bone_marrow.name",
     rate: "90%",
-    description:
-      "Life-saving hematopoietic stem cell transplantation with advanced conditioning regimens and supportive care.",
+    descriptionKey: "services.bone_marrow.description",
     icon: Dna,
     image: "/images/bone.png",
     gradient: "from-amber-500 to-yellow-600",
@@ -198,10 +184,9 @@ const services = [
   },
   {
     id: 15,
-    name: "Gynecology",
+    nameKey: "services.gynecology.name",
     rate: "93%",
-    description:
-      "Complete women's healthcare with minimally invasive procedures, robotic surgery, and comprehensive wellness programs.",
+    descriptionKey: "services.gynecology.description",
     icon: Users,
     image: "/images/gyne.jpeg",
     gradient: "from-violet-500 to-purple-600",
@@ -210,10 +195,9 @@ const services = [
   },
   {
     id: 16,
-    name: "Bariatric Surgery",
+    nameKey: "services.bariatric.name",
     rate: "96%",
-    description:
-      "Advanced weight loss procedures with metabolic surgery options, nutritional counseling, and long-term support.",
+    descriptionKey: "services.bariatric.description",
     icon: Activity,
     image: "/images/bariatric.jpeg",
     gradient: "from-emerald-500 to-green-600",
@@ -224,47 +208,47 @@ const services = [
 
 const cancerTreatments = [
   {
-    name: "Breast Cancer Treatment",
+    nameKey: "services.cancer.breast.name",
     icon: Heart,
     color: "from-pink-500 to-rose-600",
   },
   {
-    name: "Cervical Cancer Treatment",
+    nameKey: "services.cancer.cervical.name",
     icon: Shield,
     color: "from-purple-500 to-pink-600",
   },
   {
-    name: "Stomach Cancer Treatment",
+    nameKey: "services.cancer.stomach.name",
     icon: Pill,
     color: "from-blue-500 to-indigo-600",
   },
   {
-    name: "Lung Cancer Treatment",
+    nameKey: "services.cancer.lung.name",
     icon: Activity,
     color: "from-cyan-500 to-blue-600",
   },
   {
-    name: "Ovarian Cancer Treatment",
+    nameKey: "services.cancer.ovarian.name",
     icon: Target,
     color: "from-violet-500 to-purple-600",
   },
   {
-    name: "Pancreatic Cancer Treatment",
+    nameKey: "services.cancer.pancreatic.name",
     icon: Microscope,
     color: "from-orange-500 to-red-600",
   },
   {
-    name: "Rectal Cancer Treatment",
+    nameKey: "services.cancer.rectal.name",
     icon: Syringe,
     color: "from-green-500 to-emerald-600",
   },
   {
-    name: "Prostate Cancer Treatment",
+    nameKey: "services.cancer.prostate.name",
     icon: Globe,
     color: "from-teal-500 to-cyan-600",
   },
   {
-    name: "Leukemia Treatment",
+    nameKey: "services.cancer.leukemia.name",
     icon: Droplet,
     color: "from-yellow-500 to-amber-600",
   },
@@ -338,21 +322,21 @@ export default function ServicesPage() {
             >
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                50+ Partner Hospitals
+                {t("services.features.hospitals")}
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
-                International Standards
+                {t("services.features.standards")}
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-purple-500 rounded-full mr-2"></div>
-                Advanced Technology
+                {t("services.features.technology")}
               </div>
             </motion.div>
           </motion.div>
         </div>
         <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
-          <WhatsAppButton type="bookNow" text="Book Now" />
+          <WhatsAppButton type="bookNow" text={t("services.buttons.bookNow")} />
         </div>
       </section>
 
@@ -398,11 +382,11 @@ export default function ServicesPage() {
                   {/* Image Section */}
                   <div className="relative h-48 overflow-hidden">
                     <div
-                      className={`absolute inset-0 bg-gradient-to-br  opacity-90`}
+                      className={`absolute inset-0 bg-gradient-to-br ${service.gradient} opacity-90`}
                     ></div>
                     <Image
                       src={service.image || "/placeholder.svg"}
-                      alt={service.name}
+                      alt={t(service.nameKey)}
                       width={600}
                       height={400}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
@@ -428,10 +412,10 @@ export default function ServicesPage() {
 
                     <div className="relative z-10">
                       <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-purple-600 group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300">
-                        {service.name}
+                        {t(service.nameKey)}
                       </h3>
                       <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                        {service.description}
+                        {t(service.descriptionKey)}
                       </p>
 
                       {/* Progress Bar */}
@@ -455,7 +439,7 @@ export default function ServicesPage() {
           </div>
         </div>
         <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
-          <WhatsAppButton type="callback" text="Request Callback" />
+          <WhatsAppButton type="callback" text={t("services.buttons.callback")} />
         </div>
       </section>
 
@@ -534,7 +518,7 @@ export default function ServicesPage() {
                       </motion.div>
                       <div className="flex-1">
                         <h3 className="text-xl font-bold text-gray-900 group-hover:bg-gradient-to-r group-hover:from-red-600 group-hover:to-pink-600 group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300">
-                          {treatment.name}
+                          {t(treatment.nameKey)}
                         </h3>
                         <div className="flex items-center mt-2">
                           <div className="flex space-x-1">
@@ -570,7 +554,7 @@ export default function ServicesPage() {
                           whileInView={{ width: "92%" }}
                           transition={{ duration: 1.5, delay: index * 0.2 }}
                           viewport={{ once: true }}
-                          className={`h-2 bg-gradient-to-r ${treatment.color} rounded-full shadow-sm`}
+                          className={`h-2 bg-gradient-to-br ${treatment.color} rounded-full shadow-sm`}
                         ></motion.div>
                       </div>
                     </div>
@@ -584,6 +568,7 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
       {/* Testimonial Videos Section */}
       <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
@@ -600,11 +585,10 @@ export default function ServicesPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 bg-clip-text text-transparent mb-6">
-              Patient Testimonials
+              {t("services.testimonials.title")}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Hear from our patients about their experiences and successful
-              treatments
+              {t("services.testimonials.subtitle")}
             </p>
           </motion.div>
 
@@ -623,7 +607,7 @@ export default function ServicesPage() {
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/S8dHgYFEV3M?si=V5WOqZp2RUUNyzGc"
-                    title="YouTube video player"
+                    title={t("services.testimonials.video1.title")}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
@@ -634,7 +618,7 @@ export default function ServicesPage() {
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                   <h3 className="text-white text-lg font-medium">
-                    John's Successful Liver Transplant
+                    {t("services.testimonials.video1.title")}
                   </h3>
                 </div>
               </div>
@@ -653,7 +637,7 @@ export default function ServicesPage() {
                   <iframe
                     className="w-full h-full"
                     src="https://www.youtube.com/embed/ANOTHER_VIDEO_ID?rel=0&modestbranding=1&autoplay=0"
-                    title="Patient Testimonial 2"
+                    title={t("services.testimonials.video2.title")}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -661,7 +645,7 @@ export default function ServicesPage() {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                   <h3 className="text-white text-lg font-medium">
-                    Sarah's Cancer Treatment Journey
+                    {t("services.testimonials.video2.title")}
                   </h3>
                 </div>
               </div>
@@ -680,7 +664,7 @@ export default function ServicesPage() {
                   <iframe
                     className="w-full h-full"
                     src="https://www.youtube.com/embed/THIRD_VIDEO_ID?rel=0&modestbranding=1&autoplay=0"
-                    title="Patient Testimonial 3"
+                    title={t("services.testimonials.video3.title")}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -688,7 +672,7 @@ export default function ServicesPage() {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                   <h3 className="text-white text-lg font-medium">
-                    Michael's Knee Replacement Story
+                    {t("services.testimonials.video3.title")}
                   </h3>
                 </div>
               </div>
@@ -708,7 +692,7 @@ export default function ServicesPage() {
               rel="noopener noreferrer"
             >
               <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-                Know More
+                {t("services.buttons.knowMore")}
               </button>
             </a>
           </motion.div>

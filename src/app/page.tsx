@@ -24,10 +24,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const hospitals = [
   {
     id: 1,
-    name: "Max Healthcare",
+    nameKey: "home.hospitals.max.name",
     weblink: "https://www.maxhealthcare.in",
-    description:
-"Comprehensive healthcare services with international standards and expert medical care across multiple specialties.",
+    descriptionKey: "home.hospitals.max.description",
     image: "/images/max-hospital.jpg",
     rating: 4.95,
     specialties: ["IVF", "Cosmetic Surgery", "Spine Care"],
@@ -35,10 +34,9 @@ const hospitals = [
   },
   {
     id: 2,
-    name: "Artemis Hospital",
+    nameKey: "home.hospitals.artemis.name",
     weblink: "https://www.artemishospitals.com",
-    description:
-      "World-class healthcare with personalized care and comprehensive international patient services and support.",
+    descriptionKey: "home.hospitals.artemis.description",
     image: "/images/artemis.jpg",
     rating: 4.65,
     specialties: ["Bariatric Surgery", "Joint Replacement", "Eye Care"],
@@ -46,10 +44,9 @@ const hospitals = [
   },
   {
     id: 3,
-    name: "Apollo Hospitals",
+    nameKey: "home.hospitals.apollo.name",
     weblink: "https://www.apollohospitals.com",
-    description:
-      "Leading multi-specialty hospital with world-class facilities and experienced doctors specializing in complex procedures.",
+    descriptionKey: "home.hospitals.apollo.description",
     image: "/images/Apoolo.jpg",
     rating: 4.75,
     specialties: ["Cardiology", "Oncology", "Neurosurgery"],
@@ -57,22 +54,19 @@ const hospitals = [
   },
   {
     id: 4,
-    name: "Fortis Healthcare",
+    nameKey: "home.hospitals.fortis.name",
     weblink: "https://www.fortishospitals.com",
-    description:
-      "Advanced medical care with cutting-edge technology and personalized treatment protocols for international patients.",
+    descriptionKey: "home.hospitals.fortis.description",
     image: "/images/Forties2.jpg",
     rating: 4.7,
     specialties: ["Transplants", "Orthopedics", "Gastroenterology"],
     gradient: "from-green-500 to-emerald-600",
   },
-
   {
     id: 5,
-    name: "Medanta Hospital",
+    nameKey: "home.hospitals.medanta.name",
     weblink: "https://www.medanta.org",
-    description:
-     "State-of-the-art medical facility specializing in complex surgeries and advanced treatments with robotic assistance.",
+    descriptionKey: "home.hospitals.medanta.description",
     image: "/images/Medanta2.jpg",
     rating: 4.75,
     specialties: ["Robotic Surgery", "Cancer Care", "Pediatrics"],
@@ -82,56 +76,53 @@ const hospitals = [
 
 export default function HomePage() {
   const [showPopup, setShowPopup] = useState(() => {
-    // Check if we're in the browser and if the popup was previously dismissed
     if (typeof window !== "undefined") {
       return localStorage.getItem("popupDismissed") !== "true";
     }
     return false;
   });
-  const [scrollY, setScrollY] = useState(0);
+  
   const { t } = useLanguage();
 
   const stats = [
     {
       icon: Heart,
       number: "10,000+",
-      label: t("home.stats.treatments"),
+      labelKey: "home.stats.treatments",
       color: "text-red-500",
     },
     {
       icon: Users,
       number: "8,500+",
-      label: t("home.stats.patients"),
+      labelKey: "home.stats.patients",
       color: "text-blue-500",
     },
     {
       icon: Award,
       number: "75+",
-      label: t("home.stats.hospitals"),
+      labelKey: "home.stats.hospitals",
       color: "text-green-500",
     },
     {
       icon: Globe,
       number: "18+",
-      label: t("home.stats.experience"),
+      labelKey: "home.stats.experience",
       color: "text-purple-500",
     },
   ];
 
   const features = [
-    t("features.support"),
-    t("features.visa"),
-    t("features.interpreters"),
-    t("features.transfers"),
-    t("features.accommodation"),
-    t("features.postCare"),
+    "features.support",
+    "features.visa",
+    "features.interpreters",
+    "features.transfers",
+    "features.accommodation",
+    "features.postCare",
   ];
 
   const handleDismissPopup = () => {
     setShowPopup(false);
     localStorage.setItem("popupDismissed", "true");
-
-    // Show popup again after 3 seconds
     setTimeout(() => {
       setShowPopup(true);
       localStorage.removeItem("popupDismissed");
@@ -141,8 +132,7 @@ export default function HomePage() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      setScrollY(currentScrollY);
-
+      // setScrollY(currentScrollY);
       const scrollPercentage =
         (currentScrollY /
           (document.documentElement.scrollHeight - window.innerHeight)) *
@@ -166,7 +156,6 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Animated Background */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-purple-600/5 to-green-600/10"></div>
         <div
           className="absolute inset-0 opacity-40"
@@ -177,7 +166,6 @@ export default function HomePage() {
           }}
         ></div>
 
-        {/* Floating Elements */}
         <motion.div
           animate={{ y: [0, -30, 0], rotate: [0, 10, 0] }}
           transition={{
@@ -286,14 +274,13 @@ export default function HomePage() {
               </Link>
             </motion.div>
 
-            {/* Features Grid */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.9 }}
               className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 max-w-4xl mx-auto"
             >
-              {features.map((feature, index) => (
+              {features.map((featureKey, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, scale: 0.8 }}
@@ -303,7 +290,7 @@ export default function HomePage() {
                 >
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
                   <span className="text-sm font-medium text-gray-700 text-center">
-                    {feature}
+                    {t(featureKey)}
                   </span>
                 </motion.div>
               ))}
@@ -350,21 +337,21 @@ export default function HomePage() {
                 >
                   {stat.number}
                 </motion.div>
-                <div className="text-gray-600 font-medium">{stat.label}</div>
+                <div className="text-gray-600 font-medium">
+                  {t(stat.labelKey)}
+                </div>
               </motion.div>
             ))}
           </motion.div>
         </div>
         
         <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
-        <WhatsAppButton type="contact" text="Contact Us" />
-</div>
+          <WhatsAppButton type="contact" text={t("home.buttons.contactUs")} />
+        </div>
       </section>
-      
 
       {/* Popular Hospitals Section */}
       <section className="py-20 relative overflow-hidden">
-        
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50"></div>
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
@@ -412,14 +399,13 @@ export default function HomePage() {
                     ></div>
                     <Image
                       src={hospital.image || "/placeholder.svg"}
-                      alt={hospital.name}
+                      alt={t(hospital.nameKey)}
                       width={600}
                       height={400}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
 
-                    {/* Rating Badge */}
                     <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 flex items-center space-x-1 shadow-lg">
                       <span className="text-yellow-500">★</span>
                       <span className="text-sm font-bold text-gray-800">
@@ -427,7 +413,6 @@ export default function HomePage() {
                       </span>
                     </div>
 
-                    {/* Specialties */}
                     <div className="absolute bottom-4 left-4 right-4">
                       <div className="flex flex-wrap gap-2">
                         {hospital.specialties.map((specialty, idx) => (
@@ -455,17 +440,16 @@ export default function HomePage() {
                           rel="noopener noreferrer"
                           className="hover:underline"
                         >
-                          {hospital.name}
+                          {t(hospital.nameKey)}
                         </a>
                       </h3>
 
                       <p className="text-gray-600 leading-relaxed mb-4">
-                        {hospital.description}
+                        {t(hospital.descriptionKey)}
                       </p>
 
-                      {/* Progress Indicator */}
                       <div className="flex items-center justify-between text-sm text-gray-500 mb-2">
-                        <span>Excellence Rating</span>
+                        <span>{t("home.hospitals.excellenceRating")}</span>
                         <span className="font-semibold">
                           {Math.round(hospital.rating * 20)}%
                         </span>
@@ -507,7 +491,6 @@ export default function HomePage() {
               className="bg-white rounded-3xl p-8 max-w-lg w-full shadow-2xl relative overflow-hidden"
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Background Pattern */}
               <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-purple-50 to-green-50 opacity-50"></div>
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full opacity-10 blur-2xl"></div>
 
@@ -548,14 +531,13 @@ export default function HomePage() {
                     </p>
                   </div>
 
-                  {/* Features List */}
                   <div className="grid grid-cols-2 gap-3">
                     {[
-                      t("features.support"),
-                      t("features.visa"),
-                      t("features.interpreters"),
-                      "Best Hospitals",
-                    ].map((feature, idx) => (
+                      "features.support",
+                      "features.visa",
+                      "features.interpreters",
+                      "home.popup.featureBestHospitals",
+                    ].map((featureKey, idx) => (
                       <motion.div
                         key={idx}
                         initial={{ opacity: 0, x: -20 }}
@@ -564,7 +546,9 @@ export default function HomePage() {
                         className="flex items-center space-x-2"
                       >
                         <CheckCircle className="w-4 h-4 text-green-500" />
-                        <span className="text-sm text-gray-600">{feature}</span>
+                        <span className="text-sm text-gray-600">
+                          {t(featureKey)}
+                        </span>
                       </motion.div>
                     ))}
                   </div>

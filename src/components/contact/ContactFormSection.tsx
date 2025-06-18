@@ -23,6 +23,7 @@ import {
   HeadphonesIcon,
   Send,
   CheckCircle,
+  LucideIcon,
 } from "lucide-react";
 import type * as THREE from "three";
 import { useLanguage } from "@/contexts/language-context";
@@ -111,7 +112,7 @@ function ContactInfoCard({
   description,
   index,
 }: {
-  icon: any;
+  icon: LucideIcon;
   title: string;
   details: string[];
   description: string;
@@ -462,8 +463,9 @@ export function ContactFormSection({
                 transition={{ duration: 0.6, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                We're available 24/7 to provide you with the best medical care
-                and support
+We&rsquo;re available 24/7 to provide you with the best medical care
+and support
+
               </motion.p>
             </div>
 

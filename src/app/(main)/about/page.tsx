@@ -12,78 +12,72 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const values = [
   {
     icon: Heart,
-    title: "Compassionate Care",
-    description:
-      "We treat every patient with empathy, understanding their unique needs and concerns.",
+    titleKey: "about.values.compassionate.title",
+    descriptionKey: "about.values.compassionate.description",
   },
   {
     icon: Shield,
-    title: "Trust & Transparency",
-    description:
-      "Complete transparency in treatment costs, procedures, and expected outcomes.",
+    titleKey: "about.values.trust.title",
+    descriptionKey: "about.values.trust.description",
   },
   {
     icon: Globe,
-    title: "Global Standards",
-    description:
-      "International quality healthcare with world-class facilities and expert doctors.",
+    titleKey: "about.values.global.title",
+    descriptionKey: "about.values.global.description",
   },
   {
     icon: Users,
-    title: "Personal Support",
-    description:
-      "Dedicated support team to assist you throughout your medical journey in India.",
+    titleKey: "about.values.support.title",
+    descriptionKey: "about.values.support.description",
   },
 ];
 
 const team = [
   {
-    name: "Dr. Meenu Walia",
-    role: "Oncologist",
+    nameKey: "about.team.dr_meenu.name",
+    roleKey: "about.team.dr_meenu.role",
     image: "/images/meenu.jpeg",
-    description:
-      "Top medical oncologist at Max Delhi, specializing in cancer care.",
+    descriptionKey: "about.team.dr_meenu.description",
   },
   {
-    name: "Dr. Subhash Gupta",
-    role: "Liver Transplant Surgeon",
+    nameKey: "about.team.dr_subhash.name",
+    roleKey: "about.team.dr_subhash.role",
     image: "/images/dubhas.jpg",
-    description:
-      " Top liver transplant surgeon at Max Delhi (4,000+ transplants).",
+    descriptionKey: "about.team.dr_subhash.description",
   },
   {
-    name: " Dr. Sanjeev Dua",
-    role: "Neurosurgeon ",
+    nameKey: "about.team.dr_sanjeev.name",
+    roleKey: "about.team.dr_sanjeev.role",
     image: "/images/sanjeev.jpeg",
-    description: "Expert in brain & spine surgeries with 20+ years experience",
+    descriptionKey: "about.team.dr_sanjeev.description",
   },
 ];
 
 const milestones = [
   {
-    year: "2008",
-    event: "Company Founded",
-    description: "Started with a vision to bridge healthcare gaps",
+    yearKey: "about.milestones.2008.year",
+    eventKey: "about.milestones.2008.event",
+    descriptionKey: "about.milestones.2008.description",
   },
   {
-    year: "2012",
-    event: "1000+ Patients",
-    description: "Reached our first major milestone",
+    yearKey: "about.milestones.2012.year",
+    eventKey: "about.milestones.2012.event",
+    descriptionKey: "about.milestones.2012.description",
   },
   {
-    year: "2016",
-    event: "50+ Partner Hospitals",
-    description: "Expanded our network across India",
+    yearKey: "about.milestones.2016.year",
+    eventKey: "about.milestones.2016.event",
+    descriptionKey: "about.milestones.2016.description",
   },
   {
-    year: "2020",
-    event: "Digital Transformation",
-    description: "Launched online consultation services",
+    yearKey: "about.milestones.2020.year",
+    eventKey: "about.milestones.2020.event",
+    descriptionKey: "about.milestones.2020.description",
   },
   {
-    year: "2023",
-    event: "10,000+ Success Stories",
-    description: "Celebrating over a decade of excellence",
+    yearKey: "about.milestones.2023.year",
+    eventKey: "about.milestones.2023.event",
+    descriptionKey: "about.milestones.2023.description",
   },
 ];
 
@@ -113,7 +107,7 @@ export default function AboutPage() {
           </motion.div>
         </div>
         <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
-          <WhatsAppButton type="callback" text="Request Callback" />
+          <WhatsAppButton type="callback" text={t("about.buttons.callback")} />
         </div>
       </section>
 
@@ -131,28 +125,9 @@ export default function AboutPage() {
                 {t("about.story.title")}
               </h2>
               <div className="space-y-6 text-gray-600 leading-relaxed">
-                <p>
-                  Founded in 2008, our company emerged from a simple yet
-                  powerful vision: to make world-class healthcare accessible to
-                  patients from Kazakhstan and Russia. What started as a small
-                  initiative has grown into a trusted bridge between patients
-                  seeking quality medical care and India's renowned healthcare
-                  system.
-                </p>
-                <p>
-                  Our founders, having experienced the challenges of navigating
-                  foreign healthcare systems firsthand, understood the need for
-                  a comprehensive support system. We recognized that medical
-                  treatment abroad involves more than just clinical care – it
-                  requires cultural understanding, language support, and
-                  emotional guidance.
-                </p>
-                <p>
-                  Today, we proudly serve as the trusted partner for thousands
-                  of patients, offering not just medical coordination but a
-                  complete care ecosystem that addresses every aspect of the
-                  medical tourism journey.
-                </p>
+                <p>{t("about.story.paragraph1")}</p>
+                <p>{t("about.story.paragraph2")}</p>
+                <p>{t("about.story.paragraph3")}</p>
               </div>
             </motion.div>
 
@@ -165,7 +140,7 @@ export default function AboutPage() {
             >
               <Image
                 src="/images/doc.jpg"
-                alt="Our Story"
+                alt={t("about.story.image_alt")}
                 width={500}
                 height={600}
                 className="rounded-2xl shadow-2xl"
@@ -212,10 +187,10 @@ export default function AboutPage() {
                       <value.icon className="w-8 h-8 text-blue-600" />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
-                      {value.title}
+                      {t(value.titleKey)}
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      {value.description}
+                      {t(value.descriptionKey)}
                     </p>
                   </CardContent>
                 </Card>
@@ -225,9 +200,9 @@ export default function AboutPage() {
         </div>
         <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
           <WhatsAppButton
-            message="Hi, I need more details about Aarogyacare services."
+            message={t("about.buttons.whatsapp_message")}
             type="primary"
-            text="WhatsApp Now"
+            text={t("about.buttons.whatsapp")}
           />
         </div>
       </section>
@@ -265,7 +240,7 @@ export default function AboutPage() {
                   <div className="relative overflow-hidden">
                     <Image
                       src={member.image || "/placeholder.svg"}
-                      alt={member.name}
+                      alt={t(member.nameKey)}
                       width={300}
                       height={500}
                       className="w-full h-120 object-cover group-hover:scale-110 transition-transform duration-300"
@@ -274,13 +249,13 @@ export default function AboutPage() {
                   </div>
                   <CardContent className="p-6 text-center">
                     <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                      {member.name}
+                      {t(member.nameKey)}
                     </h3>
                     <p className="text-blue-600 font-medium mb-3">
-                      {member.role}
+                      {t(member.roleKey)}
                     </p>
                     <p className="text-gray-600 text-sm leading-relaxed">
-                      {member.description}
+                      {t(member.descriptionKey)}
                     </p>
                   </CardContent>
                 </Card>
@@ -328,13 +303,15 @@ export default function AboutPage() {
                       <div className="flex items-center mb-3">
                         <div className="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
                         <span className="text-2xl font-bold text-blue-600">
-                          {milestone.year}
+                          {t(milestone.yearKey)}
                         </span>
                       </div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">
-                        {milestone.event}
+                        {t(milestone.eventKey)}
                       </h3>
-                      <p className="text-gray-600">{milestone.description}</p>
+                      <p className="text-gray-600">
+                        {t(milestone.descriptionKey)}
+                      </p>
                     </CardContent>
                   </Card>
                 </div>
