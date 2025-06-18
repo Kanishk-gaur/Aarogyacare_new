@@ -25,6 +25,7 @@ import Image from "next/image";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import { useLanguage } from "@/contexts/language-context";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const services = [
   {
@@ -350,6 +351,9 @@ export default function ServicesPage() {
             </motion.div>
           </motion.div>
         </div>
+        <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
+          <WhatsAppButton type="bookNow" text="Book Now" />
+        </div>
       </section>
 
       {/* Services Grid */}
@@ -449,6 +453,9 @@ export default function ServicesPage() {
               </motion.div>
             ))}
           </div>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
+          <WhatsAppButton type="callback" text="Request Callback" />
         </div>
       </section>
 
@@ -695,9 +702,15 @@ export default function ServicesPage() {
             viewport={{ once: true }}
             className="text-center mt-16"
           >
-            <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              View More Testimonials
-            </button>
+            <a
+              href="https://wa.me/9097272726?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20Aarogyacare%20services."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                Know More
+              </button>
+            </a>
           </motion.div>
         </div>
       </section>

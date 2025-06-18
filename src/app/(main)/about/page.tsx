@@ -1,67 +1,94 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Card, CardContent } from "@/components/ui/card"
-import { Heart, Users, Globe, Shield } from "lucide-react"
-import Image from "next/image"
-import Navigation from "@/components/navigation"
-import Footer from "@/components/footer"
-import { useLanguage } from "@/contexts/language-context"
+import { motion } from "framer-motion";
+import { Card, CardContent } from "@/components/ui/card";
+import { Heart, Users, Globe, Shield } from "lucide-react";
+import Image from "next/image";
+import Navigation from "@/components/navigation";
+import Footer from "@/components/footer";
+import { useLanguage } from "@/contexts/language-context";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const values = [
   {
     icon: Heart,
     title: "Compassionate Care",
-    description: "We treat every patient with empathy, understanding their unique needs and concerns.",
+    description:
+      "We treat every patient with empathy, understanding their unique needs and concerns.",
   },
   {
     icon: Shield,
     title: "Trust & Transparency",
-    description: "Complete transparency in treatment costs, procedures, and expected outcomes.",
+    description:
+      "Complete transparency in treatment costs, procedures, and expected outcomes.",
   },
   {
     icon: Globe,
     title: "Global Standards",
-    description: "International quality healthcare with world-class facilities and expert doctors.",
+    description:
+      "International quality healthcare with world-class facilities and expert doctors.",
   },
   {
     icon: Users,
     title: "Personal Support",
-    description: "Dedicated support team to assist you throughout your medical journey in India.",
+    description:
+      "Dedicated support team to assist you throughout your medical journey in India.",
   },
-]
+];
 
 const team = [
   {
-    name: "Dr. Rajesh Kumar",
-    role: "Medical Director",
-    image: "/placeholder.svg?height=300&width=300",
-    description: "Leading medical professional with 20+ years of experience in international healthcare.",
+    name: "Dr. Meenu Walia",
+    role: "Oncologist",
+    image: "/images/meenu.jpeg",
+    description:
+      "Top medical oncologist at Max Delhi, specializing in cancer care.",
   },
   {
-    name: "Elena Volkov",
-    role: "Patient Coordinator (Russian)",
-    image: "/placeholder.svg?height=300&width=300",
-    description: "Specialized in assisting Russian-speaking patients with their medical journey.",
+    name: "Dr. Subhash Gupta",
+    role: "Liver Transplant Surgeon",
+    image: "/images/dubhas.jpg",
+    description:
+      " Top liver transplant surgeon at Max Delhi (4,000+ transplants).",
   },
   {
-    name: "Aida Nazarbayeva",
-    role: "Patient Coordinator (Kazakh)",
-    image: "/placeholder.svg?height=300&width=300",
-    description: "Expert in providing comprehensive support for patients from Kazakhstan.",
+    name: " Dr. Sanjeev Dua",
+    role: "Neurosurgeon ",
+    image: "/images/sanjeev.jpeg",
+    description: "Expert in brain & spine surgeries with 20+ years experience",
   },
-]
+];
 
 const milestones = [
-  { year: "2008", event: "Company Founded", description: "Started with a vision to bridge healthcare gaps" },
-  { year: "2012", event: "1000+ Patients", description: "Reached our first major milestone" },
-  { year: "2016", event: "50+ Partner Hospitals", description: "Expanded our network across India" },
-  { year: "2020", event: "Digital Transformation", description: "Launched online consultation services" },
-  { year: "2023", event: "10,000+ Success Stories", description: "Celebrating over a decade of excellence" },
-]
+  {
+    year: "2008",
+    event: "Company Founded",
+    description: "Started with a vision to bridge healthcare gaps",
+  },
+  {
+    year: "2012",
+    event: "1000+ Patients",
+    description: "Reached our first major milestone",
+  },
+  {
+    year: "2016",
+    event: "50+ Partner Hospitals",
+    description: "Expanded our network across India",
+  },
+  {
+    year: "2020",
+    event: "Digital Transformation",
+    description: "Launched online consultation services",
+  },
+  {
+    year: "2023",
+    event: "10,000+ Success Stories",
+    description: "Celebrating over a decade of excellence",
+  },
+];
 
 export default function AboutPage() {
-  const { t } = useLanguage()
+  const { t } = useLanguage();
 
   return (
     <div className="min-h-screen bg-white">
@@ -77,9 +104,16 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">{t("about.hero.title")}</h1>
-            <p className="text-xl text-gray-600 mb-8">{t("about.hero.subtitle")}</p>
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+              {t("about.hero.title")}
+            </h1>
+            <p className="text-xl text-gray-600 mb-8">
+              {t("about.hero.subtitle")}
+            </p>
           </motion.div>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
+          <WhatsAppButton type="callback" text="Request Callback" />
         </div>
       </section>
 
@@ -93,22 +127,31 @@ export default function AboutPage() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">{t("about.story.title")}</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                {t("about.story.title")}
+              </h2>
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Founded in 2008, our company emerged from a simple yet powerful vision: to make world-class healthcare
-                  accessible to patients from Kazakhstan and Russia. What started as a small initiative has grown into a
-                  trusted bridge between patients seeking quality medical care and India's renowned healthcare system.
+                  Founded in 2008, our company emerged from a simple yet
+                  powerful vision: to make world-class healthcare accessible to
+                  patients from Kazakhstan and Russia. What started as a small
+                  initiative has grown into a trusted bridge between patients
+                  seeking quality medical care and India's renowned healthcare
+                  system.
                 </p>
                 <p>
-                  Our founders, having experienced the challenges of navigating foreign healthcare systems firsthand,
-                  understood the need for a comprehensive support system. We recognized that medical treatment abroad
-                  involves more than just clinical care – it requires cultural understanding, language support, and
+                  Our founders, having experienced the challenges of navigating
+                  foreign healthcare systems firsthand, understood the need for
+                  a comprehensive support system. We recognized that medical
+                  treatment abroad involves more than just clinical care – it
+                  requires cultural understanding, language support, and
                   emotional guidance.
                 </p>
                 <p>
-                  Today, we proudly serve as the trusted partner for thousands of patients, offering not just medical
-                  coordination but a complete care ecosystem that addresses every aspect of the medical tourism journey.
+                  Today, we proudly serve as the trusted partner for thousands
+                  of patients, offering not just medical coordination but a
+                  complete care ecosystem that addresses every aspect of the
+                  medical tourism journey.
                 </p>
               </div>
             </motion.div>
@@ -121,7 +164,7 @@ export default function AboutPage() {
               className="relative"
             >
               <Image
-                src="/placeholder.svg?height=600&width=500"
+                src="/images/doc.jpg"
                 alt="Our Story"
                 width={500}
                 height={600}
@@ -144,8 +187,12 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{t("about.values.title")}</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t("about.values.subtitle")}</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              {t("about.values.title")}
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              {t("about.values.subtitle")}
+            </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -167,12 +214,21 @@ export default function AboutPage() {
                     <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
                       {value.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed">{value.description}</p>
+                    <p className="text-gray-600 leading-relaxed">
+                      {value.description}
+                    </p>
                   </CardContent>
                 </Card>
               </motion.div>
             ))}
           </div>
+        </div>
+        <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
+          <WhatsAppButton
+            message="Hi, I need more details about Aarogyacare services."
+            type="primary"
+            text="WhatsApp Now"
+          />
         </div>
       </section>
 
@@ -186,8 +242,12 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{t("about.team.title")}</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t("about.team.subtitle")}</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              {t("about.team.title")}
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              {t("about.team.subtitle")}
+            </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -207,8 +267,8 @@ export default function AboutPage() {
                       src={member.image || "/placeholder.svg"}
                       alt={member.name}
                       width={300}
-                      height={300}
-                      className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-300"
+                      height={500}
+                      className="w-full h-120 object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
@@ -216,8 +276,12 @@ export default function AboutPage() {
                     <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
                       {member.name}
                     </h3>
-                    <p className="text-blue-600 font-medium mb-3">{member.role}</p>
-                    <p className="text-gray-600 text-sm leading-relaxed">{member.description}</p>
+                    <p className="text-blue-600 font-medium mb-3">
+                      {member.role}
+                    </p>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      {member.description}
+                    </p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -236,8 +300,12 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">{t("about.journey.title")}</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t("about.journey.subtitle")}</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              {t("about.journey.title")}
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              {t("about.journey.subtitle")}
+            </p>
           </motion.div>
 
           <div className="relative">
@@ -250,16 +318,22 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 viewport={{ once: true }}
-                className={`relative flex items-center mb-12 ${index % 2 === 0 ? "justify-start" : "justify-end"}`}
+                className={`relative flex items-center mb-12 ${
+                  index % 2 === 0 ? "justify-start" : "justify-end"
+                }`}
               >
                 <div className={`w-1/2 ${index % 2 === 0 ? "pr-8" : "pl-8"}`}>
                   <Card className="shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <CardContent className="p-6">
                       <div className="flex items-center mb-3">
                         <div className="w-3 h-3 bg-blue-600 rounded-full mr-3"></div>
-                        <span className="text-2xl font-bold text-blue-600">{milestone.year}</span>
+                        <span className="text-2xl font-bold text-blue-600">
+                          {milestone.year}
+                        </span>
                       </div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-2">{milestone.event}</h3>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">
+                        {milestone.event}
+                      </h3>
                       <p className="text-gray-600">{milestone.description}</p>
                     </CardContent>
                   </Card>
@@ -274,5 +348,5 @@ export default function AboutPage() {
 
       <Footer />
     </div>
-  )
+  );
 }

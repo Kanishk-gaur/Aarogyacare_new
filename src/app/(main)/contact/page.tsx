@@ -128,7 +128,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
-      <ContactHero />
+      {/* <ContactHero /> */}
       <ContactFormSection
         onSubmit={handleSubmit}
         formData={formData}

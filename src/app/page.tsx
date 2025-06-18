@@ -19,6 +19,7 @@ import Link from "next/link";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import { useLanguage } from "@/contexts/language-context";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const hospitals = [
   {
@@ -261,7 +262,7 @@ export default function HomePage() {
               className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12"
             >
               <a
-                href="https://wa.me/7017327308"
+                href="https://wa.me/9097272726"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -354,10 +355,16 @@ export default function HomePage() {
             ))}
           </motion.div>
         </div>
+        
+        <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
+        <WhatsAppButton type="contact" text="Contact Us" />
+</div>
       </section>
+      
 
       {/* Popular Hospitals Section */}
       <section className="py-20 relative overflow-hidden">
+        
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50"></div>
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
