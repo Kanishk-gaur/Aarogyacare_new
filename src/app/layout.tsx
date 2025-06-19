@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
 
+
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -12,6 +13,9 @@ export const metadata: Metadata = {
     "World-class medical treatment in India for patients from Kazakhstan and Russia. Comprehensive healthcare services with full support and care.",
   keywords:
     "medical tourism, India healthcare, Kazakhstan patients, Russia patients, medical treatment, hospitals India",
+    icons: {
+      icon: "/logo.png",  
+    },
 }
 
 export default function RootLayout({
