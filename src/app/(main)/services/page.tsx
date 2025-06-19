@@ -389,7 +389,7 @@ export default function ServicesPage() {
                       alt={t(service.nameKey)}
                       width={600}
                       height={400}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      className="w-full h-full object-cover scale-100 group-hover:scale-110 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
 
@@ -439,7 +439,10 @@ export default function ServicesPage() {
           </div>
         </div>
         <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
-          <WhatsAppButton type="callback" text={t("services.buttons.callback")} />
+          <WhatsAppButton
+            type="callback"
+            text={t("services.buttons.callback")}
+          />
         </div>
       </section>
 
