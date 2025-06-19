@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Heart, Sparkles, Globe } from "lucide-react";
+import { Menu, X,  Sparkles, Globe } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -72,16 +72,15 @@ export default function Navigation() {
               whileTap={{ scale: 0.95 }}
               className="relative"
             >
-             <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center group-hover:shadow-lg group-hover:shadow-blue-500/25 transition-all duration-300">
-  <Image
-    src="/images/logo.png"
-    alt="My Logo"
-    width={36}   // Increased size
-    height={36}  // Increased size
-    className="object-contain"
-  />
-</div>
-
+              <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center group-hover:shadow-lg group-hover:shadow-blue-500/25 transition-all duration-300">
+                <Image
+                  src="/images/logo.png"
+                  alt="My Logo"
+                  width={36} // Increased size
+                  height={36} // Increased size
+                  className="object-contain"
+                />
+              </div>
 
               <motion.div
                 animate={{ scale: [1, 1.2, 1] }}
