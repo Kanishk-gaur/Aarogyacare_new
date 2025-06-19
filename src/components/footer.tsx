@@ -3,27 +3,65 @@
 import { motion } from "framer-motion"
 import { Heart, Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react"
 import Link from "next/link"
-
-const footerLinks = {
-  services: ["Oncology", "Cardiology", "Neurosurgery", "Transplantation", "Cosmetic Surgery", "Dental Care"],
-  support: [
-    "Contact Us",
-    "Emergency Support",
-    "Patient Portal",
-    "Insurance Help",
-    "Travel Assistance",
-    "Language Support",
-  ],
-  company: ["About Us", "Our Team", "Careers", "Privacy Policy", "Terms of Service", "Blog"],
-}
-
-const socialLinks = [
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-]
+import { useLanguage } from "@/contexts/language-context"
 
 export default function Footer() {
+  const { t } = useLanguage()
+
+  const footerLinks = {
+    services: [
+      "footer.links.services.oncology",
+      "footer.links.services.cardiology",
+      "footer.links.services.neurosurgery",
+      "footer.links.services.transplantation",
+      "footer.links.services.cosmetic",
+      "footer.links.services.dental"
+    ],
+    support: [
+      "footer.links.support.contact",
+      "footer.links.support.emergency",
+      "footer.links.support.portal",
+      "footer.links.support.insurance",
+      "footer.links.support.travel",
+      "footer.links.support.language"
+    ],
+    company: [
+      "footer.links.company.about",
+      "footer.links.company.team",
+      "footer.links.company.careers",
+      "footer.links.company.privacy",
+      "footer.links.company.terms",
+      "footer.links.company.blog"
+    ]
+  }
+
+  const socialLinks = [
+    { icon: Facebook, href: "#", labelKey: "footer.social.facebook" },
+    { icon: Instagram, href: "#", labelKey: "footer.social.instagram" },
+    { icon: Linkedin, href: "#", labelKey: "footer.social.linkedin" }
+  ]
+
+  const contactInfo = [
+    {
+      icon: Phone,
+      textKey: "footer.contact.phone",
+      value: "+91 98765 43210"
+    },
+    {
+      icon: Mail,
+      textKey: "footer.contact.email",
+      value: "info@medcareindia.com"
+    },
+    {
+      icon: MapPin,
+      textKey: "footer.contact.address",
+      value: "New Delhi, India"
+    }
+  ]
+
+  // Workaround for interpolation without changing language context
+  const copyrightText = t("footer.copyright").replace("{{year}}", new Date().getFullYear().toString())
+
   return (
     <footer className="bg-gray-900 text-white">
       {/* Main Footer */}
@@ -41,25 +79,21 @@ export default function Footer() {
               <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
                 <Heart className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">Aarogyacare</span>
+              <span className="text-xl font-bold">{t("footer.brand")}</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Bridging healthcare excellence between India and the CIS region. Your trusted partner for world-class
-              medical treatment.
+              {t("footer.description")}
             </p>
             <div className="space-y-3">
-              <div className="flex items-center space-x-3 hover:text-blue-400 transition-colors duration-300">
-                <Phone className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">+91 98765 43210</span>
-              </div>
-              <div className="flex items-center space-x-3 hover:text-blue-400 transition-colors duration-300">
-                <Mail className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">info@medcareindia.com</span>
-              </div>
-              <div className="flex items-center space-x-3 hover:text-blue-400 transition-colors duration-300">
-                <MapPin className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">New Delhi, India</span>
-              </div>
+              {contactInfo.map((contact, index) => (
+                <div 
+                  key={index}
+                  className="flex items-center space-x-3 hover:text-blue-400 transition-colors duration-300"
+                >
+                  <contact.icon className="w-5 h-5 text-blue-400" />
+                  <span className="text-gray-300">{contact.value}</span>
+                </div>
+              ))}
             </div>
           </motion.div>
 
@@ -70,15 +104,15 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-bold mb-6">Medical Services</h3>
+            <h3 className="text-lg font-bold mb-6">{t("footer.titles.services")}</h3>
             <ul className="space-y-3">
-              {footerLinks.services.map((service, index) => (
+              {footerLinks.services.map((serviceKey, index) => (
                 <li key={index}>
                   <Link
                     href="/services"
                     className="text-gray-300 hover:text-blue-400 transition-colors duration-300 hover:translate-x-1 transform inline-block"
                   >
-                    {service}
+                    {t(serviceKey)}
                   </Link>
                 </li>
               ))}
@@ -92,15 +126,15 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-bold mb-6">Patient Support</h3>
+            <h3 className="text-lg font-bold mb-6">{t("footer.titles.support")}</h3>
             <ul className="space-y-3">
-              {footerLinks.support.map((item, index) => (
+              {footerLinks.support.map((supportKey, index) => (
                 <li key={index}>
                   <Link
                     href="/contact"
                     className="text-gray-300 hover:text-blue-400 transition-colors duration-300 hover:translate-x-1 transform inline-block"
                   >
-                    {item}
+                    {t(supportKey)}
                   </Link>
                 </li>
               ))}
@@ -114,15 +148,15 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-bold mb-6">Company</h3>
+            <h3 className="text-lg font-bold mb-6">{t("footer.titles.company")}</h3>
             <ul className="space-y-3">
-              {footerLinks.company.map((item, index) => (
+              {footerLinks.company.map((companyKey, index) => (
                 <li key={index}>
                   <Link
                     href="/about"
                     className="text-gray-300 hover:text-blue-400 transition-colors duration-300 hover:translate-x-1 transform inline-block"
                   >
-                    {item}
+                    {t(companyKey)}
                   </Link>
                 </li>
               ))}
@@ -142,7 +176,7 @@ export default function Footer() {
               viewport={{ once: true }}
               className="text-gray-400 text-sm"
             >
-              © {new Date().getFullYear()} Aarogyacare. All rights reserved.
+              {copyrightText}
             </motion.p>
 
             <motion.div
@@ -157,7 +191,7 @@ export default function Footer() {
                   key={index}
                   href={social.href}
                   className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-all duration-300 group hover:scale-110 hover:shadow-lg hover:shadow-blue-500/25"
-                  aria-label={social.label}
+                  aria-label={t(social.labelKey)}
                 >
                   <social.icon className="w-5 h-5 text-gray-400 group-hover:text-white transition-colors duration-300" />
                 </Link>

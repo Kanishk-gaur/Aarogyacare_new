@@ -1,17 +1,9 @@
 "use client";
 
-import type React from "react";
-
 import { useRef, Suspense } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Canvas, useFrame } from "@react-three/fiber";
-import {
-  Float,
-  Environment,
-  OrbitControls,
-  Sphere,
-  Box,
-} from "@react-three/drei";
+import { Float, Environment, OrbitControls, Sphere, Box } from "@react-three/drei";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -48,19 +40,14 @@ interface ContactFormSectionProps {
   };
 }
 
-// 3D Floating Elements Component
 function FloatingElements() {
   const meshRef = useRef<THREE.Group>(null);
-
   useFrame((state) => {
     if (meshRef.current) {
-      meshRef.current.rotation.y =
-        Math.sin(state.clock.elapsedTime * 0.5) * 0.1;
-      meshRef.current.position.y =
-        Math.sin(state.clock.elapsedTime * 0.3) * 0.2;
+      meshRef.current.rotation.y = Math.sin(state.clock.elapsedTime * 0.5) * 0.1;
+      meshRef.current.position.y = Math.sin(state.clock.elapsedTime * 0.3) * 0.2;
     }
   });
-
   return (
     <group ref={meshRef}>
       <Float speed={2} rotationIntensity={0.5} floatIntensity={0.5}>
@@ -82,7 +69,6 @@ function FloatingElements() {
   );
 }
 
-// 3D Background Scene
 function BackgroundScene() {
   return (
     <div className="absolute inset-0 -z-10">
@@ -104,20 +90,21 @@ function BackgroundScene() {
   );
 }
 
-// Enhanced Contact Info Card with 3D effects
 function ContactInfoCard({
   icon: Icon,
-  title,
-  details,
-  description,
+  titleKey,
+  detailsKey,
+  descriptionKey,
   index,
 }: {
   icon: LucideIcon;
-  title: string;
-  details: string[];
-  description: string;
+  titleKey: string;
+  detailsKey: string[];
+  descriptionKey: string;
   index: number;
 }) {
+  const { t } = useLanguage();
+  
   return (
     <motion.div
       initial={{ opacity: 0, y: 50, rotateX: -15 }}
@@ -143,13 +130,13 @@ function ContactInfoCard({
               <Icon className="w-6 h-6 text-white" />
             </motion.div>
             <div className="flex-1">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">{title}</h3>
-              {details.map((detail, idx) => (
+              <h3 className="text-xl font-bold text-gray-900 mb-2">{t(titleKey)}</h3>
+              {detailsKey.map((detail, idx) => (
                 <p key={idx} className="text-gray-700 font-medium mb-1">
-                  {detail}
+                  {t(detail)}
                 </p>
               ))}
-              <p className="text-gray-500 text-sm mt-2">{description}</p>
+              <p className="text-gray-500 text-sm mt-2">{t(descriptionKey)}</p>
             </div>
           </div>
         </CardContent>
@@ -161,21 +148,21 @@ function ContactInfoCard({
 const contactInfo = [
   {
     icon: Phone,
-    title: "Phone Support",
-    details: ["+91 98765 43210", "+7 777 123 4567"],
-    description: "24/7 emergency support available",
+    titleKey: "contact.info.phone.title",
+    detailsKey: ["contact.info.phone.detail1", "contact.info.phone.detail2"],
+    descriptionKey: "contact.info.phone.description"
   },
   {
     icon: Mail,
-    title: "Email Support",
-    details: ["info@medicalcare.com", "support@medicalcare.com"],
-    description: "Response within 2 hours",
+    titleKey: "contact.info.email.title",
+    detailsKey: ["contact.info.email.detail1"],
+    descriptionKey: "contact.info.email.description"
   },
   {
     icon: Clock,
-    title: "Working Hours",
-    details: ["Mon-Fri: 9:00 AM - 8:00 PM", "Sat-Sun: 10:00 AM - 6:00 PM"],
-    description: "India Standard Time (IST)",
+    titleKey: "contact.info.hours.title",
+    detailsKey: ["contact.info.hours.detail1", "contact.info.hours.detail2"],
+    descriptionKey: "contact.info.hours.description"
   },
 ];
 
@@ -192,27 +179,43 @@ export function ContactFormSection({
     target: containerRef,
     offset: ["start end", "end start"],
   });
-
   const y = useTransform(scrollYProgress, [0, 1], [100, -100]);
   const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
   const { t } = useLanguage();
 
-  return (
-    <section
-      ref={containerRef}
-      className="relative py-20 min-h-screen overflow-hidden"
-    >
-      {/* 3D Background */}
-      <BackgroundScene />
+  const formFields = [
+    {
+      key: "name",
+      labelKey: "contact.form.name.label",
+      type: "text",
+      placeholderKey: "contact.form.name.placeholder"
+    },
+    {
+      key: "address",
+      labelKey: "contact.form.address.label",
+      type: "text",
+      placeholderKey: "contact.form.address.placeholder"
+    },
+    {
+      key: "telephone",
+      labelKey: "contact.form.phone.label",
+      type: "tel",
+      placeholderKey: "contact.form.phone.placeholder"
+    },
+    {
+      key: "email",
+      labelKey: "contact.form.email.label",
+      type: "email",
+      placeholderKey: "contact.form.email.placeholder"
+    }
+  ];
 
-      {/* Gradient Overlay */}
+  return (
+    <section ref={containerRef} className="relative py-20 min-h-screen overflow-hidden">
+      <BackgroundScene />
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/80 via-white/90 to-purple-50/80 backdrop-blur-sm" />
 
-      <motion.div
-        style={{ y, opacity }}
-        className="container mx-auto px-4 relative z-10"
-      >
-        {/* Section Header */}
+      <motion.div style={{ y, opacity }} className="container mx-auto px-4 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -241,7 +244,6 @@ export function ContactFormSection({
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-          {/* Enhanced Feedback Form */}
           <motion.div
             initial={{ opacity: 0, x: -100, rotateY: -15 }}
             whileInView={{ opacity: 1, x: 0, rotateY: 0 }}
@@ -260,7 +262,7 @@ export function ContactFormSection({
                     transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
                   >
-                    Send us your feedback
+                    {t("contact.form.title")}
                   </motion.h2>
                   <motion.p
                     className="text-gray-600"
@@ -269,7 +271,7 @@ export function ContactFormSection({
                     transition={{ duration: 0.6, delay: 0.1 }}
                     viewport={{ once: true }}
                   >
-                    Your feedback helps us improve our services
+                    {t("contact.form.description")}
                   </motion.p>
                 </div>
 
@@ -281,38 +283,13 @@ export function ContactFormSection({
                   >
                     <CheckCircle className="w-5 h-5 text-green-600" />
                     <p className="text-green-800 font-medium">
-                      Thank you! Your feedback has been submitted successfully.
+                      {t("contact.form.success")}
                     </p>
                   </motion.div>
                 )}
 
                 <form onSubmit={onSubmit} className="space-y-6">
-                  {[
-                    {
-                      key: "name",
-                      label: "Full Name",
-                      type: "text",
-                      placeholder: "Enter your full name",
-                    },
-                    {
-                      key: "address",
-                      label: "Address",
-                      type: "text",
-                      placeholder: "Enter your address",
-                    },
-                    {
-                      key: "telephone",
-                      label: "Phone Number",
-                      type: "tel",
-                      placeholder: "Enter your phone number",
-                    },
-                    {
-                      key: "email",
-                      label: "Email Address",
-                      type: "email",
-                      placeholder: "Enter your email address",
-                    },
-                  ].map((field, index) => (
+                  {formFields.map((field, index) => (
                     <motion.div
                       key={field.key}
                       initial={{ opacity: 0, x: -20 }}
@@ -324,7 +301,7 @@ export function ContactFormSection({
                         htmlFor={field.key}
                         className="block text-sm font-semibold text-gray-700 mb-2"
                       >
-                        {field.label} *
+                        {t(field.labelKey)} *
                       </label>
                       <Input
                         id={field.key}
@@ -332,10 +309,8 @@ export function ContactFormSection({
                         type={field.type}
                         required
                         value={formData[field.key as keyof typeof formData]}
-                        onChange={(e) =>
-                          onFormChange(field.key, e.target.value)
-                        }
-                        placeholder={field.placeholder}
+                        onChange={(e) => onFormChange(field.key, e.target.value)}
+                        placeholder={t(field.placeholderKey)}
                         className={`transition-all duration-300 focus:scale-105 ${
                           errors[field.key as keyof typeof errors]
                             ? "border-red-500 bg-red-50"
@@ -364,17 +339,15 @@ export function ContactFormSection({
                       htmlFor="complaint"
                       className="block text-sm font-semibold text-gray-700 mb-2"
                     >
-                      Your Message
+                      {t("contact.form.message.label")}
                     </label>
                     <Textarea
                       id="complaint"
                       name="complaint"
                       rows={5}
                       value={formData.complaint}
-                      onChange={(e) =>
-                        onFormChange("complaint", e.target.value)
-                      }
-                      placeholder="Tell us about your experience or any concerns..."
+                      onChange={(e) => onFormChange("complaint", e.target.value)}
+                      placeholder={t("contact.form.message.placeholder")}
                       className="transition-all duration-300 focus:scale-105 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
                     />
                   </motion.div>
@@ -401,12 +374,12 @@ export function ContactFormSection({
                             }}
                             className="rounded-full h-5 w-5 border-b-2 border-white mr-2"
                           />
-                          Sending...
+                          {t("contact.form.sending")}
                         </div>
                       ) : (
                         <div className="flex items-center justify-center">
                           <Send className="w-5 h-5 mr-2" />
-                          Send Message
+                          {t("contact.form.submit")}
                         </div>
                       )}
                     </Button>
@@ -421,16 +394,16 @@ export function ContactFormSection({
                   viewport={{ once: true }}
                 >
                   <p className="text-center text-gray-600">
-                    Need immediate assistance?{" "}
+                    {t("contact.form.immediateAssistance")}{" "}
                     <motion.a
-                      href="https://wa.me/919876543210"
+                      href="https://wa.me/919097272726"
                       className="text-blue-600 hover:text-blue-700 font-semibold"
                       target="_blank"
                       rel="noopener noreferrer"
                       whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.2 }}
                     >
-                      Contact us on WhatsApp
+                      {t("contact.form.whatsapp")}
                     </motion.a>
                   </p>
                 </motion.div>
@@ -438,7 +411,6 @@ export function ContactFormSection({
             </Card>
           </motion.div>
 
-          {/* Enhanced Contact Information */}
           <motion.div
             initial={{ opacity: 0, x: 100, rotateY: 15 }}
             whileInView={{ opacity: 1, x: 0, rotateY: 0 }}
@@ -454,7 +426,7 @@ export function ContactFormSection({
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true }}
               >
-                Contact Information
+                {t("contact.info.title")}
               </motion.h2>
               <motion.p
                 className="text-gray-600 text-lg leading-relaxed mb-8"
@@ -463,9 +435,7 @@ export function ContactFormSection({
                 transition={{ duration: 0.6, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-We&rsquo;re available 24/7 to provide you with the best medical care
-and support
-
+                {t("contact.info.description")}
               </motion.p>
             </div>
 
@@ -475,14 +445,13 @@ and support
                   key={index}
                   index={index}
                   icon={info.icon}
-                  title={info.title}
-                  details={info.details}
-                  description={info.description}
+                  titleKey={info.titleKey}
+                  detailsKey={info.detailsKey}
+                  descriptionKey={info.descriptionKey}
                 />
               ))}
             </div>
 
-            {/* Enhanced Emergency Contact */}
             <motion.div
               initial={{ opacity: 0, y: 50, scale: 0.9 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
@@ -495,7 +464,7 @@ and support
               className="bg-gradient-to-br from-red-50 to-pink-50 border border-red-200 rounded-2xl p-6 shadow-lg"
             >
               <motion.a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919097272726"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block hover:bg-red-100/50 transition-all duration-300 rounded-xl -m-2 p-2"
@@ -511,14 +480,14 @@ and support
                     <HeadphonesIcon className="w-6 h-6 text-white" />
                   </motion.div>
                   <h3 className="text-xl font-bold text-red-800">
-                    Emergency Support
+                    {t("contact.emergency.title")}
                   </h3>
                 </div>
                 <p className="text-red-700 mb-2">
-                  Available 24/7 for urgent medical assistance
+                  {t("contact.emergency.description")}
                 </p>
                 <p className="text-red-800 font-bold text-xl">
-                  +91 98765 43210
+                  {t("contact.emergency.phone")}
                 </p>
               </motion.a>
             </motion.div>

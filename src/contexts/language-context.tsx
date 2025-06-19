@@ -152,6 +152,13 @@ const translations: Record<string, Translations> = {
     "services.testimonials.title": "Patient Testimonials",
     "services.testimonials.subtitle":
       "Hear from our patients about their experiences and successful treatments",
+    "services.buttons.bookNow": "Book Now",
+    "sevices.buttons.learnMore": "Learn More",
+    "services.buttons.callback": "Request Callback",
+    "services.buttons.whatsapp": "WhatsApp Now",
+    "services.buttons.whatsapp_message":
+      "Hi, I need more details about Aarogyacare services.",
+    "services.buttons.knowMore": "Know More",
 
     // About Page
     "about.hero.title": "Our Story & Mission",
@@ -244,6 +251,54 @@ const translations: Record<string, Translations> = {
     "contact.emergency.subtitle":
       "For urgent medical assistance or emergencies:",
 
+    "contact.form.description": "Your feedback helps us improve our services",
+
+    "contact.form.name.label": "Full Name",
+    "contact.form.name.placeholder": "Enter your full name",
+    "contact.form.address.label": "Address",
+    "contact.form.address.placeholder": "Enter your address",
+    "contact.form.phone.label": "Phone Number",
+    "contact.form.phone.placeholder": "Enter your phone number",
+    "contact.form.email.label": "Email Address",
+    "contact.form.email.placeholder": "Enter your email address",
+    "contact.form.message.label": "Your Message",
+    "contact.form.message.placeholder":
+      "Tell us about your experience or any concerns...",
+    "contact.form.immediateAssistance": "Need immediate assistance?",
+    "contact.form.whatsapp": "Contact us on WhatsApp",
+    "contact.info.description":
+      "We're available 24/7 to provide you with the best medical care and support",
+    "contact.info.phone.title": "Phone Support",
+    "contact.info.phone.detail1": "+91 9097 272 726",
+    "contact.info.phone.detail2": "+91 9599 023 663",
+    "contact.info.phone.description": "24/7 emergency support available",
+    "contact.info.email.title": "Email Support",
+    "contact.info.email.detail1": "SHUBHAMAGRAWAL970@GMAIL.COM",
+    "contact.info.email.description": "Response within 2 hours",
+    "contact.info.hours.title": "Working Hours",
+    "contact.info.hours.detail1": "Mon-Fri: 9:00 AM - 8:00 PM",
+    "contact.info.hours.detail2": "Sat-Sun: 10:00 AM - 6:00 PM",
+    "contact.info.hours.description": "India Standard Time (IST)",
+    "contact.emergency.description":
+      "Available 24/7 for urgent medical assistance",
+    "contact.emergency.phone": "+91 90972 72726",
+    "contact.faqs.title": "Quick Answers",
+    "contact.faqs.subtitle":
+      "Common questions about our medical tourism services and support.",
+    "contact.faqs.arrangement.question":
+      "How quickly can you arrange treatment?",
+    "contact.faqs.arrangement.answer":
+      "We can typically arrange consultations within 48-72 hours and treatment within 1-2 weeks, depending on the procedure.",
+    "contact.faqs.visa.question": "Do you provide visa assistance?",
+    "contact.faqs.visa.answer":
+      "Yes, we provide complete visa assistance including medical visa documentation and invitation letters.",
+    "contact.faqs.languages.question": "What languages do you support?",
+    "contact.faqs.languages.answer":
+      "We provide support in Russian, Kazakh, and English with dedicated coordinators for each language.",
+    "contact.faqs.costs.question": "Are treatment costs transparent?",
+    "contact.faqs.costs.answer":
+      "Absolutely. We provide detailed cost estimates upfront with no hidden charges, including treatment, accommodation, and travel.",
+
     // Feedback Form
     "feedback.title": "Feedback Form",
     "feedback.subtitle":
@@ -273,6 +328,37 @@ const translations: Record<string, Translations> = {
     // Footer
     "feedback.assistanceText": "Need immediate assistance?",
     "feedback.assistanceLink": "Contact us on whats app directly",
+    "footer.brand": "Aarogyacare",
+    "footer.description":
+      "Bridging healthcare excellence between India and the CIS region. Your trusted partner for world-class medical treatment.",
+    "footer.titles.services": "Medical Services",
+    "footer.titles.support": "Patient Support",
+    "footer.titles.company": "Company",
+    "footer.links.services.oncology": "Oncology",
+    "footer.links.services.cardiology": "Cardiology",
+    "footer.links.services.neurosurgery": "Neurosurgery",
+    "footer.links.services.transplantation": "Transplantation",
+    "footer.links.services.cosmetic": "Cosmetic Surgery",
+    "footer.links.services.dental": "Dental Care",
+    "footer.links.support.contact": "Contact Us",
+    "footer.links.support.emergency": "Emergency Support",
+    "footer.links.support.portal": "Patient Portal",
+    "footer.links.support.insurance": "Insurance Help",
+    "footer.links.support.travel": "Travel Assistance",
+    "footer.links.support.language": "Language Support",
+    "footer.links.company.about": "About Us",
+    "footer.links.company.team": "Our Team",
+    "footer.links.company.careers": "Careers",
+    "footer.links.company.privacy": "Privacy Policy",
+    "footer.links.company.terms": "Terms of Service",
+    "footer.links.company.blog": "Blog",
+    "footer.contact.phone": "Phone",
+    "footer.contact.email": "Email",
+    "footer.contact.address": "Address",
+    "footer.social.facebook": "Facebook",
+    "footer.social.instagram": "Instagram",
+    "footer.social.linkedin": "LinkedIn",
+    "footer.copyright": "© {{year}} Aarogyacare. All rights reserved.",
 
     // Features
     "features.support": "24/7 Medical Support",
@@ -290,231 +376,78 @@ const translations: Record<string, Translations> = {
   },
 
   ru: {
-    // Navigation
+    // Навигация (Navigation)
     "nav.home": "Главная",
     "nav.services": "Услуги",
     "nav.about": "О нас",
     "nav.contact": "Контакты",
     "nav.getStarted": "Начать",
 
-    // Home Page
-    "home.hero.badge": "Нам доверяют более 8 500 международных пациентов",
+    // Главная страница (Home Page)
+    "home.hero.badge": "Доверяют более 8,500 международных пациентов",
     "home.hero.title1": "ДА, МЫ ЗАБОТИМСЯ",
-    "home.hero.title2": "И МЫ СМЕЛЫ",
-    "home.hero.title3": "ЧТОБЫ ПРЕДОСТАВИТЬ",
-    "home.hero.title4": "ВСЁ",
+    "home.hero.title2": "И МЫ ГОТОВЫ",
+    "home.hero.title3": "ПРЕДОСТАВИТЬ",
+    "home.hero.title4": "ВСЁ НЕОБХОДИМОЕ",
     "home.hero.subtitle":
-      "Пройдите лечение мирового уровня в Индии с комплексной поддержкой для пациентов из Казахстана, Кыргызстана, Таджикистана, Туркменистана, Азербайджана, Фиджи, Мьянмы, Индонезии, Южной Африки, России и других стран. Ваш путь к здоровью начинается здесь с нашим исключительным уходом и неизменной приверженностью.",
-    "home.hero.startJourney": "Начать путь",
+      "Получите мировое медицинское обслуживание в Индии с комплексной поддержкой для пациентов из Казахстана, Кыргызстана, Таджикистана, Туркменистана, Азербайджана, Фиджи, Мьянмы, Индонезии, Южной Африки, России и других стран. Ваше путешествие к здоровью начинается здесь с нашей исключительной заботы и непоколебимой приверженности.",
+    "home.hero.startJourney": "Начать путешествие",
     "home.hero.exploreServices": "Изучить услуги",
-    "home.stats.treatments": "Успешные лечения",
-    "home.stats.patients": "Довольные пациенты",
-    "home.stats.hospitals": "Партнёрские больницы",
+    "home.stats.treatments": "Успешных процедур",
+    "home.stats.patients": "Довольных пациентов",
+    "home.stats.hospitals": "Партнерских больниц",
     "home.stats.experience": "Лет опыта",
-    "home.hospitals.badge": "Премиальные медицинские партнёры",
-    "home.hospitals.title": "Наши партнёрские больницы",
+    "home.hospitals.badge": "Премиальные партнеры в сфере здравоохранения",
+    "home.hospitals.title": "Наши партнерские больницы",
     "home.hospitals.subtitle":
-      "Мы сотрудничаем с самыми престижными больницами Индии, чтобы вы получили медицинскую помощь мирового уровня с высочайшими стандартами лечения и обслуживания международных пациентов.",
-    "home.popup.title": "Здравствуйте всем,",
+      "Мы сотрудничаем с самыми престижными больницами Индии, чтобы обеспечить вам медицинское обслуживание мирового уровня с высочайшими стандартами лечения и услуг для международных пациентов.",
+    "home.popup.title": "Всем привет,",
     "home.popup.subtitle":
-      "ДА, МЫ ЗАБОТИМСЯ И МЫ СМЕЛЫ, ЧТОБЫ ПРЕДОСТАВИТЬ ВСЁ.",
+      "ДА, МЫ ЗАБОТИМСЯ И МЫ ГОТОВЫ ПРЕДОСТАВИТЬ ВСЁ НЕОБХОДИМОЕ.",
     "home.popup.description":
-      "Мы предоставляем комплексную поддержку пациентам из Казахстана, Кыргызстана, Таджикистана, Туркменистана, Азербайджана, Фиджи, Мьянмы, Индонезии, Южной Африки, России и других стран, которые ищут лечение мирового уровня в Индии. От помощи с визой до ухода после лечения — мы с вами на каждом этапе.",
-    "home.popup.contactUs": "Связаться с нами сейчас",
-    "home.popup.visitServices": "Изучить наши услуги",
+      "Мы предоставляем комплексную поддержку пациентам из Казахстана, Кыргызстана, Таджикистана, Туркменистана, Азербайджана, Фиджи, Мьянмы, Индонезии, Южной Африки, России и других стран, ищущих лечение мирового уровня в Индии. От помощи с визой до послеоперационного ухода - мы с вами на каждом этапе.",
+    "home.popup.contactUs": "Свяжитесь с нами",
+    "home.popup.visitServices": "Изучите наши услуги",
     "home.hospitals.excellenceRating": "Рейтинг качества",
     "home.hospitals.max.name": "Max Healthcare",
     "home.hospitals.max.description":
-      "Комплексные медицинские услуги международного уровня и экспертная помощь в различных медицинских специализациях.",
-    "home.hospitals.artemis.name": "Artemis Hospital",
+      "Комплексные медицинские услуги международного уровня и экспертная медицинская помощь по различным специальностям.",
+    "home.hospitals.artemis.name": "Больница Artemis",
     "home.hospitals.artemis.description":
-      "Медицинская помощь мирового уровня с индивидуальным подходом и полным сопровождением международных пациентов.",
-    "home.hospitals.apollo.name": "Apollo Hospitals",
+      "Медицинское обслуживание мирового класса с индивидуальным подходом и комплексными услугами для международных пациентов.",
+    "home.hospitals.apollo.name": "Больницы Apollo",
     "home.hospitals.apollo.description":
-      "Ведущая многопрофильная больница с передовыми технологиями и опытными врачами, специализирующимися на сложных процедурах.",
+      "Ведущая многопрофильная больница с мировыми стандартами и опытными врачами, специализирующимися на сложных процедурах.",
     "home.hospitals.fortis.name": "Fortis Healthcare",
     "home.hospitals.fortis.description":
-      "Современная медицинская помощь с передовыми технологиями и индивидуальными протоколами лечения для международных пациентов.",
-    "home.hospitals.medanta.name": "Medanta Hospital",
+      "Современное медицинское обслуживание с передовыми технологиями и индивидуальными протоколами лечения для международных пациентов.",
+    "home.hospitals.medanta.name": "Больница Medanta",
     "home.hospitals.medanta.description":
-      "Ультрасовременное медицинское учреждение, специализирующееся на сложных операциях и передовых методах лечения с использованием робототехники.",
+      "Современное медицинское учреждение, специализирующееся на сложных операциях и передовых методах лечения с роботизированной помощью.",
     "home.popup.featureBestHospitals": "Лучшие больницы",
     "home.buttons.contactUs": "Связаться с нами",
 
-    // Services Page
-    "services.hero.badge": "Медицинские услуги мирового класса",
-    "services.hero.title": "Комплексные решения здравоохранения",
+    // Страница услуг (Services Page)
+    "services.hero.badge": "Медицинские услуги мирового уровня",
+    "services.hero.title": "Комплексные медицинские решения",
     "services.hero.subtitle":
-      "Откройте для себя наш обширный спектр медицинских процедур и лечения, предоставляемых всемирно известными специалистами с использованием передовых технологий и персонализированных протоколов ухода.",
-    "services.specialties.title": "Наши медицинские специальности",
+      "Откройте для себя наш широкий спектр медицинских процедур, проводимых всемирно известными специалистами с использованием передовых технологий и индивидуальных протоколов лечения.",
+    "services.specialties.title": "Наши медицинские специализации",
     "services.specialties.subtitle":
-      "Каждая услуга поддерживается международно обученными специалистами и современными медицинскими технологиями",
+      "Каждая услуга поддерживается международными специалистами и современными медицинскими технологиями",
     "services.cancer.badge": "Специализированная онкологическая помощь",
     "services.cancer.title": "Передовые методы лечения рака",
     "services.cancer.subtitle":
-      "Наша комплексная онкологическая программа сочетает передовые методы лечения, прецизионную медицину и сострадательную помощь для достижения наилучших результатов для онкологических пациентов.",
-    "services.successRate": "Процент успеха",
-    "services.treatmentSuccess": "Успех лечения",
-    "services.excellenceRating": "Рейтинг превосходства",
+      "Наша комплексная онкологическая программа сочетает передовые методы лечения, прецизионную медицину и заботливый уход для достижения наилучших результатов для пациентов с раком.",
+    "services.successRate": "Уровень успеха",
+    "services.treatmentSuccess": "Успешность лечения",
+    "services.excellenceRating": "Рейтинг качества",
 
-    // About Page
-    "about.hero.title": "Наша история и миссия",
-    "about.hero.subtitle":
-      "Мы объединяем передовую медицину Индии и стран СНГ уже более 15 лет. Наша цель — сделать мировую медицинскую помощь доступной и финансово приемлемой.",
-    "about.story.title": "Соединяя сердца, исцеляя жизни",
-    "about.values.title": "Наши ключевые ценности",
-    "about.values.subtitle":
-      "Эти принципы определяют нашу работу и формируют приверженность к качеству медицинских услуг.",
-    "about.team.title": "Наша команда",
-    "about.team.subtitle":
-      "Наша команда сочетает медицинскую экспертизу с культурным пониманием для организации исключительного ухода.",
-    "about.journey.title": "Наш путь",
-    "about.journey.subtitle":
-      "Основные этапы, которые сформировали наш рост и стремление к совершенству.",
-    "about.story.paragraph1":
-      "Основанная в 2008 году, наша компания возникла из простой, но мощной идеи: сделать высококачественное медицинское обслуживание доступным для пациентов из Казахстана и России. То, что началось как небольшая инициатива, превратилось в надежный мост между пациентами и ведущими медицинскими учреждениями Индии.",
-    "about.story.paragraph2":
-      "Наши основатели, лично столкнувшиеся с трудностями при получении медицинской помощи за рубежом, поняли необходимость комплексной поддержки. Мы осознали, что лечение за границей — это не только медицинская помощь, но и культурное понимание, языковая поддержка и эмоциональное сопровождение.",
-    "about.story.paragraph3":
-      "Сегодня мы гордимся тем, что являемся надежным партнером для тысяч пациентов, предлагая не только медицинскую координацию, но и полный спектр услуг для поддержки на каждом этапе медицинского туризма.",
-    "about.story.image_alt":
-      "Наша медицинская команда обсуждает уход за пациентом",
-    "about.values.compassionate.title": "Сострадательный уход",
-    "about.values.compassionate.description":
-      "Мы относимся к каждому пациенту с сочувствием и учитываем его индивидуальные потребности.",
-    "about.values.trust.title": "Доверие и прозрачность",
-    "about.values.trust.description":
-      "Полная прозрачность в стоимости лечения, процедурах и ожидаемых результатах.",
-    "about.values.global.title": "Мировые стандарты",
-    "about.values.global.description":
-      "Международное качество медицинской помощи с современными клиниками и опытными врачами.",
-    "about.values.support.title": "Личная поддержка",
-    "about.values.support.description":
-      "Посвященная команда поддержки сопровождает вас на всем пути лечения в Индии.",
-    "about.team.dr_meenu.name": "Др. Мину Валия",
-    "about.team.dr_meenu.role": "Онколог",
-    "about.team.dr_meenu.description":
-      "Ведущий медицинский онколог в Max Delhi, специализирующийся на лечении рака.",
-    "about.team.dr_subhash.name": "Др. Субхаш Гупта",
-    "about.team.dr_subhash.role": "Хирург по трансплантации печени",
-    "about.team.dr_subhash.description":
-      "Ведущий хирург по трансплантации печени в Max Delhi (4000+ трансплантаций).",
-    "about.team.dr_sanjeev.name": "Др. Санджив Дуа",
-    "about.team.dr_sanjeev.role": "Нейрохирург",
-    "about.team.dr_sanjeev.description":
-      "Эксперт по операциям на головном и спинном мозге с более чем 20-летним опытом.",
-    "about.milestones.2008.year": "2008",
-    "about.milestones.2008.event": "Основание компании",
-    "about.milestones.2008.description":
-      "Начали с целью устранить разрыв в доступе к медицинской помощи",
-    "about.milestones.2012.year": "2012",
-    "about.milestones.2012.event": "1000+ пациентов",
-    "about.milestones.2012.description": "Достигли первой значительной вехи",
-    "about.milestones.2016.year": "2016",
-    "about.milestones.2016.event": "50+ партнерских больниц",
-    "about.milestones.2016.description": "Расширили нашу сеть по всей Индии",
-    "about.milestones.2020.year": "2020",
-    "about.milestones.2020.event": "Цифровая трансформация",
-    "about.milestones.2020.description": "Запустили онлайн-консультации",
-    "about.milestones.2023.year": "2023",
-    "about.milestones.2023.event": "10 000+ успешных историй",
-    "about.milestones.2023.description": "Отмечаем более десятилетия успеха",
-    "about.buttons.callback": "Заказать звонок",
-    "about.buttons.whatsapp": "Написать в WhatsApp",
-    "about.buttons.whatsapp_message":
-      "Здравствуйте, мне нужны подробности об услугах Aarogyacare.",
-
-    // Contact Page
-    "contact.hero.title": "Свяжитесь с нами",
-    "contact.hero.subtitle":
-      "Готовы начать своё медицинское путешествие? Наша преданная команда готова помочь вам на каждом этапе. Свяжитесь с нами для персональной консультации и поддержки.",
-    "contact.form.title": "Запросить обратный звонок",
-    "contact.form.subtitle":
-      "Заполните форму ниже, и наш медицинский координатор свяжется с вами в течение 24 часов.",
-    "contact.form.name": "Полное имя",
-    "contact.form.phone": "Номер телефона",
-    "contact.form.message": "Сообщение",
-    "contact.form.messagePlaceholder":
-      "Расскажите нам о ваших медицинских потребностях или любых вопросах...",
-    "contact.form.submit": "Запросить обратный звонок",
-    "contact.form.sending": "Отправка...",
-    "contact.form.success":
-      "Спасибо! Ваше сообщение успешно отправлено. Мы свяжемся с вами в ближайшее время.",
-    "contact.info.title": "Контактная информация",
-    "contact.info.subtitle":
-      "Мы здесь, чтобы помочь вам уверенно пройти ваш медицинский путь. Обращайтесь к нам через любой из следующих каналов.",
-    "contact.emergency.title": "Экстренная поддержка",
-    "contact.emergency.subtitle":
-      "Для срочной медицинской помощи или чрезвычайных ситуаций:",
-
-    // Features
-    "features.support": "Медицинская поддержка 24/7",
-    "features.visa": "Помощь с визой",
-    "features.interpreters": "Переводчики",
-    "features.transfers": "Трансферы из аэропорта",
-    "features.accommodation": "Бронирование жилья",
-    "features.postCare": "Послеоперационный уход",
-
-    // Common
-    "common.loading": "Загрузка...",
-    "common.readMore": "Читать далее",
-    "common.learnMore": "Узнать больше",
-    "common.viewAll": "Посмотреть все",
-  },
-
-  fr: {
-    // French
-    // Navigation
-    "nav.home": "Accueil",
-    "nav.services": "Services",
-    "nav.about": "À propos de nous",
-    "nav.contact": "Contact",
-    "nav.getStarted": "Commencer",
-
-    // Home Page
-    "home.hero.badge": "Approuvé par plus de 8 500 patients internationaux",
-    "home.hero.title1": "OUI, NOUS PRENONS SOIN",
-    "home.hero.title2": "ET NOUS OSONS",
-    "home.hero.title3": "FOURNIR",
-    "home.hero.title4": "TOUT",
-    "home.hero.subtitle":
-      "Découvrez un traitement médical de classe mondiale en Inde avec un accompagnement complet pour les patients du Kazakhstan et de la Russie. Votre parcours santé commence ici avec nos soins exceptionnels et notre engagement sans faille.",
-    "home.hero.startJourney": "Commencer votre parcours",
-    "home.hero.exploreServices": "Découvrir les services",
-    "home.stats.treatments": "Traitements réussis",
-    "home.stats.patients": "Patients satisfaits",
-    "home.stats.hospitals": "Hôpitaux partenaires",
-    "home.stats.experience": "Années d'expérience",
-    "home.hospitals.badge": "Partenaires de soins de santé haut de gamme",
-    "home.hospitals.title": "Nos hôpitaux partenaires",
-    "home.hospitals.subtitle":
-      "Nous collaborons avec les hôpitaux les plus prestigieux d’Inde pour vous garantir des soins médicaux de classe mondiale, répondant aux normes de traitement les plus élevées et aux services pour patients internationaux.",
-    "home.popup.title": "Bonjour à tous,",
-    "home.popup.subtitle": "OUI, NOUS PRENONS SOIN ET NOUS OSONS TOUT FOURNIR.",
-    "home.popup.description":
-      "Nous offrons un accompagnement complet aux patients du Kazakhstan et de la Russie qui recherchent un traitement de classe mondiale en Inde. De l’aide au visa aux soins post-traitement, nous sommes à vos côtés à chaque étape.",
-    "home.popup.contactUs": "Contactez-nous maintenant",
-    "home.popup.visitServices": "Découvrir nos services",
-
-    // Services Page
-    "services.hero.badge": "Медицинские услуги мирового класса",
-    "services.hero.title": "Комплексные решения здравоохранения",
-    "services.hero.subtitle":
-      "Откройте для себя наш обширный спектр медицинских процедур и лечения, предоставляемых всемирно известными специалистами с использованием передовых технологий и персонализированных протоколов ухода.",
-    "services.specialties.title": "Наши медицинские специальности",
-    "services.specialties.subtitle":
-      "Каждая услуга поддерживается международно обученными специалистами и современными медицинскими технологиями",
-    "services.cancer.badge": "Специализированная онкологическая помощь",
-    "services.cancer.title": "Передовые методы лечения рака",
-    "services.cancer.subtitle":
-      "Наша комплексная онкологическая программа сочетает передовые методы лечения, прецизионную медицину и сострадательную помощь для достижения наилучших результатов для онкологических пациентов.",
-    "services.successRate": "Процент успеха",
-    "services.treatmentSuccess": "Успех лечения",
-    "services.excellenceRating": "Рейтинг превосходства",
-    "services.features.hospitals": "50+ Партнерских больниц",
+    "services.features.hospitals": "50+ партнерских больниц",
     "services.features.standards": "Международные стандарты",
     "services.features.technology": "Передовые технологии",
-    "services.cancer.breast.name": "Лечение рака молочной железы",
+
+    "services.cancer.breast.name": "Лечение рака груди",
     "services.cancer.cervical.name": "Лечение рака шейки матки",
     "services.cancer.stomach.name": "Лечение рака желудка",
     "services.cancer.lung.name": "Лечение рака легких",
@@ -525,320 +458,926 @@ const translations: Record<string, Translations> = {
     "services.cancer.leukemia.name": "Лечение лейкемии",
     "services.oncology.name": "Онкология",
     "services.oncology.description":
-      "Передовое лечение рака с использованием прецизионной медицины, иммунотерапии и персонализированных протоколов ухода для достижения оптимальных результатов.",
+      "Передовое лечение рака с использованием прецизионной медицины, иммунотерапии и индивидуальных протоколов лечения для оптимальных результатов.",
     "services.liver.name": "Трансплантация печени",
     "services.liver.description":
-      "Процедуры трансплантации печени мирового уровня с 95% успехом, выполняемые международными специалистами.",
+      "Трансплантация печени мирового уровня с 95% успешностью, выполняемая международными хирургами.",
     "services.kidney.name": "Трансплантация почки",
     "services.kidney.description":
-      "Комплексная программа трансплантации почек с современными протоколами иммуносупрессии и долгосрочным уходом.",
+      "Комплексная программа трансплантации почки с передовыми протоколами иммуносупрессии и долгосрочным наблюдением.",
     "services.cardiology.name": "Кардиология",
     "services.cardiology.description":
-      "Полный спектр кардиологической помощи, включая малоинвазивные процедуры, роботизированную хирургию и программы кардиореабилитации.",
+      "Полный спектр кардиологической помощи, включая минимально инвазивные процедуры, роботизированную хирургию и программы реабилитации.",
     "services.neurosurgery.name": "Нейрохирургия",
     "services.neurosurgery.description":
-      "Передовые операции на головном и спинном мозге с использованием современных методов визуализации, микрохирургии и нейронавигации.",
-    "services.hair.name": "Пересадка волос",
+      "Современные операции на головном и спинном мозге с использованием передовой визуализации, микрохирургии и нейронавигационных технологий.",
+    "services.hair.name": "Трансплантация волос",
     "services.hair.description":
-      "Революционные методы восстановления волос FUE и DHI для естественного результата с минимальным временем восстановления.",
-    "services.dental.name": "Дентальные импланты",
+      "Инновационные методы FUE и DHI для естественного восстановления волос с минимальным периодом восстановления.",
+    "services.dental.name": "Зубные импланты",
     "services.dental.description":
       "Современная имплантология с 3D-планированием, немедленной нагрузкой и керамическими имплантами.",
     "services.cosmetic.name": "Косметическая хирургия",
     "services.cosmetic.description":
-      "Эстетические и реконструктивные операции с естественным результатом, выполненные с использованием передовых техник и премиальных материалов.",
-    "services.knee.name": "Эндопротезирование коленного сустава",
+      "Эстетические и реконструктивные процедуры с естественными результатами с использованием передовых технологий и премиальных материалов.",
+    "services.knee.name": "Замена коленного сустава",
     "services.knee.description":
-      "Современная замена суставов с использованием роботизированной технологии, индивидуальных имплантов и ускоренных протоколов восстановления.",
+      "Современная замена суставов с роботизированной помощью, индивидуальными имплантами и быстрым восстановлением.",
     "services.eye.name": "Лазерная коррекция зрения (LASIK)",
     "services.eye.description":
-      "Точная коррекция зрения с использованием технологии фемтосекундного лазера, индивидуального анализа и пожизненной гарантии.",
+      "Точная коррекция зрения с фемтосекундным лазером, индивидуальным анализом волнового фронта и пожизненной гарантией.",
     "services.breast.name": "Увеличение груди",
     "services.breast.description":
-      "Современные процедуры увеличения груди с использованием премиальных имплантов, 3D-визуализации и персонализированного хирургического планирования.",
-    "services.spine.name": "Операции на позвоночнике",
+      "Передовые процедуры увеличения груди с премиальными имплантами, 3D-визуализацией и индивидуальным планированием.",
+    "services.spine.name": "Хирургия позвоночника",
     "services.spine.description":
-      "Малоинвазивные операции на позвоночнике с навигационной технологией, заменой межпозвоночного диска и управлением болью.",
-    "services.ivf.name": "Лечение бесплодия (ЭКО)",
+      "Минимально инвазивные процедуры на позвоночнике с навигационными технологиями, заменой дисков и управлением болью.",
+    "services.ivf.name": "ЭКО лечение",
     "services.ivf.description":
-      "Комплексные решения для лечения бесплодия с использованием современных репродуктивных технологий, генетического скрининга и высоким уровнем успеха.",
+      "Комплексные решения по лечению бесплодия с передовыми репродуктивными технологиями, генетическим скринингом и высокими показателями успеха.",
     "services.bone_marrow.name": "Трансплантация костного мозга",
     "services.bone_marrow.description":
-      "Жизненно важная трансплантация стволовых клеток с современными подготовительными режимами и поддерживающим уходом.",
+      "Спасительная трансплантация гемопоэтических стволовых клеток с передовыми режимами кондиционирования и поддерживающей терапией.",
     "services.gynecology.name": "Гинекология",
     "services.gynecology.description":
-      "Полное женское здоровье с малоинвазивными процедурами, роботизированной хирургией и комплексными программами оздоровления.",
+      "Полный спектр женского здоровья с минимально инвазивными процедурами, роботизированной хирургией и программами wellness.",
     "services.bariatric.name": "Бариатрическая хирургия",
     "services.bariatric.description":
-      "Современные процедуры по снижению веса с метаболической хирургией, диетологическим консультированием и долгосрочной поддержкой.",
+      "Передовые процедуры снижения веса с вариантами метаболической хирургии, нутрициологической поддержкой и долгосрочным наблюдением.",
+
     "services.testimonials.title": "Отзывы пациентов",
     "services.testimonials.subtitle":
-      "Узнайте от наших пациентов об их опыте и успешном лечении",
+      "Услышьте от наших пациентов об их опыте и успешном лечении",
+    "services.buttons.bookNow": "Забронировать сейчас",
+    "sevices.buttons.learnMore": "Узнать больше",
+    "services.buttons.callback": "Заказать звонок",
+    "services.buttons.whatsapp": "Написать в WhatsApp",
+    "services.buttons.whatsapp_message":
+      "Здравствуйте, мне нужна дополнительная информация об услугах Aarogyacare.",
+    "services.buttons.knowMore": "Узнать больше",
 
-    // About Page
-    "about.hero.title": "Notre histoire et notre mission",
+    // Страница "О нас" (About Page)
+    "about.hero.title": "Наша история и миссия",
     "about.hero.subtitle":
-      "Un pont entre l'excellence médicale de l’Inde et la région CEI depuis plus de 15 ans. Nous nous engageons à rendre les soins de santé de classe mondiale accessibles et abordables.",
-    "about.story.title": "Relier les cœurs, guérir des vies",
+      "Соединяем медицинское превосходство между Индией и странами СНГ более 15 лет. Мы стремимся сделать мировое медицинское лечение доступным и экономичным.",
+    "about.story.title": "Соединяя сердца, исцеляя жизни",
+    "about.values.title": "Наши основные ценности",
+    "about.values.subtitle":
+      "Эти принципы направляют всё, что мы делаем, и формируют нашу приверженность совершенству в организации медицинской помощи.",
+    "about.team.title": "Наша команда",
+    "about.team.subtitle":
+      "Наши преданные профессионалы сочетают медицинскую экспертизу с культурным пониманием, чтобы обеспечить исключительную координацию ухода.",
+    "about.journey.title": "Наш путь",
+    "about.journey.subtitle":
+      "Ключевые вехи, которые сформировали наш рост и приверженность совершенству.",
+    "about.story.paragraph1":
+      "Основанная в 2008 году, наша компания возникла из простой, но мощной идеи: сделать мировое здравоохранение доступным для пациентов из Казахстана и России. То, что начиналось как небольшая инициатива, превратилось в надежный мост между пациентами, ищущими качественное лечение, и известной индийской системой здравоохранения.",
+    "about.story.paragraph2":
+      "Наши основатели, на собственном опыте столкнувшиеся с трудностями навигации в иностранных системах здравоохранения, поняли необходимость комплексной системы поддержки. Мы осознали, что медицинское лечение за рубежом включает не только клинический уход - оно требует культурного понимания, языковой поддержки и эмоционального сопровождения.",
+    "about.story.paragraph3":
+      "Сегодня мы с гордостью служим доверенным партнером для тысяч пациентов, предлагая не только медицинскую координацию, но и полную экосистему ухода, охватывающую все аспекты медицинского туризма.",
+    "about.story.image_alt":
+      "Наша медицинская команда обсуждает уход за пациентом",
+    "about.values.compassionate.title": "Сочувственная забота",
+    "about.values.compassionate.description":
+      "Мы относимся к каждому пациенту с эмпатией, понимая его уникальные потребности и проблемы.",
+    "about.values.trust.title": "Доверие и прозрачность",
+    "about.values.trust.description":
+      "Полная прозрачность в стоимости лечения, процедурах и ожидаемых результатах.",
+    "about.values.global.title": "Глобальные стандарты",
+    "about.values.global.description":
+      "Международное качественное здравоохранение с мировыми стандартами и опытными врачами.",
+    "about.values.support.title": "Персональная поддержка",
+    "about.values.support.description":
+      "Персональный координатор, который будет сопровождать вас на протяжении всего медицинского путешествия в Индии.",
+    "about.team.dr_meenu.name": "Доктор Мину Валия",
+    "about.team.dr_meenu.role": "Онколог",
+    "about.team.dr_meenu.description":
+      "Ведущий медицинский онколог в Max Delhi, специализирующийся на лечении рака.",
+    "about.team.dr_subhash.name": "Доктор Субхаш Гупта",
+    "about.team.dr_subhash.role": "Хирург по трансплантации печени",
+    "about.team.dr_subhash.description":
+      "Ведущий хирург по трансплантации печени в Max Delhi (более 4,000 трансплантаций).",
+    "about.team.dr_sanjeev.name": "Доктор Санджив Дуа",
+    "about.team.dr_sanjeev.role": "Нейрохирург",
+    "about.team.dr_sanjeev.description":
+      "Эксперт в операциях на головном и спинном мозге с более чем 20-летним опытом",
+    "about.milestones.2008.year": "2008",
+    "about.milestones.2008.event": "Основание компании",
+    "about.milestones.2008.description":
+      "Начали с видения преодоления разрывов в здравоохранении",
+    "about.milestones.2012.year": "2012",
+    "about.milestones.2012.event": "1000+ пациентов",
+    "about.milestones.2012.description": "Достигли нашей первой важной вехи",
+    "about.milestones.2016.year": "2016",
+    "about.milestones.2016.event": "50+ партнерских больниц",
+    "about.milestones.2016.description": "Расширили нашу сеть по всей Индии",
+    "about.milestones.2020.year": "2020",
+    "about.milestones.2020.event": "Цифровая трансформация",
+    "about.milestones.2020.description": "Запустили услуги онлайн-консультаций",
+    "about.milestones.2023.year": "2023",
+    "about.milestones.2023.event": "10,000+ успешных историй",
+    "about.milestones.2023.description":
+      "Отмечаем более десятилетия совершенства",
+    "about.buttons.callback": "Заказать звонок",
+    "about.buttons.whatsapp": "Написать в WhatsApp",
+    "about.buttons.whatsapp_message":
+      "Здравствуйте, мне нужна дополнительная информация об услугах Aarogyacare.",
+
+    // Страница контактов (Contact Page)
+    "contact.hero.title": "Свяжитесь с нами",
+    "contact.hero.subtitle":
+      "Готовы начать ваше медицинское путешествие? Наша команда готова помочь вам на каждом этапе. Свяжитесь с нами для персональной консультации и поддержки.",
+    "contact.form.title": "Заказать обратный звонок",
+    "contact.form.subtitle":
+      "Заполните форму ниже, и наш медицинский координатор свяжется с вами в течение 24 часов.",
+    "contact.form.name": "Полное имя",
+    "contact.form.phone": "Номер телефона",
+    "contact.form.message": "Сообщение",
+    "contact.form.messagePlaceholder":
+      "Расскажите нам о ваших медицинских потребностях или вопросах...",
+    "contact.form.submit": "Заказать обратный звонок",
+    "contact.form.sending": "Отправка...",
+    "contact.form.success":
+      "Спасибо! Ваше сообщение успешно отправлено. Мы скоро с вами свяжемся.",
+    "contact.info.title": "Контактная информация",
+    "contact.info.subtitle":
+      "Мы здесь, чтобы помочь вам с уверенностью ориентироваться в вашем медицинском путешествии. Свяжитесь с нами любым удобным способом.",
+    "contact.emergency.title": "Экстренная поддержка",
+    "contact.emergency.subtitle":
+      "Для срочной медицинской помощи или экстренных случаев:",
+
+    "contact.form.description": "Ваши отзывы помогают нам улучшать наши услуги",
+
+    "contact.form.name.label": "Полное имя",
+    "contact.form.name.placeholder": "Введите ваше полное имя",
+    "contact.form.address.label": "Адрес",
+    "contact.form.address.placeholder": "Введите ваш адрес",
+    "contact.form.phone.label": "Номер телефона",
+    "contact.form.phone.placeholder": "Введите ваш номер телефона",
+    "contact.form.email.label": "Электронная почта",
+    "contact.form.email.placeholder": "Введите ваш email",
+    "contact.form.message.label": "Ваше сообщение",
+    "contact.form.message.placeholder":
+      "Расскажите нам о вашем опыте или проблемах...",
+    "contact.form.immediateAssistance": "Нужна срочная помощь?",
+    "contact.form.whatsapp": "Свяжитесь с нами в WhatsApp",
+    "contact.info.description":
+      "Мы доступны 24/7, чтобы предоставить вам лучшую медицинскую помощь и поддержку",
+    "contact.info.phone.title": "Телефонная поддержка",
+    "contact.info.phone.detail1": "+91 9097 272 726",
+    "contact.info.phone.detail2": "+91 9599 023 663",
+    "contact.info.phone.description": "Круглосуточная экстренная поддержка",
+    "contact.info.email.title": "Электронная почта",
+    "contact.info.email.detail1": "SHUBHAMAGRAWAL970@GMAIL.COM",
+    "contact.info.email.description": "Ответ в течение 2 часов",
+    "contact.info.hours.title": "Рабочие часы",
+    "contact.info.hours.detail1": "Пн-Пт: 9:00 - 20:00",
+    "contact.info.hours.detail2": "Сб-Вс: 10:00 - 18:00",
+    "contact.info.hours.description":
+      "По индийскому стандартному времени (IST)",
+    "contact.emergency.description":
+      "Доступно 24/7 для срочной медицинской помощи",
+    "contact.emergency.phone": "+91 90972 72726",
+    "contact.faqs.title": "Быстрые ответы",
+    "contact.faqs.subtitle":
+      "Часто задаваемые вопросы о наших услугах медицинского туризма и поддержке.",
+    "contact.faqs.arrangement.question":
+      "Как быстро вы можете организовать лечение?",
+    "contact.faqs.arrangement.answer":
+      "Обычно мы можем организовать консультации в течение 48-72 часов и лечение в течение 1-2 недель, в зависимости от процедуры.",
+    "contact.faqs.visa.question": "Вы помогаете с визой?",
+    "contact.faqs.visa.answer":
+      "Да, мы предоставляем полную помощь с визой, включая документы для медицинской визы и пригласительные письма.",
+    "contact.faqs.languages.question":
+      "На каких языках вы предоставляете поддержку?",
+    "contact.faqs.languages.answer":
+      "Мы предоставляем поддержку на русском, казахском и английском языках с персональными координаторами для каждого языка.",
+    "contact.faqs.costs.question":
+      "Являются ли расходы на лечение прозрачными?",
+    "contact.faqs.costs.answer":
+      "Абсолютно. Мы предоставляем детальные сметы расходов заранее без скрытых платежей, включая лечение, проживание и проезд.",
+
+    // Форма обратной связи (Feedback Form)
+    "feedback.title": "Форма обратной связи",
+    "feedback.subtitle":
+      "Мы ценим ваши отзывы и хотим решить любые ваши проблемы.",
+    "feedback.successMessage":
+      "Спасибо за ваш отзыв! Мы рассмотрим его и свяжемся с вами в ближайшее время.",
+
+    // Поля формы (Form Fields)
+    "feedback.fields.name.label": "Имя",
+    "feedback.fields.name.placeholder": "Введите ваше полное имя",
+    "feedback.fields.address.label": "Адрес",
+    "feedback.fields.address.placeholder": "Введите ваш полный адрес",
+    "feedback.fields.address.required": "Адрес обязателен",
+    "feedback.fields.telephone.label": "Телефон",
+    "feedback.fields.telephone.placeholder": "+91 98765 43210",
+    "feedback.fields.telephone.required":
+      "Пожалуйста, введите корректный номер телефона",
+    "feedback.fields.email.label": "Электронная почта",
+    "feedback.fields.email.placeholder": "ваш.email@example.com",
+    "feedback.fields.complaint.label": "Подробная жалоба",
+    "feedback.fields.complaint.placeholder":
+      "Пожалуйста, предоставьте подробную информацию о вашей жалобе или отзыве...",
+
+    // Кнопки и действия (Buttons & Actions)
+    "feedback.submitButton": "Отправить отзыв",
+    "feedback.submitting": "Отправка отзыва...",
+
+    // Подвал (Footer)
+    "feedback.assistanceText": "Нужна срочная помощь?",
+    "feedback.assistanceLink": "Свяжитесь с нами в WhatsApp напрямую",
+    "footer.brand": "Aarogyacare",
+    "footer.description":
+      "Соединяем медицинское превосходство между Индией и странами СНГ. Ваш надежный партнер в получении медицинского лечения мирового уровня.",
+    "footer.titles.services": "Медицинские услуги",
+    "footer.titles.support": "Поддержка пациентов",
+    "footer.titles.company": "Компания",
+    "footer.links.services.oncology": "Онкология",
+    "footer.links.services.cardiology": "Кардиология",
+    "footer.links.services.neurosurgery": "Нейрохирургия",
+    "footer.links.services.transplantation": "Трансплантация",
+    "footer.links.services.cosmetic": "Косметическая хирургия",
+    "footer.links.services.dental": "Стоматология",
+    "footer.links.support.contact": "Контакты",
+    "footer.links.support.emergency": "Экстренная помощь",
+    "footer.links.support.portal": "Пациентский портал",
+    "footer.links.support.insurance": "Помощь со страховкой",
+    "footer.links.support.travel": "Помощь с поездкой",
+    "footer.links.support.language": "Языковая поддержка",
+    "footer.links.company.about": "О нас",
+    "footer.links.company.team": "Наша команда",
+    "footer.links.company.careers": "Карьера",
+    "footer.links.company.privacy": "Политика конфиденциальности",
+    "footer.links.company.terms": "Условия обслуживания",
+    "footer.links.company.blog": "Блог",
+    "footer.contact.phone": "Телефон",
+    "footer.contact.email": "Электронная почта",
+    "footer.contact.address": "Адрес",
+    "footer.social.facebook": "Facebook",
+    "footer.social.instagram": "Instagram",
+    "footer.social.linkedin": "LinkedIn",
+    "footer.copyright": "© {{year}} Aarogyacare. Все права защищены.",
+
+    // Особенности (Features)
+    "features.support": "Круглосуточная медицинская поддержка",
+    "features.visa": "Помощь с визой",
+    "features.interpreters": "Языковые переводчики",
+    "features.transfers": "Трансфер из аэропорта",
+    "features.accommodation": "Бронирование жилья",
+    "features.postCare": "Послеоперационный уход",
+
+    // Общие (Common)
+    "common.loading": "Загрузка...",
+    "common.readMore": "Читать далее",
+    "common.learnMore": "Узнать больше",
+    "common.viewAll": "Посмотреть все",
+  },
+
+  fr: {
+    // Navigation
+    "nav.home": "Accueil",
+    "nav.services": "Services",
+    "nav.about": "À propos",
+    "nav.contact": "Contact",
+    "nav.getStarted": "Commencer",
+
+    // Page d'accueil (Home Page)
+    "home.hero.badge":
+      "De confiance pour plus de 8 500 patients internationaux",
+    "home.hero.title1": "OUI, NOUS PRENONS SOIN",
+    "home.hero.title2": "ET NOUS OSONS",
+    "home.hero.title3": "FOURNIR",
+    "home.hero.title4": "TOUT CE DONT VOUS AVEZ BESOIN",
+    "home.hero.subtitle":
+      "Bénéficiez d'un traitement médical de classe mondiale en Inde avec un soutien complet pour les patients du Kazakhstan, Kirghizistan, Tadjikistan, Turkménistan, Azerbaïdjan, Fidji, Myanmar, Indonésie, Afrique du Sud, Russie et au-delà. Votre parcours de santé commence ici avec notre engagement exceptionnel.",
+    "home.hero.startJourney": "Commencer votre parcours",
+    "home.hero.exploreServices": "Découvrir nos services",
+    "home.stats.treatments": "Traitements réussis",
+    "home.stats.patients": "Patients satisfaits",
+    "home.stats.hospitals": "Hôpitaux partenaires",
+    "home.stats.experience": "Années d'expérience",
+    "home.hospitals.badge": "Partenaires de santé premium",
+    "home.hospitals.title": "Nos hôpitaux partenaires",
+    "home.hospitals.subtitle":
+      "Nous collaborons avec les hôpitaux les plus prestigieux d'Inde pour vous offrir des soins médicaux de classe mondiale avec les normes de traitement les plus élevées et des services dédiés aux patients internationaux.",
+    "home.popup.title": "Bonjour à tous,",
+    "home.popup.subtitle":
+      "OUI, NOUS PRENONS SOIN ET NOUS OSONS FOURNIR TOUT CE DONT VOUS AVEZ BESOIN.",
+    "home.popup.description":
+      "Nous offrons un soutien complet aux patients du Kazakhstan, Kirghizistan, Tadjikistan, Turkménistan, Azerbaïdjan, Fidji, Myanmar, Indonésie, Afrique du Sud, Russie et autres, recherchant un traitement de pointe en Inde. De l'assistance visa aux soins post-traitement, nous vous accompagnons à chaque étape.",
+    "home.popup.contactUs": "Contactez-nous",
+    "home.popup.visitServices": "Découvrir nos services",
+    "home.hospitals.excellenceRating": "Note d'excellence",
+    "home.hospitals.max.name": "Max Healthcare",
+    "home.hospitals.max.description":
+      "Services de santé complets selon les normes internationales avec des soins experts couvrant multiples spécialités.",
+    "home.hospitals.artemis.name": "Hôpital Artemis",
+    "home.hospitals.artemis.description":
+      "Soins de classe mondiale avec accompagnement personnalisé et services complets pour patients internationaux.",
+    "home.hospitals.apollo.name": "Hôpitaux Apollo",
+    "home.hospitals.apollo.description":
+      "Hôpital multispécialisé leader avec des installations de pointe et médecins expérimentés spécialisés en procédures complexes.",
+    "home.hospitals.fortis.name": "Fortis Healthcare",
+    "home.hospitals.fortis.description":
+      "Soins médicaux avancés avec technologies de pointe et protocoles de traitement personnalisés pour patients internationaux.",
+    "home.hospitals.medanta.name": "Hôpital Medanta",
+    "home.hospitals.medanta.description":
+      "Établissement médical ultramoderne spécialisé en chirurgies complexes et traitements avancés avec assistance robotique.",
+    "home.popup.featureBestHospitals": "Meilleurs hôpitaux",
+    "home.buttons.contactUs": "Nous contacter",
+
+    // Page Services
+    "services.hero.badge": "Services médicaux de classe mondiale",
+    "services.hero.title": "Solutions de santé complètes",
+    "services.hero.subtitle":
+      "Découvrez notre large gamme de traitements et procédures médicales, dispensés par des spécialistes renommés utilisant des technologies de pointe et des protocoles de soins personnalisés.",
+    "services.specialties.title": "Nos spécialités médicales",
+    "services.specialties.subtitle":
+      "Chaque service est soutenu par des spécialistes formés à l'international et des technologies médicales de pointe",
+    "services.cancer.badge": "Soins oncologiques spécialisés",
+    "services.cancer.title": "Traitements avancés du cancer",
+    "services.cancer.subtitle":
+      "Notre programme oncologique complet combine traitements innovants, médecine de précision et accompagnement personnalisé pour des résultats optimaux.",
+    "services.successRate": "Taux de réussite",
+    "services.treatmentSuccess": "Succès du traitement",
+    "services.excellenceRating": "Note d'excellence",
+
+    "services.features.hospitals": "50+ hôpitaux partenaires",
+    "services.features.standards": "Normes internationales",
+    "services.features.technology": "Technologie avancée",
+
+    "services.cancer.breast.name": "Traitement du cancer du sein",
+    "services.cancer.cervical.name": "Traitement du cancer du col utérin",
+    "services.cancer.stomach.name": "Traitement du cancer de l'estomac",
+    "services.cancer.lung.name": "Traitement du cancer du poumon",
+    "services.cancer.ovarian.name": "Traitement du cancer des ovaires",
+    "services.cancer.pancreatic.name": "Traitement du cancer du pancréas",
+    "services.cancer.rectal.name": "Traitement du cancer rectal",
+    "services.cancer.prostate.name": "Traitement du cancer de la prostate",
+    "services.cancer.leukemia.name": "Traitement de la leucémie",
+    "services.oncology.name": "Oncologie",
+    "services.oncology.description":
+      "Traitements cancéreux avancés avec médecine de précision, immunothérapie et protocoles personnalisés pour des résultats optimaux.",
+    "services.liver.name": "Transplantation hépatique",
+    "services.liver.description":
+      "Transplantations du foie avec 95% de réussite, réalisées par des chirurgiens internationalement reconnus.",
+    "services.kidney.name": "Transplantation rénale",
+    "services.kidney.description":
+      "Programme complet de transplantation rénale avec protocoles immunosuppresseurs avancés et suivi à long terme.",
+    "services.cardiology.name": "Cardiologie",
+    "services.cardiology.description":
+      "Soins cardiaques complets incluant procédures mini-invasives, chirurgie robotique et programmes de réadaptation.",
+    "services.neurosurgery.name": "Neurochirurgie",
+    "services.neurosurgery.description":
+      "Chirurgies cérébrales et rachidiennes de pointe utilisant imagerie avancée, microchirurgie et neuronavigation.",
+    "services.hair.name": "Greffe de cheveux",
+    "services.hair.description":
+      "Techniques révolutionnaires FUE et DHI pour des résultats naturels avec temps de récupération minimal.",
+    "services.dental.name": "Implants dentaires",
+    "services.dental.description":
+      "Implantologie dentaire de pointe avec planification 3D, mise en charge immédiate et options d'implants céramiques.",
+    "services.cosmetic.name": "Chirurgie esthétique",
+    "services.cosmetic.description":
+      "Procédures esthétiques et reconstructives avec résultats naturels utilisant techniques avancées et matériaux premium.",
+    "services.knee.name": "Prothèse de genou",
+    "services.knee.description":
+      "Chirurgie de remplacement articulaire assistée par robot, implants sur mesure et protocoles de récupération rapide.",
+    "services.eye.name": "Chirurgie oculaire (LASIK)",
+    "services.eye.description":
+      "Correction visuelle de précision avec laser femtoseconde, analyse personnalisée et garanties à vie.",
+    "services.breast.name": "Augmentation mammaire",
+    "services.breast.description":
+      "Procédures d'augmentation avancées avec implants premium, imagerie 3D et planification chirurgicale personnalisée.",
+    "services.spine.name": "Chirurgie rachidienne",
+    "services.spine.description":
+      "Procédures rachidiennes mini-invasives avec navigation technologique, remplacement discal et gestion de la douleur.",
+    "services.ivf.name": "Traitement FIV",
+    "services.ivf.description":
+      "Solutions complètes de fertilité avec technologies reproductives avancées, dépistage génétique et taux de réussite élevés.",
+    "services.bone_marrow.name": "Greffe de moelle osseuse",
+    "services.bone_marrow.description":
+      "Transplantation de cellules souches hématopoïétiques avec régimes de conditionnement avancés et soins de soutien.",
+    "services.gynecology.name": "Gynécologie",
+    "services.gynecology.description":
+      "Soins complets pour femmes avec procédures mini-invasives, chirurgie robotique et programmes de bien-être.",
+    "services.bariatric.name": "Chirurgie bariatrique",
+    "services.bariatric.description":
+      "Procédures avancées de perte de poids avec options de chirurgie métabolique, conseils nutritionnels et suivi à long terme.",
+
+    "services.testimonials.title": "Témoignages de patients",
+    "services.testimonials.subtitle":
+      "Découvrez les expériences et traitements réussis de nos patients",
+    "services.buttons.bookNow": "Réserver maintenant",
+    "sevices.buttons.learnMore": "En savoir plus",
+    "services.buttons.callback": "Demander un rappel",
+    "services.buttons.whatsapp": "WhatsApp maintenant",
+    "services.buttons.whatsapp_message":
+      "Bonjour, j'ai besoin de plus d'informations sur les services Aarogyacare.",
+    "services.buttons.knowMore": "En savoir plus",
+
+    // Page À propos
+    "about.hero.title": "Notre histoire & mission",
+    "about.hero.subtitle":
+      "Relier l'excellence des soins entre l'Inde et la région CEI depuis plus de 15 ans. Nous nous engageons à rendre les traitements médicaux de classe mondiale accessibles et abordables.",
+    "about.story.title": "Connecter les cœurs, guérir des vies",
     "about.values.title": "Nos valeurs fondamentales",
     "about.values.subtitle":
-      "Ces principes guident chacune de nos actions et définissent notre engagement envers l’excellence dans la facilitation des soins de santé.",
-    "about.team.title": "Rencontrez notre équipe",
+      "Ces principes guident tout ce que nous faisons et façonnent notre engagement envers l'excellence dans la facilitation des soins de santé.",
+    "about.team.title": "Notre équipe",
     "about.team.subtitle":
-      "Nos professionnels dévoués allient expertise médicale et compréhension culturelle pour offrir une coordination exceptionnelle des soins.",
+      "Nos professionnels dévoués allient expertise médicale et compréhension culturelle pour fournir une coordination exceptionnelle des soins.",
     "about.journey.title": "Notre parcours",
     "about.journey.subtitle":
-      "Les étapes clés qui ont marqué notre croissance et notre engagement envers l’excellence.",
+      "Étapes clés qui ont façonné notre croissance et notre engagement envers l'excellence.",
+    "about.story.paragraph1":
+      "Fondée en 2008, notre entreprise est née d'une vision simple mais puissante : rendre les soins de santé de classe mondiale accessibles aux patients du Kazakhstan et de Russie. Ce qui a commencé comme une petite initiative est devenu un pont de confiance entre les patients cherchant des soins de qualité et le système de santé réputé de l'Inde.",
+    "about.story.paragraph2":
+      "Nos fondateurs, ayant vécu les défis des systèmes de santé étrangers, ont compris la nécessité d'un système de soutien complet. Nous avons reconnu que le traitement médical à l'étranger implique plus que des soins cliniques - il nécessite une compréhension culturelle, un soutien linguistique et un accompagnement émotionnel.",
+    "about.story.paragraph3":
+      "Aujourd'hui, nous sommes fiers d'être le partenaire de confiance de milliers de patients, offrant non seulement une coordination médicale mais un écosystème de soins complet couvrant tous les aspects du tourisme médical.",
+    "about.story.image_alt":
+      "Notre équipe médicale discutant des soins aux patients",
+    "about.values.compassionate.title": "Soins compatissants",
+    "about.values.compassionate.description":
+      "Nous traitons chaque patient avec empathie, comprenant ses besoins et préoccupations uniques.",
+    "about.values.trust.title": "Confiance & transparence",
+    "about.values.trust.description":
+      "Transparence complète sur les coûts, procédures et résultats attendus du traitement.",
+    "about.values.global.title": "Normes mondiales",
+    "about.values.global.description":
+      "Soins de santé de qualité internationale avec installations de classe mondiale et médecins experts.",
+    "about.values.support.title": "Soutien personnalisé",
+    "about.values.support.description":
+      "Équipe dédiée pour vous accompagner tout au long de votre parcours médical en Inde.",
+    "about.team.dr_meenu.name": "Dr Meenu Walia",
+    "about.team.dr_meenu.role": "Oncologue",
+    "about.team.dr_meenu.description":
+      "Oncologue médicale renommée à Max Delhi, spécialisée en cancérologie.",
+    "about.team.dr_subhash.name": "Dr Subhash Gupta",
+    "about.team.dr_subhash.role": "Chirurgien transplant hépatique",
+    "about.team.dr_subhash.description":
+      "Chirurgien transplant hépatique réputé à Max Delhi (plus de 4 000 transplantations).",
+    "about.team.dr_sanjeev.name": "Dr Sanjeev Dua",
+    "about.team.dr_sanjeev.role": "Neurochirurgien",
+    "about.team.dr_sanjeev.description":
+      "Expert en chirurgies cérébrales et rachidiennes avec plus de 20 ans d'expérience",
+    "about.milestones.2008.year": "2008",
+    "about.milestones.2008.event": "Création de l'entreprise",
+    "about.milestones.2008.description":
+      "Commencé avec une vision de combler les lacunes en santé",
+    "about.milestones.2012.year": "2012",
+    "about.milestones.2012.event": "1000+ patients",
+    "about.milestones.2012.description":
+      "Atteint notre premier jalon important",
+    "about.milestones.2016.year": "2016",
+    "about.milestones.2016.event": "50+ hôpitaux partenaires",
+    "about.milestones.2016.description": "Réseau étendu à travers l'Inde",
+    "about.milestones.2020.year": "2020",
+    "about.milestones.2020.event": "Transformation numérique",
+    "about.milestones.2020.description":
+      "Lancé des services de consultation en ligne",
+    "about.milestones.2023.year": "2023",
+    "about.milestones.2023.event": "10 000+ réussites",
+    "about.milestones.2023.description":
+      "Célébrant plus d'une décennie d'excellence",
+    "about.buttons.callback": "Demander un rappel",
+    "about.buttons.whatsapp": "WhatsApp maintenant",
+    "about.buttons.whatsapp_message":
+      "Bonjour, j'ai besoin de plus d'informations sur les services Aarogyacare.",
 
-    // Contact Page
-    "contact.hero.title": "Contactez-nous",
+    // Page Contact
+    "contact.hero.title": "Nous contacter",
     "contact.hero.subtitle":
-      "Prêt à commencer votre parcours médical ? Notre équipe dédiée est là pour vous accompagner à chaque étape. Contactez-nous pour une consultation personnalisée et un accompagnement sur mesure.",
+      "Prêt à commencer votre parcours médical ? Notre équipe dédiée est là pour vous aider à chaque étape. Contactez-nous pour une consultation personnalisée et un soutien.",
     "contact.form.title": "Demander un rappel",
     "contact.form.subtitle":
-      "Remplissez le formulaire ci-dessous et notre coordinateur médical vous contactera dans les 24 heures.",
+      "Remplissez le formulaire ci-dessous et notre coordinateur médical vous contactera sous 24 heures.",
     "contact.form.name": "Nom complet",
     "contact.form.phone": "Numéro de téléphone",
     "contact.form.message": "Message",
     "contact.form.messagePlaceholder":
-      "Parlez-nous de vos besoins médicaux ou de vos questions...",
+      "Parlez-nous de vos besoins médicaux ou questions...",
     "contact.form.submit": "Demander un rappel",
     "contact.form.sending": "Envoi en cours...",
     "contact.form.success":
       "Merci ! Votre message a été envoyé avec succès. Nous vous contacterons bientôt.",
-    "contact.info.title": "Informations de contact",
+    "contact.info.title": "Coordonnées",
     "contact.info.subtitle":
-      "Nous sommes là pour vous aider à naviguer dans votre parcours médical avec confiance. Contactez-nous via l'un des moyens suivants.",
-    "contact.emergency.title": "Assistance d'urgence",
-    "contact.emergency.subtitle":
-      "Pour une assistance médicale urgente ou en cas d'urgence :",
+      "Nous sommes là pour vous aider à naviguer votre parcours médical en toute confiance. Contactez-nous par l'un des canaux suivants.",
+    "contact.emergency.title": "Support d'urgence",
+    "contact.emergency.subtitle": "Pour assistance médicale urgente :",
 
-    // Features
-    "features.support": "Assistance médicale 24h/24",
-    "features.visa": "Assistance pour les visas",
+    "contact.form.description":
+      "Vos commentaires nous aident à améliorer nos services",
+
+    "contact.form.name.label": "Nom complet",
+    "contact.form.name.placeholder": "Entrez votre nom complet",
+    "contact.form.address.label": "Adresse",
+    "contact.form.address.placeholder": "Entrez votre adresse",
+    "contact.form.phone.label": "Numéro de téléphone",
+    "contact.form.phone.placeholder": "Entrez votre numéro de téléphone",
+    "contact.form.email.label": "Adresse email",
+    "contact.form.email.placeholder": "Entrez votre email",
+    "contact.form.message.label": "Votre message",
+    "contact.form.message.placeholder":
+      "Parlez-nous de votre expérience ou préoccupations...",
+    "contact.form.immediateAssistance": "Besoin d'aide immédiate ?",
+    "contact.form.whatsapp": "Contactez-nous sur WhatsApp",
+    "contact.info.description":
+      "Nous sommes disponibles 24/7 pour vous fournir les meilleurs soins médicaux et soutien",
+    "contact.info.phone.title": "Support téléphonique",
+    "contact.info.phone.detail1": "+91 9097 272 726",
+    "contact.info.phone.detail2": "+91 9599 023 663",
+    "contact.info.phone.description": "Support d'urgence disponible 24/7",
+    "contact.info.email.title": "Support email",
+    "contact.info.email.detail1": "SHUBHAMAGRAWAL970@GMAIL.COM",
+    "contact.info.email.description": "Réponse sous 2 heures",
+    "contact.info.hours.title": "Heures d'ouverture",
+    "contact.info.hours.detail1": "Lun-Ven : 9h00 - 20h00",
+    "contact.info.hours.detail2": "Sam-Dim : 10h00 - 18h00",
+    "contact.info.hours.description": "Heure normale de l'Inde (IST)",
+    "contact.emergency.description":
+      "Disponible 24/7 pour assistance médicale urgente",
+    "contact.emergency.phone": "+91 90972 72726",
+    "contact.faqs.title": "Questions fréquentes",
+    "contact.faqs.subtitle":
+      "Questions communes sur nos services de tourisme médical et soutien.",
+    "contact.faqs.arrangement.question":
+      "Quelle rapidité pour organiser un traitement ?",
+    "contact.faqs.arrangement.answer":
+      "Nous pouvons généralement organiser des consultations sous 48-72 heures et un traitement sous 1-2 semaines, selon la procédure.",
+    "contact.faqs.visa.question": "Fournissez-vous une assistance visa ?",
+    "contact.faqs.visa.answer":
+      "Oui, nous fournissons une assistance visa complète incluant documentation pour visa médical et lettres d'invitation.",
+    "contact.faqs.languages.question": "Quelles langues supportez-vous ?",
+    "contact.faqs.languages.answer":
+      "Nous fournissons un support en russe, kazakh et anglais avec coordinateurs dédiés pour chaque langue.",
+    "contact.faqs.costs.question":
+      "Les coûts de traitement sont-ils transparents ?",
+    "contact.faqs.costs.answer":
+      "Absolument. Nous fournissons des estimations détaillées sans frais cachés, incluant traitement, hébergement et voyage.",
+
+    // Formulaire de feedback
+    "feedback.title": "Formulaire de feedback",
+    "feedback.subtitle":
+      "Nous valorisons vos retours et voulons répondre à toutes vos préoccupations.",
+    "feedback.successMessage":
+      "Merci pour votre feedback ! Nous l'examinerons et vous recontacterons bientôt.",
+
+    // Champs du formulaire
+    "feedback.fields.name.label": "Nom",
+    "feedback.fields.name.placeholder": "Entrez votre nom complet",
+    "feedback.fields.address.label": "Adresse",
+    "feedback.fields.address.placeholder": "Entrez votre adresse complète",
+    "feedback.fields.address.required": "Adresse requise",
+    "feedback.fields.telephone.label": "Téléphone",
+    "feedback.fields.telephone.placeholder": "+91 98765 43210",
+    "feedback.fields.telephone.required": "Veuillez entrer un numéro valide",
+    "feedback.fields.email.label": "E-mail",
+    "feedback.fields.email.placeholder": "votre.email@exemple.com",
+    "feedback.fields.complaint.label": "Plainte détaillée",
+    "feedback.fields.complaint.placeholder":
+      "Veuillez fournir des informations détaillées sur votre plainte ou feedback...",
+
+    // Boutons & Actions
+    "feedback.submitButton": "Soumettre le feedback",
+    "feedback.submitting": "Soumission en cours...",
+
+    // Pied de page
+    "feedback.assistanceText": "Besoin d'aide immédiate ?",
+    "feedback.assistanceLink": "Contactez-nous directement sur WhatsApp",
+    "footer.brand": "Aarogyacare",
+    "footer.description":
+      "Relier l'excellence des soins entre l'Inde et la région CEI. Votre partenaire de confiance pour des traitements médicaux de classe mondiale.",
+    "footer.titles.services": "Services médicaux",
+    "footer.titles.support": "Support patient",
+    "footer.titles.company": "Entreprise",
+    "footer.links.services.oncology": "Oncologie",
+    "footer.links.services.cardiology": "Cardiologie",
+    "footer.links.services.neurosurgery": "Neurochirurgie",
+    "footer.links.services.transplantation": "Transplantation",
+    "footer.links.services.cosmetic": "Chirurgie esthétique",
+    "footer.links.services.dental": "Soins dentaires",
+    "footer.links.support.contact": "Nous contacter",
+    "footer.links.support.emergency": "Support d'urgence",
+    "footer.links.support.portal": "Portail patient",
+    "footer.links.support.insurance": "Aide assurance",
+    "footer.links.support.travel": "Assistance voyage",
+    "footer.links.support.language": "Support linguistique",
+    "footer.links.company.about": "À propos",
+    "footer.links.company.team": "Notre équipe",
+    "footer.links.company.careers": "Carrières",
+    "footer.links.company.privacy": "Politique de confidentialité",
+    "footer.links.company.terms": "Conditions d'utilisation",
+    "footer.links.company.blog": "Blog",
+    "footer.contact.phone": "Téléphone",
+    "footer.contact.email": "Email",
+    "footer.contact.address": "Adresse",
+    "footer.social.facebook": "Facebook",
+    "footer.social.instagram": "Instagram",
+    "footer.social.linkedin": "LinkedIn",
+    "footer.copyright": "© {{year}} Aarogyacare. Tous droits réservés.",
+
+    // Fonctionnalités
+    "features.support": "Support médical 24/7",
+    "features.visa": "Assistance visa",
     "features.interpreters": "Interprètes linguistiques",
     "features.transfers": "Transferts aéroport",
-    "features.accommodation": "Réservation d’hébergement",
+    "features.accommodation": "Réservation d'hébergement",
     "features.postCare": "Soins post-traitement",
 
-    // Common
+    // Commun
     "common.loading": "Chargement...",
-    "common.readMore": "Lire la suite",
+    "common.readMore": "Lire plus",
     "common.learnMore": "En savoir plus",
     "common.viewAll": "Voir tout",
   },
 
   indo: {
-    //indonesian
-    // Navigation
+    // Navigasi
     "nav.home": "Beranda",
     "nav.services": "Layanan",
     "nav.about": "Tentang Kami",
     "nav.contact": "Kontak",
-    "nav.getStarted": "Mulai Sekarang",
+    "nav.getStarted": "Mulai",
 
-    // Home Page
+    // Halaman Beranda
     "home.hero.badge": "Dipercaya oleh 8.500+ Pasien Internasional",
     "home.hero.title1": "YA, KAMI PEDULI",
     "home.hero.title2": "DAN KAMI BERANI",
-    "home.hero.title3": "UNTUK MEMBERIKAN",
+    "home.hero.title3": "MENYEDIAKAN",
     "home.hero.title4": "SEGALANYA",
     "home.hero.subtitle":
-      "Rasakan perawatan medis kelas dunia di India dengan dukungan lengkap bagi pasien dari Kazakhstan dan Rusia. Perjalanan kesehatan Anda dimulai di sini dengan pelayanan luar biasa dan komitmen kami yang teguh.",
+      "Rasakan pengobatan kelas dunia di India dengan dukungan komprehensif untuk pasien dari Kazakhstan, Kirgizstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, Afrika Selatan, Rusia, dan lainnya. Perjalanan kesehatan Anda dimulai di sini dengan perawatan dan komitmen kami yang luar biasa.",
     "home.hero.startJourney": "Mulai Perjalanan Anda",
     "home.hero.exploreServices": "Jelajahi Layanan",
-    "home.stats.treatments": "Perawatan Berhasil",
-    "home.stats.patients": "Pasien Bahagia",
+    "home.stats.treatments": "Perawatan Sukses",
+    "home.stats.patients": "Pasien Puas",
     "home.stats.hospitals": "Rumah Sakit Mitra",
     "home.stats.experience": "Tahun Pengalaman",
-    "home.hospitals.badge": "Mitra Layanan Kesehatan Premium",
+    "home.hospitals.badge": "Mitra Kesehatan Premium",
     "home.hospitals.title": "Rumah Sakit Mitra Kami",
     "home.hospitals.subtitle":
-      "Kami bekerja sama dengan rumah sakit paling bergengsi di India untuk memastikan Anda menerima perawatan medis kelas dunia dengan standar tertinggi dan layanan untuk pasien internasional.",
+      "Kami bekerja sama dengan rumah sakit paling bergengsi di India untuk memastikan Anda menerima perawatan medis kelas dunia dengan standar pengobatan dan layanan pasien internasional tertinggi.",
     "home.popup.title": "Halo semuanya,",
-    "home.popup.subtitle": "YA, KAMI PEDULI DAN BERANI MEMBERIKAN SEGALANYA.",
+    "home.popup.subtitle":
+      "YA, KAMI PEDULI DAN KAMI BERANI MENYEDIAKAN SEGALANYA.",
     "home.popup.description":
-      "Kami menyediakan dukungan lengkap bagi pasien dari Kazakhstan dan Rusia yang mencari perawatan kelas dunia di India. Dari bantuan visa hingga perawatan pasca pengobatan, kami bersama Anda di setiap langkah.",
+      "Kami menyediakan dukungan komprehensif untuk pasien dari Kazakhstan, Kirgizstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, Afrika Selatan, Rusia, dan lainnya yang mencari pengobatan kelas dunia di India. Mulai dari bantuan visa hingga perawatan pasca pengobatan, kami mendampingi Anda di setiap langkah.",
     "home.popup.contactUs": "Hubungi Kami Sekarang",
     "home.popup.visitServices": "Jelajahi Layanan Kami",
+    "home.hospitals.excellenceRating": "Rating Keunggulan",
+    "home.hospitals.max.name": "Max Healthcare",
+    "home.hospitals.max.description":
+      "Layanan kesehatan komprehensif dengan standar internasional dan perawatan medis ahli di berbagai spesialisasi.",
+    "home.hospitals.artemis.name": "Rumah Sakit Artemis",
+    "home.hospitals.artemis.description":
+      "Layanan kesehatan kelas dunia dengan perawatan personal dan layanan pasien internasional yang komprehensif.",
+    "home.hospitals.apollo.name": "Rumah Sakit Apollo",
+    "home.hospitals.apollo.description":
+      "Rumah sakit multi-spesialis terkemuka dengan fasilitas kelas dunia dan dokter berpengalaman yang mengkhususkan diri dalam prosedur kompleks.",
+    "home.hospitals.fortis.name": "Fortis Healthcare",
+    "home.hospitals.fortis.description":
+      "Perawatan medis canggih dengan teknologi mutakhir dan protokol pengobatan personal untuk pasien internasional.",
+    "home.hospitals.medanta.name": "Rumah Sakit Medanta",
+    "home.hospitals.medanta.description":
+      "Fasilitas medis canggih yang mengkhususkan diri dalam operasi kompleks dan pengobatan lanjutan dengan bantuan robot.",
+    "home.popup.featureBestHospitals": "Rumah Sakit Terbaik",
+    "home.buttons.contactUs": "Hubungi Kami",
 
-    // Services Page
+    // Halaman Layanan
     "services.hero.badge": "Layanan Medis Kelas Dunia",
     "services.hero.title": "Solusi Kesehatan Komprehensif",
     "services.hero.subtitle":
-      "Temukan berbagai macam perawatan dan prosedur medis kami, yang diberikan oleh spesialis terkenal dunia menggunakan teknologi mutakhir dan protokol perawatan yang dipersonalisasi.",
+      "Temukan berbagai perawatan dan prosedur medis kami, diberikan oleh spesialis ternama dunia menggunakan teknologi canggih dan protokol perawatan personal.",
     "services.specialties.title": "Spesialisasi Medis Kami",
     "services.specialties.subtitle":
       "Setiap layanan didukung oleh spesialis terlatih internasional dan teknologi medis canggih",
-    "services.cancer.badge": "Perawatan Onkologi Khusus",
+    "services.cancer.badge": "Perawatan Onkologi Spesialis",
     "services.cancer.title": "Perawatan Kanker Lanjutan",
     "services.cancer.subtitle":
-      "Program onkologi komprehensif kami menggabungkan perawatan mutakhir, pengobatan presisi, dan perawatan penuh empati untuk memberikan hasil terbaik bagi pasien kanker.",
+      "Program onkologi komprehensif kami menggabungkan perawatan mutakhir, pengobatan presisi, dan perawatan penuh kasih untuk memberikan hasil terbaik bagi pasien kanker.",
     "services.successRate": "Tingkat Keberhasilan",
     "services.treatmentSuccess": "Keberhasilan Pengobatan",
-    "services.excellenceRating": "Peringkat Keunggulan",
+    "services.excellenceRating": "Rating Keunggulan",
 
-    // About Page
-    "about.hero.title": "Kisah & Misi Kami",
-    "about.hero.subtitle":
-      "Menjembatani keunggulan layanan kesehatan antara India dan kawasan CIS selama lebih dari 15 tahun. Kami berkomitmen untuk menyediakan pengobatan kelas dunia yang terjangkau dan mudah diakses.",
-    "about.story.title": "Menghubungkan Hati, Menyembuhkan Kehidupan",
-    "about.values.title": "Nilai Inti Kami",
-    "about.values.subtitle":
-      "Prinsip-prinsip ini membimbing setiap tindakan kami dan membentuk komitmen kami terhadap keunggulan dalam fasilitasi layanan kesehatan.",
-    "about.team.title": "Temui Tim Kami",
-    "about.team.subtitle":
-      "Profesional berdedikasi kami menggabungkan keahlian medis dengan pemahaman budaya untuk memberikan koordinasi perawatan yang luar biasa.",
-    "about.journey.title": "Perjalanan Kami",
-    "about.journey.subtitle":
-      "Tonggak-tonggak penting yang membentuk pertumbuhan dan komitmen kami terhadap keunggulan.",
+    "services.features.hospitals": "50+ Rumah Sakit Mitra",
+    "services.features.standards": "Standar Internasional",
+    "services.features.technology": "Teknologi Canggih",
 
-    // Contact Page
-    "contact.hero.title": "Hubungi Kami",
-    "contact.hero.subtitle":
-      "Siap memulai perjalanan medis Anda? Tim kami yang berdedikasi siap membantu Anda di setiap langkah. Hubungi kami untuk konsultasi dan dukungan yang dipersonalisasi.",
-    "contact.form.title": "Minta Panggilan Balik",
-    "contact.form.subtitle":
-      "Isi formulir di bawah ini dan koordinator medis kami akan menghubungi Anda dalam 24 jam.",
-    "contact.form.name": "Nama Lengkap",
-    "contact.form.phone": "Nomor Telepon",
-    "contact.form.message": "Pesan",
-    "contact.form.messagePlaceholder":
-      "Ceritakan kebutuhan medis Anda atau pertanyaan apa pun yang Anda miliki...",
-    "contact.form.submit": "Minta Panggilan Balik",
-    "contact.form.sending": "Mengirim...",
-    "contact.form.success":
-      "Terima kasih! Pesan Anda telah berhasil dikirim. Kami akan segera menghubungi Anda.",
-    "contact.info.title": "Informasi Kontak",
-    "contact.info.subtitle":
-      "Kami di sini untuk membantu Anda menavigasi perjalanan medis Anda dengan percaya diri. Hubungi kami melalui saluran berikut.",
-    "contact.emergency.title": "Dukungan Darurat",
-    "contact.emergency.subtitle":
-      "Untuk bantuan medis darurat atau keadaan darurat:",
+    "services.cancer.breast.name": "Perawatan Kanker Payudara",
+    "services.cancer.cervical.name": "Perawatan Kanker Serviks",
+    "services.cancer.stomach.name": "Perawatan Kanker Lambung",
+    "services.cancer.lung.name": "Perawatan Kanker Paru-paru",
+    "services.cancer.ovarian.name": "Perawatan Kanker Ovarium",
+    "services.cancer.pancreatic.name": "Perawatan Kanker Pankreas",
+    "services.cancer.rectal.name": "Perawatan Kanker Rektum",
+    "services.cancer.prostate.name": "Perawatan Kanker Prostat",
+    "services.cancer.leukemia.name": "Perawatan Leukemia",
+    "services.oncology.name": "Onkologi",
+    "services.oncology.description":
+      "Perawatan kanker lanjutan dengan pengobatan presisi, imunoterapi, dan protokol perawatan personal untuk hasil optimal.",
+    "services.liver.name": "Transplantasi Hati",
+    "services.liver.description":
+      "Prosedur transplantasi hati kelas dunia dengan tingkat keberhasilan 95%, dilakukan oleh ahli bedah terlatih internasional.",
+    "services.kidney.name": "Transplantasi Ginjal",
+    "services.kidney.description":
+      "Program transplantasi ginjal komprehensif dengan protokol imunosupresi lanjutan dan perawatan jangka panjang.",
+    "services.cardiology.name": "Kardiologi",
+    "services.cardiology.description":
+      "Perawatan jantung lengkap termasuk prosedur minimal invasif, operasi robotik, dan program rehabilitasi jantung.",
+    "services.neurosurgery.name": "Bedah Saraf",
+    "services.neurosurgery.description":
+      "Operasi otak dan tulang belakang canggih menggunakan pencitraan lanjutan, mikro bedah, dan teknologi neuro-navigasi.",
+    "services.hair.name": "Transplantasi Rambut",
+    "services.hair.description":
+      "Teknik restorasi rambut revolusioner FUE dan DHI untuk hasil alami dengan waktu pemulihan minimal.",
+    "services.dental.name": "Implan Gigi",
+    "services.dental.description":
+      "Implantologi gigi canggih dengan perencanaan 3D, pemuatan segera, dan opsi implan keramik.",
+    "services.cosmetic.name": "Bedah Kosmetik",
+    "services.cosmetic.description":
+      "Prosedur estetika dan rekonstruktif dengan hasil alami menggunakan teknik canggih dan bahan premium.",
+    "services.knee.name": "Penggantian Lutut",
+    "services.knee.description":
+      "Operasi penggantian sendi canggih dengan bantuan robot, implan khusus, dan protokol pemulihan cepat.",
+    "services.eye.name": "Operasi Mata (LASIK)",
+    "services.eye.description":
+      "Koreksi penglihatan presisi dengan teknologi laser femtosecond, analisis wavefront khusus, dan garansi seumur hidup.",
+    "services.breast.name": "Augmentasi Payudara",
+    "services.breast.description":
+      "Prosedur peningkatan payudara canggih dengan implan premium, pencitraan 3D, dan perencanaan bedah personal.",
+    "services.spine.name": "Operasi Tulang Belakang",
+    "services.spine.description":
+      "Prosedur tulang belakang minimal invasif dengan teknologi navigasi, penggantian diskus buatan, dan manajemen nyeri.",
+    "services.ivf.name": "Perawatan IVF",
+    "services.ivf.description":
+      "Solusi kesuburan komprehensif dengan teknologi reproduksi lanjutan, skrining genetik, dan tingkat keberhasilan tinggi.",
+    "services.bone_marrow.name": "Transplantasi Sumsum Tulang",
+    "services.bone_marrow.description":
+      "Transplantasi sel punca hematopoietik penyelamat hidup dengan rejimen pengkondisian lanjutan dan perawatan pendukung.",
+    "services.gynecology.name": "Ginekologi",
+    "services.gynecology.description":
+      "Perawatan kesehatan wanita lengkap dengan prosedur minimal invasif, operasi robotik, dan program kesehatan komprehensif.",
+    "services.bariatric.name": "Operasi Bariatrik",
+    "services.bariatric.description":
+      "Prosedur penurunan berat badan canggih dengan opsi operasi metabolik, konseling nutrisi, dan dukungan jangka panjang.",
 
-    // Features
-    "features.support": "Dukungan Medis 24/7",
-    "features.visa": "Bantuan Visa",
-    "features.interpreters": "Penerjemah Bahasa",
-    "features.transfers": "Penjemputan Bandara",
-    "features.accommodation": "Pemesanan Akomodasi",
-    "features.postCare": "Perawatan Pasca Pengobatan",
-
-    // Common
-    "common.loading": "Memuat...",
-    "common.readMore": "Baca Selengkapnya",
-    "common.learnMore": "Pelajari Lebih Lanjut",
-    "common.viewAll": "Lihat Semua",
+    "services.testimonials.title": "Testimoni Pasien",
+    "services.testimonials.subtitle":
+      "Dengar dari pasien kami tentang pengalaman dan perawatan sukses mereka",
+    "services.buttons.bookNow": "Pesan Sekarang",
+    "sevices.buttons.learnMore": "Pelajari Lebih Lanjut",
+    "services.buttons.callback": "Minta Panggilan Balik",
+    "services.buttons.whatsapp": "WhatsApp Sekarang",
+    "services.buttons.whatsapp_message":
+      "Hai, saya butuh detail lebih lanjut tentang layanan Aarogyacare.",
+    "services.buttons.knowMore": "Tahu Lebih Banyak",
   },
 
   //burmese
   my: {
-    // Navigation
-    "nav.home": "ပင်မစာမျက်နှာ",
+    // လမ်းညွှန်မှု (Navigation)
+    "nav.home": "ပင်မ",
     "nav.services": "ဝန်ဆောင်မှုများ",
-    "nav.about": "အကြောင်းအရာ",
+    "nav.about": "ကျွန်ုပ်တို့အကြောင်း",
     "nav.contact": "ဆက်သွယ်ရန်",
-    "nav.getStarted": "အစပြုပါ",
+    "nav.getStarted": "စတင်မည်",
 
-    // Home Page
-    "home.hero.badge": "ကမ္ဘာလုံးဆိုင်ရာ လူနာ ၈,၅၀၀+ မှ ယုံကြည်ကြသည်",
-    "home.hero.title1": "ဟုတ်ကဲ့၊ ကျွန်ုပ်တို့စိတ်ထဲတွင်ထားသည်",
-    "home.hero.title2": "ပြီးတော့ ကျွန်ုပ်တို့သည် သတိထားသည်",
-    "home.hero.title3": "ပံ့ပိုးနိုင်ရန်",
-    "home.hero.title4": "အယ်လ်လ်ယမိ",
+    // ပင်မစာမျက်နှာ (Home Page)
+    "home.hero.badge": "နိုင်ငံတကာလူနာ ၈,၅၀၀+ ယုံကြည်စွာရွေးချယ်",
+    "home.hero.title1": "ဟုတ်ကဲ့၊ ကျွန်ုပ်တို့စိတ်ဝင်စားသည်",
+    "home.hero.title2": "နှင့် ကျွန်ုပ်တို့ရဲ့ရဲတင်းသည်",
+    "home.hero.title3": "ပံ့ပိုးပေးရန်",
+    "home.hero.title4": "အရာအားလုံး",
     "home.hero.subtitle":
-      "ကာဇတ်ကစတန်နှင့် ရုရှားမှ လူနာများအတွက် အထောက်အပံ့ပြည့်စုံပြီး၊ အနိုင်ယူနိုင်သော ဆေးကုသမှုများအတွက် အိန္ဒိယတွင် ကမ္ဘာ့အဆင့်ဆေးဘက်ဆိုင်ရာ ဝန်ဆောင်မှုများကို ခံစားကြည့်ပါ။ ကျန်းမာရေးခရီးစဥ်ကို ကျွန်ုပ်တို့၏ ထူးချွန်သော စောင့်ရှောက်မှုနှင့် မတည်ငြိမ်သော ကတိကဝတ်ဖြင့် ဒီမှာ စတင်ပါသည်။",
-    "home.hero.startJourney": "သင့်ခရီးစတင်ပါ",
-    "home.hero.exploreServices": "ဝန်ဆောင်မှုများကို တွေ့ပါ",
-    "home.stats.treatments": "အောင်မြင်မှု ဆေးကုသမှုများ",
-    "home.stats.patients": "ကျေနပ်သော လူနာများ",
-    "home.stats.hospitals": "ပူးပေါင်းဆေးရုံများ",
-    "home.stats.experience": "အတွေ့အကြုံ နှစ်များ",
-    "home.hospitals.badge": "အဆင့်မြင့် ကျန်းမာရေး မိတ်ဖက်များ",
-    "home.hospitals.title": "ကျွန်ုပ်တို့၏ မိတ်ဖက် ဆေးရုံများ",
+      "အိန္ဒိယတွင် ကမ္ဘာ့အဆင့်မီဆေးကုသမှုကို ကဇာ့စတန်၊ ကာဂျစ်စတန်၊ တာဂျစ်ကစတန်၊ တာ့ခ်မင်နစ္စတန်၊ အဇာဘိုင်ဂျန်၊ ဖီဂျီ၊ မြန်မာ၊ အင်ဒိုနီးရှား၊ တောင်အာဖရိက၊ ရုရှားနှင့် အခြားနိုင်ငံများမှ လူနာများအတွက် အပြည့်အဝထောက်ပံ့မှုဖြင့် ခံစားလိုက်ပါ။ သင့်ကျန်းမာရေးခရီးစဉ်ကို ကျွန်ုပ်တို့၏ထူးခြားသောစောင့်ရှောက်မှုနှင့် မပြတ်မလပ်ကတိကဝတ်ဖြင့် စတင်ပါ။",
+    "home.hero.startJourney": "သင့်ခရီးစဉ်စတင်ပါ",
+    "home.hero.exploreServices": "ဝန်ဆောင်မှုများစူးစမ်းပါ",
+    "home.stats.treatments": "အောင်မြင်သောကုသမှုများ",
+    "home.stats.patients": "စိတ်ကျေနပ်သောလူနာများ",
+    "home.stats.hospitals": "ပူးပေါင်းဆောင်ရွက်သောဆေးရုံများ",
+    "home.stats.experience": "နှစ်ပေါင်းအတွေ့အကြုံ",
+    "home.hospitals.badge": "အဆင့်မြင့်ကျန်းမာရေးမိတ်ဖက်များ",
+    "home.hospitals.title": "ကျွန်ုပ်တို့၏ပူးပေါင်းဆောင်ရွက်သောဆေးရုံများ",
     "home.hospitals.subtitle":
-      "အိန္ဒိယ၏ ထိပ်တန်းဂုဏ်ယူစရာ ဆေးရုံများနှင့် ပူးပေါင်းကာ သင်သည် အကောင်းဆုံး ကုသမှုများနှင့် နိုင်ငံတကာလူနာ ဝန်ဆောင်မှုများကို ရရှိစေရန် ကတိပြုပါသည်။",
-    "home.popup.title": "မင်္ဂလာပါ၊",
+      "သင့်အား ကမ္ဘာ့အဆင့်မီဆေးကုသမှုနှင့် အဆင့်မြင့်ကုသမှုစံနှုန်းများဖြင့် ဝန်ဆောင်မှုပေးရန် အိန္ဒိယ၏အထင်ရှားဆုံးဆေးရုံများနှင့် ပူးပေါင်းဆောင်ရွက်ပါသည်။",
+    "home.popup.title": "အားလုံးမင်္ဂလာပါ၊",
     "home.popup.subtitle":
-      "ဟုတ်ကဲ့၊ ကျွန်ုပ်တို့စိတ်ထဲတွင်ထားပြီး အားလုံးပံ့ပိုးမည်။",
+      "ဟုတ်ကဲ့၊ ကျွန်ုပ်တို့စိတ်ဝင်စားပြီး အရာအားလုံးကိုပံ့ပိုးရန် ရဲရင့်ပါသည်။",
     "home.popup.description":
-      "ကျွန်ုပ်တို့သည် ကာဇတ်ကစတန်နှင့် ရုရှားမှ လူနာများအတွက် ဗီဇာအကူအညီမှ ကုသမှုအပြီးထိ အထောက်အပံ့ပြည့်စုံစွာ ပေးပါသည်။ ကျွန်ုပ်တို့သည် လမ်းနှစ်ဘက်တွင် သင့်နှင့်အတူ ရှိပါသည်။",
+      "အိန္ဒိယတွင် ကမ္ဘာ့အဆင့်မီကုသမှုရှာဖွေနေသော ကဇာ့စတန်၊ ကာဂျစ်စတန်၊ တာဂျစ်ကစတန်၊ တာ့ခ်မင်နစ္စတန်၊ အဇာဘိုင်ဂျန်၊ ဖီဂျီ၊ မြန်မာ၊ အင်ဒိုနီးရှား၊ တောင်အာဖရိက၊ ရုရှားနှင့် အခြားနိုင်ငံများမှ လူနာများအတွက် အပြည့်အဝထောက်ပံ့မှုပေးပါသည်။ ဗီဇာအကူအညီမှ ကုသမှုပြီးနောက်စောင့်ရှောက်မှုအထိ ကျွန်ုပ်တို့သည် သင့်အားအဆင့်တိုင်းတွင် ပံ့ပိုးပေးပါမည်။",
     "home.popup.contactUs": "ယခုဆက်သွယ်ပါ",
-    "home.popup.visitServices": "ငါတို့၏ ဝန်ဆောင်မှုများကို လေ့လာပါ",
+    "home.popup.visitServices": "ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုများစူးစမ်းပါ",
+    "home.hospitals.excellenceRating": "ထူးချွန်မှုအဆင့်",
+    "home.hospitals.max.name": "Max Healthcare",
+    "home.hospitals.max.description":
+      "နိုင်ငံတကာစံနှုန်းများနှင့် အထူးကျွမ်းကျင်မှုများပါဝင်သော ကျန်းမာရေးဝန်ဆောင်မှုများ။",
+    "home.hospitals.artemis.name": "Artemis ဆေးရုံ",
+    "home.hospitals.artemis.description":
+      "သီးသန့်စောင့်ရှောက်မှုနှင့် နိုင်ငံတကာလူနာဝန်ဆောင်မှုများပါဝင်သော ကမ္ဘာ့အဆင့်မီကျန်းမာရေး။",
+    "home.hospitals.apollo.name": "Apollo ဆေးရုံများ",
+    "home.hospitals.apollo.description":
+      "ရှုပ်ထွေးသောလုပ်ငန်းစဉ်များတွင် အထူးကျွမ်းကျင်သော ကမ္ဘာ့အဆင့်မီဆေးရုံ။",
+    "home.hospitals.fortis.name": "Fortis Healthcare",
+    "home.hospitals.fortis.description":
+      "နည်းပညာအဆင့်မြင့်နှင့် သီးသန့်ကုသမှုပေးသော ဆေးရုံ။",
+    "home.hospitals.medanta.name": "Medanta ဆေးရုံ",
+    "home.hospitals.medanta.description":
+      "ရိုဘော့အကူအညီဖြင့် ရှုပ်ထွေးသောခွဲစိတ်မှုများအတွက် အဆင့်မြင့်ဆေးရုံ။",
+    "home.popup.featureBestHospitals": "အကောင်းဆုံးဆေးရုံများ",
+    "home.buttons.contactUs": "ဆက်သွယ်ရန်",
 
-    // Services Page
-    "services.hero.badge": "ကမ္ဘာ့အဆင့် ဆေးဘက် ဝန်ဆောင်မှုများ",
-    "services.hero.title": "ပြည့်စုံသော ကျန်းမာရေး ဖြေရှင်းချက်များ",
+    // ဝန်ဆောင်မှုစာမျက်နှာ (Services Page)
+    "services.hero.badge": "ကမ္ဘာ့အဆင့်မီဆေးဝန်ဆောင်မှုများ",
+    "services.hero.title": "အပြည့်စုံဆုံးကျန်းမာရေးဖြေရှင်းနည်းများ",
     "services.hero.subtitle":
-      "ကမ္ဘာကျော် အထူးကုများမှ ထောက်ပံ့သော တီထွင်ဆန်းသစ်သော နည်းပညာများဖြင့် တစ်ဦးချင်းစီ အတွက် ပြုစုထိန်းသိမ်းမှုများကိုတင်ပြသော ကျန်းမာရေးကုသမှုနှင့် အထူးကုစနစ်များကို တွေ့ပါ။",
-    "services.specialties.title":
-      "ကျွန်ုပ်တို့၏ ဆေးဘက် အထူးပြု ရောဂါကုသမှုများ",
+      "နည်းပညာအဆင့်မြင့်နှင့် သီးသန့်ကုသမှုပေးသော ကမ္ဘာကျော်ဆရာဝန်များမှ ကုသမှုများကို ရှာဖွေပါ။",
+    "services.specialties.title": "ကျွန်ုပ်တို့၏ဆေးဘက်ဆိုင်ရာအထူးပြုမှုများ",
     "services.specialties.subtitle":
-      "တိုင်းဝန်ဆောင်မှုတိုင်းမှာ နိုင်ငံတကာသင်တန်းကျွမ်းကျင်သော အထူးကုများနှင့် ထိပ်တန်း ဆေးဘက်နည်းပညာများဖြင့် အထောက်အပံ့ပေးပါသည်",
-    "services.cancer.badge": "အထူးထုတ် Onkology ကုသမှု",
-    "services.cancer.title": "သွေးအမ် ခွဲခြမ်းထုတ်ခြင်း ကြီးမားသော ကုသမှုများ",
+      "နိုင်ငံတကာအဆင့်မီဆရာဝန်များနှင့် နည်းပညာများဖြင့် ဝန်ဆောင်မှုပေးပါသည်။",
+    "services.cancer.badge": "အထူးကင်ဆာကုသမှု",
+    "services.cancer.title": "အဆင့်မြင့်ကင်ဆာကုသမှုများ",
     "services.cancer.subtitle":
-      "ကျွန်ုပ်တို့၏ ပြည့်စုံသော ကင်ဆာကုသရေးအစီအစဉ်သည် နောက်ဆုံးပေါ် ကုထုံးများ၊ တိကျသော ဆေးကုသမှုနည်းလမ်းများနှင့် အပြုသဘောထားလူမုဆွေပြုပြီး ကျန်းမာရေးနဲ့ ဘဝကောင်းမွန်စေသည်။",
+      "ကျွန်ုပ်တို့၏ကင်ဆာကုသမှုစီမံချက်တွင် အကောင်းဆုံးနည်းလမ်းများ၊ တိကျသောဆေးဝါးနှင့် စာနာသောစောင့်ရှောက်မှုတို့ ပါဝင်ပါသည်။",
     "services.successRate": "အောင်မြင်မှုနှုန်း",
-    "services.treatmentSuccess": "ကုသမှု အောင်မြင်မှု",
-    "services.excellenceRating": "ထူးချွန်ခြင်း အဆင့်",
+    "services.treatmentSuccess": "ကုသမှုအောင်မြင်မှု",
+    "services.excellenceRating": "ထူးချွန်မှုအဆင့်",
 
-    // About Page
-    "about.hero.title": "ကျွန်ုပ်တို့၏ ဇာတ်ကြောင်းနှင့် မစ်ရှင်",
-    "about.hero.subtitle":
-      "အိန္ဒိယနှင့် CIS ဒေသအကြား ကျန်းမာရေး ဝန်ဆောင်မှု တစ်ဆက်တည်း တည်ဆောက်ခဲ့ပြီး အတွေ့နှစ် ၁၅ ကျော်ကာ ကျန်းမာရေးကုသမှုများကို လူတိုင်း ရရှိစေရန် ကြိုးစားနေသည်။",
-    "about.story.title": "နှလုံးနှင့် နှုတ်ဆက်ခြင်း၊ ဘဝများ ကုသခြင်း",
-    "about.values.title": "ကျွန်ုပ်တို့၏ အခြေခံတန်ဖိုးများ",
-    "about.values.subtitle":
-      "ဒီကောင်းမွန်သော စည်းကမ်းများသည် ကျွန်ုပ်တို့၏ လုပ်ဆောင်ချက်တိုင်းကို ဦးတည်ကာ ကျန်းမာရေးဝန်ဆောင်မှုထောက်ပံ့ခြင်းတွင် ထူးချွန်မှုကို ဖွင့်မြင်ရန် ဦးတည်သည်။",
-    "about.team.title": "ကျွန်ုပ်တို့၏ အဖွဲ့အစည်းကို တွေ့ဆုံပါ",
-    "about.team.subtitle":
-      "ကျွန်ုပ်တို့၏ အဖွဲ့သည် ဆေးဘက် အထူးပြု ကျွမ်းကျင်မှုနှင့် ယဉ်ကျေးရေးကို နားလည်မှုများကို ပေါင်းစပ်ကာ ထူးချွန်သော စာချုပ်ပို့ဆောင်မှုကို လုပ်ဆောင်ပါသည်။",
-    "about.journey.title": "ကျွန်ုပ်တို့၏ ခရီးစဉ်",
-    "about.journey.subtitle":
-      "ကျွန်ုပ်တို့၏ တိုးတက်မှုနှင့် ထူးချွန်မှုဆီကို လူမီမိုက်သော အဓိကအမှတ်တရများ။",
+    "services.features.hospitals": "ဆေးရုံ ၅၀+ ပူးပေါင်း",
+    "services.features.standards": "နိုင်ငံတကာစံနှုန်းများ",
+    "services.features.technology": "နည်းပညာအဆင့်မြင့်",
 
-    // Contact Page
-    "contact.hero.title": "ဆက်သွယ်ရန်",
-    "contact.hero.subtitle":
-      "သင့်ဆေးကုသခရီးစတင်ရန် အသင့်ပါသလား? ကျွန်ုပ်တို့၏ အဖွဲ့သည် လူကြီးမင်းအား အချိန်တိုင်း ကူညီရန်ရှိသည်။ ကုသမှုပို့ဆောင်ရေးအတွက် ကိုယ်ပိုင်အထောက်အကူအညီရယူရန် ကျေးဇူးပြု၍ ဆက်သွယ်ပါ။",
-    "contact.form.title": "ပြန်ခေါ်ရန် တောင်းဆိုပါ",
-    "contact.form.subtitle":
-      "အောက်ပါ ပုံစံကို ဖြည့်ပါ၊ ကျွန်ုပ်တို့၏ ဆေးရေးညှိအစီအဆုံးသတ် ကို ၂၄ နာရီအတွင်း ဆက်သွယ်မည်ဖြစ်သည်။",
-    "contact.form.name": "အမည် ပြည့်စုံ",
-    "contact.form.phone": "တယ်လီဖုန်းနံပါတ်",
-    "contact.form.message": "မက်ဆေ့ခ်ျ",
-    "contact.form.messagePlaceholder":
-      "သင့်ဆေးဘက်လိုအပ်ချက်များ သို့မဟုတ် မေးခွန်းများကို ပြောပြပါ...",
-    "contact.form.submit": "ပြန်ခေါ်ရန် တောင်းဆိုပါ",
-    "contact.form.sending": "ပို့နေသည်...",
-    "contact.form.success":
-      "ကျေးဇူးတင်ပါသည်! သင့်မက်ဆေ့ခ်ျကို အောင်မြင်စွာ ပို့လိုက်ပါသည်။ မကြာမီ ဆက်သွယ်မည်ဖြစ်သည်။",
-    "contact.info.title": "ဆက်သွယ်ရန် အချက်အလက်",
-    "contact.info.subtitle":
-      "ကျွန်ုပ်တို့သည် သင်၏ ဆေးကုသခရီးစဉ်ကို ယုံကြည်စိတ်ချစွာ ညွှန်ကြားရန် ကူညီရန် ရှိသည်။ အောက်ပါနည်းလမ်းများမှတစ်ဆင့် ဆက်သွယ်ပါ။",
-    "contact.emergency.title": "အရေးပေါ် အထောက်အပံ့",
-    "contact.emergency.subtitle":
-      "အရေးပေါ် ဆေးဘက်ကူညီမှု သို့မဟုတ် အရေးပေါ် နိုင်ငံရပ်ခြားအကူအညီအတွက်:",
+    "services.cancer.breast.name": "ရင်သားကင်ဆာကုသမှု",
+    "services.cancer.cervical.name": "သားအိမ်ခေါင်းကင်ဆာကုသမှု",
+    "services.cancer.stomach.name": "အစာအိမ်ကင်ဆာကုသမှု",
+    "services.cancer.lung.name": "အဆုတ်ကင်ဆာကုသမှု",
+    "services.cancer.ovarian.name": "သားဥအိမ်ကင်ဆာကုသမှု",
+    "services.cancer.pancreatic.name": "ပန်ကရိယကင်ဆာကုသမှု",
+    "services.cancer.rectal.name": "မစင်အိမ်ကင်ဆာကုသမှု",
+    "services.cancer.prostate.name": "ဆီးကျိတ်ကင်ဆာကုသမှု",
+    "services.cancer.leukemia.name": "သွေးကင်ဆာကုသမှု",
+    "services.oncology.name": "ကင်ဆာကုသမှု",
+    "services.oncology.description":
+      "တိကျသောဆေးဝါး၊ ကိုယ်ခံအားကုထုံးနှင့် သီးသန့်ကုသမှုဖြင့် ကင်ဆာကုသမှု။",
+    "services.liver.name": "အသည်းအစားထိုးကုသမှု",
+    "services.liver.description":
+      "ကမ္ဘာ့အဆင့်မီအသည်းအစားထိုးကုသမှု ၉၅% အောင်မြင်မှုနှုန်း။",
+    "services.kidney.name": "ကျောက်ကပ်အစားထိုးကုသမှု",
+    "services.kidney.description":
+      "အဆင့်မြင့်ကုသမှုနှင့် ရေရှည်စောင့်ရှောက်မှုပါသော ကျောက်ကပ်အစားထိုးကုသမှု။",
+    "services.cardiology.name": "နှလုံးရောဂါကုသမှု",
+    "services.cardiology.description":
+      "နှလုံးဆိုင်ရာကုသမှုများ၊ ခွဲစိတ်မှုနှင့် ပြန်လည်သန်စွမ်းရေးလုပ်ငန်းများ။",
+    "services.neurosurgery.name": "ဦးနှောက်နှင့်အာရုံကြောခွဲစိတ်ကုသမှု",
+    "services.neurosurgery.description":
+      "ဦးနှောက်နှင့်ကျောရိုးဆိုင်ရာ ခွဲစိတ်ကုသမှုများ။",
+    "services.hair.name": "ဆံပင်အစားထိုးကုသမှု",
+    "services.hair.description":
+      "FUE နှင့် DHI နည်းပညာများဖြင့် သဘာဝကျသောဆံပင်ပြန်လည်ရရှိရေး။",
+    "services.dental.name": "သွားအစားထိုးကုသမှု",
+    "services.dental.description": "၃D စီမံချက်ဖြင့် သွားအစားထိုးကုသမှု။",
+    "services.cosmetic.name": "အလှအပခွဲစိတ်ကုသမှု",
+    "services.cosmetic.description":
+      "သဘာဝကျသောရလဒ်များရရှိရန် အဆင့်မြင့်နည်းပညာများဖြင့် ခွဲစိတ်ကုသမှု။",
+    "services.knee.name": "ဒူးအစားထိုးကုသမှု",
+    "services.knee.description": "ရိုဘော့အကူအညီဖြင့် အဆစ်အစားထိုးကုသမှု။",
+    "services.eye.name": "မျက်စိခွဲစိတ်ကုသမှု (LASIK)",
+    "services.eye.description": "လေဆာနည်းပညာဖြင့် အမြင်အာရုံပြုပြင်ခြင်း။",
+    "services.breast.name": "ရင်သားကြီးထွားစေသောခွဲစိတ်မှု",
+    "services.breast.description":
+      "အဆင့်မြင့်နည်းပညာများဖြင့် ရင်သားပြုပြင်ခြင်း။",
+    "services.spine.name": "ကျောရိုးခွဲစိတ်ကုသမှု",
+    "services.spine.description":
+      "အနည်းဆုံးထိခိုက်သောနည်းလမ်းဖြင့် ကျောရိုးဆိုင်ရာကုသမှု။",
+    "services.ivf.name": "သားသမီးရရှိရေးကုသမှု",
+    "services.ivf.description": "မျိုးအောင်စေသော ကုသမှုနည်းလမ်းများ။",
+    "services.bone_marrow.name": "အရိုးချဉ်ဆီအစားထိုးကုသမှု",
+    "services.bone_marrow.description": "အသက်ကယ်နိုင်သော ဆဲလ်အစားထိုးကုသမှု။",
+    "services.gynecology.name": "မီးယပ်နှင့်သားဖွားဆိုင်ရာကုသမှု",
+    "services.gynecology.description":
+      "အမျိုးသမီးကျန်းမာရေးဆိုင်ရာ ကုသမှုများ။",
+    "services.bariatric.name": "အဝလွန်ခြင်းဆိုင်ရာခွဲစိတ်ကုသမှု",
+    "services.bariatric.description":
+      "ကိုယ်အလေးချိန်လျှော့ချရေးအတွက် ခွဲစိတ်ကုသမှု။",
 
-    // Features
-    "features.support": "၂၄/၇ ဆေးဘက် အထောက်အပံ့",
-    "features.visa": "ဗီဇာ အကူအညီ",
-    "features.interpreters": "ဘာသာပြန်များ",
-    "features.transfers": "လေဆိပ်ကူးပြောင်းပို့ဆောင်မှု",
-    "features.accommodation": "နေစခန်း ကြိုတင်မှာယူမှု",
-    "features.postCare": "ကုသပြီးနောက် ဤမြောက်မောင်း",
-
-    // Common
-    "common.loading": "ဖွင့်နေသည်...",
-    "common.readMore": "နားလည်စုံစမ်းရန်",
-    "common.learnMore": "ပိုမိုလေထဲ့ရန်",
-    "common.viewAll": "အားလုံးကို ကြည့်ရန်",
+    "services.testimonials.title": "လူနာများ၏အမြင်များ",
+    "services.testimonials.subtitle":
+      "ကျွန်ုပ်တို့၏လူနာများ၏အတွေ့အကြုံများကို နားထောင်ပါ",
+    "services.buttons.bookNow": "ယခုစာရင်းသွင်းပါ",
+    "sevices.buttons.learnMore": "ပိုမိုလေ့လာပါ",
+    "services.buttons.callback": "ဖုန်းပြန်ခေါ်ရန်တောင်းဆိုပါ",
+    "services.buttons.whatsapp": "WhatsApp ဖြင့်ဆက်သွယ်ပါ",
+    "services.buttons.whatsapp_message":
+      "မင်္ဂလာပါ၊ Aarogyacare ၏ဝန်ဆောင်မှုများအကြောင်း ပိုမိုသိရှိလိုပါသည်။",
+    "services.buttons.knowMore": "ပိုမိုသိရှိရန်",
   },
 };
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>("en");
+  const [language, setLanguage] = useState<Language>("ru");
 
   // Load saved language from localStorage on mount
   useEffect(() => {
