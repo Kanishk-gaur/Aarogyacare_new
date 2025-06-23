@@ -1,27 +1,26 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
-import { LanguageProvider } from "@/contexts/language-context"
+import type React from "react";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { LanguageProvider } from "@/contexts/language-context";
 
-
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aarogyacare- Medical Tourism for Kazakhstan & Russia",
+  title: "AarogyCare- Medical Tourism for Kazakhstan & Russia",
   description:
     "World-class medical treatment in India for patients from Kazakhstan and Russia. Comprehensive healthcare services with full support and care.",
   keywords:
     "medical tourism, India healthcare, Kazakhstan patients, Russia patients, medical treatment, hospitals India",
-    icons: {
-      icon: "/logo.png",  
-    },
-}
+  icons: {
+    icon: "/logo.png",
+  },
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -29,5 +28,5 @@ export default function RootLayout({
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
-  )
+  );
 }

@@ -157,7 +157,7 @@ const translations: Record<string, Translations> = {
     "services.buttons.callback": "Request Callback",
     "services.buttons.whatsapp": "WhatsApp Now",
     "services.buttons.whatsapp_message":
-      "Hi, I need more details about Aarogyacare services.",
+      "Hi, I need more details about AarogyCare services.",
     "services.buttons.knowMore": "Know More",
 
     // About Page
@@ -226,7 +226,7 @@ const translations: Record<string, Translations> = {
     "about.buttons.callback": "Request Callback",
     "about.buttons.whatsapp": "WhatsApp Now",
     "about.buttons.whatsapp_message":
-      "Hi, I need more details about Aarogyacare services.",
+      "Hi, I need more details about AarogyCare services.",
 
     // Contact Page
     "contact.hero.title": "Get In Touch",
@@ -328,7 +328,7 @@ const translations: Record<string, Translations> = {
     // Footer
     "feedback.assistanceText": "Need immediate assistance?",
     "feedback.assistanceLink": "Contact us on whats app directly",
-    "footer.brand": "Aarogyacare",
+    "footer.brand": "AarogyCare",
     "footer.description":
       "Bridging healthcare excellence between India and the CIS region. Your trusted partner for world-class medical treatment.",
     "footer.titles.services": "Medical Services",
@@ -358,21 +358,93 @@ const translations: Record<string, Translations> = {
     "footer.social.facebook": "Facebook",
     "footer.social.instagram": "Instagram",
     "footer.social.linkedin": "LinkedIn",
-    "footer.copyright": "© {{year}} Aarogyacare. All rights reserved.",
+    "footer.copyright": "© {{year}} AarogyCare. All rights reserved.",
 
     // Features
     "features.support": "24/7 Medical Support",
+    "features.support.detail":
+      "Immediate access to medical professionals day and night",
     "features.visa": "Visa Assistance",
-    "features.interpreters": "Language Interpreters",
+    "features.visa.detail": "High success rate for medical visa applications",
+    "features.interpreters": "Language Services",
+    "features.interpreters.detail": "Covering all major world languages",
     "features.transfers": "Airport Transfers",
-    "features.accommodation": "Accommodation Booking",
-    "features.postCare": "Post-Treatment Care",
+    "features.transfers.detail": "Quick response time for all transport needs",
+    "features.accommodation": "Housing Solutions",
+    "features.accommodation.detail":
+      "Wide network of trusted accommodation partners",
+    "features.postCare": "Aftercare",
+    "features.postCare.detail": "Complete coverage for your recovery needs",
+    "features.cta": "Begin your healthcare journey today",
 
     // Common
     "common.loading": "Loading...",
     "common.readMore": "Read More",
     "common.learnMore": "Learn More",
     "common.viewAll": "View All",
+
+    //steps
+    "header.trusted": "Trusted by 50,000+ Patients Worldwide",
+    "header.title1": "How We",
+    "header.title2": "Transform Lives",
+    "header.subtitle1":
+      "Experience our revolutionary 8-step healthcare journey designed to deliver",
+    "header.highlight1": "world-class medical care",
+    "header.subtitle2": "with",
+    "header.highlight2": "unmatched personal attention",
+
+    "steps.firstContact.title": "First Contact",
+    "steps.firstContact.description":
+      "Share your case details with us through our secure contact form or personalized phone consultation with our medical coordinators.",
+    "steps.firstContact.time": "Immediate",
+
+    "steps.expertTeam.title": "Expert Team Connection",
+    "steps.expertTeam.description":
+      "Our specialized medical team and patient coordinators will connect with you to understand your unique healthcare needs.",
+    "steps.expertTeam.time": "Within 2 hours",
+
+    "steps.assessment.title": "Medical & Cost Assessment",
+    "steps.assessment.description":
+      "Receive comprehensive medical evaluation and transparent cost breakdown with no hidden fees within 48 hours.",
+    "steps.assessment.time": "48 hours",
+
+    "steps.travel.title": "Travel Coordination",
+    "steps.travel.description":
+      "Complete travel assistance including flight booking, visa support, and accommodation arrangements tailored to your needs.",
+    "steps.travel.time": "3-5 days",
+
+    "steps.reception.title": "VIP Airport Reception",
+    "steps.reception.description":
+      "Our dedicated team provides premium airport reception with comfortable transportation to your accommodation.",
+    "steps.reception.time": "On arrival",
+
+    "steps.treatment.title": "World-Class Treatment",
+    "steps.treatment.description":
+      "Receive exceptional medical care from internationally certified specialists using cutting-edge technology and techniques.",
+    "steps.treatment.time": "As scheduled",
+
+    "steps.return.title": "Safe Journey Home",
+    "steps.return.description":
+      "Comfortable departure with complete medical documentation, prescriptions, and detailed post-treatment care instructions.",
+    "steps.return.time": "Post-treatment",
+
+    "steps.followup.title": "Lifelong Care Partnership",
+    "steps.followup.description":
+      "Continuous follow-up care, regular health check-ins, and 24/7 support for your ongoing wellness journey.",
+    "steps.followup.time": "Ongoing",
+
+    "stats.satisfaction": "Patient Satisfaction",
+    "stats.response": "Response Time",
+    "stats.success": "Success Rate",
+    "stats.experience": "Years Experience",
+
+    "cta.title": "Your Health Journey, Our Promise",
+    "cta.subtitle":
+      "Transforming lives through exceptional healthcare experiences",
+
+    "features.response": "48hr Guaranteed Response",
+    "features.network": "Global Healthcare Network",
+    "features.plans": "Personalized Care Plans",
   },
 
   ru: {
@@ -513,7 +585,7 @@ const translations: Record<string, Translations> = {
     "services.buttons.callback": "Заказать звонок",
     "services.buttons.whatsapp": "Написать в WhatsApp",
     "services.buttons.whatsapp_message":
-      "Здравствуйте, мне нужна дополнительная информация об услугах Aarogyacare.",
+      "Здравствуйте, мне нужна дополнительная информация об услугах AarogyCare.",
     "services.buttons.knowMore": "Узнать больше",
 
     // Страница "О нас" (About Page)
@@ -582,7 +654,7 @@ const translations: Record<string, Translations> = {
     "about.buttons.callback": "Заказать звонок",
     "about.buttons.whatsapp": "Написать в WhatsApp",
     "about.buttons.whatsapp_message":
-      "Здравствуйте, мне нужна дополнительная информация об услугах Aarogyacare.",
+      "Здравствуйте, мне нужна дополнительная информация об услугах AarogyCare.",
 
     // Страница контактов (Contact Page)
     "contact.hero.title": "Свяжитесь с нами",
@@ -688,7 +760,7 @@ const translations: Record<string, Translations> = {
     // Подвал (Footer)
     "feedback.assistanceText": "Нужна срочная помощь?",
     "feedback.assistanceLink": "Свяжитесь с нами в WhatsApp напрямую",
-    "footer.brand": "Aarogyacare",
+    "footer.brand": "AarogyCare",
     "footer.description":
       "Соединяем медицинское превосходство между Индией и странами СНГ. Ваш надежный партнер в получении медицинского лечения мирового уровня.",
     "footer.titles.services": "Медицинские услуги",
@@ -718,7 +790,7 @@ const translations: Record<string, Translations> = {
     "footer.social.facebook": "Facebook",
     "footer.social.instagram": "Instagram",
     "footer.social.linkedin": "LinkedIn",
-    "footer.copyright": "© {{year}} Aarogyacare. Все права защищены.",
+    "footer.copyright": "© {{year}} AarogyCare. Все права защищены.",
 
     // Особенности (Features)
     "features.support": "Круглосуточная медицинская поддержка",
@@ -874,7 +946,7 @@ const translations: Record<string, Translations> = {
     "services.buttons.callback": "Demander un rappel",
     "services.buttons.whatsapp": "WhatsApp maintenant",
     "services.buttons.whatsapp_message":
-      "Bonjour, j'ai besoin de plus d'informations sur les services Aarogyacare.",
+      "Bonjour, j'ai besoin de plus d'informations sur les services AarogyCare.",
     "services.buttons.knowMore": "En savoir plus",
 
     // Page À propos
@@ -945,7 +1017,7 @@ const translations: Record<string, Translations> = {
     "about.buttons.callback": "Demander un rappel",
     "about.buttons.whatsapp": "WhatsApp maintenant",
     "about.buttons.whatsapp_message":
-      "Bonjour, j'ai besoin de plus d'informations sur les services Aarogyacare.",
+      "Bonjour, j'ai besoin de plus d'informations sur les services AarogyCare.",
 
     // Page Contact
     "contact.hero.title": "Nous contacter",
@@ -1048,7 +1120,7 @@ const translations: Record<string, Translations> = {
     // Pied de page
     "feedback.assistanceText": "Besoin d'aide immédiate ?",
     "feedback.assistanceLink": "Contactez-nous directement sur WhatsApp",
-    "footer.brand": "Aarogyacare",
+    "footer.brand": "AarogyCare",
     "footer.description":
       "Relier l'excellence des soins entre l'Inde et la région CEI. Votre partenaire de confiance pour des traitements médicaux de classe mondiale.",
     "footer.titles.services": "Services médicaux",
@@ -1078,7 +1150,7 @@ const translations: Record<string, Translations> = {
     "footer.social.facebook": "Facebook",
     "footer.social.instagram": "Instagram",
     "footer.social.linkedin": "LinkedIn",
-    "footer.copyright": "© {{year}} Aarogyacare. Tous droits réservés.",
+    "footer.copyright": "© {{year}} AarogyCare. Tous droits réservés.",
 
     // Fonctionnalités
     "features.support": "Support médical 24/7",
@@ -1233,7 +1305,7 @@ const translations: Record<string, Translations> = {
     "services.buttons.callback": "Minta Panggilan Balik",
     "services.buttons.whatsapp": "WhatsApp Sekarang",
     "services.buttons.whatsapp_message":
-      "Hai, saya butuh detail lebih lanjut tentang layanan Aarogyacare.",
+      "Hai, saya butuh detail lebih lanjut tentang layanan AarogyCare.",
     "services.buttons.knowMore": "Tahu Lebih Banyak",
   },
 
@@ -1371,7 +1443,7 @@ const translations: Record<string, Translations> = {
     "services.buttons.callback": "ဖုန်းပြန်ခေါ်ရန်တောင်းဆိုပါ",
     "services.buttons.whatsapp": "WhatsApp ဖြင့်ဆက်သွယ်ပါ",
     "services.buttons.whatsapp_message":
-      "မင်္ဂလာပါ၊ Aarogyacare ၏ဝန်ဆောင်မှုများအကြောင်း ပိုမိုသိရှိလိုပါသည်။",
+      "မင်္ဂလာပါ၊ AarogyCare ၏ဝန်ဆောင်မှုများအကြောင်း ပိုမိုသိရှိလိုပါသည်။",
     "services.buttons.knowMore": "ပိုမိုသိရှိရန်",
   },
 };

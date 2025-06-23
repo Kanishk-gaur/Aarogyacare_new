@@ -8,6 +8,7 @@ import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import { useLanguage } from "@/contexts/language-context";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Component from "@/components/about/how-we-work";
 
 const values = [
   {
@@ -36,7 +37,7 @@ const team = [
   {
     nameKey: "about.team.dr_meenu.name",
     roleKey: "about.team.dr_meenu.role",
-    image: "/images/meenu.jpeg",
+    image: "/images/meenu.jpg",
     descriptionKey: "about.team.dr_meenu.description",
   },
   {
@@ -48,7 +49,7 @@ const team = [
   {
     nameKey: "about.team.dr_sanjeev.name",
     roleKey: "about.team.dr_sanjeev.role",
-    image: "/images/sanjeev.jpeg",
+    image: "/images/sanjeev3.jpg",
     descriptionKey: "about.team.dr_sanjeev.description",
   },
 ];
@@ -264,9 +265,10 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+       <Component />
 
       {/* Timeline Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -321,7 +323,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>

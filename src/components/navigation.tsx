@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Menu, X,  Sparkles, Globe } from "lucide-react";
+import { Menu, X, Sparkles, Globe } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -81,21 +81,14 @@ export default function Navigation() {
                   className="object-contain"
                 />
               </div>
-
-              <motion.div
-                animate={{ scale: [1, 1.2, 1] }}
-                transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-                className="absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-br from-green-400 to-emerald-500 rounded-full opacity-80"
-              >
-                <Sparkles className="w-3 h-3 text-white p-0.5" />
-              </motion.div>
             </motion.div>
+
             <div className="flex flex-col">
               <span className="text-xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 bg-clip-text text-transparent group-hover:from-blue-600 group-hover:to-purple-600 transition-all duration-300">
-                Aarogyacare
+                AarogyCare
               </span>
               <span className="text-xs text-gray-500 font-medium">
-                Healthcare Excellence
+                 Лечение в Индии
               </span>
             </div>
           </Link>

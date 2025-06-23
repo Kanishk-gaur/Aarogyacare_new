@@ -690,7 +690,7 @@ export default function ServicesPage() {
             className="text-center mt-16"
           >
             <a
-              href="https://wa.me/9097272726?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20Aarogyacare%20services."
+              href="https://wa.me/9097272726?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20AarogyCare%20services."
               target="_blank"
               rel="noopener noreferrer"
             >
