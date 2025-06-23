@@ -1319,36 +1319,36 @@ const translations: Record<string, Translations> = {
   },
 
   indo: {
-    // Navigasi
+    // Navigation
     "nav.home": "Beranda",
     "nav.services": "Layanan",
     "nav.about": "Tentang Kami",
     "nav.contact": "Kontak",
-    "nav.getStarted": "Mulai",
+    "nav.getStarted": "Mulai Sekarang",
 
-    // Halaman Beranda
+    // Home Page
     "home.hero.badge": "Dipercaya oleh 8.500+ Pasien Internasional",
     "home.hero.title1": "YA, KAMI PEDULI",
     "home.hero.title2": "DAN KAMI BERANI",
-    "home.hero.title3": "MENYEDIAKAN",
+    "home.hero.title3": "UNTUK MENYEDIAKAN",
     "home.hero.title4": "SEGALANYA",
     "home.hero.subtitle":
-      "Rasakan pengobatan kelas dunia di India dengan dukungan komprehensif untuk pasien dari Kazakhstan, Kirgizstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, Afrika Selatan, Rusia, dan lainnya. Perjalanan kesehatan Anda dimulai di sini dengan perawatan dan komitmen kami yang luar biasa.",
+      "Rasakan perawatan medis kelas dunia di India dengan dukungan komprehensif untuk pasien dari Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, Afrika Selatan, Rusia, dan lainnya. Perjalanan kesehatan Anda dimulai di sini dengan perawatan dan komitmen kami yang luar biasa.",
     "home.hero.startJourney": "Mulai Perjalanan Anda",
     "home.hero.exploreServices": "Jelajahi Layanan",
-    "home.stats.treatments": "Perawatan Sukses",
-    "home.stats.patients": "Pasien Puas",
+    "home.stats.treatments": "Perawatan Berhasil",
+    "home.stats.patients": "Pasien Bahagia",
     "home.stats.hospitals": "Rumah Sakit Mitra",
     "home.stats.experience": "Tahun Pengalaman",
     "home.hospitals.badge": "Mitra Kesehatan Premium",
     "home.hospitals.title": "Rumah Sakit Mitra Kami",
     "home.hospitals.subtitle":
-      "Kami bekerja sama dengan rumah sakit paling bergengsi di India untuk memastikan Anda menerima perawatan medis kelas dunia dengan standar pengobatan dan layanan pasien internasional tertinggi.",
+      "Kami bekerja sama dengan rumah sakit paling bergengsi di India untuk memastikan Anda menerima perawatan medis kelas dunia dengan standar perawatan dan layanan pasien internasional tertinggi.",
     "home.popup.title": "Halo semuanya,",
     "home.popup.subtitle":
-      "YA, KAMI PEDULI DAN KAMI BERANI MENYEDIAKAN SEGALANYA.",
+      "YA, KAMI PEDULI DAN KAMI BERANI UNTUK MENYEDIAKAN SEGALANYA.",
     "home.popup.description":
-      "Kami menyediakan dukungan komprehensif untuk pasien dari Kazakhstan, Kirgizstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, Afrika Selatan, Rusia, dan lainnya yang mencari pengobatan kelas dunia di India. Mulai dari bantuan visa hingga perawatan pasca pengobatan, kami mendampingi Anda di setiap langkah.",
+      "Kami memberikan dukungan komprehensif untuk pasien dari Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Azerbaijan, Fiji, Myanmar, Indonesia, Afrika Selatan, Rusia, dan lainnya yang mencari perawatan kelas dunia di India. Mulai dari bantuan visa hingga perawatan pasca perawatan, kami bersama Anda di setiap langkah.",
     "home.popup.contactUs": "Hubungi Kami Sekarang",
     "home.popup.visitServices": "Jelajahi Layanan Kami",
     "home.hospitals.excellenceRating": "Rating Keunggulan",
@@ -1360,30 +1360,30 @@ const translations: Record<string, Translations> = {
       "Layanan kesehatan kelas dunia dengan perawatan personal dan layanan pasien internasional yang komprehensif.",
     "home.hospitals.apollo.name": "Rumah Sakit Apollo",
     "home.hospitals.apollo.description":
-      "Rumah sakit multi-spesialis terkemuka dengan fasilitas kelas dunia dan dokter berpengalaman yang mengkhususkan diri dalam prosedur kompleks.",
+      "Rumah sakit multi-spesialisasi terkemuka dengan fasilitas kelas dunia dan dokter berpengalaman yang mengkhususkan diri dalam prosedur kompleks.",
     "home.hospitals.fortis.name": "Fortis Healthcare",
     "home.hospitals.fortis.description":
-      "Perawatan medis canggih dengan teknologi mutakhir dan protokol pengobatan personal untuk pasien internasional.",
+      "Perawatan medis canggih dengan teknologi mutakhir dan protokol perawatan personal untuk pasien internasional.",
     "home.hospitals.medanta.name": "Rumah Sakit Medanta",
     "home.hospitals.medanta.description":
-      "Fasilitas medis canggih yang mengkhususkan diri dalam operasi kompleks dan pengobatan lanjutan dengan bantuan robot.",
+      "Fasilitas medis canggih yang mengkhususkan diri dalam operasi kompleks dan perawatan lanjutan dengan bantuan robot.",
     "home.popup.featureBestHospitals": "Rumah Sakit Terbaik",
     "home.buttons.contactUs": "Hubungi Kami",
 
-    // Halaman Layanan
+    // Services Page
     "services.hero.badge": "Layanan Medis Kelas Dunia",
     "services.hero.title": "Solusi Kesehatan Komprehensif",
     "services.hero.subtitle":
-      "Temukan berbagai perawatan dan prosedur medis kami, diberikan oleh spesialis ternama dunia menggunakan teknologi canggih dan protokol perawatan personal.",
+      "Temukan berbagai perawatan dan prosedur medis kami, diberikan oleh spesialis terkenal dunia menggunakan teknologi canggih dan protokol perawatan personal.",
     "services.specialties.title": "Spesialisasi Medis Kami",
     "services.specialties.subtitle":
       "Setiap layanan didukung oleh spesialis terlatih internasional dan teknologi medis canggih",
     "services.cancer.badge": "Perawatan Onkologi Spesialis",
     "services.cancer.title": "Perawatan Kanker Lanjutan",
     "services.cancer.subtitle":
-      "Program onkologi komprehensif kami menggabungkan perawatan mutakhir, pengobatan presisi, dan perawatan penuh kasih untuk memberikan hasil terbaik bagi pasien kanker.",
+      "Program onkologi komprehensif kami menggabungkan perawatan canggih, pengobatan presisi, dan perawatan penuh kasih untuk memberikan hasil terbaik bagi pasien kanker.",
     "services.successRate": "Tingkat Keberhasilan",
-    "services.treatmentSuccess": "Keberhasilan Pengobatan",
+    "services.treatmentSuccess": "Keberhasilan Perawatan",
     "services.excellenceRating": "Rating Keunggulan",
 
     "services.features.hospitals": "50+ Rumah Sakit Mitra",
@@ -1401,7 +1401,7 @@ const translations: Record<string, Translations> = {
     "services.cancer.leukemia.name": "Perawatan Leukemia",
     "services.oncology.name": "Onkologi",
     "services.oncology.description":
-      "Perawatan kanker lanjutan dengan pengobatan presisi, imunoterapi, dan protokol perawatan personal untuk hasil optimal.",
+      "Perawatan kanker canggih dengan pengobatan presisi, imunoterapi, dan protokol perawatan personal untuk hasil optimal.",
     "services.liver.name": "Transplantasi Hati",
     "services.liver.description":
       "Prosedur transplantasi hati kelas dunia dengan tingkat keberhasilan 95%, dilakukan oleh ahli bedah terlatih internasional.",
@@ -1413,10 +1413,10 @@ const translations: Record<string, Translations> = {
       "Perawatan jantung lengkap termasuk prosedur minimal invasif, operasi robotik, dan program rehabilitasi jantung.",
     "services.neurosurgery.name": "Bedah Saraf",
     "services.neurosurgery.description":
-      "Operasi otak dan tulang belakang canggih menggunakan pencitraan lanjutan, mikro bedah, dan teknologi neuro-navigasi.",
+      "Operasi otak dan tulang belakang canggih menggunakan pencitraan canggih, mikro bedah, dan teknologi navigasi saraf.",
     "services.hair.name": "Transplantasi Rambut",
     "services.hair.description":
-      "Teknik restorasi rambut revolusioner FUE dan DHI untuk hasil alami dengan waktu pemulihan minimal.",
+      "Teknik restorasi rambut FUE dan DHI revolusioner untuk hasil alami dengan waktu pemulihan minimal.",
     "services.dental.name": "Implan Gigi",
     "services.dental.description":
       "Implantologi gigi canggih dengan perencanaan 3D, pemuatan segera, dan opsi implan keramik.",
@@ -1431,20 +1431,20 @@ const translations: Record<string, Translations> = {
       "Koreksi penglihatan presisi dengan teknologi laser femtosecond, analisis wavefront khusus, dan garansi seumur hidup.",
     "services.breast.name": "Augmentasi Payudara",
     "services.breast.description":
-      "Prosedur peningkatan payudara canggih dengan implan premium, pencitraan 3D, dan perencanaan bedah personal.",
+      "Prosedur peningkatan payudara canggih dengan implan premium, pencitraan 3D, dan perencanaan operasi personal.",
     "services.spine.name": "Operasi Tulang Belakang",
     "services.spine.description":
-      "Prosedur tulang belakang minimal invasif dengan teknologi navigasi, penggantian diskus buatan, dan manajemen nyeri.",
+      "Prosedur tulang belakang minimal invasif dengan teknologi navigasi, penggantian cakram buatan, dan manajemen nyeri.",
     "services.ivf.name": "Perawatan IVF",
     "services.ivf.description":
-      "Solusi kesuburan komprehensif dengan teknologi reproduksi lanjutan, skrining genetik, dan tingkat keberhasilan tinggi.",
+      "Solusi kesuburan komprehensif dengan teknologi reproduksi canggih, skrining genetik, dan tingkat keberhasilan tinggi.",
     "services.bone_marrow.name": "Transplantasi Sumsum Tulang",
     "services.bone_marrow.description":
-      "Transplantasi sel punca hematopoietik penyelamat hidup dengan rejimen pengkondisian lanjutan dan perawatan pendukung.",
+      "Transplantasi sel punca hematopoietik penyelamat hidup dengan rejimen pengondisian lanjutan dan perawatan pendukung.",
     "services.gynecology.name": "Ginekologi",
     "services.gynecology.description":
       "Perawatan kesehatan wanita lengkap dengan prosedur minimal invasif, operasi robotik, dan program kesehatan komprehensif.",
-    "services.bariatric.name": "Operasi Bariatrik",
+    "services.bariatric.name": "Bedah Bariatrik",
     "services.bariatric.description":
       "Prosedur penurunan berat badan canggih dengan opsi operasi metabolik, konseling nutrisi, dan dukungan jangka panjang.",
 
@@ -1458,144 +1458,746 @@ const translations: Record<string, Translations> = {
     "services.buttons.whatsapp_message":
       "Hai, saya butuh detail lebih lanjut tentang layanan AarogyCare.",
     "services.buttons.knowMore": "Tahu Lebih Banyak",
+
+    // About Page
+    "about.hero.title": "Kisah & Misi Kami",
+    "about.hero.subtitle":
+      "Menjembatani keunggulan perawatan kesehatan antara India dan wilayah CIS selama lebih dari 15 tahun. Kami berkomitmen untuk membuat perawatan medis kelas dunia dapat diakses dan terjangkau.",
+    "about.story.title": "Menghubungkan Hati, Menyembuhkan Kehidupan",
+    "about.values.title": "Nilai Inti Kami",
+    "about.values.subtitle":
+      "Prinsip-prinsip ini memandu semua yang kami lakukan dan membentuk komitmen kami untuk keunggulan dalam fasilitasi perawatan kesehatan.",
+    "about.team.title": "Tim Kami",
+    "about.team.subtitle":
+      "Profesional kami yang berdedikasi menggabungkan keahlian medis dengan pemahaman budaya untuk memberikan koordinasi perawatan yang luar biasa.",
+    "about.journey.title": "Perjalanan Kami",
+    "about.journey.subtitle":
+      "Tonggak penting yang telah membentuk pertumbuhan dan komitmen kami untuk keunggulan.",
+    "about.story.paragraph1":
+      "Didirikan pada tahun 2008, perusahaan kami muncul dari visi sederhana namun kuat: untuk membuat perawatan kesehatan kelas dunia dapat diakses oleh pasien dari Kazakhstan dan Rusia. Apa yang dimulai sebagai inisiatif kecil telah berkembang menjadi jembatan tepercaya antara pasien yang mencari perawatan medis berkualitas dan sistem perawatan kesehatan terkenal di India.",
+    "about.story.paragraph2":
+      "Pendiri kami, setelah mengalami tantangan menavigasi sistem perawatan kesehatan asing secara langsung, memahami perlunya sistem dukungan komprehensif. Kami menyadari bahwa perawatan medis di luar negeri melibatkan lebih dari sekadar perawatan klinis – ini membutuhkan pemahaman budaya, dukungan bahasa, dan bimbingan emosional.",
+    "about.story.paragraph3":
+      "Saat ini, kami dengan bangga melayani sebagai mitra tepercaya bagi ribuan pasien, menawarkan tidak hanya koordinasi medis tetapi ekosistem perawatan lengkap yang mencakup setiap aspek perjalanan wisata medis.",
+    "about.story.image_alt": "Tim medis kami mendiskusikan perawatan pasien",
+    "about.values.compassionate.title": "Perawatan Penuh Kasih",
+    "about.values.compassionate.description":
+      "Kami memperlakukan setiap pasien dengan empati, memahami kebutuhan dan kekhawatiran unik mereka.",
+    "about.values.trust.title": "Kepercayaan & Transparansi",
+    "about.values.trust.description":
+      "Transparansi lengkap dalam biaya perawatan, prosedur, dan hasil yang diharapkan.",
+    "about.values.global.title": "Standar Global",
+    "about.values.global.description":
+      "Perawatan kesehatan berkualitas internasional dengan fasilitas kelas dunia dan dokter ahli.",
+    "about.values.support.title": "Dukungan Personal",
+    "about.values.support.description":
+      "Tim dukungan khusus untuk membantu Anda selama perjalanan medis di India.",
+    "about.team.dr_meenu.name": "Dr. Meenu Walia",
+    "about.team.dr_meenu.role": "Onkolog",
+    "about.team.dr_meenu.description":
+      "Onkolog medis top di Max Delhi, mengkhususkan diri dalam perawatan kanker.",
+    "about.team.dr_subhash.name": "Dr. Subhash Gupta",
+    "about.team.dr_subhash.role": "Ahli Bedah Transplantasi Hati",
+    "about.team.dr_subhash.description":
+      "Ahli bedah transplantasi hati top di Max Delhi (4.000+ transplantasi).",
+    "about.team.dr_sanjeev.name": "Dr. Sanjeev Dua",
+    "about.team.dr_sanjeev.role": "Ahli Bedah Saraf",
+    "about.team.dr_sanjeev.description":
+      "Ahli dalam operasi otak & tulang belakang dengan pengalaman 20+ tahun",
+    "about.milestones.2008.year": "2008",
+    "about.milestones.2008.event": "Perusahaan Didirikan",
+    "about.milestones.2008.description":
+      "Dimulai dengan visi untuk menjembatani kesenjangan perawatan kesehatan",
+    "about.milestones.2012.year": "2012",
+    "about.milestones.2012.event": "1.000+ Pasien",
+    "about.milestones.2012.description": "Mencapai tonggak utama pertama kami",
+    "about.milestones.2016.year": "2016",
+    "about.milestones.2016.event": "50+ Rumah Sakit Mitra",
+    "about.milestones.2016.description":
+      "Memperluas jaringan kami di seluruh India",
+    "about.milestones.2020.year": "2020",
+    "about.milestones.2020.event": "Transformasi Digital",
+    "about.milestones.2020.description":
+      "Meluncurkan layanan konsultasi online",
+    "about.milestones.2023.year": "2023",
+    "about.milestones.2023.event": "10.000+ Kisah Sukses",
+    "about.milestones.2023.description":
+      "Merayakan lebih dari satu dekade keunggulan",
+    "about.buttons.callback": "Minta Panggilan Balik",
+    "about.buttons.whatsapp": "WhatsApp Sekarang",
+    "about.buttons.whatsapp_message":
+      "Hai, saya butuh detail lebih lanjut tentang layanan AarogyCare.",
+
+    // Contact Page
+    "contact.hero.title": "Hubungi Kami",
+    "contact.hero.subtitle":
+      "Siap memulai perjalanan medis Anda? Tim kami yang berdedikasi siap membantu Anda di setiap langkah. Hubungi kami untuk konsultasi dan dukungan personal.",
+    "contact.form.title": "Minta Panggilan Balik",
+    "contact.form.subtitle":
+      "Isi formulir di bawah ini dan koordinator medis kami akan menghubungi Anda dalam 24 jam.",
+    "contact.form.name": "Nama Lengkap",
+    "contact.form.phone": "Nomor Telepon",
+    "contact.form.message": "Pesan",
+    "contact.form.messagePlaceholder":
+      "Ceritakan kepada kami tentang kebutuhan medis atau pertanyaan Anda...",
+    "contact.form.submit": "Minta Panggilan Balik",
+    "contact.form.sending": "Mengirim...",
+    "contact.form.success":
+      "Terima kasih! Pesan Anda telah berhasil dikirim. Kami akan segera menghubungi Anda.",
+    "contact.info.title": "Informasi Kontak",
+    "contact.info.subtitle":
+      "Kami di sini untuk membantu Anda menavigasi perjalanan medis dengan percaya diri. Hubungi kami melalui salah satu saluran berikut.",
+    "contact.emergency.title": "Dukungan Darurat",
+    "contact.emergency.subtitle":
+      "Untuk bantuan medis darurat atau keadaan darurat:",
+
+    "contact.form.description":
+      "Masukan Anda membantu kami meningkatkan layanan kami",
+
+    "contact.form.name.label": "Nama Lengkap",
+    "contact.form.name.placeholder": "Masukkan nama lengkap Anda",
+    "contact.form.address.label": "Alamat",
+    "contact.form.address.placeholder": "Masukkan alamat Anda",
+    "contact.form.phone.label": "Nomor Telepon",
+    "contact.form.phone.placeholder": "Masukkan nomor telepon Anda",
+    "contact.form.email.label": "Alamat Email",
+    "contact.form.email.placeholder": "Masukkan alamat email Anda",
+    "contact.form.message.label": "Pesan Anda",
+    "contact.form.message.placeholder":
+      "Ceritakan kepada kami tentang pengalaman atau kekhawatiran Anda...",
+    "contact.form.immediateAssistance": "Butuh bantuan segera?",
+    "contact.form.whatsapp": "Hubungi kami di WhatsApp",
+    "contact.info.description":
+      "Kami tersedia 24/7 untuk memberikan perawatan dan dukungan medis terbaik untuk Anda",
+    "contact.info.phone.title": "Dukungan Telepon",
+    "contact.info.phone.detail1": "+91 9097 272 726",
+    "contact.info.phone.detail2": "+91 9599 023 663",
+    "contact.info.phone.description": "Dukungan darurat 24/7 tersedia",
+    "contact.info.email.title": "Dukungan Email",
+    "contact.info.email.detail1": "SHUBHAMAGRAWAL970@GMAIL.COM",
+    "contact.info.email.description": "Respon dalam 2 jam",
+    "contact.info.hours.title": "Jam Kerja",
+    "contact.info.hours.detail1": "Sen-Jum: 09:00 - 20:00",
+    "contact.info.hours.detail2": "Sab-Ming: 10:00 - 18:00",
+    "contact.info.hours.description": "Waktu Standar India (IST)",
+    "contact.emergency.description":
+      "Tersedia 24/7 untuk bantuan medis darurat",
+    "contact.emergency.phone": "+91 90972 72726",
+    "contact.faqs.title": "Jawaban Cepat",
+    "contact.faqs.subtitle":
+      "Pertanyaan umum tentang layanan dan dukungan wisata medis kami.",
+    "contact.faqs.arrangement.question":
+      "Seberapa cepat Anda dapat mengatur perawatan?",
+    "contact.faqs.arrangement.answer":
+      "Kami biasanya dapat mengatur konsultasi dalam 48-72 jam dan perawatan dalam 1-2 minggu, tergantung pada prosedurnya.",
+    "contact.faqs.visa.question": "Apakah Anda menyediakan bantuan visa?",
+    "contact.faqs.visa.answer":
+      "Ya, kami menyediakan bantuan visa lengkap termasuk dokumentasi visa medis dan surat undangan.",
+    "contact.faqs.languages.question": "Bahasa apa yang Anda dukung?",
+    "contact.faqs.languages.answer":
+      "Kami menyediakan dukungan dalam bahasa Rusia, Kazakh, dan Inggris dengan koordinator khusus untuk setiap bahasa.",
+    "contact.faqs.costs.question": "Apakah biaya perawatan transparan?",
+    "contact.faqs.costs.answer":
+      "Tentu. Kami memberikan perkiraan biaya rinci di awal tanpa biaya tersembunyi, termasuk perawatan, akomodasi, dan perjalanan.",
+
+    // Feedback Form
+    "feedback.title": "Formulir Masukan",
+    "feedback.subtitle":
+      "Kami menghargai masukan Anda dan ingin menangani setiap kekhawatiran yang mungkin Anda miliki.",
+    "feedback.successMessage":
+      "Terima kasih atas masukan Anda! Kami akan meninjaunya dan segera menghubungi Anda.",
+
+    // Form Fields
+    "feedback.fields.name.label": "Nama",
+    "feedback.fields.name.placeholder": "Masukkan nama lengkap Anda",
+    "feedback.fields.address.label": "Alamat",
+    "feedback.fields.address.placeholder": "Masukkan alamat lengkap Anda",
+    "feedback.fields.address.required": "Alamat diperlukan",
+    "feedback.fields.telephone.label": "Telepon",
+    "feedback.fields.telephone.placeholder": "+91 98765 43210",
+    "feedback.fields.telephone.required":
+      "Harap masukkan nomor telepon yang valid",
+    "feedback.fields.email.label": "Email",
+    "feedback.fields.email.placeholder": "email.anda@contoh.com",
+    "feedback.fields.complaint.label": "Keluhan detail",
+    "feedback.fields.complaint.placeholder":
+      "Harap berikan informasi detail tentang keluhan atau masukan Anda...",
+
+    // Buttons & Actions
+    "feedback.submitButton": "Kirim Masukan",
+    "feedback.submitting": "Mengirim Masukan...",
+
+    // Footer
+    "feedback.assistanceText": "Butuh bantuan segera?",
+    "feedback.assistanceLink": "Hubungi kami langsung di WhatsApp",
+    "footer.brand": "AarogyCare",
+    "footer.description":
+      "Menjembatani keunggulan perawatan kesehatan antara India dan wilayah CIS. Mitra tepercaya Anda untuk perawatan medis kelas dunia.",
+    "footer.titles.services": "Layanan Medis",
+    "footer.titles.support": "Dukungan Pasien",
+    "footer.titles.company": "Perusahaan",
+    "footer.links.services.oncology": "Onkologi",
+    "footer.links.services.cardiology": "Kardiologi",
+    "footer.links.services.neurosurgery": "Bedah Saraf",
+    "footer.links.services.transplantation": "Transplantasi",
+    "footer.links.services.cosmetic": "Bedah Kosmetik",
+    "footer.links.services.dental": "Perawatan Gigi",
+    "footer.links.support.contact": "Hubungi Kami",
+    "footer.links.support.emergency": "Dukungan Darurat",
+    "footer.links.support.portal": "Portal Pasien",
+    "footer.links.support.insurance": "Bantuan Asuransi",
+    "footer.links.support.travel": "Bantuan Perjalanan",
+    "footer.links.support.language": "Dukungan Bahasa",
+    "footer.links.company.about": "Tentang Kami",
+    "footer.links.company.team": "Tim Kami",
+    "footer.links.company.careers": "Karir",
+    "footer.links.company.privacy": "Kebijakan Privasi",
+    "footer.links.company.terms": "Syarat Layanan",
+    "footer.links.company.blog": "Blog",
+    "footer.contact.phone": "Telepon",
+    "footer.contact.email": "Email",
+    "footer.contact.address": "Alamat",
+    "footer.social.facebook": "Facebook",
+    "footer.social.instagram": "Instagram",
+    "footer.social.linkedin": "LinkedIn",
+    "footer.copyright": "© {{year}} AarogyCare. Hak cipta dilindungi.",
+
+    // Features
+    "features.support": "Dukungan Medis 24/7",
+    "features.support.detail":
+      "Akses langsung ke profesional medis siang dan malam",
+    "features.visa": "Bantuan Visa",
+    "features.visa.detail":
+      "Tingkat keberhasilan tinggi untuk aplikasi visa medis",
+    "features.interpreters": "Layanan Bahasa",
+    "features.interpreters.detail": "Mencakup semua bahasa utama dunia",
+    "features.transfers": "Transfer Bandara",
+    "features.transfers.detail":
+      "Waktu respons cepat untuk semua kebutuhan transportasi",
+    "features.accommodation": "Solusi Akomodasi",
+    "features.accommodation.detail": "Jaringan luas mitra akomodasi tepercaya",
+    "features.postCare": "Perawatan Pasca",
+    "features.postCare.detail":
+      "Cakupan lengkap untuk kebutuhan pemulihan Anda",
+    "features.cta": "Mulai perjalanan kesehatan Anda hari ini",
+
+    // Common
+    "common.loading": "Memuat...",
+    "common.readMore": "Baca Selengkapnya",
+    "common.learnMore": "Pelajari Lebih Lanjut",
+    "common.viewAll": "Lihat Semua",
+
+    //steps
+    "header.trusted": "Dipercaya oleh 50.000+ Pasien di Seluruh Dunia",
+    "header.title1": "Bagaimana Kami",
+    "header.title2": "Mengubah Hidup",
+    "header.subtitle1":
+      "Rasakan perjalanan kesehatan 8 langkah revolusioner kami yang dirancang untuk memberikan",
+    "header.highlight1": "perawatan medis kelas dunia",
+    "header.subtitle2": "dengan",
+    "header.highlight2": "perhatian personal yang tak tertandingi",
+
+    "steps.firstContact.title": "Kontak Pertama",
+    "steps.firstContact.description":
+      "Bagikan detail kasus Anda kepada kami melalui formulir kontak aman kami atau konsultasi telepon personal dengan koordinator medis kami.",
+    "steps.firstContact.time": "Seketika",
+
+    "steps.expertTeam.title": "Koneksi Tim Ahli",
+    "steps.expertTeam.description":
+      "Tim medis khusus kami dan koordinator pasien akan terhubung dengan Anda untuk memahami kebutuhan kesehatan unik Anda.",
+    "steps.expertTeam.time": "Dalam 2 jam",
+
+    "steps.assessment.title": "Penilaian Medis & Biaya",
+    "steps.assessment.description":
+      "Terima evaluasi medis komprehensif dan rincian biaya transparan tanpa biaya tersembunyi dalam 48 jam.",
+    "steps.assessment.time": "48 jam",
+
+    "steps.travel.title": "Koordinasi Perjalanan",
+    "steps.travel.description":
+      "Bantuan perjalanan lengkap termasuk pemesanan penerbangan, dukungan visa, dan pengaturan akomodasi yang disesuaikan dengan kebutuhan Anda.",
+    "steps.travel.time": "3-5 hari",
+
+    "steps.reception.title": "Penerimaan Bandara VIP",
+    "steps.reception.description":
+      "Tim khusus kami menyediakan penerimaan bandara premium dengan transportasi nyaman ke akomodasi Anda.",
+    "steps.reception.time": "Saat kedatangan",
+
+    "steps.treatment.title": "Perawatan Kelas Dunia",
+    "steps.treatment.description":
+      "Terima perawatan medis luar biasa dari spesialis bersertifikat internasional menggunakan teknologi dan teknik canggih.",
+    "steps.treatment.time": "Sesuai jadwal",
+
+    "steps.return.title": "Perjalanan Pulang yang Aman",
+    "steps.return.description":
+      "Keberangkatan nyaman dengan dokumentasi medis lengkap, resep, dan instruksi perawatan pasca perawatan rinci.",
+    "steps.return.time": "Pasca perawatan",
+
+    "steps.followup.title": "Kemitraan Perawatan Seumur Hidup",
+    "steps.followup.description":
+      "Perawatan tindak lanjut berkelanjutan, pemeriksaan kesehatan rutin, dan dukungan 24/7 untuk perjalanan kesehatan Anda yang berkelanjutan.",
+    "steps.followup.time": "Berlanjut",
+
+    "stats.satisfaction": "Kepuasan Pasien",
+    "stats.response": "Waktu Respons",
+    "stats.success": "Tingkat Keberhasilan",
+    "stats.experience": "Tahun Pengalaman",
+
+    "cta.title": "Perjalanan Kesehatan Anda, Janji Kami",
+    "cta.subtitle":
+      "Mengubah hidup melalui pengalaman perawatan kesehatan yang luar biasa",
+
+    "features.response": "Garansi Respons 48 Jam",
+    "features.network": "Jaringan Kesehatan Global",
+    "features.plans": "Rencana Perawatan Personal",
+
+    //whatsappbuttons
+    "home.buttons.knowMore": "Tahu Lebih Banyak",
+    "home.buttons.bookNow": "Pesan Sekarang",
+    "home.buttons.whatsapp": "WhatsApp Sekarang",
+    "home.buttons.whatsapp_message":
+      "Halo, saya ingin tahu lebih banyak tentang AarogyCare.",
   },
 
   //burmese
   my: {
-    // လမ်းညွှန်မှု (Navigation)
-    "nav.home": "ပင်မ",
+    // Navigation
+    "nav.home": "ပင်မစာမျက်နှာ",
     "nav.services": "ဝန်ဆောင်မှုများ",
     "nav.about": "ကျွန်ုပ်တို့အကြောင်း",
     "nav.contact": "ဆက်သွယ်ရန်",
-    "nav.getStarted": "စတင်မည်",
+    "nav.getStarted": "စတင်လိုက်ပါ",
 
-    // ပင်မစာမျက်နှာ (Home Page)
-    "home.hero.badge": "နိုင်ငံတကာလူနာ ၈,၅၀၀+ ယုံကြည်စွာရွေးချယ်",
-    "home.hero.title1": "ဟုတ်ကဲ့၊ ကျွန်ုပ်တို့စိတ်ဝင်စားသည်",
-    "home.hero.title2": "နှင့် ကျွန်ုပ်တို့ရဲ့ရဲတင်းသည်",
-    "home.hero.title3": "ပံ့ပိုးပေးရန်",
-    "home.hero.title4": "အရာအားလုံး",
+    // Home Page
+    "home.hero.badge": "နိုင်ငံတကာမှ လူနာ ၈၅၀၀+ မှ ယုံကြည်အားကိုးခံရသော",
+    "home.hero.title1": "ဟုတ်ကဲ့၊ ကျွန်ုပ်တို့",
+    "home.hero.title2": "ဂရုစိုက်ပြီး",
+    "home.hero.title3": "ရဲဝံ့စွာ",
+    "home.hero.title4": "အားလုံးကို ပေးအပ်သည်",
     "home.hero.subtitle":
-      "အိန္ဒိယတွင် ကမ္ဘာ့အဆင့်မီဆေးကုသမှုကို ကဇာ့စတန်၊ ကာဂျစ်စတန်၊ တာဂျစ်ကစတန်၊ တာ့ခ်မင်နစ္စတန်၊ အဇာဘိုင်ဂျန်၊ ဖီဂျီ၊ မြန်မာ၊ အင်ဒိုနီးရှား၊ တောင်အာဖရိက၊ ရုရှားနှင့် အခြားနိုင်ငံများမှ လူနာများအတွက် အပြည့်အဝထောက်ပံ့မှုဖြင့် ခံစားလိုက်ပါ။ သင့်ကျန်းမာရေးခရီးစဉ်ကို ကျွန်ုပ်တို့၏ထူးခြားသောစောင့်ရှောက်မှုနှင့် မပြတ်မလပ်ကတိကဝတ်ဖြင့် စတင်ပါ။",
-    "home.hero.startJourney": "သင့်ခရီးစဉ်စတင်ပါ",
-    "home.hero.exploreServices": "ဝန်ဆောင်မှုများစူးစမ်းပါ",
-    "home.stats.treatments": "အောင်မြင်သောကုသမှုများ",
-    "home.stats.patients": "စိတ်ကျေနပ်သောလူနာများ",
-    "home.stats.hospitals": "ပူးပေါင်းဆောင်ရွက်သောဆေးရုံများ",
-    "home.stats.experience": "နှစ်ပေါင်းအတွေ့အကြုံ",
-    "home.hospitals.badge": "အဆင့်မြင့်ကျန်းမာရေးမိတ်ဖက်များ",
-    "home.hospitals.title": "ကျွန်ုပ်တို့၏ပူးပေါင်းဆောင်ရွက်သောဆေးရုံများ",
+      "ကာဇက်စတန်၊ ကာဂျစ်စတန်၊ တာဂျစ်ကစ်စတန်၊ တူကမန်နစ်စတန်၊ အဇာဘီဂျန်၊ ဖီဂျီ၊ မြန်မာ၊ အင်ဒိုနီးရှား၊ တောင်အာဖရိက၊ ရုရှား နှင့် အခြားနိုင်ငံများမှ လူနာများအတွက် အိန္ဒိယတွင် ကမ္ဘာ့အဆင့်မီ ဆေးကုသမှုများနှင့် ပြည့်စုံသော အထောက်အပံ့များကို ခံစားနိုင်ပါသည်။ သင့်ကျန်းမာရေးခရီးစဉ်ကို ကျွန်ုပ်တို့၏ ထူးခြားသော ဂရုစိုက်မှုနှင့် မယိမ်းမယိုင် ကတိကဝတ်ဖြင့် ဤနေရာမှစတင်ပါ။",
+    "home.hero.startJourney": "သင့်ခရီးစဉ်ကို စတင်လိုက်ပါ",
+    "home.hero.exploreServices": "ဝန်ဆောင်မှုများကို လေ့လာရန်",
+    "home.stats.treatments": "အောင်မြင်သော ကုသမှုများ",
+    "home.stats.patients": "ကျေနပ်သော လူနာများ",
+    "home.stats.hospitals": "မိတ်ဖက် ဆေးရုံများ",
+    "home.stats.experience": "နှစ် အတွေ့အကြုံ",
+    "home.hospitals.badge": "ပရီမီယံ ကျန်းမာရေး မိတ်ဖက်များ",
+    "home.hospitals.title": "ကျွန်ုပ်တို့၏ မိတ်ဖက် ဆေးရုံများ",
     "home.hospitals.subtitle":
-      "သင့်အား ကမ္ဘာ့အဆင့်မီဆေးကုသမှုနှင့် အဆင့်မြင့်ကုသမှုစံနှုန်းများဖြင့် ဝန်ဆောင်မှုပေးရန် အိန္ဒိယ၏အထင်ရှားဆုံးဆေးရုံများနှင့် ပူးပေါင်းဆောင်ရွက်ပါသည်။",
-    "home.popup.title": "အားလုံးမင်္ဂလာပါ၊",
+      "သင်သည် ကမ္ဘာ့အဆင့်မီ ဆေးကုသမှုကို အမြင့်ဆုံး စံချိန်စံညွှန်းများဖြင့် နှင့် နိုင်ငံတကာ လူနာဝန်ဆောင်မှုများဖြင့် ရရှိစေရန် ကျွန်ုပ်တို့သည် အိန္ဒိယ၏ အဂုဏ်ရှိဆုံး ဆေးရုံများနှင့် ပူးပေါင်းဆောင်ရွက်ပါသည်။",
+    "home.popup.title": "မင်္ဂလာပါ လူအားလုံး၊",
     "home.popup.subtitle":
-      "ဟုတ်ကဲ့၊ ကျွန်ုပ်တို့စိတ်ဝင်စားပြီး အရာအားလုံးကိုပံ့ပိုးရန် ရဲရင့်ပါသည်။",
+      "ဟုတ်ကဲ့၊ ကျွန်ုပ်တို့ ဂရုစိုက်ပြီး ရဲဝံ့စွာ အားလုံးကို ပေးအပ်သည်။",
     "home.popup.description":
-      "အိန္ဒိယတွင် ကမ္ဘာ့အဆင့်မီကုသမှုရှာဖွေနေသော ကဇာ့စတန်၊ ကာဂျစ်စတန်၊ တာဂျစ်ကစတန်၊ တာ့ခ်မင်နစ္စတန်၊ အဇာဘိုင်ဂျန်၊ ဖီဂျီ၊ မြန်မာ၊ အင်ဒိုနီးရှား၊ တောင်အာဖရိက၊ ရုရှားနှင့် အခြားနိုင်ငံများမှ လူနာများအတွက် အပြည့်အဝထောက်ပံ့မှုပေးပါသည်။ ဗီဇာအကူအညီမှ ကုသမှုပြီးနောက်စောင့်ရှောက်မှုအထိ ကျွန်ုပ်တို့သည် သင့်အားအဆင့်တိုင်းတွင် ပံ့ပိုးပေးပါမည်။",
+      "ကျွန်ုပ်တို့သည် အိန္ဒိယတွင် ကမ္ဘာ့အဆင့်မီ ကုသမှုများကို ရှာဖွေနေသော ကာဇက်စတန်၊ ကာဂျစ်စတန်၊ တာဂျစ်ကစ်စတန်၊ တူကမန်နစ်စတန်၊ အဇာဘီဂျန်၊ ဖီဂျီ၊ မြန်မာ၊ အင်ဒိုနီးရှား၊ တောင်အာဖရိက၊ ရုရှား နှင့် အခြားနိုင်ငံများမှ လူနာများအတွက် ပြည့်စုံသော အထောက်အပံ့ပေးပါသည်။ ဗီဇာအကူအညီမှ ကုသမှုပြီးနောက် စောင့်ရှောက်မှုအထိ၊ ကျွန်ုပ်တို့သည် သင့်ခြေလှမ်းတိုင်းတွင် အတူရှိပါမည်။",
     "home.popup.contactUs": "ယခုဆက်သွယ်ပါ",
-    "home.popup.visitServices": "ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုများစူးစမ်းပါ",
-    "home.hospitals.excellenceRating": "ထူးချွန်မှုအဆင့်",
+    "home.popup.visitServices": "ကျွန်ုပ်တို့၏ ဝန်ဆောင်မှုများကို လေ့လာရန်",
+    "home.hospitals.excellenceRating": "ထူးချွန်မှု အဆင့်သတ်မှတ်ချက်",
     "home.hospitals.max.name": "Max Healthcare",
     "home.hospitals.max.description":
-      "နိုင်ငံတကာစံနှုန်းများနှင့် အထူးကျွမ်းကျင်မှုများပါဝင်သော ကျန်းမာရေးဝန်ဆောင်မှုများ။",
-    "home.hospitals.artemis.name": "Artemis ဆေးရုံ",
+      "ပြည့်စုံသော ကျန်းမာရေးဝန်ဆောင်မှုများ နိုင်ငံတကာ စံချိန်စံညွှန်းများနှင့် အထူးကုဘာသာရပ်များစွာတွင် ကျွမ်းကျင်သော ဆေးကုသမှုများဖြင့်။",
+    "home.hospitals.artemis.name": "Artemis Hospital",
     "home.hospitals.artemis.description":
-      "သီးသန့်စောင့်ရှောက်မှုနှင့် နိုင်ငံတကာလူနာဝန်ဆောင်မှုများပါဝင်သော ကမ္ဘာ့အဆင့်မီကျန်းမာရေး။",
-    "home.hospitals.apollo.name": "Apollo ဆေးရုံများ",
+      "ကမ္ဘာ့အဆင့်မီ ကျန်းမာရေးစောင့်ရှောက်မှု ပုဂ္ဂိုလ်ရေး ဂရုစိုက်မှုနှင့် ပြည့်စုံသော နိုင်ငံတကာ လူနာဝန်ဆောင်မှုများနှင့် အထောက်အပံ့များဖြင့်။",
+    "home.hospitals.apollo.name": "Apollo Hospitals",
     "home.hospitals.apollo.description":
-      "ရှုပ်ထွေးသောလုပ်ငန်းစဉ်များတွင် အထူးကျွမ်းကျင်သော ကမ္ဘာ့အဆင့်မီဆေးရုံ။",
+      "ရှုပ်ထွေးသော လုပ်ထုံးလုပ်နည်းများတွင် အထူးကုပြုသော ကျွမ်းကျင်သော ဆရာဝန်များနှင့် ကမ္ဘာ့အဆင့်မီ အဆောက်အအုံများပါရှိသော ဦးဆောင်သော ပေါင်းစပ်အထူးကု ဆေးရုံ။",
     "home.hospitals.fortis.name": "Fortis Healthcare",
     "home.hospitals.fortis.description":
-      "နည်းပညာအဆင့်မြင့်နှင့် သီးသန့်ကုသမှုပေးသော ဆေးရုံ။",
-    "home.hospitals.medanta.name": "Medanta ဆေးရုံ",
+      "ခေတ်မီနည်းပညာနှင့် နိုင်ငံတကာ လူနာများအတွက် ပုဂ္ဂိုလ်ရေး ကုသမှုနည်းလမ်းများဖြင့် အဆင့်မြင့် ဆေးကုသမှု။",
+    "home.hospitals.medanta.name": "Medanta Hospital",
     "home.hospitals.medanta.description":
-      "ရိုဘော့အကူအညီဖြင့် ရှုပ်ထွေးသောခွဲစိတ်မှုများအတွက် အဆင့်မြင့်ဆေးရုံ။",
-    "home.popup.featureBestHospitals": "အကောင်းဆုံးဆေးရုံများ",
-    "home.buttons.contactUs": "ဆက်သွယ်ရန်",
+      "ရှုပ်ထွေးသော ခွဲစိတ်မှုများနှင့် ရိုဘော့နည်းပညာအကူအညီဖြင့် အဆင့်မြင့် ကုသမှုများတွင် အထူးပြုသော ခေတ်မီဆေးပညာ အဆောက်အအုံ။",
+    "home.popup.featureBestHospitals": "အကောင်းဆုံး ဆေးရုံများ",
+    "home.buttons.contactUs": "ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ",
 
-    // ဝန်ဆောင်မှုစာမျက်နှာ (Services Page)
-    "services.hero.badge": "ကမ္ဘာ့အဆင့်မီဆေးဝန်ဆောင်မှုများ",
-    "services.hero.title": "အပြည့်စုံဆုံးကျန်းမာရေးဖြေရှင်းနည်းများ",
+    // Services Page
+    "services.hero.badge": "ကမ္ဘာ့အဆင့်မီ ဆေးကုသ ဝန်ဆောင်မှုများ",
+    "services.hero.title": "ပြည့်စုံသော ကျန်းမာရေး ဖြေရှင်းနည်းများ",
     "services.hero.subtitle":
-      "နည်းပညာအဆင့်မြင့်နှင့် သီးသန့်ကုသမှုပေးသော ကမ္ဘာကျော်ဆရာဝန်များမှ ကုသမှုများကို ရှာဖွေပါ။",
-    "services.specialties.title": "ကျွန်ုပ်တို့၏ဆေးဘက်ဆိုင်ရာအထူးပြုမှုများ",
+      "ခေတ်မီနည်းပညာနှင့် ပုဂ္ဂိုလ်ရေး ဂရုစိုက်မှုနည်းလမ်းများဖြင့် ကမ္ဘာ့အဆင့်မီ အထူးကုများမှ ပေးအပ်သော ကျွန်ုပ်တို့၏ ကျယ်ပြန့်သော ဆေးကုသမှုများနှင့် လုပ်ထုံးလုပ်နည်းများကို ရှာဖွေပါ။",
+    "services.specialties.title": "ကျွန်ုပ်တို့၏ ဆေးပညာ အထူးကုဘာသာရပ်များ",
     "services.specialties.subtitle":
-      "နိုင်ငံတကာအဆင့်မီဆရာဝန်များနှင့် နည်းပညာများဖြင့် ဝန်ဆောင်မှုပေးပါသည်။",
-    "services.cancer.badge": "အထူးကင်ဆာကုသမှု",
-    "services.cancer.title": "အဆင့်မြင့်ကင်ဆာကုသမှုများ",
+      "ဝန်ဆောင်မှုတစ်ခုစီကို နိုင်ငံတကာ လေ့ကျင့်ခံရသော အထူးကုများနှင့် ခေတ်မီဆေးပညာ နည်းပညာများမှ အထောက်အကူပေးထားပါသည်",
+    "services.cancer.badge": "အထူးပြု ကင်ဆာ ဂရုစိုက်မှု",
+    "services.cancer.title": "အဆင့်မြင့် ကင်ဆာ ကုသမှုများ",
     "services.cancer.subtitle":
-      "ကျွန်ုပ်တို့၏ကင်ဆာကုသမှုစီမံချက်တွင် အကောင်းဆုံးနည်းလမ်းများ၊ တိကျသောဆေးဝါးနှင့် စာနာသောစောင့်ရှောက်မှုတို့ ပါဝင်ပါသည်။",
-    "services.successRate": "အောင်မြင်မှုနှုန်း",
-    "services.treatmentSuccess": "ကုသမှုအောင်မြင်မှု",
-    "services.excellenceRating": "ထူးချွန်မှုအဆင့်",
+      "ကျွန်ုပ်တို့၏ ပြည့်စုံသော ကင်ဆာဗေဒ အစီအစဉ်သည် ခေတ်မီကုသမှုများ၊ တိကျသော ဆေးပညာနှင့် သနားကရုဏာရှိသော ဂရုစိုက်မှုတို့ကို ပေါင်းစပ်ကာ ကင်ဆာလူနာများအတွက် အကောင်းဆုံး ရလဒ်များကို ပေးအပ်ပါသည်။",
+    "services.successRate": "အောင်မြင်မှု နှုန်း",
+    "services.treatmentSuccess": "ကုသမှု အောင်မြင်မှု",
+    "services.excellenceRating": "ထူးချွန်မှု အဆင့်သတ်မှတ်ချက်",
 
-    "services.features.hospitals": "ဆေးရုံ ၅၀+ ပူးပေါင်း",
-    "services.features.standards": "နိုင်ငံတကာစံနှုန်းများ",
-    "services.features.technology": "နည်းပညာအဆင့်မြင့်",
+    "services.features.hospitals": "၅၀+ မိတ်ဖက် ဆေးရုံများ",
+    "services.features.standards": "နိုင်ငံတကာ စံချိန်စံညွှန်းများ",
+    "services.features.technology": "အဆင့်မြင့် နည်းပညာ",
 
-    "services.cancer.breast.name": "ရင်သားကင်ဆာကုသမှု",
-    "services.cancer.cervical.name": "သားအိမ်ခေါင်းကင်ဆာကုသမှု",
-    "services.cancer.stomach.name": "အစာအိမ်ကင်ဆာကုသမှု",
-    "services.cancer.lung.name": "အဆုတ်ကင်ဆာကုသမှု",
-    "services.cancer.ovarian.name": "သားဥအိမ်ကင်ဆာကုသမှု",
-    "services.cancer.pancreatic.name": "ပန်ကရိယကင်ဆာကုသမှု",
-    "services.cancer.rectal.name": "မစင်အိမ်ကင်ဆာကုသမှု",
-    "services.cancer.prostate.name": "ဆီးကျိတ်ကင်ဆာကုသမှု",
-    "services.cancer.leukemia.name": "သွေးကင်ဆာကုသမှု",
-    "services.oncology.name": "ကင်ဆာကုသမှု",
+    "services.cancer.breast.name": "ရင်သားကင်ဆာ ကုသမှု",
+    "services.cancer.cervical.name": "သားအိမ်ခေါင်းကင်ဆာ ကုသမှု",
+    "services.cancer.stomach.name": "အစာအိမ်ကင်ဆာ ကုသမှု",
+    "services.cancer.lung.name": "အဆုတ်ကင်ဆာ ကုသမှု",
+    "services.cancer.ovarian.name": "မျိုးဥအိမ်ကင်ဆာ ကုသမှု",
+    "services.cancer.pancreatic.name": "ပလင်းခရုကင်ဆာ ကုသမှု",
+    "services.cancer.rectal.name": "မစ်ကင်ဆာ ကုသမှု",
+    "services.cancer.prostate.name": "ပရိုစတိတ်ကင်ဆာ ကုသမှု",
+    "services.cancer.leukemia.name": "သွေးကင်ဆာ ကုသမှု",
+    "services.oncology.name": "ကင်ဆာဗေဒ",
     "services.oncology.description":
-      "တိကျသောဆေးဝါး၊ ကိုယ်ခံအားကုထုံးနှင့် သီးသန့်ကုသမှုဖြင့် ကင်ဆာကုသမှု။",
-    "services.liver.name": "အသည်းအစားထိုးကုသမှု",
+      "တိကျသော ဆေးပညာ၊ ကိုယ်ခံအားကုသနည်းနှင့် ပုဂ္ဂိုလ်ရေး ဂရုစိုက်မှုနည်းလမ်းများဖြင့် အကောင်းဆုံး ရလဒ်များအတွက် အဆင့်မြင့် ကင်ဆာကုသမှု။",
+    "services.liver.name": "အသည်းအစားထိုး",
     "services.liver.description":
-      "ကမ္ဘာ့အဆင့်မီအသည်းအစားထိုးကုသမှု ၉၅% အောင်မြင်မှုနှုန်း။",
-    "services.kidney.name": "ကျောက်ကပ်အစားထိုးကုသမှု",
+      "နိုင်ငံတကာ လေ့ကျင့်ခံရသော ခွဲစိတ်ဆရာဝန်များမှ လုပ်ဆောင်သော ၉၅% အောင်မြင်မှုနှုန်းရှိသော ကမ္ဘာ့အဆင့်မီ အသည်းအစားထိုး လုပ်ထုံးလုပ်နည်းများ။",
+    "services.kidney.name": "ကျောက်ကပ်အစားထိုး",
     "services.kidney.description":
-      "အဆင့်မြင့်ကုသမှုနှင့် ရေရှည်စောင့်ရှောက်မှုပါသော ကျောက်ကပ်အစားထိုးကုသမှု။",
-    "services.cardiology.name": "နှလုံးရောဂါကုသမှု",
+      "အဆင့်မြင့် ကိုယ်ခံအားနှိမ်နင်းမှု နည်းလမ်းများနှင့် ရေရှည် ဂရုစိုက်မှုပါရှိသော ပြည့်စုံသော ကျောက်ကပ်အစားထိုး အစီအစဉ်။",
+    "services.cardiology.name": "နှလုံးရောဂါဗေဒ",
     "services.cardiology.description":
-      "နှလုံးဆိုင်ရာကုသမှုများ၊ ခွဲစိတ်မှုနှင့် ပြန်လည်သန်စွမ်းရေးလုပ်ငန်းများ။",
-    "services.neurosurgery.name": "ဦးနှောက်နှင့်အာရုံကြောခွဲစိတ်ကုသမှု",
+      "အနည်းဆုံး ထိုးဖောက်ဝင်ရောက်မှု လုပ်ထုံးလုပ်နည်းများ၊ ရိုဘော့ခွဲစိတ်မှုနှင့် နှလုံးပြန်လည်ထူထောင်ရေး အစီအစဉ်များ အပါအဝင် ပြည့်စုံသော နှလုံး ဂရုစိုက်မှု။",
+    "services.neurosurgery.name": "အာရုံကြောခွဲစိတ်ကုပညာ",
     "services.neurosurgery.description":
-      "ဦးနှောက်နှင့်ကျောရိုးဆိုင်ရာ ခွဲစိတ်ကုသမှုများ။",
-    "services.hair.name": "ဆံပင်အစားထိုးကုသမှု",
+      "အဆင့်မြင့် ပုံရိပ်ဖော်ခြင်း၊ အဏုကွဲခွဲစိတ်မှုနှင့် အာရုံကြော-လမ်းညွှန်မှု နည်းပညာများဖြင့် ခေတ်မီ ဦးနှောက်နှင့် ကျောရိုးခွဲစိတ်မှုများ။",
+    "services.hair.name": "ဆံပင်အစားထိုး",
     "services.hair.description":
-      "FUE နှင့် DHI နည်းပညာများဖြင့် သဘာဝကျသောဆံပင်ပြန်လည်ရရှိရေး။",
-    "services.dental.name": "သွားအစားထိုးကုသမှု",
-    "services.dental.description": "၃D စီမံချက်ဖြင့် သွားအစားထိုးကုသမှု။",
-    "services.cosmetic.name": "အလှအပခွဲစိတ်ကုသမှု",
+      "အနားယူချိန် အနည်းဆုံးဖြင့် သဘာဝကဲ့သို့ ရလဒ်များအတွက် တော်လှန်ပြောင်းလဲသော FUE နှင့် DHI ဆံပင်ပြန်လည်ထူထောင်မှု နည်းပညာများ။",
+    "services.dental.name": "သွားထင်းများ",
+    "services.dental.description":
+      "3D စီမံကိန်း၊ ချက်ချင်းတင်ဆောင်မှုနှင့် ကြွေထည်ထင်း ရွေးချယ်စရာများပါရှိသော ခေတ်မီ သွားထင်းဗေဒ။",
+    "services.cosmetic.name": "အလှပြင်ခွဲစိတ်မှု",
     "services.cosmetic.description":
-      "သဘာဝကျသောရလဒ်များရရှိရန် အဆင့်မြင့်နည်းပညာများဖြင့် ခွဲစိတ်ကုသမှု။",
-    "services.knee.name": "ဒူးအစားထိုးကုသမှု",
-    "services.knee.description": "ရိုဘော့အကူအညီဖြင့် အဆစ်အစားထိုးကုသမှု။",
-    "services.eye.name": "မျက်စိခွဲစိတ်ကုသမှု (LASIK)",
-    "services.eye.description": "လေဆာနည်းပညာဖြင့် အမြင်အာရုံပြုပြင်ခြင်း။",
-    "services.breast.name": "ရင်သားကြီးထွားစေသောခွဲစိတ်မှု",
+      "အဆင့်မြင့် နည်းပညာများနှင့် ပရီမီယံ ပစ္စည်းများဖြင့် သဘာဝရလဒ်များပေးသော အလှနှင့် ပြန်လည်တည်ဆောက်မှု လုပ်ထုံးလုပ်နည်းများ။",
+    "services.knee.name": "ဒူးအစားထိုး",
+    "services.knee.description":
+      "ရိုဘော့အကူအညီ၊ စိတ်ကြိုက်ထင်းများနှင့် လျင်မြန်သော ပြန်လည်ကောင်းမွန်ရေး နည်းလမ်းများပါရှိသော အဆင့်မြင့် အဆစ်အစားထိုး ခွဲစိတ်မှု။",
+    "services.eye.name": "မျက်စိခွဲစိတ်မှု (LASIK)",
+    "services.eye.description":
+      "femtosecond လေဆာနည်းပညာ၊ စိတ်ကြိုက် လှိုင်းရှေ့ပိုင်း ခွဲခြမ်းစိတ်ဖြာမှုနှင့် တစ်သက်တာ အာမခံများပါရှိသော တိကျသော အမြင်အာရုံ ပြင်ဆင်မှု။",
+    "services.breast.name": "ရင်သားချဲ့ခြင်း",
     "services.breast.description":
-      "အဆင့်မြင့်နည်းပညာများဖြင့် ရင်သားပြုပြင်ခြင်း။",
-    "services.spine.name": "ကျောရိုးခွဲစိတ်ကုသမှု",
+      "ပရီမီယံ ထင်းများ၊ 3D ပုံရိပ်ဖော်ခြင်းနှင့် ပုဂ္ဂိုလ်ရေး ခွဲစိတ်မှု စီမံကိန်းပါရှိသော အဆင့်မြင့် ရင်သားတိုးမြှင့်မှု လုပ်ထုံးလုပ်နည်းများ။",
+    "services.spine.name": "ကျောရိုးခွဲစိတ်မှု",
     "services.spine.description":
-      "အနည်းဆုံးထိခိုက်သောနည်းလမ်းဖြင့် ကျောရိုးဆိုင်ရာကုသမှု။",
-    "services.ivf.name": "သားသမီးရရှိရေးကုသမှု",
-    "services.ivf.description": "မျိုးအောင်စေသော ကုသမှုနည်းလမ်းများ။",
-    "services.bone_marrow.name": "အရိုးချဉ်ဆီအစားထိုးကုသမှု",
-    "services.bone_marrow.description": "အသက်ကယ်နိုင်သော ဆဲလ်အစားထိုးကုသမှု။",
-    "services.gynecology.name": "မီးယပ်နှင့်သားဖွားဆိုင်ရာကုသမှု",
+      "လမ်းညွှန်မှုနည်းပညာ၊ အရုပ်ခရုအစားထိုးမှုနှင့် နာကျင်မှုစီမံခန့်ခွဲမှုပါရှိသော အနည်းဆုံး ထိုးဖောက်ဝင်ရောက်မှု ကျောရိုး လုပ်ထုံးလုပ်နည်းများ။",
+    "services.ivf.name": "IVF ကုသမှု",
+    "services.ivf.description":
+      "အဆင့်မြင့် မျိုးပွားနည်းပညာများ၊ မျိုးရိုးဗီဇ စစ်ဆေးမှုနှင့် မြင့်မားသော အောင်မြင်မှုနှုန်းများပါရှိသော ပြည့်စုံသော မျိုးပွားမှု ဖြေရှင်းနည်းများ။",
+    "services.bone_marrow.name": "ရိုးတွင်းခြင်ဆီ အစားထိုး",
+    "services.bone_marrow.description":
+      "အဆင့်မြင့် အခြေအနေပြင်ဆင်မှု နည်းလမ်းများနှင့် အထောက်အကူပြု ဂရုစိုက်မှုပါရှိသော အသက်ကယ်တင်သော hematopoietic ပင်မဆဲလ် အစားထိုးမှု။",
+    "services.gynecology.name": "အမျိုးသမီးရောဂါဗေဒ",
     "services.gynecology.description":
-      "အမျိုးသမီးကျန်းမာရေးဆိုင်ရာ ကုသမှုများ။",
-    "services.bariatric.name": "အဝလွန်ခြင်းဆိုင်ရာခွဲစိတ်ကုသမှု",
+      "အနည်းဆုံး ထိုးဖောက်ဝင်ရောက်မှု လုပ်ထုံးလုပ်နည်းများ၊ ရိုဘော့ခွဲစိတ်မှုနှင့် ပြည့်စုံသော ကျန်းမာရေး အစီအစဉ်များပါရှိသော ပြည့်စုံသော အမျိုးသမီးများ ကျန်းမာရေးစောင့်ရှောက်မှု။",
+    "services.bariatric.name": "အဝလျှော့ခွဲစိတ်မှု",
     "services.bariatric.description":
-      "ကိုယ်အလေးချိန်လျှော့ချရေးအတွက် ခွဲစိတ်ကုသမှု။",
+      "ဇီဝကမ္မခွဲစိတ်မှု ရွေးချယ်စရာများ၊ အာဟာရ အကြံပေးခြင်းနှင့် ရေရှည် အထောက်အပံ့ပါရှိသော အဆင့်မြင့် ကိုယ်အလေးချိန်လျှော့ချမှု လုပ်ထုံးလုပ်နည်းများ။",
 
-    "services.testimonials.title": "လူနာများ၏အမြင်များ",
+    "services.testimonials.title": "လူနာများ၏ သက်သေခံချက်များ",
     "services.testimonials.subtitle":
-      "ကျွန်ုပ်တို့၏လူနာများ၏အတွေ့အကြုံများကို နားထောင်ပါ",
-    "services.buttons.bookNow": "ယခုစာရင်းသွင်းပါ",
-    "sevices.buttons.learnMore": "ပိုမိုလေ့လာပါ",
-    "services.buttons.callback": "ဖုန်းပြန်ခေါ်ရန်တောင်းဆိုပါ",
-    "services.buttons.whatsapp": "WhatsApp ဖြင့်ဆက်သွယ်ပါ",
+      "ကျွန်ုပ်တို့၏ လူနာများထံမှ သူတို့၏ အတွေ့အကြုံများနှင့် အောင်မြင်သော ကုသမှုများအကြောင်း နားထောင်ပါ",
+    "services.buttons.bookNow": "ယခု ကြိုတင်မှာစာ",
+    "sevices.buttons.learnMore": "ပိုမိုလေ့လာရန်",
+    "services.buttons.callback": "ပြန်ခေါ်မှု တောင်းဆိုပါ",
+    "services.buttons.whatsapp": "WhatsApp ယခုပဲ",
     "services.buttons.whatsapp_message":
-      "မင်္ဂလာပါ၊ AarogyCare ၏ဝန်ဆောင်မှုများအကြောင်း ပိုမိုသိရှိလိုပါသည်။",
+      "မင်္ဂလာပါ၊ AarogyCare ဝန်ဆောင်မှုများအကြောင်း အသေးစိတ် လိုအပ်ပါသည်။",
     "services.buttons.knowMore": "ပိုမိုသိရှိရန်",
+
+    // About Page
+    "about.hero.title": "ကျွန်ုပ်တို့၏ ဇာတ်လမ်းနှင့် မစ်ရှင်",
+    "about.hero.subtitle":
+      "၁၅ နှစ်ကျော် အိန္ဒိယနှင့် CIS ဒေသအကြား ကျန်းမာရေး ထူးချွန်မှုကို ချိတ်ဆက်ပေးခြင်း။ ကမ္ဘာ့အဆင့်မီ ဆေးကုသမှုကို လက်လှမ်းမီ အစျေးနှင့် ရရှိစေရန် ကျွန်ုပ်တို့ ကတိကဝတ်ပြုပါသည်။",
+    "about.story.title": "နှလုံးများကို ဆက်သွယ်ခြင်း၊ အသက်များကို ကုသခြင်း",
+    "about.values.title": "ကျွန်ုပ်တို့၏ အဓိက တန်ဖိုးများ",
+    "about.values.subtitle":
+      "ဤမူဝါဒများသည် ကျွန်ုပ်တို့ လုပ်ဆောင်သမျှအရာကို လမ်းညွှန်ပြီး ကျန်းမာရေး စေ့စပ်ခြင်းတွင် ထူးချွန်မှုအတွက် ကျွန်ုပ်တို့၏ ကတိကဝတ်ကို ပုံသွင်းပေးပါသည်။",
+    "about.team.title": "ကျွန်ုပ်တို့၏ အဖွဲ့ကို မိတ်ဆက်ပါ",
+    "about.team.subtitle":
+      "ကျွန်ုပ်တို့၏ ရည်စူးသော ပညာရှင်များသည် ဆေးပညာ ကျွမ်းကျင်မှုနှင့် ယဉ်ကျေးမှု နားလည်မှုတို့ကို ပေါင်းစပ်ကာ ထူးခြားသော ဂရုစိုက်မှု ညှိနှိုင်းခြင်းကို ပေးအပ်ပါသည်။",
+    "about.journey.title": "ကျွန်ုပ်တို့၏ ခရီးစဉ်",
+    "about.journey.subtitle":
+      "ကျွန်ုပ်တို့၏ တိုးတက်မှုနှင့် ထူးချွန်မှုအတွက် ကတိကဝတ်ကို ပုံသွင်းပေးခဲ့သော အဓိက မှတ်တိုင်များ။",
+    "about.story.paragraph1":
+      "၂၀၀၈ တွင် တည်ထောင်ခဲ့သော ကျွန်ုပ်တို့ကုမ္ပဏီသည် ရိုးရိုးသော်လည်း အားကောင်းသော မျှော်မှန်းချက်တစ်ခုမှ ပေါ်ထွက်လာခဲ့သည်- ကာဇက်စတန်နှင့် ရုရှားမှ လူနာများအတွက် ကမ္ဘာ့အဆင့်မီ ကျန်းမာရေးစောင့်ရှောက်မှုကို လက်လှမ်းမီအောင် ပြုလုပ်ရန်ဖြစ်သည်။ သေးငယ်သော အစပြုမှုအဖြစ် စတင်ခဲ့သော အရာသည် အရည်အသွေးမြင့် ဆေးကုသမှုကို ရှာဖွေနေသော လူနာများနှင့် အိန္ဒိယ၏ နာမည်ကြီး ကျန်းမာရေးစနစ်အကြား စိတ်ချရသော တံတားအဖြစ် ကြီးထွားလာခဲ့သည်။",
+    "about.story.paragraph2":
+      "ကျွန်ုပ်တို့၏ တည်ထောင်သူများသည် နိုင်ငံခြား ကျန်းမာရေးစနစ်များကို လမ်းညွှန်ခြင်း၏ စိန်ခေါ်မှုများကို ကိုယ်တိုင် ကြုံတွေ့ခဲ့ပြီး ပြည့်စုံသော အထောက်အပံ့စနစ်၏ လိုအပ်ချက်ကို နားလည်ခဲ့ပါသည်။ နိုင်ငံခြားတွင် ဆေးကုသမှုသည် ဆေးရုံတွင်း ဂရုစိုက်မှုထက် ပိုမိုလိုအပ်သည်ကို ကျွန်ုပ်တို့ အသိအမှတ်ပြုခဲ့သည် - ယဉ်ကျေးမှု နားလည်မှု၊ ဘာသာစကား အထောက်အပံ့နှင့် စိတ်ပိုင်းဆိုင်ရာ လမ်းညွှန်မှုများ လိုအပ်ပါသည်။",
+    "about.story.paragraph3":
+      "ဒီနေ့တွင် ကျွန်ုပ်တို့သည် လူနာထောင်ပေါင်းများစွာအတွက် စိတ်ချရသော မိတ်ဖက်အဖြစ် ဂုဏ်ယူစွာ ဝန်ဆောင်လျက်ရှိပြီး ဆေးပညာ ညှိနှိုင်းခြင်းသာမက ဆေးကုသ ခရီးသွားလုပ်ငန်း ခရီးစဉ်၏ ကဏ္ဍတိုင်းကို ကိုင်တွယ်သော ပြည့်စုံသော ဂရုစိုက်မှု ဂေဟစနစ်ကို ပေးအပ်ပါသည်။",
+    "about.story.image_alt":
+      "ကျွန်ုပ်တို့၏ ဆေးပညာအဖွဲ့သည် လူနာဂရုစိုက်မှုကို ဆွေးနွေးနေသည်",
+    "about.values.compassionate.title": "သနားကရုဏာရှိသော ဂရုစိုက်မှု",
+    "about.values.compassionate.description":
+      "ကျွန်ုပ်တို့သည် လူနာတိုင်းကို သူတို့၏ ထူးခြားသော လိုအပ်ချက်များနှင့် စိုးရိမ်ပူပင်မှုများကို နားလည်ပြီး စာနာမှုဖြင့် ကုသပါသည်။",
+    "about.values.trust.title": "ယုံကြည်မှုနှင့် ပွင့်လင်းမြင်သာမှု",
+    "about.values.trust.description":
+      "ကုသမှုကုန်ကျစရိတ်များ၊ လုပ်ထုံးလုပ်နည်းများနှင့် မျှော်လင့်ထားသော ရလဒ်များတွင် အပြည့်အဝ ပွင့်လင်းမြင်သာမှု။",
+    "about.values.global.title": "ကမ္ဘာ့အဆင့်မီ စံချိန်စံညွှန်းများ",
+    "about.values.global.description":
+      "ကမ္ဘာ့အဆင့်မီ အဆောက်အအုံများနှင့် ကျွမ်းကျင်သော ဆရာဝန်များပါရှိသော နိုင်ငံတကာ အရည်အသွေး ကျန်းမာရေးစောင့်ရှောက်မှု။",
+    "about.values.support.title": "ကိုယ်ပိုင် အထောက်အပံ့",
+    "about.values.support.description":
+      "အိန္ဒိယတွင် သင့်ဆေးကုသ ခရီးစဉ်တစ်လျှောက် သင့်ကို ကူညီရန် ရည်စူးသော အထောက်အပံ့အဖွဲ့။",
+    "about.team.dr_meenu.name": "ဒေါက်တာ မီနူ ဝေးလီးယား",
+    "about.team.dr_meenu.role": "ကင်ဆာရောဂါ အထူးကု",
+    "about.team.dr_meenu.description":
+      "Max Delhi မှ ကင်ဆာ ဂရုစိုက်မှုတွင် အထူးပြုသော ထိပ်တန်း ဆေးပညာ ကင်ဆာရောဂါ အထူးကု။",
+    "about.team.dr_subhash.name": "ဒေါက်တာ သုဘားရှ် ဂုပ်တာ",
+    "about.team.dr_subhash.role": "အသည်းအစားထိုး ခွဲစိတ်ဆရာဝန်",
+    "about.team.dr_subhash.description":
+      "Max Delhi မှ ထိပ်တန်း အသည်းအစားထိုး ခွဲစိတ်ဆရာဝန် (၄၀၀၀+ အစားထိုးမှုများ)။",
+    "about.team.dr_sanjeev.name": "ဒေါက်တာ သံဂျီဗ် ဒူအာ",
+    "about.team.dr_sanjeev.role": "အာရုံကြောခွဲစိတ်ဆရာဝန်",
+    "about.team.dr_sanjeev.description":
+      "၂၀+ နှစ် အတွေ့အကြုံရှိ ဦးနှောက်နှင့် ကျောရိုးခွဲစိတ်မှုများတွင် ကျွမ်းကျင်သူ",
+    "about.milestones.2008.year": "၂၀၀၈",
+    "about.milestones.2008.event": "ကုမ္ပဏီ တည်ထောင်မှု",
+    "about.milestones.2008.description":
+      "ကျန်းမာရေး ကွာဟချက်များကို ဖြည့်တင်းရန် မျှော်မှန်းချက်ဖြင့် စတင်ခဲ့သည်",
+    "about.milestones.2012.year": "၂၀၁၂",
+    "about.milestones.2012.event": "၁၀၀၀+ လူနာများ",
+    "about.milestones.2012.description":
+      "ကျွန်ုပ်တို့၏ ပထမ အဓိက မှတ်တိုင်သို့ ရောက်ရှိခဲ့သည်",
+    "about.milestones.2016.year": "၂၀၁၆",
+    "about.milestones.2016.event": "၅၀+ မိတ်ဖက် ဆေးရုံများ",
+    "about.milestones.2016.description":
+      "အိန္ဒိယတစ်ဝှမ်းတွင် ကျွန်ုပ်တို့၏ ကွန်ယက်ကို ချဲ့ထွင်ခဲ့သည်",
+    "about.milestones.2020.year": "၂၀၂၀",
+    "about.milestones.2020.event": "ဒစ်ဂျစ်တယ် ပြောင်းလဲမှု",
+    "about.milestones.2020.description":
+      "အွန်လိုင်း ဆွေးနွေးခြင်း ဝန်ဆောင်မှုများကို စတင်ခဲ့သည်",
+    "about.milestones.2023.year": "၂၀၂၃",
+    "about.milestones.2023.event": "၁၀၀၀၀+ အောင်မြင်မှု ဇာတ်လမ်းများ",
+    "about.milestones.2023.description":
+      "ဆယ်စုနှစ်တစ်ခုကျော် ထူးချွန်မှုကို ဂုဏ်ပြုခြင်း",
+    "about.buttons.callback": "ပြန်ခေါ်မှု တောင်းဆိုပါ",
+    "about.buttons.whatsapp": "WhatsApp ယခုပဲ",
+    "about.buttons.whatsapp_message":
+      "မင်္ဂလာပါ၊ AarogyCare ဝန်ဆောင်မှုများအကြောင်း အသေးစိတ် လိုအပ်ပါသည်။",
+
+    // Contact Page
+    "contact.hero.title": "ဆက်သွယ်ပါ",
+    "contact.hero.subtitle":
+      "သင့်ဆေးကုသ ခရီးစဉ်ကို စတင်ရန် အသင့်ရှိပြီလား? ကျွန်ုပ်တို့၏ ရည်စူးသော အဖွဲ့သည် သင့်ခြေလှမ်းတိုင်းတွင် ကူညီရန် ဤနေရာတွင် ရှိပါသည်။ ပုဂ္ဂိုလ်ရေး ဆွေးနွေးမှုနှင့် အထောက်အပံ့အတွက် ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ။",
+    "contact.form.title": "ပြန်ခေါ်မှု တောင်းဆိုပါ",
+    "contact.form.subtitle":
+      "အောက်ပါ ပုံစံကို ဖြည့်စွက်ပါ၊ ကျွန်ုပ်တို့၏ ဆေးပညာ ညှိနှိုင်းသူက ၂၄ နာရီအတွင်း သင့်ကို ဆက်သွယ်ပါမည်။",
+    "contact.form.name": "အပြည့်အစုံ အမည်",
+    "contact.form.phone": "ဖုန်းနံပါတ်",
+    "contact.form.message": "စာ",
+    "contact.form.messagePlaceholder":
+      "သင့်ဆေးပညာ လိုအပ်ချက်များ သို့မဟုတ် သင့်မှာ ရှိသော မေးခွန်းများကို ပြောပြပါ...",
+    "contact.form.submit": "ပြန်ခေါ်မှု တောင်းဆိုပါ",
+    "contact.form.sending": "ပို့နေသည်...",
+    "contact.form.success":
+      "ကျေးဇူးတင်ပါသည်! သင့်စာကို အောင်မြင်စွာ ပို့ပြီးပါပြီ။ ကျွန်ုပ်တို့ မကြာမီ သင့်ကို ဆက်သွယ်ပါမည်။",
+    "contact.info.title": "ဆက်သွယ်ရေး အချက်အလက်များ",
+    "contact.info.subtitle":
+      "ကျွန်ုပ်တို့သည် သင့်ဆေးကုသ ခရီးစဉ်ကို ယုံကြည်မှုဖြင့် လမ်းညွှန်ရန် ဤနေရာတွင် ရှိပါသည်။ အောက်ပါ လမ်းကြောင်းများ အနက်မှ တစ်ခုခုမှတဆင့် ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ။",
+    "contact.emergency.title": "အရေးပေါ် အထောက်အပံ့",
+    "contact.emergency.subtitle":
+      "အရေးပေါ် ဆေးကုသအကူအညီ သို့မဟုတ် အရေးပေါ်အခြေအနေများအတွက်:",
+
+    "contact.form.description":
+      "သင့်ပြန်ကြားချက်က ကျွန်ုပ်တို့ ဝန်ဆောင်မှုများ တိုးတက်အောင် ကူညီပါသည်",
+
+    "contact.form.name.label": "အပြည့်အစုံ အမည်",
+    "contact.form.name.placeholder": "သင့်အပြည့်အစုံ အမည် ထည့်သွင်းပါ",
+    "contact.form.address.label": "လိပ်စာ",
+    "contact.form.address.placeholder": "သင့်လိပ်စာ ထည့်သွင်းပါ",
+    "contact.form.phone.label": "ဖုန်းနံပါတ်",
+    "contact.form.phone.placeholder": "သင့်ဖုန်းနံပါတ် ထည့်သွင်းပါ",
+    "contact.form.email.label": "အီးမေးလ် လိပ်စာ",
+    "contact.form.email.placeholder": "သင့်အီးမေးလ် လိပ်စာ ထည့်သွင်းပါ",
+    "contact.form.message.label": "သင့်စာ",
+    "contact.form.message.placeholder":
+      "သင့်အတွေ့အကြုံ သို့မဟုတ် စိုးရိမ်ပူပင်မှုများအကြောင်း ကျွန်ုပ်တို့ကို ပြောပြပါ...",
+    "contact.form.immediateAssistance": "ချက်ချင်း အကူအညီ လိုအပ်လား?",
+    "contact.form.whatsapp": "WhatsApp တွင် ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ",
+    "contact.info.description":
+      "ကျွန်ုပ်တို့သည် သင့်ကို အကောင်းဆုံး ဆေးကုသမှုနှင့် အထောက်အပံ့ပေးရန် ၂၄/၇ ရရှိနိုင်ပါသည်",
+    "contact.info.phone.title": "ဖုန်း အထောက်အပံ့",
+    "contact.info.phone.detail1": "+91 9097 272 726",
+    "contact.info.phone.detail2": "+91 9599 023 663",
+    "contact.info.phone.description": "၂၄/၇ အရေးပေါ် အထောက်အပံ့ ရရှိနိုင်သည်",
+    "contact.info.email.title": "အီးမေးလ် အထောက်အပံ့",
+    "contact.info.email.detail1": "SHUBHAMAGRAWAL970@GMAIL.COM",
+    "contact.info.email.description": "၂ နာရီအတွင်း တုံ့ပြန်မှု",
+    "contact.info.hours.title": "အလုပ်လုပ်သော အချိန်များ",
+    "contact.info.hours.detail1": "တနင်္လာ-သောကြာ: မနက် ၉:၀၀ - ညနေ ၈:၀၀",
+    "contact.info.hours.detail2": "စနေ-တနင်္ဂနွေ: မနက် ၁၀:၀၀ - ညနေ ၆:၀၀",
+    "contact.info.hours.description": "အိန္ဒိယ စံတော်ချိန် (IST)",
+    "contact.emergency.description":
+      "အရေးပေါ် ဆေးကုသအကူအညီအတွက် ၂၄/၇ ရရှိနိုင်သည်",
+    "contact.emergency.phone": "+91 90972 72726",
+    "contact.faqs.title": "လျင်မြန်သော အဖြေများ",
+    "contact.faqs.subtitle":
+      "ကျွန်ုပ်တို့၏ ဆေးကုသ ခရီးသွားလုပ်ငန်း ဝန်ဆောင်မှုများနှင့် အထောက်အပံ့အကြောင်း အများအားဖြင့် မေးလေ့ရှိသော မေးခွန်းများ။",
+    "contact.faqs.arrangement.question":
+      "ကုသမှုကို မည်မျှ လျင်မြန်စွာ စီစဉ်နိုင်မလဲ?",
+    "contact.faqs.arrangement.answer":
+      "ကျွန်ုပ်တို့သည် များသောအားဖြင့် ၄၈-၇၂ နာရီအတွင်း ဆွေးနွေးမှုများကို စီစဉ်နိုင်ပြီး လုပ်ထုံးလုပ်နည်းပေါ် မူတည်၍ ၁-၂ ပတ်အတွင်း ကုသမှုကို စီစဉ်နိုင်ပါသည်။",
+    "contact.faqs.visa.question": "သင်တို့ ဗီဇာ အကူအညီ ပေးလား?",
+    "contact.faqs.visa.answer":
+      "ဟုတ်ကဲ့၊ ကျွန်ုပ်တို့သည် ဆေးကုသ ဗီဇာ စာရွက်စာတမ်းများနှင့် ဖိတ်ကြားစာများ အပါအဝင် ပြည့်စုံသော ဗီဇာ အကူအညီ ပေးပါသည်။",
+    "contact.faqs.languages.question":
+      "သင်တို့ မည်သည့် ဘာသာစကားများကို အထောက်အပံ့ပေးလဲ?",
+    "contact.faqs.languages.answer":
+      "ကျွန်ုပ်တို့သည် ရုရှား၊ ကာဇက်နှင့် အင်္ဂလိပ်တို့တွင် ဘာသာစကားတစ်ခုစီအတွက် ရည်စူးသော ညှိနှိုင်းသူများဖြင့် အထောက်အပံ့ပေးပါသည်။",
+    "contact.faqs.costs.question": "ကုသမှု ကုန်ကျစရိတ်များ ပွင့်လင်းသလား?",
+    "contact.faqs.costs.answer":
+      "အတိအကျပါ။ ကျွန်ုပ်တို့သည် ကုသမှု၊ တည်းခို နှင့် ခရီးသွား အပါအဝင် လျှို့ဝှက်ချေးယူမှုများ မရှိဘဲ ကြိုတင် အသေးစိတ် ကုန်ကျစရိတ် ခန့်မှန်းချက်များ ပေးပါသည်။",
+
+    // Feedback Form
+    "feedback.title": "ပြန်ကြားချက် ပုံစံ",
+    "feedback.subtitle":
+      "ကျွန်ုပ်တို့သည် သင့်ပြန်ကြားချက်ကို တန်ဖိုးထားပြီး သင့်မှာရှိသော စိုးရိမ်ပူပင်မှုများကို ကိုင်တွယ်ဖြေရှင်းလိုပါသည်။",
+    "feedback.successMessage":
+      "သင့်ပြန်ကြားချက်အတွက် ကျေးဇူးတင်ပါသည်! ကျွန်ုပ်တို့ ၎င်းကို ပြန်လည်သုံးသပ်ပြီး မကြာမီ သင့်ကို ပြန်လည်ဆက်သွယ်ပါမည်။",
+
+    // Form Fields
+    "feedback.fields.name.label": "အမည်",
+    "feedback.fields.name.placeholder": "သင့်အပြည့်အစုံ အမည် ထည့်သွင်းပါ",
+    "feedback.fields.address.label": "လိပ်စာ",
+    "feedback.fields.address.placeholder": "သင့်ပြည့်စုံသော လိပ်စာ ထည့်သွင်းပါ",
+    "feedback.fields.address.required": "လိပ်စာ လိုအပ်ပါသည်",
+    "feedback.fields.telephone.label": "တယ်လီဖုန်း",
+    "feedback.fields.telephone.placeholder": "+91 98765 43210",
+    "feedback.fields.telephone.required":
+      "ကျေးဇူးပြု၍ တရားဝင် ဖုန်းနံပါတ် ထည့်သွင်းပါ",
+    "feedback.fields.email.label": "အီးမေးလ်",
+    "feedback.fields.email.placeholder": "your.email@example.com",
+    "feedback.fields.complaint.label": "အသေးစိတ် တိုင်ကြားချက်",
+    "feedback.fields.complaint.placeholder":
+      "ကျေးဇူးပြု၍ သင့်တိုင်ကြားချက် သို့မဟုတ် ပြန်ကြားချက်အကြောင်း အသေးစိတ် အချက်အလက်များ ပေးပါ...",
+
+    // Buttons & Actions
+    "feedback.submitButton": "ပြန်ကြားချက် ပေးပို့ပါ",
+    "feedback.submitting": "ပြန်ကြားချက် ပေးပို့နေသည်...",
+
+    // Footer
+    "feedback.assistanceText": "အရေးပေါ်အကူအညီလိုပါသလား?",
+    "feedback.assistanceLink": "WhatsApp မှတစ်ဆင့်တိုက်ရိုက်ဆက်သွယ်ပါ",
+    "footer.brand": "AarogyCare",
+    "footer.description":
+      "အိန္ဒိယနှင့် CIS ဒေသအကြား ကျန်းမာရေးစံချိန်များကို ချိတ်ဆက်ပေးခြင်း။ ကမ္ဘာ့အဆင့်မီ ဆေးကုသမှုအတွက် သင့်အမြဲယုံကြည်ရသော မိတ်ဖက်။",
+    "footer.titles.services": "ဆေးဘက်ဆိုင်ရာ ဝန်ဆောင်မှုများ",
+    "footer.titles.support": "လူနာထောက်ခံမှု",
+    "footer.titles.company": "ကုမ္ပဏီ",
+    "footer.links.services.oncology": "ကင်ဆာကုသမှု",
+    "footer.links.services.cardiology": "နှလုံးဆိုင်ရာကုသမှု",
+    "footer.links.services.neurosurgery": "နာရီဗာခွဲစိတ်ကုသမှု",
+    "footer.links.services.transplantation": "အစားထိုးကုသမှု",
+    "footer.links.services.cosmetic": "အလှဆိုင်ရာခွဲစိတ်",
+    "footer.links.services.dental": "သွားပြုစုခြင်း",
+    "footer.links.support.contact": "ဆက်သွယ်ရန်",
+    "footer.links.support.emergency": "အရေးပေါ်ထောက်ခံမှု",
+    "footer.links.support.portal": "လူနာပေါ်တယ်",
+    "footer.links.support.insurance": "အာမခံအကူအညီ",
+    "footer.links.support.travel": "ခရီးသွားအကူအညီ",
+    "footer.links.support.language": "ဘာသာစကားထောက်ခံမှု",
+    "footer.links.company.about": "ကျွန်ုပ်တို့အကြောင်း",
+    "footer.links.company.team": "ကျွန်ုပ်တို့အဖွဲ့",
+    "footer.links.company.careers": "အလုပ်အကိုင်အခွင့်အလမ်းများ",
+    "footer.links.company.privacy": "ကိုယ်ရေးအချက်အလက်မူဝါဒ",
+    "footer.links.company.terms": "ဝန်ဆောင်မှု စည်းမျဉ်းစည်းကမ်းများ",
+    "footer.links.company.blog": "ဘလော့ဂ်",
+    "footer.contact.phone": "ဖုန်း",
+    "footer.contact.email": "အီးမေးလ်",
+    "footer.contact.address": "လိပ်စာ",
+    "footer.social.facebook": "ဖေ့စ်ဘွတ်ခ်",
+    "footer.social.instagram": "အင်စတာဂရမ်",
+    "footer.social.linkedin": "LinkedIn",
+    "footer.copyright":
+      "© {{year}} AarogyCare။ မူပိုင်ခွင့်အားလုံး သိမ်းဆည်းထားသည်။",
+
+    "features.support": "၂၄/၇ ဆေးဘက်ထောက်ခံမှု",
+    "features.support.detail": "နေ့မနက်ညအထိ ဆရာဝန်များထံ အမြန်မီခေါ်နိုင်ခြင်း",
+    "features.visa": "ဗီဇာအကူအညီ",
+    "features.visa.detail":
+      "ဆေးဘက်ဆိုင်ရာ ဗီဇာလျှောက်လွှာများ အောင်မြင်မှုနှုန်းမြင့်မားခြင်း",
+    "features.interpreters": "ဘာသာပြန်ဝန်ဆောင်မှု",
+    "features.interpreters.detail":
+      "အဓိကကမ္ဘာ့ဘာသာစကားအားလုံးကို ဖုံးလွှမ်းထားခြင်း",
+    "features.transfers": "လေဆိပ်ကားလှည်းဝန်ဆောင်မှု",
+    "features.transfers.detail":
+      "သယ်ယူပို့ဆောင်မှုလိုအပ်ချက်များအတွက် အမြန်တုံ့ပြန်နိုင်ခြင်း",
+    "features.accommodation": "နေအိမ်ဖြေရှင်းချက်များ",
+    "features.accommodation.detail":
+      "ယုံကြည်စိတ်ချရသော နေရာစီစဉ်သူများကွန်ယက်ကျယ်ပြန့်မှု",
+    "features.postCare": "ကုသပြီးနောက်ထောက်ခံမှု",
+    "features.postCare.detail":
+      "သင့်ကျန်းမာရေးပြန်လည်ကုသမှုအတွက် လုံးဝအကျုံးဝင်စောင့်ရှောက်မှု",
+    "features.cta": "ယနေ့သင်၏ ကျန်းမာရေးခရီးစဥ်စတင်လိုက်ပါ",
+
+    "common.loading": "ခဏစောင့်ပါ...",
+    "common.readMore": "နောက်ထပ်ဖတ်ရှုရန်",
+    "common.learnMore": "ပိုမိုလေ့လာရန်",
+    "common.viewAll": "အားလုံးကြည့်ရန်",
+
+    "header.trusted": "ကမ္ဘာတဝှမ်း လူနာ 50,000+ ၏ ယုံကြည်ချက်",
+    "header.title1": "ကျွန်ုပ်တို့ဘယ်လို",
+    "header.title2": "အသက်ဘဝများကိုပြောင်းလဲပေးသည်",
+    "header.subtitle1":
+      "ကမ္ဘာ့အဆင့်မီ ဆေးဘက်ကုသမှုကိုပေးဆောင်ရန် ဒီအဆင့် ၈ ဆင့်ကျန်းမာရေးခရီးစဉ်ကို စိတ်ကြိုက်ထုတ်လုပ်ထားသည်",
+    "header.highlight1": "ကမ္ဘာ့အဆင့်မီ ဆေးဘက်ကုသမှု",
+    "header.subtitle2": "နှင့်အတူ",
+    "header.highlight2": "မတူညီသော ကိုယ်ပိုင်ဂရုစိုက်မှု",
+
+    "steps.firstContact.title": "ပထမဆက်သွယ်မှု",
+    "steps.firstContact.description":
+      "သင့်ဆေးဘက်အချက်အလက်များကို ကျွန်ုပ်တို့ထံ လုံခြုံသော ဖောင်မှတဆင့် သို့မဟုတ် ဆရာဝန်များနှင့် တိုက်ရိုက် ဖုန်းဖြင့် ဆွေးနွေးပေးပါ။",
+    "steps.firstContact.time": "အမြန်တုံ့ပြန်မှု",
+
+    "steps.expertTeam.title": "ကျွမ်းကျင်အဖွဲ့နှင့်ချိတ်ဆက်ခြင်း",
+    "steps.expertTeam.description":
+      "ကျွန်ုပ်တို့၏ ကျွမ်းကျင်ဆရာဝန်အဖွဲ့နှင့် လူနာကော်ဒီနေတာများသည် သင့်လိုအပ်ချက်များကို နားလည်ရန် ဆက်သွယ်ပါမည်။",
+    "steps.expertTeam.time": "၂ နာရီအတွင်း",
+
+    "steps.assessment.title": "ဆေးဘက်သုံးသပ်ခြင်းနှင့် ကုန်ကျစရိတ်",
+    "steps.assessment.description":
+      "ကမ္ဘာ့အဆင့်မီ ဆေးဘက်သုံးသပ်ချက်နှင့် ပေးသွင်းသည့်ကုန်ကျစရိတ်အသေးစိတ်ဖြင့် အမြန်တုံ့ပြန်ပါမည်။",
+    "steps.assessment.time": "၄၈ နာရီအတွင်း",
+
+    "steps.travel.title": "ခရီးစဉ်ညှိနှိုင်းခြင်း",
+    "steps.travel.description":
+      "ဗီဇာအကူအညီ၊ လေယာဉ်လက်မှတ်နှင့် နေရာစီစဉ်ခြင်း အပါအဝင် ခရီးစဉ်ကို လုံးဝညှိနှိုင်းပေးသည်။",
+    "steps.travel.time": "၃-၅ ရက်အတွင်း",
+
+    "steps.reception.title": "VIP လေဆိပ်ကြိုဆိုခြင်း",
+    "steps.reception.description":
+      "လေဆိပ်တွင် VIP ကြိုဆိုခြင်းနှင့် သင်၏နေရာသို့ လုံခြုံစွာသယ်ယူပို့ဆောင်ပေးသည်။",
+    "steps.reception.time": "ရောက်ရှိချိန်တွင်",
+
+    "steps.treatment.title": "ကမ္ဘာ့အဆင့်မီကုသမှု",
+    "steps.treatment.description":
+      "ဆရာဝန်ကျွမ်းကျင်များနှင့် နည်းပညာမြင့်စနစ်များဖြင့် ကမ္ဘာ့အဆင့်မီ ဆေးဘက်ကုသမှုကိုခံယူပါ။",
+    "steps.treatment.time": "အစီအစဉ်အရ",
+
+    "steps.return.title": "လုံခြုံစွာ ပြန်သွားခြင်း",
+    "steps.return.description":
+      "ကုသမှုပြီးနောက် အရေးပါသော စာရွက်စာတမ်းများနှင့် ဆေးဝါးများနှင့်အတူ သင့်အိမ်သို့ လုံခြုံစွာ ပြန်သွားနိုင်ပါသည်။",
+    "steps.return.time": "ကုသပြီးနောက်",
+
+    "steps.followup.title": "ဘဝတစ်လျှောက် ထောက်ခံမှု",
+    "steps.followup.description":
+      "ဆက်လက်ထောက်ခံမှု၊ ကျန်းမာရေးစစ်ဆေးမှုများနှင့် ၂၄/၇ ဆက်သွယ်နိုင်သော ကူညီမှု။",
+    "steps.followup.time": "ဆက်လက်လုပ်ဆောင်သည်",
+
+    "stats.satisfaction": "လူနာကျေနပ်မှု",
+    "stats.response": "တုံ့ပြန်ချိန်",
+    "stats.success": "အောင်မြင်မှုနှုန်း",
+    "stats.experience": "အတွေ့အကြုံနှစ်များ",
+
+    "cta.title": "သင့်ကျန်းမာရေးခရီးစဉ်၊ ကျွန်ုပ်တို့၏အာမခံချက်",
+    "cta.subtitle":
+      "ထူးခြားသော ကျန်းမာရေးအတွေ့အကြုံများဖြင့် အသက်ဘဝများပြောင်းလဲခြင်း",
+
+    "features.response": "၄၈နာရီ အာမခံတုံ့ပြန်ချက်",
+    "features.network": "ကမ္ဘာလုံးဆိုင်ရာ ဆေးဘက်ကွန်ယက်",
+    "features.plans": "ကိုယ်ပိုင်ကျန်းမာရေးအစီအစဉ်များ",
+
+    "home.buttons.knowMore": "နောက်ထပ်သိရှိရန်",
+    "home.buttons.bookNow": "ယခုဘွတ်ကင်လုပ်ရန်",
+    "home.buttons.whatsapp": "WhatsApp ဖြင့်ဆက်သွယ်ရန်",
+    "home.buttons.whatsapp_message":
+      "မင်္ဂလာပါ၊ AarogyCare အကြောင်းနောက်ထပ်သိလိုပါသည်။",
   },
 };
 
