@@ -1,5 +1,8 @@
 "use client";
 import React from "react";
+import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa";
+ // Using Lucide React for better icons
 
 interface WhatsAppButtonProps {
   message?: string;
@@ -17,78 +20,91 @@ interface WhatsAppButtonProps {
     | "callback"
     | "help";
   text?: string;
+  className?: string;
 }
 
 const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
   message = "Hello, I would like to inquire about medical tour services.",
   type = "primary",
   text = "Contact via WhatsApp",
+  className = "",
 }) => {
   const phone = "9097272726";
   const encodedMessage = encodeURIComponent(message);
   const link = `https://wa.me/${phone}?text=${encodedMessage}`;
 
-  let buttonClass = "";
+  let buttonClass = "inline-flex items-center justify-center rounded-full font-medium transition-all duration-300 ";
+  let iconSize = 20;
+
   switch (type) {
     case "primary":
-      buttonClass = "bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md shadow";
+      buttonClass += "bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 shadow-lg hover:shadow-xl";
       break;
     case "secondary":
-      buttonClass = "bg-green-100 hover:bg-green-200 text-green-700 px-4 py-2 rounded-md shadow";
+      buttonClass += "bg-gradient-to-r from-green-100 to-green-200 hover:from-green-200 hover:to-green-300 text-green-800 px-6 py-3 shadow-md hover:shadow-lg";
       break;
     case "outline":
-      buttonClass = "border border-green-500 hover:bg-green-50 text-green-500 px-4 py-2 rounded-md shadow";
+      buttonClass += "border-2 border-green-500 bg-white hover:bg-green-50 text-green-600 px-6 py-3 shadow-sm hover:shadow-md";
       break;
     case "icon":
-      buttonClass = "flex items-center gap-2 text-green-500 hover:text-green-600 px-2 py-1";
+      buttonClass += "bg-gradient-to-r from-green-500 to-green-600 text-white p-3 shadow-lg hover:shadow-xl";
+      iconSize = 24;
       break;
     case "contact":
-      buttonClass = "bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md shadow";
+      buttonClass += "bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-3 shadow-lg hover:shadow-xl";
       break;
     case "knowMore":
-      buttonClass = "bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded-md shadow";
+      buttonClass += "bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-6 py-3 shadow-lg hover:shadow-xl";
       break;
     case "emergency":
-      buttonClass = "bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md shadow font-bold";
+      buttonClass += "bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-3 shadow-lg hover:shadow-xl font-bold animate-pulse";
       break;
     case "bookNow":
-      buttonClass = "bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-md shadow";
+      buttonClass += "bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-gray-900 px-6 py-3 shadow-lg hover:shadow-xl";
       break;
     case "info":
-      buttonClass = "bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md shadow";
+      buttonClass += "bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white px-6 py-3 shadow-lg hover:shadow-xl";
       break;
     case "support":
-      buttonClass = "bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-md shadow";
+      buttonClass += "bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white px-6 py-3 shadow-lg hover:shadow-xl";
       break;
     case "callback":
-      buttonClass = "bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-md shadow";
+      buttonClass += "bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-6 py-3 shadow-lg hover:shadow-xl";
       break;
     case "help":
-      buttonClass = "bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-md shadow";
+      buttonClass += "bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-3 shadow-lg hover:shadow-xl";
       break;
     default:
-      buttonClass = "bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md shadow";
+      buttonClass += "bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 shadow-lg hover:shadow-xl";
   }
 
   return (
-    <a
+    <motion.a
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className={buttonClass}
+      className={`${buttonClass} ${className}`}
       style={{ zIndex: 50, position: "relative" }}
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
     >
-      {type === "icon" && (
-        <svg
-          className="w-5 h-5"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path d="M20.52 3.48A11.94 11.94 0 0012 0C5.37 0 0 5.37 0 12c0 2.11.55 4.16 1.6 5.97L0 24l6.26-1.6A11.95 11.95 0 0012 24c6.63 0 12-5.37 12-12 0-3.19-1.24-6.21-3.48-8.52zM12 22c-1.8 0-3.53-.48-5.03-1.39l-.36-.21-3.7.94.99-3.59-.23-.37C2.53 15.51 2 13.8 2 12 2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10zm5.15-7.85l-2.16-.62c-.29-.08-.61 0-.83.21l-.64.66a9.79 9.79 0 01-4.25-4.25l.66-.64c.22-.22.3-.54.21-.83l-.62-2.16a.75.75 0 00-.71-.53H9.25c-.41 0-.75.34-.75.75 0 5.52 4.48 10 10 10 .41 0 .75-.34.75-.75v-1.09c0-.33-.21-.62-.53-.71z" />
-        </svg>
-      )}
-      {text}
-    </a>
+      {/* Shiny overlay effect */}
+      <span className="absolute inset-0 overflow-hidden rounded-full">
+        <span className="absolute top-0 left-0 w-full h-full bg-white opacity-0 hover:opacity-10 transition-opacity duration-300" />
+      </span>
+
+      {/* Button content */}
+      <span className="relative flex items-center gap-2">
+        {type !== "icon" && (
+          <FaWhatsapp
+            size={iconSize}
+            className={type === "outline" ? "text-green-600" : "text-white"}
+          />
+        )}
+        {type !== "icon" && text}
+        {type === "icon" && <FaWhatsapp size={iconSize} />}
+      </span>
+    </motion.a>
   );
 };
 

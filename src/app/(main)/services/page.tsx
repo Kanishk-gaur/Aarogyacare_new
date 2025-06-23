@@ -440,7 +440,7 @@ export default function ServicesPage() {
         </div>
         <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
           <WhatsAppButton
-            type="callback"
+            type="info"
             text={t("services.buttons.callback")}
           />
         </div>

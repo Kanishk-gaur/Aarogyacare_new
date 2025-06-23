@@ -10,6 +10,7 @@ import {
   Stethoscope,
 } from "lucide-react";
 import { useLanguage } from "@/contexts/language-context";
+import WhatsAppButton from "../WhatsAppButton";
 
 export default function ServicesPresentation() {
   const { t } = useLanguage();
@@ -117,6 +118,9 @@ export default function ServicesPresentation() {
           </p>
         </div>
       </div>
+      <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
+                <WhatsAppButton type="knowMore" text={t("home.buttons.knowMore")} />
+              </div>
     </section>
   );
 }

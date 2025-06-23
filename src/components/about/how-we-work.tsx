@@ -19,7 +19,7 @@ import { useState } from "react"
 import { useLanguage } from "@/contexts/language-context" // Assuming you have this context hook
 
 export default function Component() {
-  const { t, language } = useLanguage()
+  const { t } = useLanguage()
   const [hoveredStep, setHoveredStep] = useState<number | null>(null)
 
   const steps = [

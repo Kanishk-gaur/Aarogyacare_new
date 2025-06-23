@@ -54,33 +54,7 @@ const team = [
   },
 ];
 
-const milestones = [
-  {
-    yearKey: "about.milestones.2008.year",
-    eventKey: "about.milestones.2008.event",
-    descriptionKey: "about.milestones.2008.description",
-  },
-  {
-    yearKey: "about.milestones.2012.year",
-    eventKey: "about.milestones.2012.event",
-    descriptionKey: "about.milestones.2012.description",
-  },
-  {
-    yearKey: "about.milestones.2016.year",
-    eventKey: "about.milestones.2016.event",
-    descriptionKey: "about.milestones.2016.description",
-  },
-  {
-    yearKey: "about.milestones.2020.year",
-    eventKey: "about.milestones.2020.event",
-    descriptionKey: "about.milestones.2020.description",
-  },
-  {
-    yearKey: "about.milestones.2023.year",
-    eventKey: "about.milestones.2023.event",
-    descriptionKey: "about.milestones.2023.description",
-  },
-];
+
 
 export default function AboutPage() {
   const { t } = useLanguage();
