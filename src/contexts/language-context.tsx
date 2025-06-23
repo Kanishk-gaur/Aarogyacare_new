@@ -313,10 +313,10 @@ const translations: Record<string, Translations> = {
     "feedback.fields.address.placeholder": "Enter your complete address",
     "feedback.fields.address.required": "Address is required",
     "feedback.fields.telephone.label": "Telephone",
-    "feedback.fields.telephone.placeholder": "+91 98765 43210",
+    "feedback.fields.telephone.placeholder": "+91 9097 272 726",
     "feedback.fields.telephone.required": "Please enter a valid phone number",
     "feedback.fields.email.label": "E-mail",
-    "feedback.fields.email.placeholder": "your.email@example.com",
+    "feedback.fields.email.placeholder": "SHUBHAMAGRAWAL970@GMAIL.COM",
     "feedback.fields.complaint.label": "Detailed complaint",
     "feedback.fields.complaint.placeholder":
       "Please provide detailed information about your complaint or feedback...",
@@ -751,11 +751,11 @@ const translations: Record<string, Translations> = {
     "feedback.fields.address.placeholder": "Введите ваш полный адрес",
     "feedback.fields.address.required": "Адрес обязателен",
     "feedback.fields.telephone.label": "Телефон",
-    "feedback.fields.telephone.placeholder": "+91 98765 43210",
+    "feedback.fields.telephone.placeholder": "+91 9097 272 726",
     "feedback.fields.telephone.required":
       "Пожалуйста, введите действительный номер телефона",
     "feedback.fields.email.label": "Электронная Почта",
-    "feedback.fields.email.placeholder": "your.email@example.com",
+    "feedback.fields.email.placeholder": "SHUBHAMAGRAWAL970@GMAIL.COM",
     "feedback.fields.complaint.label": "Подробная жалоба",
     "feedback.fields.complaint.placeholder":
       "Пожалуйста, предоставьте подробную информацию о вашей жалобе или отзыве...",
@@ -1187,7 +1187,7 @@ const translations: Record<string, Translations> = {
     "feedback.fields.address.placeholder": "Entrez votre adresse complète",
     "feedback.fields.address.required": "L'adresse est requise",
     "feedback.fields.telephone.label": "Téléphone",
-    "feedback.fields.telephone.placeholder": "+91 98765 43210",
+    "feedback.fields.telephone.placeholder": "+91 9097 272 726",
     "feedback.fields.telephone.required":
       "Veuillez entrer un numéro de téléphone valide",
     "feedback.fields.email.label": "E-mail",
@@ -1614,7 +1614,7 @@ const translations: Record<string, Translations> = {
     "feedback.fields.address.placeholder": "Masukkan alamat lengkap Anda",
     "feedback.fields.address.required": "Alamat diperlukan",
     "feedback.fields.telephone.label": "Telepon",
-    "feedback.fields.telephone.placeholder": "+91 98765 43210",
+    "feedback.fields.telephone.placeholder": "+91 9097 272 726",
     "feedback.fields.telephone.required":
       "Harap masukkan nomor telepon yang valid",
     "feedback.fields.email.label": "Email",
@@ -2058,11 +2058,11 @@ const translations: Record<string, Translations> = {
     "feedback.fields.address.placeholder": "သင့်ပြည့်စုံသော လိပ်စာ ထည့်သွင်းပါ",
     "feedback.fields.address.required": "လိပ်စာ လိုအပ်ပါသည်",
     "feedback.fields.telephone.label": "တယ်လီဖုန်း",
-    "feedback.fields.telephone.placeholder": "+91 98765 43210",
+    "feedback.fields.telephone.placeholder": "+91 9097 272 726",
     "feedback.fields.telephone.required":
       "ကျေးဇူးပြု၍ တရားဝင် ဖုန်းနံပါတ် ထည့်သွင်းပါ",
     "feedback.fields.email.label": "အီးမေးလ်",
-    "feedback.fields.email.placeholder": "your.email@example.com",
+    "feedback.fields.email.placeholder": "SHUBHAMAGRAWAL970@GMAIL.COM",
     "feedback.fields.complaint.label": "အသေးစိတ် တိုင်ကြားချက်",
     "feedback.fields.complaint.placeholder":
       "ကျေးဇူးပြု၍ သင့်တိုင်ကြားချက် သို့မဟုတ် ပြန်ကြားချက်အကြောင်း အသေးစိတ် အချက်အလက်များ ပေးပါ...",

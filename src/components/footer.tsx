@@ -1,12 +1,20 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Heart, Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from "lucide-react"
-import Link from "next/link"
-import { useLanguage } from "@/contexts/language-context"
+import { motion } from "framer-motion";
+import {
+  Heart,
+  Phone,
+  Mail,
+  MapPin,
+  Facebook,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
+import Link from "next/link";
+import { useLanguage } from "@/contexts/language-context";
 
 export default function Footer() {
-  const { t } = useLanguage()
+  const { t } = useLanguage();
 
   const footerLinks = {
     services: [
@@ -15,7 +23,7 @@ export default function Footer() {
       "footer.links.services.neurosurgery",
       "footer.links.services.transplantation",
       "footer.links.services.cosmetic",
-      "footer.links.services.dental"
+      "footer.links.services.dental",
     ],
     support: [
       "footer.links.support.contact",
@@ -23,7 +31,7 @@ export default function Footer() {
       "footer.links.support.portal",
       "footer.links.support.insurance",
       "footer.links.support.travel",
-      "footer.links.support.language"
+      "footer.links.support.language",
     ],
     company: [
       "footer.links.company.about",
@@ -31,36 +39,39 @@ export default function Footer() {
       "footer.links.company.careers",
       "footer.links.company.privacy",
       "footer.links.company.terms",
-      "footer.links.company.blog"
-    ]
-  }
+      "footer.links.company.blog",
+    ],
+  };
 
   const socialLinks = [
     { icon: Facebook, href: "#", labelKey: "footer.social.facebook" },
     { icon: Instagram, href: "#", labelKey: "footer.social.instagram" },
-    { icon: Linkedin, href: "#", labelKey: "footer.social.linkedin" }
-  ]
+    { icon: Linkedin, href: "#", labelKey: "footer.social.linkedin" },
+  ];
 
   const contactInfo = [
     {
       icon: Phone,
       textKey: "footer.contact.phone",
-      value: "+91 98765 43210"
+      value: "+91 9097 272 726",
     },
     {
       icon: Mail,
       textKey: "footer.contact.email",
-      value: "info@medcareindia.com"
+      value: "SHUBHAMAGRAWAL970@GMAIL.COM",
     },
     {
       icon: MapPin,
       textKey: "footer.contact.address",
-      value: "New Delhi, India"
-    }
-  ]
+      value: "New Delhi, India",
+    },
+  ];
 
   // Workaround for interpolation without changing language context
-  const copyrightText = t("footer.copyright").replace("{{year}}", new Date().getFullYear().toString())
+  const copyrightText = t("footer.copyright").replace(
+    "{{year}}",
+    new Date().getFullYear().toString()
+  );
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -86,7 +97,7 @@ export default function Footer() {
             </p>
             <div className="space-y-3">
               {contactInfo.map((contact, index) => (
-                <div 
+                <div
                   key={index}
                   className="flex items-center space-x-3 hover:text-blue-400 transition-colors duration-300"
                 >
@@ -104,7 +115,9 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-bold mb-6">{t("footer.titles.services")}</h3>
+            <h3 className="text-lg font-bold mb-6">
+              {t("footer.titles.services")}
+            </h3>
             <ul className="space-y-3">
               {footerLinks.services.map((serviceKey, index) => (
                 <li key={index}>
@@ -126,7 +139,9 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-bold mb-6">{t("footer.titles.support")}</h3>
+            <h3 className="text-lg font-bold mb-6">
+              {t("footer.titles.support")}
+            </h3>
             <ul className="space-y-3">
               {footerLinks.support.map((supportKey, index) => (
                 <li key={index}>
@@ -148,7 +163,9 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-bold mb-6">{t("footer.titles.company")}</h3>
+            <h3 className="text-lg font-bold mb-6">
+              {t("footer.titles.company")}
+            </h3>
             <ul className="space-y-3">
               {footerLinks.company.map((companyKey, index) => (
                 <li key={index}>
@@ -201,5 +218,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

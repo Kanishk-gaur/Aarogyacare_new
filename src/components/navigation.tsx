@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Menu, X,  Globe } from "lucide-react";
+import { Menu, X, Globe } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -83,12 +83,12 @@ export default function Navigation() {
               </div>
             </motion.div>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col items-center">
               <span className="text-xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 bg-clip-text text-transparent group-hover:from-blue-600 group-hover:to-purple-600 transition-all duration-300">
                 AarogyCare
               </span>
               <span className="text-xs text-gray-500 font-medium">
-                 Лечение в Индии
+                Лечение в Индии
               </span>
             </div>
           </Link>
