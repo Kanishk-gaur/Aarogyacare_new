@@ -54,8 +54,6 @@ const team = [
   },
 ];
 
-
-
 export default function AboutPage() {
   const { t } = useLanguage();
 
@@ -114,7 +112,7 @@ export default function AboutPage() {
               className="relative"
             >
               <Image
-                src="/images/doc.jpg"
+                src="/images/doctor.jpeg"
                 alt={t("about.story.image_alt")}
                 width={500}
                 height={600}
@@ -239,7 +237,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-       <Component />
+      <Component />
 
       {/* Timeline Section */}
       {/* <section className="py-20 bg-gray-50">

@@ -452,6 +452,8 @@ const translations: Record<string, Translations> = {
     "home.buttons.whatsapp": "WhatsApp Now",
     "home.buttons.whatsapp_message":
       "Hello, I would like to know more about AarogyCare.",
+
+    infographic: "/images/roadmap_english.png",
   },
 
   ru: {
@@ -893,6 +895,8 @@ const translations: Record<string, Translations> = {
     "home.buttons.whatsapp": "Написать в WhatsApp",
     "home.buttons.whatsapp_message":
       "Здравствуйте, я хотел бы узнать больше о AarogyCare.",
+
+    infographic: "/images/roadmap.png",
   },
 
   fr: {
