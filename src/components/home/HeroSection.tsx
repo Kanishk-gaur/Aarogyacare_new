@@ -91,20 +91,24 @@ export default function HeroSection() {
           className="text-center max-w-6xl mx-auto"
         >
           {/* Badge */}
-          <motion.div
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 0.2,
-            }}
-            className={`inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full text-sm font-medium mb-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 font-sans`}
-          >
-            <Sparkles className="w-4 h-4 mr-2" />
-            {t("home.hero.badge")}
-          </motion.div>
+        {/* Badge */}
+<motion.div
+  initial={{ scale: 0.8, opacity: 0 }}
+  animate={{ scale: 1, opacity: 1 }}
+  transition={{
+    type: "spring",
+    stiffness: 100,
+    damping: 10,
+    delay: 0.2,
+  }}
+  className="inline-flex items-center px-4 md:px-6 py-2 md:py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full text-xs md:text-sm font-medium mb-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 font-sans max-w-fit"
+>
+  <Sparkles className="w-3 h-3 md:w-4 md:h-4 mr-2"/>
+  {t("home.hero.badge")}
+</motion.div>
+
+
+
 
           {/* Main heading */}
           <motion.h1

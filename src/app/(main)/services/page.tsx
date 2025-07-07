@@ -263,8 +263,23 @@ export default function ServicesPage() {
 
       {/* Hero Section */}
       <section className="relative pt-24 pb-20 overflow-hidden">
-        {/* Background Pattern */}
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/images/serviceb.png')",
+            filter: "blur(2x)",
+            opacity: 0.5,
+          }}
+        ></div>
+
+        {/* Optional dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-black opacity-30 z-0"></div>
+
+        {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-purple-600/5 to-green-600/10"></div>
+
+        {/* Decorative small dots */}
         <div className="absolute inset-0 opacity-40">
           <div className="absolute top-20 left-20 w-4 h-4 bg-blue-300 rounded-full opacity-30"></div>
           <div className="absolute top-40 right-40 w-3 h-3 bg-purple-300 rounded-full opacity-25"></div>
@@ -290,6 +305,7 @@ export default function ServicesPage() {
           className="absolute bottom-20 left-1/4 w-24 h-24 bg-gradient-to-br from-pink-400 to-red-500 rounded-full opacity-20 blur-xl"
         />
 
+        {/* Text Content */}
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -307,18 +323,22 @@ export default function ServicesPage() {
               {t("services.hero.badge")}
             </motion.div>
 
+            {/* Keep original gradient title */}
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 bg-clip-text text-transparent mb-8 leading-tight">
               {t("services.hero.title")}
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
+
+            {/* Subtitle in light gray for readability */}
+            <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed">
               {t("services.hero.subtitle")}
             </p>
 
+            {/* Features in light gray for readability */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="flex flex-wrap justify-center gap-4 text-sm text-gray-500"
+              className="flex flex-wrap justify-center gap-4 text-sm text-gray-200"
             >
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
@@ -335,6 +355,8 @@ export default function ServicesPage() {
             </motion.div>
           </motion.div>
         </div>
+
+        {/* WhatsApp Button */}
         <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
           <WhatsAppButton type="bookNow" text={t("services.buttons.bookNow")} />
         </div>
@@ -439,10 +461,7 @@ export default function ServicesPage() {
           </div>
         </div>
         <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
-          <WhatsAppButton
-            type="info"
-            text={t("services.buttons.callback")}
-          />
+          <WhatsAppButton type="info" text={t("services.buttons.callback")} />
         </div>
       </section>
 
