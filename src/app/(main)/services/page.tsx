@@ -268,7 +268,7 @@ export default function ServicesPage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: "url('/images/serviceb.png')",
-            filter: "blur(2x)",
+            filter: "blur(4x)",
             opacity: 0.5,
           }}
         ></div>
