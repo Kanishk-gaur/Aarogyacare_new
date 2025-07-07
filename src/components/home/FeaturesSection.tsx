@@ -20,7 +20,7 @@ export default function ServicesPresentation() {
       icon: HeartPulse,
       titleKey: "features.support",
       highlight: "24/7",
-      description: "Immediate medical assistance anytime, anywhere",
+      descriptionKey: "services.supportDescription",
       bgColor: "bg-rose-50",
       iconColor: "text-rose-600",
     },
@@ -28,7 +28,7 @@ export default function ServicesPresentation() {
       icon: Globe,
       titleKey: "features.visa",
       highlight: "98%",
-      description: "Visa approval success rate for patients",
+      descriptionKey: "services.visaDescription",
       bgColor: "bg-blue-50",
       iconColor: "text-blue-600",
     },
@@ -36,7 +36,7 @@ export default function ServicesPresentation() {
       icon: Languages,
       titleKey: "features.interpreters",
       highlight: "50+",
-      description: "Languages available for clear communication",
+      descriptionKey: "services.interpretersDescription",
       bgColor: "bg-violet-50",
       iconColor: "text-violet-600",
     },
@@ -44,7 +44,7 @@ export default function ServicesPresentation() {
       icon: Car,
       titleKey: "features.transfers",
       highlight: "1h",
-      description: "Average airport pickup response time",
+      descriptionKey: "services.transfersDescription",
       bgColor: "bg-emerald-50",
       iconColor: "text-emerald-600",
     },
@@ -52,7 +52,7 @@ export default function ServicesPresentation() {
       icon: Hotel,
       titleKey: "features.accommodation",
       highlight: "200+",
-      description: "Verified accommodation partners worldwide",
+      descriptionKey: "services.accommodationDescription",
       bgColor: "bg-amber-50",
       iconColor: "text-amber-600",
     },
@@ -60,7 +60,7 @@ export default function ServicesPresentation() {
       icon: Stethoscope,
       titleKey: "features.postCare",
       highlight: "100%",
-      description: "Post-treatment follow-up commitment",
+      descriptionKey: "services.postCareDescription",
       bgColor: "bg-cyan-50",
       iconColor: "text-cyan-600",
     },
@@ -68,15 +68,15 @@ export default function ServicesPresentation() {
 
   return (
     <section className="py-24 px-4 relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-cyan-50">
-      {/* Changed to subtle gray background */}
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="text-5xl font-light text-gray-900 mb-4">
-            <span className="font-medium">Essential</span> Medical Services
+            <span className="font-medium">{t("services.titleHighlighted")}</span>{" "}
+            {t("services.title")}
           </h2>
           <div className="w-24 h-1 bg-blue-500 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive support for your healthcare journey
+            {t("services.subtitle")}
           </p>
         </div>
 
@@ -103,24 +103,21 @@ export default function ServicesPresentation() {
                 <h3 className="text-xl font-medium text-gray-900 mb-3">
                   {t(service.titleKey)}
                 </h3>
-                <p className="text-gray-600">{service.description}</p>
+                <p className="text-gray-600">{t(service.descriptionKey)}</p>
               </motion.div>
             );
           })}
         </div>
 
         <div className="mt-20 border-t border-gray-200 pt-16 text-center">
-          {" "}
-          {/* Slightly darker border */}
           <p className="text-gray-500 max-w-2xl mx-auto">
-            All services are delivered by our team of dedicated professionals
-            committed to your health and comfort.
+            {t("services.footer")}
           </p>
         </div>
       </div>
       <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
-                <WhatsAppButton type="knowMore" text={t("home.buttons.knowMore")} />
-              </div>
+        <WhatsAppButton type="knowMore" text={t("home.buttons.knowMore")} />
+      </div>
     </section>
   );
 }

@@ -160,6 +160,21 @@ const translations: Record<string, Translations> = {
       "Hi, I need more details about AarogyCare services.",
     "services.buttons.knowMore": "Know More",
 
+    "services.title": "Essential Medical Services",
+    "services.titleHighlighted": "Essential",
+    "services.subtitle": "Comprehensive support for your healthcare journey",
+    "services.supportDescription":
+      "Immediate medical assistance anytime, anywhere",
+    "services.visaDescription": "Visa approval success rate for patients",
+    "services.interpretersDescription":
+      "Languages available for clear communication",
+    "services.transfersDescription": "Average airport pickup response time",
+    "services.accommodationDescription":
+      "Verified accommodation partners worldwide",
+    "services.postCareDescription": "Post-treatment follow-up commitment",
+    "services.footer":
+      "All services are delivered by our team of dedicated professionals committed to your health and comfort.",
+
     // About Page
     "about.hero.title": "Our Story & Mission",
     "about.hero.subtitle":
@@ -596,6 +611,22 @@ const translations: Record<string, Translations> = {
     "services.buttons.whatsapp_message":
       "Привет, мне нужна дополнительная информация об услугах AarogyCare.",
     "services.buttons.knowMore": "Узнать Подробнее",
+
+    "services.title": "Медицинские услуги",
+    "services.titleHighlighted": "Основные",
+    "services.subtitle": "Комплексная поддержка на вашем пути к здоровью",
+    "services.supportDescription":
+      "Немедленная медицинская помощь в любое время и в любом месте",
+    "services.visaDescription": "Успешное получение визы для пациентов",
+    "services.interpretersDescription":
+      "Доступно более 50 языков для ясного общения",
+    "services.transfersDescription":
+      "Среднее время встречи в аэропорту — 1 час",
+    "services.accommodationDescription":
+      "Проверенные партнеры по размещению по всему миру",
+    "services.postCareDescription": "Полное сопровождение после лечения",
+    "services.footer":
+      "Все услуги предоставляются нашей командой профессионалов, преданных вашему здоровью и комфорту.",
 
     // About Page
     "about.hero.title": "Наша История и Миссия",
@@ -1037,6 +1068,25 @@ const translations: Record<string, Translations> = {
       "Bonjour, j'ai besoin de plus de détails sur les services AarogyCare.",
     "services.buttons.knowMore": "En savoir plus",
 
+    "services.title": "Services médicaux",
+    "services.titleHighlighted": "Essentiels",
+    "services.subtitle":
+      "Un accompagnement complet tout au long de votre parcours de santé",
+    "services.supportDescription":
+      "Assistance médicale immédiate à tout moment et en tout lieu",
+    "services.visaDescription":
+      "Taux de réussite de l’obtention de visa pour les patients",
+    "services.interpretersDescription":
+      "Plus de 50 langues disponibles pour une communication claire",
+    "services.transfersDescription":
+      "Délai moyen de prise en charge à l’aéroport : 1 heure",
+    "services.accommodationDescription":
+      "Partenaires d’hébergement vérifiés dans le monde entier",
+    "services.postCareDescription":
+      "Engagement total pour le suivi post-traitement",
+    "services.footer":
+      "Tous les services sont assurés par notre équipe de professionnels dévoués à votre santé et à votre confort.",
+
     // About Page
     "about.hero.title": "Notre histoire et mission",
     "about.hero.subtitle":
@@ -1462,6 +1512,24 @@ const translations: Record<string, Translations> = {
     "services.buttons.whatsapp_message":
       "Hai, saya butuh detail lebih lanjut tentang layanan AarogyCare.",
     "services.buttons.knowMore": "Tahu Lebih Banyak",
+
+    "services.title": "Layanan Medis",
+    "services.titleHighlighted": "Esensial",
+    "services.subtitle":
+      "Dukungan komprehensif untuk perjalanan kesehatan Anda",
+    "services.supportDescription":
+      "Bantuan medis segera kapan saja, di mana saja",
+    "services.visaDescription":
+      "Tingkat keberhasilan persetujuan visa untuk pasien",
+    "services.interpretersDescription":
+      "Lebih dari 50 bahasa tersedia untuk komunikasi yang jelas",
+    "services.transfersDescription":
+      "Waktu rata-rata penjemputan bandara 1 jam",
+    "services.accommodationDescription":
+      "Mitra akomodasi terpercaya di seluruh dunia",
+    "services.postCareDescription": "Komitmen tindak lanjut setelah perawatan",
+    "services.footer":
+      "Semua layanan diberikan oleh tim profesional kami yang berdedikasi untuk kesehatan dan kenyamanan Anda.",
 
     // About Page
     "about.hero.title": "Kisah & Misi Kami",
@@ -1903,6 +1971,23 @@ const translations: Record<string, Translations> = {
     "services.buttons.whatsapp_message":
       "မင်္ဂလာပါ၊ AarogyCare ဝန်ဆောင်မှုများအကြောင်း အသေးစိတ် လိုအပ်ပါသည်။",
     "services.buttons.knowMore": "ပိုမိုသိရှိရန်",
+
+    "services.title": "ဆေးဝါးဝန်ဆောင်မှုများ",
+    "services.titleHighlighted": "အရေးကြီးသော",
+    "services.subtitle": "သင့်ကျန်းမာရေးခရီးစဉ်အတွက် အပြည့်အစုံ ပံ့ပိုးကူညီမှု",
+    "services.supportDescription":
+      "မည်သည့်အချိန်မဆို၊ မည်သည့်နေရာမဆို ချက်ချင်း ဆေးဝါးအကူအညီ",
+    "services.visaDescription": "လူနာများအတွက် ဗီဇာအောင်မြင်မှုနှုန်း",
+    "services.interpretersDescription":
+      "ပြန်ဆိုရေးအတွက် ဘာသာစကား ၅၀ ကျော် ရနိုင်သည်",
+    "services.transfersDescription":
+      "လေဆိပ်မှာ ထားရှိခြင်း၏ ပျမ်းမျှ အချိန် ၁ နာရီ",
+    "services.accommodationDescription":
+      "ကမ္ဘာတဝှမ်းရှိ အတည်ပြု နေထိုင်ခွင့် မိတ်ဖက်များ",
+    "services.postCareDescription":
+      "ကုသမှုပြီးနောက် ဆက်လက်စောင့်ရှောက်မည့် ကတိကဝတ်",
+    "services.footer":
+      "ကျန်းမာရေးနှင့် အားအေးချမ်းသာစေမှု အတွက် အပ်နှင်းထားသော ကျွန်ုပ်တို့၏ ပရော်ဖက်ရှင်နယ်များမှ ဝန်ဆောင်မှုများကို ပေးဆောင်ပါသည်။",
 
     // About Page
     "about.hero.title": "ကျွန်ုပ်တို့၏ ဇာတ်လမ်းနှင့် မစ်ရှင်",

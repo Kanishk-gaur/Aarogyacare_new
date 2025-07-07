@@ -12,9 +12,9 @@ export const metadata: Metadata = {
     "World-class medical treatment in India for patients from Kazakhstan and Russia. Comprehensive healthcare services with full support and care.",
   keywords:
     "medical tourism, India healthcare, Kazakhstan patients, Russia patients, medical treatment, hospitals India",
-  icons: {
-    icon: "/logo.png",
-  },
+    icons: {
+      icon: "/favicon2.png",
+    },    
 };
 
 export default function RootLayout({
