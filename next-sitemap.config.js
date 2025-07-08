@@ -1,5 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://aarogycare.com',  // replace with your actual domain
-  generateRobotsTxt: true,            // will also generate robots.txt
+  siteUrl: 'https://aarogycare.com',
+  generateRobotsTxt: true,
+  generateIndexSitemap: false,
 };

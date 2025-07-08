@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://aarogycare.com
+
+# Sitemaps
+Sitemap: https://aarogycare.com/sitemap.xml
