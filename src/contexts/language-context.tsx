@@ -174,6 +174,7 @@ const translations: Record<string, Translations> = {
     "services.postCareDescription": "Post-treatment follow-up commitment",
     "services.footer":
       "All services are delivered by our team of dedicated professionals committed to your health and comfort.",
+    "services.buttons.aboutUs": "About Us",
 
     // About Page
     "about.hero.title": "Our Story & Mission",
@@ -627,6 +628,7 @@ const translations: Record<string, Translations> = {
     "services.postCareDescription": "Полное сопровождение после лечения",
     "services.footer":
       "Все услуги предоставляются нашей командой профессионалов, преданных вашему здоровью и комфорту.",
+    "services.buttons.aboutUs": "О Нас",
 
     // About Page
     "about.hero.title": "Наша История и Миссия",
@@ -1086,6 +1088,7 @@ const translations: Record<string, Translations> = {
       "Engagement total pour le suivi post-traitement",
     "services.footer":
       "Tous les services sont assurés par notre équipe de professionnels dévoués à votre santé et à votre confort.",
+    "services.buttons.aboutUs": "À propos",
 
     // About Page
     "about.hero.title": "Notre histoire et mission",
@@ -1530,6 +1533,7 @@ const translations: Record<string, Translations> = {
     "services.postCareDescription": "Komitmen tindak lanjut setelah perawatan",
     "services.footer":
       "Semua layanan diberikan oleh tim profesional kami yang berdedikasi untuk kesehatan dan kenyamanan Anda.",
+    "services.buttons.aboutUs": "Tentang Kami",
 
     // About Page
     "about.hero.title": "Kisah & Misi Kami",
@@ -1988,6 +1992,7 @@ const translations: Record<string, Translations> = {
       "ကုသမှုပြီးနောက် ဆက်လက်စောင့်ရှောက်မည့် ကတိကဝတ်",
     "services.footer":
       "ကျန်းမာရေးနှင့် အားအေးချမ်းသာစေမှု အတွက် အပ်နှင်းထားသော ကျွန်ုပ်တို့၏ ပရော်ဖက်ရှင်နယ်များမှ ဝန်ဆောင်မှုများကို ပေးဆောင်ပါသည်။",
+    "sevices.buttons.aboutUs": "ကျွန်ုပ်တို့အကြောင်း",
 
     // About Page
     "about.hero.title": "ကျွန်ုပ်တို့၏ ဇာတ်လမ်းနှင့် မစ်ရှင်",

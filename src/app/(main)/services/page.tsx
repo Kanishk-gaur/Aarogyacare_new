@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
+import Link from "next/link";
 import {
   Heart,
   Brain,
@@ -26,6 +27,8 @@ import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import { useLanguage } from "@/contexts/language-context";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const services = [
   {
@@ -702,21 +705,36 @@ export default function ServicesPage() {
           </div>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center mt-16"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.7 }}
+            className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-16"
           >
+            {/* WhatsApp Button */}
             <a
-              href="https://wa.me/9097272726?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20AarogyCare%20services."
+              href="https://wa.me/9097272726"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 sm:px-10 py-6 text-base sm:text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 group font-sans font-medium"
+              >
                 {t("services.buttons.knowMore")}
-              </button>
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
+              </Button>
             </a>
+
+            {/* Services Button */}
+            <Link href="/about">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 sm:px-10 py-6 text-base sm:text-lg rounded-full transition-all duration-300 transform hover:scale-105 font-sans font-medium"
+              >
+                 {t("services.buttons.aboutUs") }
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

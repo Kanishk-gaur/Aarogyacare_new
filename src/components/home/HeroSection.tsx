@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useLanguage } from "@/contexts/language-context";
 import { Playfair_Display, Poppins } from "next/font/google";
 
+
 // Load Google Fonts
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -108,22 +109,23 @@ export default function HeroSection() {
           </motion.div>
 
           {/* Main heading */}
+
           <motion.h1
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight font-serif"
+            transition={{ duration: 1, ease: "easeOut" }}
+            className="text-center font-serif font-semibold leading-snug tracking-tight px-4"
           >
-            <span className="bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 bg-clip-text text-transparent block">
+            <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gradient-to-r from-gray-800 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-2">
               {t("home.hero.title1")}
             </span>
-            <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-green-600 bg-clip-text text-transparent block">
+            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl bg-gradient-to-r from-blue-600 via-purple-600 to-green-500 bg-clip-text text-transparent mb-2">
               {t("home.hero.title2")}
             </span>
-            <span className="bg-gradient-to-r from-green-600 via-blue-600 to-purple-600 bg-clip-text text-transparent block">
+            <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-green-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
               {t("home.hero.title3")}
             </span>
-            <span className="bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 bg-clip-text text-transparent block">
+            <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent">
               {t("home.hero.title4")}
             </span>
           </motion.h1>

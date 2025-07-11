@@ -236,6 +236,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
+        
       </section>
       <Component />
 
@@ -296,6 +297,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section> */}
+      
 
       <Footer />
     </div>

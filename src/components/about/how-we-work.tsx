@@ -10,6 +10,9 @@ import {
 } from "lucide-react";
 import { useLanguage } from "@/contexts/language-context";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 export default function Component() {
   const { t } = useLanguage();
@@ -40,7 +43,7 @@ export default function Component() {
   ];
 
   return (
-    <section className="w-full py-20 md:py-32 lg:py-40 relative overflow-hidden">
+    <section className="w-full pt-20 pb-12 md:pt-32 md:pb-16 lg:pt-40 lg:pb-20 relative overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-blue-50/50 to-indigo-100/30">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(59,130,246,0.1),transparent_50%)]"></div>
@@ -223,6 +226,33 @@ export default function Component() {
             </motion.div>
           </div>
         </motion.div>
+      </div>
+      <div className="flex flex-col sm:flex-row gap-4 items-center justify-center pt-6 pb-2 relative z-0">
+        {/* WhatsApp Button */}
+        <a
+              href="https://wa.me/9097272726"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 sm:px-10 py-6 text-base sm:text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 group font-sans font-medium"
+              >
+                {t("services.buttons.knowMore")}
+                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
+              </Button>
+            </a>
+
+        {/* Contact Us Button */}
+        <Link href="/contact">
+          <Button
+            variant="outline"
+            size="lg"
+           className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 sm:px-10 py-6 text-base sm:text-lg rounded-full transition-all duration-300 transform hover:scale-105 font-sans font-medium"
+          >
+            {t("home.buttons.contactUs")}
+          </Button>
+        </Link>
       </div>
     </section>
   );

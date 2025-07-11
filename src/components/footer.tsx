@@ -8,8 +8,8 @@ import {
   MapPin,
   Facebook,
   Instagram,
-  Linkedin,
 } from "lucide-react";
+import { SiYoutube } from "react-icons/si";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/language-context";
 
@@ -46,19 +46,20 @@ export default function Footer() {
   const socialLinks = [
     { icon: Facebook, href: "#", labelKey: "footer.social.facebook" },
     { icon: Instagram, href: "#", labelKey: "footer.social.instagram" },
-    { icon: Linkedin, href: "#", labelKey: "footer.social.linkedin" },
+    {   icon: SiYoutube,href: "https://youtube.com/@YourChannel",labelKey: "footer.social.youtube",},
   ];
 
   const contactInfo = [
     {
       icon: Phone,
       textKey: "footer.contact.phone",
-      value: "+91 9097 272 726",
+      value: "+91 9097 272 726, +91 9599 023 663 ",
     },
     {
       icon: Mail,
       textKey: "footer.contact.email",
-      value: "SHUBHAMAGRAWAL970@GMAIL.COM",
+      value: "Shubhamagrawal970@gmail.com",
+      
     },
     {
       icon: MapPin,
