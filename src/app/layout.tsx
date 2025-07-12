@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/language-context";
+import StickyButtons from "@/components/StickyButtons"; // 👈 Import here
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,6 @@ export const metadata: Metadata = {
   },
 };
 
-
 export default function RootLayout({
   children,
 }: {
@@ -30,6 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <LanguageProvider>{children}</LanguageProvider>
+        <StickyButtons /> {/* 👈 Always visible on every page */}
       </body>
     </html>
   );

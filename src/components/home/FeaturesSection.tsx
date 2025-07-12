@@ -11,6 +11,8 @@ import {
 } from "lucide-react";
 import { useLanguage } from "@/contexts/language-context";
 import WhatsAppButton from "../WhatsAppButton";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function ServicesPresentation() {
   const { t } = useLanguage();
@@ -117,9 +119,21 @@ export default function ServicesPresentation() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-4 items-center justify-center pt-6 pb-0 relative z-0">
-        <WhatsAppButton type="knowMore" text={t("home.buttons.knowMore")} />
-      </div>
+      <div className="flex flex-row gap-4 items-center justify-center pt-6 pb-0 relative z-0 flex-wrap">
+  <WhatsAppButton type="knowMore" text={t("home.buttons.knowMore")} />
+
+  {/* Contact Us Button */}
+  <Link href="/contact">
+    <Button
+      variant="outline"
+      size="lg"
+      className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 sm:px-10 py-6 text-base sm:text-lg rounded-full transition-all duration-300 transform hover:scale-105 font-sans font-medium"
+    >
+      {t("home.buttons.contactUs")}
+    </Button>
+  </Link>
+</div>
+
     </section>
   );
 }

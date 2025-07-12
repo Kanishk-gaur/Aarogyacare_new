@@ -174,7 +174,7 @@ const translations: Record<string, Translations> = {
     "services.postCareDescription": "Post-treatment follow-up commitment",
     "services.footer":
       "All services are delivered by our team of dedicated professionals committed to your health and comfort.",
-    "services.buttons.aboutUs": "About Us",
+    "services.buttons.services": "Services",
 
     // About Page
     "about.hero.title": "Our Story & Mission",
@@ -628,7 +628,7 @@ const translations: Record<string, Translations> = {
     "services.postCareDescription": "Полное сопровождение после лечения",
     "services.footer":
       "Все услуги предоставляются нашей командой профессионалов, преданных вашему здоровью и комфорту.",
-    "services.buttons.aboutUs": "О Нас",
+    "services.buttons.services": "Услуги",
 
     // About Page
     "about.hero.title": "Наша История и Миссия",
@@ -1088,7 +1088,7 @@ const translations: Record<string, Translations> = {
       "Engagement total pour le suivi post-traitement",
     "services.footer":
       "Tous les services sont assurés par notre équipe de professionnels dévoués à votre santé et à votre confort.",
-    "services.buttons.aboutUs": "À propos",
+    "services.buttons.services": "Services",
 
     // About Page
     "about.hero.title": "Notre histoire et mission",
@@ -1533,7 +1533,7 @@ const translations: Record<string, Translations> = {
     "services.postCareDescription": "Komitmen tindak lanjut setelah perawatan",
     "services.footer":
       "Semua layanan diberikan oleh tim profesional kami yang berdedikasi untuk kesehatan dan kenyamanan Anda.",
-    "services.buttons.aboutUs": "Tentang Kami",
+    "services.buttons.services": "Layanan",
 
     // About Page
     "about.hero.title": "Kisah & Misi Kami",

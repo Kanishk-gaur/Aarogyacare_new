@@ -3,9 +3,10 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { X, Heart, ArrowRight, CheckCircle } from "lucide-react";
+import { X,  ArrowRight, CheckCircle } from "lucide-react";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/language-context";
+import Image from "next/image";
 
 export default function PopupSection() {
   const [showPopup, setShowPopup] = useState(() => {
@@ -20,10 +21,12 @@ export default function PopupSection() {
   const handleDismissPopup = () => {
     setShowPopup(false);
     localStorage.setItem("popupDismissed", "true");
+
+    // Re-show the popup after 50 seconds
     setTimeout(() => {
       setShowPopup(true);
       localStorage.removeItem("popupDismissed");
-    }, 50000);
+    }, 5000000);
   };
 
   useEffect(() => {
@@ -33,6 +36,7 @@ export default function PopupSection() {
         (currentScrollY /
           (document.documentElement.scrollHeight - window.innerHeight)) *
         100;
+
       if (
         scrollPercentage > 30 &&
         !showPopup &&
@@ -65,19 +69,31 @@ export default function PopupSection() {
             className="bg-white rounded-3xl p-6 max-w-lg w-full shadow-2xl relative overflow-hidden max-h-[80vh] flex flex-col"
             onClick={(e) => e.stopPropagation()}
           >
+            {/* Background Layers */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-purple-50 to-green-50 opacity-50"></div>
             <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full opacity-10 blur-2xl"></div>
 
+            {/* Content */}
             <div className="relative z-10 overflow-y-auto flex-1">
+              {/* Header */}
               <div className="flex justify-between items-start mb-4">
                 <motion.div
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ delay: 0.3, type: "spring" }}
-                  className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center shadow-lg"
+                  className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-blue-500/25 transition-all duration-300"
                 >
-                  <Heart className="w-5 h-5 text-white" />
+                  <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center">
+                    <Image
+                      src="/images/logo.png"
+                      alt="My Logo"
+                      width={36}
+                      height={36}
+                      className="object-contain"
+                    />
+                  </div>
                 </motion.div>
+
                 <button
                   onClick={handleDismissPopup}
                   className="text-gray-400 hover:text-gray-600 transition-colors p-1 hover:bg-gray-100 rounded-full"
@@ -86,6 +102,7 @@ export default function PopupSection() {
                 </button>
               </div>
 
+              {/* Text Content */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -105,6 +122,7 @@ export default function PopupSection() {
                   </p>
                 </div>
 
+                {/* Feature List */}
                 <div className="grid grid-cols-2 gap-2">
                   {[
                     "features.support",
@@ -129,6 +147,7 @@ export default function PopupSection() {
               </motion.div>
             </div>
 
+            {/* Action Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

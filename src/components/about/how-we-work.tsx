@@ -11,7 +11,6 @@ import {
 import { useLanguage } from "@/contexts/language-context";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export default function Component() {
@@ -243,16 +242,7 @@ export default function Component() {
               </Button>
             </a>
 
-        {/* Contact Us Button */}
-        <Link href="/contact">
-          <Button
-            variant="outline"
-            size="lg"
-           className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 sm:px-10 py-6 text-base sm:text-lg rounded-full transition-all duration-300 transform hover:scale-105 font-sans font-medium"
-          >
-            {t("home.buttons.contactUs")}
-          </Button>
-        </Link>
+       
       </div>
     </section>
   );

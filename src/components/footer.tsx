@@ -1,17 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  Heart,
-  Phone,
-  Mail,
-  MapPin,
-  Facebook,
-  Instagram,
-} from "lucide-react";
+import {  Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import { SiYoutube } from "react-icons/si";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/language-context";
+import Image from "next/image";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -46,7 +40,11 @@ export default function Footer() {
   const socialLinks = [
     { icon: Facebook, href: "#", labelKey: "footer.social.facebook" },
     { icon: Instagram, href: "#", labelKey: "footer.social.instagram" },
-    {   icon: SiYoutube,href: "https://youtube.com/@YourChannel",labelKey: "footer.social.youtube",},
+    {
+      icon: SiYoutube,
+      href: "https://youtube.com/@YourChannel",
+      labelKey: "footer.social.youtube",
+    },
   ];
 
   const contactInfo = [
@@ -59,7 +57,6 @@ export default function Footer() {
       icon: Mail,
       textKey: "footer.contact.email",
       value: "Shubhamagrawal970@gmail.com",
-      
     },
     {
       icon: MapPin,
@@ -89,7 +86,15 @@ export default function Footer() {
           >
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
-                <Heart className="w-6 h-6 text-white" />
+                <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center">
+                  <Image
+                    src="/images/logo.png"
+                    alt="My Logo"
+                    width={36}
+                    height={36}
+                    className="object-contain"
+                  />
+                </div>
               </div>
               <span className="text-xl font-bold">{t("footer.brand")}</span>
             </div>

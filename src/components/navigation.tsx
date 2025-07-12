@@ -18,7 +18,6 @@ import Image from "next/image";
 const navItems = [
   { name: "nav.home", href: "/" },
   { name: "nav.services", href: "/services" },
-  { name: "nav.about", href: "/about" },
   { name: "nav.contact", href: "/contact" },
 ];
 
@@ -83,11 +82,11 @@ export default function Navigation() {
               </div>
             </motion.div>
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center leading-none">
               <span className="text-xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 bg-clip-text text-transparent group-hover:from-blue-600 group-hover:to-purple-600 transition-all duration-300">
                 AarogyCare
               </span>
-              <span className="text-xs text-gray-500 font-medium">
+              <span className="text-[10px] text-gray-500 font-medium mt-0">
                 Лечение в Индии
               </span>
             </div>
