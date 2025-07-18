@@ -7,7 +7,6 @@ import Link from "next/link";
 import { useLanguage } from "@/contexts/language-context";
 import { Playfair_Display, Poppins } from "next/font/google";
 
-
 // Load Google Fonts
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -114,18 +113,25 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="text-center font-serif font-semibold leading-snug tracking-tight px-4"
+            className="text-center font-serif font-semibold leading-tight tracking-tight px-4"
           >
-            <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gradient-to-r from-gray-800 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-2">
+            {/* First title line with a tighter margin-bottom */}
+            <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gradient-to-r from-gray-800 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-1">
               {t("home.hero.title1")}
             </span>
-            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl bg-gradient-to-r from-blue-600 via-purple-600 to-green-500 bg-clip-text text-transparent mb-2">
+
+            {/* Second title line with a tighter margin-bottom */}
+            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl bg-gradient-to-r from-blue-600 via-purple-600 to-green-500 bg-clip-text text-transparent mb-0.5">
               {t("home.hero.title2")}
             </span>
-            <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-green-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+
+            {/* Third title line with no margin-bottom */}
+            <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-green-600 via-blue-600 to-purple-600 bg-clip-text text-transparent">
               {t("home.hero.title3")}
             </span>
-            <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent">
+
+            {/* Fourth title line with no margin-bottom */}
+            <span className="block text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent">
               {t("home.hero.title4")}
             </span>
           </motion.h1>
@@ -135,7 +141,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-12 max-w-6xl mx-auto leading-relaxed font-sans"
+            className="text-base sm:text-lg md:text-xl text-gray-600 max-w-prose mx-auto px-4 sm:px-6 mb-10 leading-relaxed tracking-tight text-justify md:text-center"
           >
             {t("home.hero.subtitle")}
           </motion.p>
