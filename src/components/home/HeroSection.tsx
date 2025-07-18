@@ -116,16 +116,16 @@ export default function HeroSection() {
             transition={{ duration: 1, ease: "easeOut" }}
             className="text-center font-serif font-semibold leading-snug tracking-tight px-4"
           >
-            <span className="block text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gradient-to-r from-gray-800 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-2">
+            <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl bg-gradient-to-r from-gray-800 via-blue-900 to-purple-900 bg-clip-text text-transparent mb-2">
               {t("home.hero.title1")}
             </span>
-            <span className="block text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl bg-gradient-to-r from-blue-600 via-purple-600 to-green-500 bg-clip-text text-transparent mb-2">
+            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl bg-gradient-to-r from-blue-600 via-purple-600 to-green-500 bg-clip-text text-transparent mb-2">
               {t("home.hero.title2")}
             </span>
-            <span className="block text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-green-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+            <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-green-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
               {t("home.hero.title3")}
             </span>
-            <span className="block text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent">
+            <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent">
               {t("home.hero.title4")}
             </span>
           </motion.h1>
