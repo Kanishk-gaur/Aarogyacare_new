@@ -125,7 +125,7 @@ export default function HeroSection() {
             <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-green-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
               {t("home.hero.title3")}
             </span>
-            <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent">
+            <span className="block text-xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent">
               {t("home.hero.title4")}
             </span>
           </motion.h1>

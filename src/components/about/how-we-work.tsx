@@ -142,8 +142,9 @@ export default function Component() {
         </motion.div>
 
         {/* Animated Infographic Section */}
+        {/* Animated Infographic Section */}
         <motion.div
-          className="w-screen relative left-1/2 right-1/2 -ml-[45vw] -mr-[45vw] my-8 px-4"
+          className="w-full flex justify-center my-8"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -165,7 +166,7 @@ export default function Component() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mt-24"
+          className="text-center mt-6 md:mt-24"
         >
           <div className="relative inline-flex flex-col items-center gap-6 px-12 py-10 bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl border border-slate-200/50 max-w-2xl">
             {/* Glow Effect */}
@@ -229,20 +230,18 @@ export default function Component() {
       <div className="flex flex-col sm:flex-row gap-4 items-center justify-center pt-6 pb-2 relative z-0">
         {/* WhatsApp Button */}
         <a
-              href="https://wa.me/9097272726"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 sm:px-10 py-6 text-base sm:text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 group font-sans font-medium"
-              >
-                {t("services.buttons.knowMore")}
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
-              </Button>
-            </a>
-
-       
+          href="https://wa.me/9097272726"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            size="lg"
+            className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-8 sm:px-10 py-6 text-base sm:text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 group font-sans font-medium"
+          >
+            {t("services.buttons.knowMore")}
+            <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
+          </Button>
+        </a>
       </div>
     </section>
   );

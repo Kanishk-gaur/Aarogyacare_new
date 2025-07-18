@@ -29,7 +29,7 @@ const translations: Record<string, Translations> = {
     "nav.getStarted": "Get Started",
 
     // Home Page
-    "home.hero.badge": "Trusted by 8,500+ International Patients",
+    "home.hero.badge": "Trusted by 8500+ International Patients",
     "home.hero.title1": "YES, WE CARE",
     "home.hero.title2": "AND WE DARE",
     "home.hero.title3": "TO PROVIDE",
@@ -160,7 +160,7 @@ const translations: Record<string, Translations> = {
       "Hi, I need more details about AarogyCare services.",
     "services.buttons.knowMore": "Know More",
 
-    "services.title": "Essential Medical Services",
+    "services.title": "Medical Services",
     "services.titleHighlighted": "Essential",
     "services.subtitle": "Comprehensive support for your healthcare journey",
     "services.supportDescription":
@@ -191,7 +191,7 @@ const translations: Record<string, Translations> = {
     "about.journey.subtitle":
       "Key milestones that have shaped our growth and commitment to excellence.",
     "about.story.paragraph1":
-      "Founded in 2008, our company emerged from a simple yet powerful vision: to make world-class healthcare accessible to patients from Kazakhstan and Russia. What started as a small initiative has grown into a trusted bridge between patients seeking quality medical care and India's renowned healthcare system.",
+      "Founded in 2008, our company emerged from a simple yet powerful vision: to make world-class healthcare accessible to patients from across the globe. What started as a small initiative has grown into a trusted bridge between patients seeking quality medical care and India's renowned healthcare system.",
     "about.story.paragraph2":
       "Our founders, having experienced the challenges of navigating foreign healthcare systems firsthand, understood the need for a comprehensive support system. We recognized that medical treatment abroad involves more than just clinical care – it requires cultural understanding, language support, and emotional guidance.",
     "about.story.paragraph3":
@@ -481,7 +481,7 @@ const translations: Record<string, Translations> = {
     "nav.getStarted": "Начать",
 
     // Home Page
-    "home.hero.badge": "Доверяют более 8 500 международных пациентов",
+    "home.hero.badge": "Доверяют более 8500 международных пациентов",
     "home.hero.title1": "ДА, МЫ ЗАБОТИМСЯ",
     "home.hero.title2": "И МЫ ГОТОВЫ",
     "home.hero.title3": "ПРЕДОСТАВИТЬ",
@@ -645,7 +645,7 @@ const translations: Record<string, Translations> = {
     "about.journey.subtitle":
       "Ключевые вехи, которые сформировали наш рост и приверженность совершенству.",
     "about.story.paragraph1":
-      "Основанная в 2008 году, наша компания возникла из простого, но мощного видения: сделать мировое здравоохранение доступным для пациентов из Казахстана и России. То, что начиналось как небольшая инициатива, превратилось в надежный мост между пациентами, ищущими качественную медицинскую помощь, и признанной системой здравоохранения Индии.",
+      "Основанная в 2008 году, наша компания возникла из простого, но мощного видения: сделать здравоохранение мирового класса доступным для пациентов со всего мира. То, что начиналось как небольшая инициатива, превратилось в надежный мост между пациентами, ищущими качественную медицинскую помощь, и известной системой здравоохранения Индии.",
     "about.story.paragraph2":
       "Наши основатели, испытав на себе трудности навигации по иностранным системам здравоохранения, поняли необходимость комплексной системы поддержки. Мы осознали, что медицинское лечение за рубежом включает не только клиническую помощь – оно требует культурного понимания, языковой поддержки и эмоционального руководства.",
     "about.story.paragraph3":
@@ -941,7 +941,7 @@ const translations: Record<string, Translations> = {
     "nav.getStarted": "Commencer",
 
     // Home Page
-    "home.hero.badge": "Fiable pour plus de 8 500 patients internationaux",
+    "home.hero.badge": "Fiable pour plus de 8500 patients internationaux",
     "home.hero.title1": "OUI, NOUS PRENONS SOIN",
     "home.hero.title2": "ET NOUS OSONS",
     "home.hero.title3": "FOURNIR",
@@ -1105,7 +1105,7 @@ const translations: Record<string, Translations> = {
     "about.journey.subtitle":
       "Étapes clés qui ont façonné notre croissance et notre engagement envers l'excellence.",
     "about.story.paragraph1":
-      "Fondée en 2008, notre société est née d'une vision simple mais puissante : rendre les soins de santé de classe mondiale accessibles aux patients du Kazakhstan et de Russie. Ce qui a commencé comme une petite initiative est devenu un pont de confiance entre les patients cherchant des soins médicaux de qualité et le système de santé réputé de l'Inde.",
+      "Fondée en 2008, notre société est née d'une vision simple mais puissante : rendre les soins de santé de classe mondiale accessibles aux patients du monde entier. Ce qui a commencé comme une petite initiative s'est transformé en un pont de confiance entre les patients à la recherche de soins médicaux de qualité et le système de santé renommé de l'Inde.",
     "about.story.paragraph2":
       "Nos fondateurs, ayant eux-mêmes expérimenté les difficultés de naviguer dans des systèmes de santé étrangers, ont compris la nécessité d'un système de soutien complet. Nous avons reconnu qu'un traitement médical à l'étranger implique plus que des soins cliniques - il nécessite une compréhension culturelle, un soutien linguistique et un accompagnement émotionnel.",
     "about.story.paragraph3":
@@ -1384,7 +1384,7 @@ const translations: Record<string, Translations> = {
     "nav.getStarted": "Mulai Sekarang",
 
     // Home Page
-    "home.hero.badge": "Dipercaya oleh 8.500+ Pasien Internasional",
+    "home.hero.badge": "Dipercaya oleh 8500+ Pasien Internasional",
     "home.hero.title1": "YA, KAMI PEDULI",
     "home.hero.title2": "DAN KAMI BERANI",
     "home.hero.title3": "UNTUK MENYEDIAKAN",
@@ -1550,7 +1550,7 @@ const translations: Record<string, Translations> = {
     "about.journey.subtitle":
       "Tonggak penting yang telah membentuk pertumbuhan dan komitmen kami untuk keunggulan.",
     "about.story.paragraph1":
-      "Didirikan pada tahun 2008, perusahaan kami muncul dari visi sederhana namun kuat: untuk membuat perawatan kesehatan kelas dunia dapat diakses oleh pasien dari Kazakhstan dan Rusia. Apa yang dimulai sebagai inisiatif kecil telah berkembang menjadi jembatan tepercaya antara pasien yang mencari perawatan medis berkualitas dan sistem perawatan kesehatan terkenal di India.",
+      "Didirikan pada tahun 2008, perusahaan kami muncul dari visi yang sederhana namun kuat: menjadikan layanan kesehatan kelas dunia dapat diakses oleh pasien dari seluruh dunia. Apa yang dimulai sebagai inisiatif kecil telah berkembang menjadi jembatan tepercaya antara pasien yang mencari perawatan medis berkualitas dan sistem layanan kesehatan India yang ternama.",
     "about.story.paragraph2":
       "Pendiri kami, setelah mengalami tantangan menavigasi sistem perawatan kesehatan asing secara langsung, memahami perlunya sistem dukungan komprehensif. Kami menyadari bahwa perawatan medis di luar negeri melibatkan lebih dari sekadar perawatan klinis – ini membutuhkan pemahaman budaya, dukungan bahasa, dan bimbingan emosional.",
     "about.story.paragraph3":
@@ -2009,7 +2009,7 @@ const translations: Record<string, Translations> = {
     "about.journey.subtitle":
       "ကျွန်ုပ်တို့၏ တိုးတက်မှုနှင့် ထူးချွန်မှုအတွက် ကတိကဝတ်ကို ပုံသွင်းပေးခဲ့သော အဓိက မှတ်တိုင်များ။",
     "about.story.paragraph1":
-      "၂၀၀၈ တွင် တည်ထောင်ခဲ့သော ကျွန်ုပ်တို့ကုမ္ပဏီသည် ရိုးရိုးသော်လည်း အားကောင်းသော မျှော်မှန်းချက်တစ်ခုမှ ပေါ်ထွက်လာခဲ့သည်- ကာဇက်စတန်နှင့် ရုရှားမှ လူနာများအတွက် ကမ္ဘာ့အဆင့်မီ ကျန်းမာရေးစောင့်ရှောက်မှုကို လက်လှမ်းမီအောင် ပြုလုပ်ရန်ဖြစ်သည်။ သေးငယ်သော အစပြုမှုအဖြစ် စတင်ခဲ့သော အရာသည် အရည်အသွေးမြင့် ဆေးကုသမှုကို ရှာဖွေနေသော လူနာများနှင့် အိန္ဒိယ၏ နာမည်ကြီး ကျန်းမာရေးစနစ်အကြား စိတ်ချရသော တံတားအဖြစ် ကြီးထွားလာခဲ့သည်။",
+      "၂၀၀၈ ခုနှစ်တွင် တည်ထောင်ခဲ့သော ကျွန်ုပ်တို့၏ကုမ္ပဏီသည် ရိုးရှင်းသော်လည်း အစွမ်းထက်သည့် မျှော်မှန်းချက်တစ်ခုမှ ပေါက်ဖွားလာခဲ့သည်- එනම් ကမ္ဘာတစ်ဝှမ်းမှ လူနာများအတွက် ကမ္ဘာ့အဆင့်မီကျန်းမာရေးစောင့်ရှောက်မှုကို ရရှိနိုင်စေရန်ဖြစ်သည်။ အစပိုင်းတွင် သေးငယ်သောကြိုးပမ်းမှုတစ်ခုအဖြစ် စတင်ခဲ့သော်လည်း၊ ယခုအခါ အရည်အသွေးမြင့်မားသောဆေးကုသမှုကို ရှာဖွေနေသည့် လူနာများနှင့် အိန္ဒိယနိုင်ငံ၏ နာမည်ကျော်ကျန်းမာရေးစနစ်တို့အကြား ယုံကြည်စိတ်ချရသော တံတားတစ်ခုအဖြစ်သို့ ကြီးထွားလာခဲ့ပြီဖြစ်သည်။",
     "about.story.paragraph2":
       "ကျွန်ုပ်တို့၏ တည်ထောင်သူများသည် နိုင်ငံခြား ကျန်းမာရေးစနစ်များကို လမ်းညွှန်ခြင်း၏ စိန်ခေါ်မှုများကို ကိုယ်တိုင် ကြုံတွေ့ခဲ့ပြီး ပြည့်စုံသော အထောက်အပံ့စနစ်၏ လိုအပ်ချက်ကို နားလည်ခဲ့ပါသည်။ နိုင်ငံခြားတွင် ဆေးကုသမှုသည် ဆေးရုံတွင်း ဂရုစိုက်မှုထက် ပိုမိုလိုအပ်သည်ကို ကျွန်ုပ်တို့ အသိအမှတ်ပြုခဲ့သည် - ယဉ်ကျေးမှု နားလည်မှု၊ ဘာသာစကား အထောက်အပံ့နှင့် စိတ်ပိုင်းဆိုင်ရာ လမ်းညွှန်မှုများ လိုအပ်ပါသည်။",
     "about.story.paragraph3":
