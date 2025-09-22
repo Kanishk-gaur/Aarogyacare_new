@@ -221,6 +221,22 @@ const translations: Record<string, Translations> = {
     "about.team.dr_sanjeev.role": "Neurosurgeon",
     "about.team.dr_sanjeev.description":
       "Expert in brain & spine surgeries with 20+ years experience",
+       
+      "about.team.vibhu.name": " Dr. Vibhu Mittal",
+    "about.team.vibhu.role": "Gastroenterology, Hepatology & Endoscopy",
+    "about.team.vibhu.description":
+      "Expert Gastroenterologist with 15+ years of experience",
+
+      "about.team.nivedita.name": "Dr. Nivedita Dhingra",
+"about.team.nivedita.role": "Medical Oncology, Haematology & BMT",
+"about.team.nivedita.description":
+ "13+ years experience in Hematology, Medical Oncology, and Bone Marrow Transplant.",
+
+"about.team.saxena.name": "Dr. Sanjay K Saxena",
+"about.team.saxena.role": "Cardiology",
+"about.team.saxena.description": "20+ years experience in Cardiology and Interventional Cardiology."
+,
+
     "about.milestones.2008.year": "2008",
     "about.milestones.2008.event": "Company Founded",
     "about.milestones.2008.description":
@@ -676,6 +692,19 @@ const translations: Record<string, Translations> = {
     "about.team.dr_sanjeev.role": "Нейрохирург",
     "about.team.dr_sanjeev.description":
       "Эксперт в операциях на головном и спинном мозге с более чем 20-летним опытом",
+
+      "about.team.vibhu.name": "Доктор Вибху Миттал",
+"about.team.vibhu.role": "Гастроэнтерология, Гепатология и Эндоскопия",
+"about.team.vibhu.description": "Эксперт-гастроэнтеролог с опытом более 15 лет",
+
+"about.team.nivedita.name": "Доктор Ниведита Дхингра",
+"about.team.nivedita.role": "Медицинская онкология, Гематология и Трансплантация костного мозга",
+"about.team.nivedita.description": "Опыт работы более 13 лет в гематологии, медицинской онкологии и трансплантации костного мозга",
+
+"about.team.saxena.name": "Доктор Санджай К. Саксена",
+"about.team.saxena.role": "Кардиология",
+"about.team.saxena.description": "Опыт работы более 20 лет в кардиологии и интервенционной кардиологии"
+,
     "about.milestones.2008.year": "2008",
     "about.milestones.2008.event": "Основание Компании",
     "about.milestones.2008.description":
@@ -1136,6 +1165,19 @@ const translations: Record<string, Translations> = {
     "about.team.dr_sanjeev.role": "Neurochirurgien",
     "about.team.dr_sanjeev.description":
       "Expert en chirurgie du cerveau et de la colonne vertébrale avec plus de 20 ans d'expérience",
+"about.team.vibhu.name": "Dr Vibhu Mittal",
+"about.team.vibhu.role": "Gastroentérologie, Hépatologie et Endoscopie",
+"about.team.vibhu.description": "Expert gastroentérologue avec plus de 15 ans d'expérience",
+
+"about.team.nivedita.name": "Dr Nivedita Dhingra",
+"about.team.nivedita.role": "Oncologie médicale, Hématologie et Greffe de moelle osseuse",
+"about.team.nivedita.description": "Plus de 13 ans d'expérience en hématologie, oncologie médicale et greffe de moelle osseuse",
+
+"about.team.saxena.name": "Dr Sanjay K Saxena",
+"about.team.saxena.role": "Cardiologie",
+"about.team.saxena.description": "Plus de 20 ans d'expérience en cardiologie et cardiologie interventionnelle"
+
+      ,
     "about.milestones.2008.year": "2008",
     "about.milestones.2008.event": "Création de l'entreprise",
     "about.milestones.2008.description":
@@ -1580,6 +1622,19 @@ const translations: Record<string, Translations> = {
     "about.team.dr_sanjeev.role": "Ahli Bedah Saraf",
     "about.team.dr_sanjeev.description":
       "Ahli dalam operasi otak & tulang belakang dengan pengalaman 20+ tahun",
+     "about.team.vibhu.name": "Dr Vibhu Mittal",
+"about.team.vibhu.role": "Gastroenterologi, Hepatologi & Endoskopi",
+"about.team.vibhu.description": "Ahli Gastroenterologi dengan pengalaman lebih dari 15 tahun",
+
+"about.team.nivedita.name": "Dr Nivedita Dhingra",
+"about.team.nivedita.role": "Onkologi Medis, Hematologi & Transplantasi Sumsum Tulang",
+"about.team.nivedita.description": "Pengalaman lebih dari 13 tahun dalam hematologi, onkologi medis, dan transplantasi sumsum tulang",
+
+"about.team.saxena.name": "Dr Sanjay K Saxena",
+"about.team.saxena.role": "Kardiologi",
+"about.team.saxena.description": "Pengalaman lebih dari 20 tahun dalam kardiologi dan kardiologi intervensional"
+,
+    "about.team.shubham.name": "Shubham Agrawal",
     "about.milestones.2008.year": "2008",
     "about.milestones.2008.event": "Perusahaan Didirikan",
     "about.milestones.2008.description":
@@ -2040,6 +2095,18 @@ const translations: Record<string, Translations> = {
     "about.team.dr_sanjeev.role": "အာရုံကြောခွဲစိတ်ဆရာဝန်",
     "about.team.dr_sanjeev.description":
       "၂၀+ နှစ် အတွေ့အကြုံရှိ ဦးနှောက်နှင့် ကျောရိုးခွဲစိတ်မှုများတွင် ကျွမ်းကျင်သူ",
+      "about.team.vibhu.name": "ဒေါက်တာ ဗိဗ္ဓူ မြိန်တယ်",
+"about.team.vibhu.role": "အစာလမ်းကြောင်းဆိုင်ရာ ဆရာဝန်၊ အသည်းနဲ့ အသည်းအကိုယ်ဆေးပညာ၊ အင်ဒိုစကိုပီ",
+"about.team.vibhu.description": "အတွေ့အကြုံ ၁၅ နှစ်ကျော်ရှိသည့် ကျွမ်းကျင်သော အစာလမ်းကြောင်းဆရာဝန်",
+
+"about.team.nivedita.name": "ဒေါက်တာ နီဗေဒิตာ ဓင်ရာ",
+"about.team.nivedita.role": "ဆေးဘက်ဆိုင်ရာ ကင်ဆာဆေးပညာ၊ ရောဂါဗေဒနှင့် အရိုးအသည်းအကြောင်းဆေးပညာ၊ အရိုးအသည်းကူးပြောင်းခြင်း",
+"about.team.nivedita.description": "ရောဂါဗေဒ၊ ဆေးဘက်ဆိုင်ရာ ကင်ဆာဆေးပညာနှင့် အရိုးအသည်းကူးပြောင်းခြင်းတွင် ၁၃ နှစ်ကျော် အတွေ့အကြုံရှိသည်",
+
+"about.team.saxena.name": "ဒေါက်တာ စမ်းဂျေ ကေ စက်ဆီနား",
+"about.team.saxena.role": "နှလုံးကင်ဆာဆေးပညာ",
+"about.team.saxena.description": "နှလုံးကင်ဆာဆေးပညာနှင့် အင်တာဗင်ရှင်းနှလုံးကင်ဆာဆေးပညာတွင် ၂၀ နှစ်ကျော် အတွေ့အကြုံ",
+
     "about.milestones.2008.year": "၂၀၀၈",
     "about.milestones.2008.event": "ကုမ္ပဏီ တည်ထောင်မှု",
     "about.milestones.2008.description":

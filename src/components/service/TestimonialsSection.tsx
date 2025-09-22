@@ -34,20 +34,22 @@ export default function TestimonialsSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Video 1 */}
-          <TestimonialVideo 
-            videoId="S8dHgYFEV3M"
+          {/* Video 1 */}
+          <TestimonialVideo
+            videoId="Ti4VRj2Zg78"
             title={t("services.testimonials.video1.title")}
           />
-          
+
           {/* Video 2 */}
-          <TestimonialVideo 
-            videoId="ANOTHER_VIDEO_ID"
+          {/* Video 2 */}
+          <TestimonialVideo
+            videoId="atTG_cx1vA0"
             title={t("services.testimonials.video2.title")}
           />
-          
+
           {/* Video 3 */}
-          <TestimonialVideo 
-            videoId="THIRD_VIDEO_ID"
+          <TestimonialVideo
+            videoId="Ti4VRj2Zg78"
             title={t("services.testimonials.video3.title")}
           />
         </div>
@@ -89,7 +91,13 @@ export default function TestimonialsSection() {
   );
 }
 
-function TestimonialVideo({ videoId, title }: { videoId: string; title: string }) {
+function TestimonialVideo({
+  videoId,
+  title,
+}: {
+  videoId: string;
+  title: string;
+}) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -114,9 +122,7 @@ function TestimonialVideo({ videoId, title }: { videoId: string; title: string }
         </div>
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-          <h3 className="text-white text-lg font-medium">
-            {title}
-          </h3>
+          <h3 className="text-white text-lg font-medium">{title}</h3>
         </div>
       </div>
     </motion.div>

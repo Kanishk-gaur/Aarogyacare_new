@@ -1,9 +1,11 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion} from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import { useLanguage } from "@/contexts/language-context";
+import { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface TeamMember {
   nameKey: string;
@@ -31,10 +33,47 @@ const team: TeamMember[] = [
     image: "/images/sanjeev3.jpg",
     descriptionKey: "about.team.dr_sanjeev.description",
   },
+  {
+    nameKey: "about.team.vibhu.name",
+    roleKey: "about.team.vibhu.role",
+    image: "/images/vibhu.jpeg",
+    descriptionKey: "about.team.vibhu.description",
+  },
+  {
+    nameKey: "about.team.nivedita.name",
+    roleKey: "about.team.nivedita.role",
+    image: "/images/nivedita.jpg",
+    descriptionKey: "about.team.nivedita.description",
+  },
+  {
+    nameKey: "about.team.saxena.name",
+    roleKey: "about.team.saxena.role",
+    image: "/images/saxena.jpg",
+    descriptionKey: "about.team.saxena.description",
+  },
 ];
 
 export default function TeamSection() {
   const { t } = useLanguage();
+  const [currentPage, setCurrentPage] = useState(0);
+
+  // Calculate total pages needed (3 doctors per page)
+  const doctorsPerPage = 3;
+  const totalPages = Math.ceil(team.length / doctorsPerPage);
+
+  // Get the doctors for the current page
+  const currentDoctors = team.slice(
+    currentPage * doctorsPerPage,
+    (currentPage + 1) * doctorsPerPage
+  );
+
+  const nextPage = () => {
+    setCurrentPage((prev) => (prev + 1) % totalPages);
+  };
+
+  const prevPage = () => {
+    setCurrentPage((prev) => (prev - 1 + totalPages) % totalPages);
+  };
 
   return (
     <section className="py-20 bg-white">
@@ -54,10 +93,55 @@ export default function TeamSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {team.map((member, index) => (
-            <TeamMemberCard key={index} member={member} index={index} t={t} />
-          ))}
+        <div className="relative flex items-center justify-center">
+          {/* Previous button - positioned to the left of the cards */}
+          {team.length > doctorsPerPage && currentPage > 0 && (
+            <button
+              onClick={prevPage}
+              className="absolute -left-4 md:-left-8 z-10 p-3 rounded-full bg-white shadow-lg hover:bg-blue-50 text-blue-600 transition-all duration-300 hover:scale-110"
+              aria-label="Previous page"
+            >
+              <ChevronLeft size={28} />
+            </button>
+          )}
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {currentDoctors.map((member, index) => (
+              <TeamMemberCard
+                key={`${currentPage}-${index}`}
+                member={member}
+                index={index}
+                t={t}
+              />
+            ))}
+          </div>
+
+          {/* Next button - positioned to the right of the cards */}
+          {team.length > doctorsPerPage && currentPage < totalPages - 1 && (
+            <button
+              onClick={nextPage}
+              className="absolute -right-4 md:-right-8 z-10 p-3 rounded-full bg-white shadow-lg hover:bg-blue-50 text-blue-600 transition-all duration-300 hover:scale-110"
+              aria-label="Next page"
+            >
+              <ChevronRight size={28} />
+            </button>
+          )}
+
+          {/* Page indicators at the bottom */}
+          {team.length > doctorsPerPage && (
+            <div className="absolute -bottom-10 left-0 right-0 flex justify-center space-x-2 mt-4">
+              {Array.from({ length: totalPages }).map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setCurrentPage(index)}
+                  className={`w-2 h-2 rounded-full ${
+                    currentPage === index ? "bg-blue-600" : "bg-gray-300"
+                  }`}
+                  aria-label={`Go to page ${index + 1}`}
+                />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </section>
@@ -75,7 +159,6 @@ function TeamMemberCard({
 }) {
   return (
     <motion.div
-      key={index}
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: index * 0.2 }}
