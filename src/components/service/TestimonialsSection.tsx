@@ -24,19 +24,15 @@ export default function TestimonialsSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 bg-clip-text text-transparent mb-6">
-            {t("services.testimonials.title")}
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t("services.testimonials.subtitle")}
-          </p>
+          
+        
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Video 1 */}
           {/* Video 1 */}
           <TestimonialVideo
-            videoId="Ti4VRj2Zg78"
+            videoId="NaHMwdFY5eU"
             title={t("services.testimonials.video1.title")}
           />
 
@@ -121,9 +117,7 @@ function TestimonialVideo({
           ></iframe>
         </div>
 
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-          <h3 className="text-white text-lg font-medium">{title}</h3>
-        </div>
+        
       </div>
     </motion.div>
   );
