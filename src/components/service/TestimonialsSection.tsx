@@ -24,6 +24,12 @@ export default function TestimonialsSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-900 to-blue-800 bg-clip-text text-transparent mb-6">
+            {t("services.testimonials.title")}
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t("services.testimonials.subtitle")}
+          </p>
           
         
         </motion.div>
